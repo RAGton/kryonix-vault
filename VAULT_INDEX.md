@@ -14,6 +14,8 @@
 ## Projetos principais
 
 - [[03-Projetos/Ragos VE]]
+- [[03-Projetos/RAGOS]]
+- [[03-Projetos/RAGOS Installer]]
 - [[03-Projetos/Kryonix]]
 - [[03-Projetos/Ragos Think]]
 
@@ -53,6 +55,12 @@
 - [[02-Areas/Frontend Moderno/HTML CSS React - Sites Modernos]]
 - [[02-Areas/Frontend Moderno/Frontend Moderno - Checklist de Qualidade]]
 - [[02-Areas/Engenharia de Software/Padroes de Codigo Vendavel]]
+
+## Curadoria de conhecimento
+
+- [[08-Referencias/Politica de Curadoria de Fontes e Codigo]]
+- [[08-Referencias/Radar de Documentacao Engenharia]]
+- [[08-Referencias/Checklist de Avaliacao de Codigo Externo]]
 
 ## Captura rápida
 
