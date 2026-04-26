@@ -1,50 +1,44 @@
-# obsidian-vault
+# Kryonix Vault
 
-Vault Obsidian para funcionar como **cérebro operacional de IA**: uma base de conhecimento reutilizável para engenharia de software, backend/API, Linux, NixOS, DevOps, segurança, produto, estudos, prompts, Skills e agentes.
+Vault Obsidian para funcionar como **cérebro operacional de IA, engenharia e produto**.
 
-Este repo foi pensado para ser usado com:
-
-- Obsidian
-- Codex / agentes de código
-- ChatGPT / LLMs
-- GitHub
-- projetos backend/API
-- infraestrutura declarativa
-- NixOS / flakes
-- estudos técnicos contínuos
+Este repositório centraliza padrões, prompts, Skills, playbooks, mapas de conhecimento e decisões técnicas para usar IA como amplificador profissional em múltiplos projetos.
 
 ## Objetivo
 
-Criar uma base única, versionada e pesquisável para reduzir repetição, economizar tokens e aumentar qualidade técnica.
+Criar uma base única, versionada e pesquisável para:
 
-O vault deve responder rapidamente:
-
-- Qual é meu padrão de arquitetura?
-- Como crio uma API vendável?
-- Como reviso segurança?
-- Como preparo uma issue boa para Codex?
-- Quais prompts e Skills eu já uso?
-- Quais decisões técnicas já tomei?
-- O que estou estudando?
-- Quais playbooks uso em produção?
+- reduzir repetição e custo com tokens;
+- padronizar qualidade de código;
+- orientar agentes de IA e Codex;
+- documentar decisões técnicas;
+- acelerar projetos backend/API, frontend, Linux, NixOS, Proxmox e automações;
+- manter segurança, testes, clean code e arquitetura como padrão mínimo.
 
 ## Entrada principal no Obsidian
 
-Abra:
+Abra primeiro:
 
 - [[VAULT_INDEX]]
-- [[01-MOCs/Mapa - Engenharia de Software]]
-- [[01-MOCs/Mapa - IA e Agentes]]
+- [[01-MOCs/Mapa - Cerebro Supremo de IA]]
 - [[PROMPT_MASTER]]
 - [[AGENTS]]
+- [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
+
+## Projetos principais
+
+- [[03-Projetos/Ragos VE]]: Proxmox, PXE/iPXE, NFS, homelab, Linux, NixOS e infraestrutura.
+- [[03-Projetos/Kryonix]]: SaaS, backend/API, frontend moderno, automações e produto vendável.
+- [[03-Projetos/Ragos Think]]: IA, agentes, RAG local, Skills, prompts e Obsidian como cérebro técnico.
 
 ## Estrutura
 
 ```txt
-obsidian-vault/
+kryonix-vault/
 ├── AGENTS.md
 ├── PROMPT_MASTER.md
 ├── VAULT_INDEX.md
+├── IMPLEMENTAR_EM_OUTROS_PROJETOS.md
 ├── 00-Inbox/
 ├── 01-MOCs/
 ├── 02-Areas/
@@ -59,37 +53,53 @@ obsidian-vault/
 └── .github/workflows/
 ```
 
-## Como criar o repo no GitHub
+## Como usar este vault com IA
 
-Com GitHub CLI:
+Regra de prioridade:
 
-```bash
-cd obsidian-vault
-git init
-git add .
-git commit -m "Initial Obsidian AI brain vault"
-gh repo create RAGton/obsidian-vault --private --source=. --remote=origin --push
+```txt
+1. Vault local
+2. Documentação do projeto atual
+3. Documentação oficial
+4. Memória do modelo
 ```
 
-Para repo público, troque `--private` por `--public`.
+Antes de pedir algo para uma IA ou agente, forneça estes arquivos:
 
-## Rotina de uso
+```txt
+VAULT_INDEX.md
+AGENTS.md
+PROMPT_MASTER.md
+01-MOCs/Mapa - Cerebro Supremo de IA.md
+07-Prompts/PROMPT_IA_CONSUMIR_OBSIDIAN.md
+```
 
-Diariamente:
+Para projeto específico, inclua também:
 
-1. Capturar ideias em [[00-Inbox/Inbox]].
-2. Processar notas para uma área ou projeto.
-3. Criar links internos no formato de wiki links.
-4. Atualizar MOCs quando surgir um conceito importante.
-5. Registrar decisões em ADRs.
+```txt
+03-Projetos/Ragos VE.md
+03-Projetos/Kryonix.md
+03-Projetos/Ragos Think.md
+```
 
-Semanalmente:
+## Como implementar em outro projeto
 
-1. Revisar [[09-Logs/Revisao Semanal]].
-2. Consolidar aprendizados.
-3. Atualizar Skills e prompts.
-4. Remover duplicação.
-5. Criar próximas tarefas de estudo/projeto.
+Veja:
+
+- [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
+- [[06-Playbooks/Como Fazer Outra IA Consumir Este Vault]]
+- [[07-Prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
+- [[07-Prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
+
+Resumo rápido:
+
+1. Copie `AGENTS.md` para o projeto alvo.
+2. Crie `PROJECT_CONTEXT.md` no projeto alvo.
+3. Crie `ARCHITECTURE.md`, `SECURITY.md` e `OPERATIONS.md` quando fizer sentido.
+4. Aponte a IA para este vault como referência principal.
+5. Use issues pequenas para Codex/agentes.
+6. Exija testes, validação e menor diff correto.
+7. Nunca deixe agente mexer em secrets, deploy ou produção sem revisão humana.
 
 ## Comandos úteis
 
@@ -97,7 +107,7 @@ Semanalmente:
 just check-links
 ```
 
-Ou sem `just`:
+Ou:
 
 ```bash
 python3 scripts/check_obsidian_links.py
@@ -105,12 +115,14 @@ python3 scripts/check_obsidian_links.py
 
 ## Regra principal
 
-Este vault não é um depósito infinito de texto. É um **sistema operacional de conhecimento**.
+Este vault não é um depósito infinito de texto.
+
+Ele é um **sistema operacional de conhecimento** para engenharia, IA, produto, infraestrutura e aprendizado contínuo.
 
 Cada nota deve ter:
 
-- título claro
-- objetivo
-- links relacionados
-- tags úteis
-- próximo uso prático
+- objetivo claro;
+- links internos;
+- uso prático;
+- checklist quando aplicável;
+- distinção entre fato, decisão, hipótese e opinião técnica.
