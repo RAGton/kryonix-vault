@@ -2,6 +2,21 @@
 
 > Home do cérebro de IA. Comece por aqui.
 
+## Entrada suprema
+
+- [[01-MOCs/Mapa - Cerebro Supremo de IA]]
+- [[PROMPT_MASTER]]
+- [[AGENTS]]
+- [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
+- [[07-Prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
+- [[07-Prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
+
+## Projetos principais
+
+- [[03-Projetos/Ragos VE]]
+- [[03-Projetos/Kryonix]]
+- [[03-Projetos/Ragos Think]]
+
 ## Mapas principais
 
 - [[01-MOCs/Mapa - Engenharia de Software]]
@@ -13,17 +28,31 @@
 - [[01-MOCs/Mapa - DevOps e SRE]]
 - [[01-MOCs/Mapa - Dados e Algoritmos]]
 - [[01-MOCs/Mapa - Produto e SaaS]]
+- [[01-MOCs/Mapa - Frontend Moderno]]
+- [[01-MOCs/Mapa - Proxmox PXE NFS Homelab]]
+- [[01-MOCs/Mapa - Debug Testes e Qualidade]]
 
-## Arquivos operacionais
+## IA e agentes
 
-- [[PROMPT_MASTER]]
-- [[AGENTS]]
-- [[04-Recursos/Templates/Template - Nota Tecnica]]
-- [[04-Recursos/Templates/Template - ADR]]
-- [[04-Recursos/Templates/Template - Projeto]]
-- [[06-Playbooks/Playbook - Criar Projeto Novo]]
-- [[06-Playbooks/Playbook - Criar Issue para Codex]]
-- [[06-Playbooks/Playbook - Revisar Codigo Gerado por IA]]
+- [[02-Areas/IA e Agentes/Protocolo de Consulta do Vault por IA]]
+- [[02-Areas/IA e Agentes/Prioridade de Contexto por Projeto]]
+- [[06-Playbooks/Como Fazer Outra IA Consumir Este Vault]]
+- [[06-Playbooks/Rotina de Treinamento do Cerebro Obsidian]]
+
+## Infra, Linux e NixOS
+
+- [[02-Areas/NixOS e Infra Declarativa/NixOS Flakes - Guia Supremo]]
+- [[02-Areas/Linux e Sistemas/Proxmox PXE NFS - Homelab Infra]]
+- [[02-Areas/Linux e Sistemas/Linux Hardening e Debug]]
+- [[07-Prompts/PROMPT_AGENT_INFRA_LINUX]]
+
+## Backend, produto e frontend
+
+- [[07-Prompts/PROMPT_AGENT_BACKEND_API]]
+- [[07-Prompts/PROMPT_AGENT_SITE_MODERNO]]
+- [[02-Areas/Frontend Moderno/HTML CSS React - Sites Modernos]]
+- [[02-Areas/Frontend Moderno/Frontend Moderno - Checklist de Qualidade]]
+- [[02-Areas/Engenharia de Software/Padroes de Codigo Vendavel]]
 
 ## Captura rápida
 
