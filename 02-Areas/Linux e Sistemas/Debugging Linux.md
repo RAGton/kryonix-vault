@@ -1,3 +1,17 @@
+---
+title: "Debugging Linux"
+type: area
+status: active
+area: linux
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/linux
+  - linux/debug
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Debugging Linux
 
 ## Objetivo

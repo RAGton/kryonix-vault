@@ -1,3 +1,17 @@
+---
+title: "Secrets"
+type: area
+status: active
+area: nixos
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/nixos
+  - nixos/modules
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Secrets
 
 ## Objetivo

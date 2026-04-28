@@ -1,0 +1,55 @@
+# Análise do Grafo - Kryonix
+
+- **Total de Entidades**: 8110
+- **Total de Relações**: 1985
+- **Nós Isolados (Órfãos)**: 6134
+- **Nós com Baixa Conectividade (Grau 1)**: 1333
+
+## Top 20 Entidades (Mais Conectadas)
+- [[Home Manager]] (Grau: 60)
+- [[NixOS]] (Grau: 38)
+- [[Hyprland]] (Grau: 29)
+- [[nix]] (Grau: 25)
+- [[caelestia]] (Grau: 22)
+- [[rag]] (Grau: 22)
+- [[inspiron]] (Grau: 16)
+- [[greetd]] (Grau: 16)
+- [[Kryonix]] (Grau: 15)
+- [[file]] (Grau: 15)
+- [[INSTRUCT.md]] (Grau: 15)
+- [[enable]] (Grau: 14)
+- [[flake.nix]] (Grau: 14)
+- [[ragos-nixos]] (Grau: 14)
+- [[imports]] (Grau: 13)
+- [[Codex]] (Grau: 13)
+- [[environment.systemPackages]] (Grau: 13)
+- [[home]] (Grau: 13)
+- [[userConfig.name]] (Grau: 13)
+- [[hosts/inspiron/default.nix]] (Grau: 13)
+
+## Top 20 Relações
+- [[Alex]] <-> [[Jordan]] (Peso: 656.0)
+- [[Jordan]] <-> [[Cruz]] (Peso: 575.0)
+- [[Taylor]] <-> [[Jordan]] (Peso: 491.0)
+- [[Taylor]] <-> [[The Device]] (Peso: 471.0)
+- [[Alex]] <-> [[Taylor]] (Peso: 351.0)
+- [[Gold Futures]] <-> [[Market Selloff]] (Peso: 193.0)
+- [[Crude Oil]] <-> [[Omega Energy]] (Peso: 191.0)
+- [[Global Tech Index]] <-> [[Market Selloff]] (Peso: 187.0)
+- [[Federal Reserve Policy Announcement]] <-> [[Market Selloff]] (Peso: 181.0)
+- [[Noah Carter]] <-> [[Carbon-Fiber Spikes]] (Peso: 137.0)
+- [[Nexon Technologies]] <-> [[Global Tech Index]] (Peso: 101.0)
+- [[World Athletics Championship]] <-> [[Tokyo]] (Peso: 101.0)
+- [[World Athletics Championship]] <-> [[Noah Carter]] (Peso: 84.0)
+- [[Noah Carter]] <-> [[100m Sprint Record]] (Peso: 80.0)
+- [[Taylor]] <-> [[Cruz]] (Peso: 29.0)
+- [[Omega Energy]] <-> [[Global Tech Index]] (Peso: 24.0)
+- [[Crude Oil]] <-> [[Market Selloff]] (Peso: 22.0)
+- [[Alex]] <-> [[Cruz]] (Peso: 20.0)
+- [[RagOS VE]] <-> [[ai/skills/branding/SKILL.md]] (Peso: 16.0)
+- [[inspiron]] <-> [[greetd-dms]] (Peso: 12.0)
+
+## Sugestões de Melhoria
+1. **MOCs Estruturais**: Foram gerados hubs para Desktop, NixOS, CLI e Infra.
+2. **Reparo Semântico**: Links automáticos sugeridos para nós órfãos no arquivo correspondente.
+3. **Refinamento**: Rodar `rag index --refine` para aumentar a densidade do grafo.

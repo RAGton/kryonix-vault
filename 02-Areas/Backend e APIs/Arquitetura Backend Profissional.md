@@ -1,3 +1,17 @@
+---
+title: "Arquitetura Backend Profissional"
+type: area
+status: active
+area: backend
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/backend
+  - eng/api
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Arquitetura Backend Profissional
 
 ## Objetivo

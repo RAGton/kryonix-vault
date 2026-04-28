@@ -1,3 +1,16 @@
+---
+title: "Mapa - NixOS e Infra Declarativa"
+type: moc
+status: active
+area: nixos
+project: global
+tags:
+  - type/moc
+  - status/active
+  - area/nixos
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Mapa - NixOS e Infra Declarativa
 
 ## Objetivo

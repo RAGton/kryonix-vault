@@ -1,3 +1,17 @@
+---
+title: "Decomposição para Codex"
+type: skill
+status: active
+area: ia
+project: global
+tags:
+  - type/skill
+  - status/active
+  - ai/skills
+  - area/ia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Decomposição para Codex
 
 ## Objetivo

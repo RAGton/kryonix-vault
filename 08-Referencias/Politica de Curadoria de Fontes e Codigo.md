@@ -1,3 +1,19 @@
+---
+title: "Política de Curadoria de Fontes e Código"
+type: reference
+status: stable
+area: null
+project: null
+tags:
+  - type/reference
+  - status/stable
+  - source/internal
+created: 2026-04-26
+updated: 2026-04-26
+source: internal
+confidence: medium
+reviewed: false
+---
 # Política de Curadoria de Fontes e Código
 
 ## Objetivo

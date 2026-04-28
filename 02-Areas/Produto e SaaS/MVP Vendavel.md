@@ -1,3 +1,16 @@
+---
+title: "MVP Vendavel"
+type: area
+status: active
+area: produto
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/produto
+created: 2026-04-26
+updated: 2026-04-26
+---
 # MVP Vendavel
 
 ## Objetivo

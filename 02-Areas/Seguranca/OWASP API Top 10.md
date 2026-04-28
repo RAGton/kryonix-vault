@@ -1,3 +1,17 @@
+---
+title: "OWASP API Top 10"
+type: area
+status: active
+area: seguranca
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/seguranca
+  - eng/security
+created: 2026-04-26
+updated: 2026-04-26
+---
 # OWASP API Top 10
 
 ## Objetivo

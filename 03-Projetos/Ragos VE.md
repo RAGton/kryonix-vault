@@ -1,3 +1,16 @@
+---
+title: "Ragos VE"
+type: project
+status: active
+area: null
+project: ragos-ve
+tags:
+  - type/project
+  - status/active
+  - project/ragos-ve
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Ragos VE
 
 ## Objetivo

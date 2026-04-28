@@ -1,3 +1,17 @@
+---
+title: "Seguranca para Agentes de IA"
+type: area
+status: active
+area: seguranca
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/seguranca
+  - eng/security
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Seguranca para Agentes de IA
 
 ## Objetivo

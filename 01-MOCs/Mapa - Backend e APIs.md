@@ -1,3 +1,16 @@
+---
+title: "Mapa - Backend e APIs"
+type: moc
+status: active
+area: backend
+project: global
+tags:
+  - type/moc
+  - status/active
+  - area/backend
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Mapa - Backend e APIs
 
 ## Objetivo

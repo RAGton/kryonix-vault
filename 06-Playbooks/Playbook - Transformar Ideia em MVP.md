@@ -1,3 +1,15 @@
+---
+title: "Playbook - Transformar Ideia em MVP"
+type: playbook
+status: active
+area: null
+project: global
+tags:
+  - type/playbook
+  - status/active
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Playbook - Transformar Ideia em MVP
 
 ## Objetivo

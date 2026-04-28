@@ -1,0 +1,6004 @@
+# Sugestões de Conexão - Órfãos
+
+Lista de entidades sem conexões e sugestões de linkagem baseadas em clusters de conhecimento:
+
+### [[modules/nixos/branding/ragos/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[toml]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ai/templates/skill-template.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[markdown]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[checklist-template.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[confirmar escopo real da tarefa]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[confirmar arquivos e área afetados]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[validar risco antes de editar]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[executar verificação mínima após a mudança]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[registrar qualquer limitação ou ponto pendente]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[README (EN) - redirect]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[redirect]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[main project README]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[repository root]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[English: [../README-en.md](../README-en.md)]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[PT-BR: [../README.md](../README.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Documentation hub]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Docs index: [INDEX.md](INDEX.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[./hyprland/system.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[hardware.graphics]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[enable32Bit]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[lib.mkDefault true]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Estilo de Docs]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hosts reais]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[prometer comportamento que o código ainda não entrega]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[marcar contexto histórico fora das docs canônicas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[host]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[papel]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[fluxo de adoção de host já instalado]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[cuidados]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[não misturar operação de host existente com fluxo de ISO]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[validar o output ISO sem assumir que isso autoriza formatação de máquina já em uso]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[context/HOSTS/iso.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[---]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[# Output `iso`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- papel: artefato de instalação/provisionamento]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- não é fluxo de adoção de host já instalado]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[## Cuidados]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- não misturar operação de host existente com fluxo de ISO]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- validar o output ISO sem assumir que isso autoriza formatação de máquina já em uso]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[identificação do sistema]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[manter linguagem visual consistente]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[não espalhar versões concorrentes do branding]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[registrar ativos canônicos antes de produzir variações]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ai/templates/prompt-template.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Tarefa]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[host alvo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[área do repo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[restrições]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[preservar arquitetura atual]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[fazer mudança incremental]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[validar sem abrir escopo paralelo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[diff curto]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[validação objetiva]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[resumo final curto]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ai/context/README.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Contexto]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Princípios]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pouco texto]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[foco no estado atual]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[sem duplicar documentação histórica]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[sem virar auditoria longa]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Leitura mínima recomendada]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[[CURRENT_STATE.md](CURRENT_STATE.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[[OPERATING_MODEL.md](OPERATING_MODEL.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[[HOSTS.md](HOSTS.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[tarefas incrementais]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[rodadas mais profundas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[3.4% Decline]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Docs]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[docs curtas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[técnicas e diretas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[atualizar a fonte canônica mais próxima da prática real]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[evitar duplicar a mesma regra em muitos arquivos]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[se o código mudou, revisar a doc mínima correspondente]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[se a prática não mudou, não reescrever docs por estilo apenas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ragos doctor --host glacier --verbose]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[ragos generations]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[ragos snapshot]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[ragos rollback]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[ai/skills]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Skills]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[domínio]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[checklist correspondente]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[exemplos só como guia de padrão, não como licença para abrir escopo]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[cada skill desta pasta delimita responsabilidade, regra operacional e estilo de mudança para um domínio específico.]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Uso recomendado:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[abrir a skill do domínio]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[seguir o checklist correspondente]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[usar exemplos só como guia de padrão, não como licença para abrir escopo]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[As skills aqui não substituem o código nem os docs gerais. Elas reduzem ambiguidade na hora de trabalhar.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[ragos test]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[ragos switch]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[repetir o comando base sem a mudança suspeita quando possível]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[comparar a saída atual com o comportamento que já falhava antes]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[corrigir primeiro a regressão introduzida nesta rodada]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[qemu:///system]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[CHECKLIST.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[confirmar host alvo e origem da flake]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[revisar se a mudança pede `test`, `boot` ou `switch`]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[rodar validação mínima antes da aplicação]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[registrar qual erro já existia antes da mudança]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[tratar erro novo como regressão até prova em contrário]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[em falha de aplicação, preservar contexto para rollback]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[não misturar correção funcional com limpeza ampla de docs ou arquitetura]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Virtualization]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[libvirt/KVM]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[storage operacional]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[imagens, templates e backups]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hardware base do host e storage operacional do hypervisor]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[stacks sem necessidade]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[segurança operacional]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[clareza do layout]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[mudanças reversíveis]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[editar e validar mudanças incrementais]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[preparar diffs antes de aplicar no host principal]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[sustentar o fluxo diário de manutenção do projeto]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[operação]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[docs canônicos]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[experimentação local antes de mexer no `glacier`]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[manter o foco em CLI, operação e docs canônicos]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[não inferir que regras do notebook valem automaticamente para todos os hosts]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[desktop/hyprland/shell-backend.nix]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[nullOr]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[enum]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[# Flags do VSCode (Electron) para Wayland]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Mantemos somente opções amplamente suportadas para evitar warnings no startup.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Se algum Electron antigo ignorar uma flag, ela é simplesmente descartada.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[# Preferir hint ao invés de forçar `--ozone-platform=wayland` (reduz warnings e funciona em X11/Wayland).]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[--ozone-platform-hint=auto]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[# Wayland window decorations (quando suportado pelo Electron/Chromium na build do nixpkgs).]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[--enable-features=UseOzonePlatform,WaylandWindowDecorations]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[fluxos operacionais já descritos]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Hosts]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[nix build 'path:$PWD#nixosConfigurations.glacier.config.system.build.toplevel']]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nix build 'path:$PWD#homeConfigurations."rocha@glacier".activationPackage']]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[RAGOS CLI]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[confirmar se a tarefa pertence mesmo à CLI `ragos`]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[validar host detectado e `--host` explícito quando necessário]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[validar resolução de flake antes de executar ação principal]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[manter mensagens de erro curtas, diretas e úteis]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[não quebrar `doctor` ao adicionar novos subcomandos]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[diferenciar inspeção, snapshot, gerações e rollback]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[evitar comportamento destrutivo sem confirmação clara de intenção]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[manter compatibilidade com desenvolvimento local e `/etc/ragos`]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[base (compat layer para common)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[imports = [ ../common ];]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[defaults globais]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[baseline estável (firmware + trim)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[laptop/desktop]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[services.fstrim.enable = lib.mkDefault true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hardware.enableRedistributableFirmware = true;]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[format-*]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[rollback viável]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[nix-host-validation.md]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Runbook: Validação Nix por Host]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Regra]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Sequência mínima]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Honestidade operacional]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[home-workstation.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[programs.home-manager.enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[programs.jupyter.enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[kryonix.vscode.enable = true;]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[home.stateVersion = "26.05";]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[xdg.configFile."gtk-3.0/settings.ini".force = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[xdg.configFile."gtk-4.0/settings.ini".force = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[VAULT_UPDATE_PROPOSAL.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Obsidian vault]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Pending approval]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Note | Action | Reason | Risk]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Proposed content]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Why this belongs in the brain]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[What should not be stored]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[no secrets]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[no raw logs]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[no private client data]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[no raw PDF/HTML dump]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[no unverified external code as truth]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Related project files]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Related vault notes]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Validation]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[User approval]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[docs/TRAE_MANUAL_INSTALL.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[# Instalação manual do Trae no host]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[O Trae ficou fora da instalação declarativa porque este repositório não valida hoje um pacote Nix canônico e estável para ele.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Fluxo sugerido]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[1. Baixe o `.deb` ou `.rpm` oficial do Trae.]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[2. Instale o app no host.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[3. Garanta que o binário esteja em um destes caminhos:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- `trae` no `PATH`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- `~/.local/bin/trae`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- `/opt/trae/trae`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[4. Abra pelo wrapper:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[```bash]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Instalação manual do Trae no host]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ADR-0001]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Operations]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[input.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[BR-ABNT2]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[sessionVariables]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[XKB_DEFAULT_LAYOUT]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[XKB_DEFAULT_VARIANT]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[2026-03-19]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Módulo: hyprland (compat shim)]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- Shim de compatibilidade para imports antigos que esperavam um módulo dedicado.]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[- A seleção real de desktop agora mora em `modules/nixos/desktop`.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[- Mantém compatibilidade sem continuar forçando Hyprland em todo o projeto.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[rocha@inspiron]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules<nixos/network/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Módulo: network (NetworkManager UX)]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Camada de rede para uso desktop em Hyprland.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Mantém conforto de gerenciamento Wi-Fi/VPN equivalente ao ambiente anterior,]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[100% alinhado ao stack Wayland/NM.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[kryonix.desktop.environment]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[lib.mkMerge]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[env == "hyprland"]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[kryonix.desktop.directLogin.enable]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[lib.mkForce false]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[services.displayManager.gdm.enable]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[lib.mkForce true]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[services.displayManager.sddm.enable]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[services.desktopManager.plasma6.enable]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[services.desktopManager.gnome.enable]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[services.greetd.enable]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[programs.dconf.enable]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[programs.hyprlock.enable]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pacotes-base para fluxo de desenvolvimento diário]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[kryonix.profiles.dev.enable]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[gh]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[docker-compose]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[docker-client]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[modules/shared/nixpkgs/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[outputs]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[isDarwin ? false]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[lib.optionals(!isDarwin)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[btop]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[programs.btop]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[settings.vim_keys]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[system monitoring tool]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[nix configuration files]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Home Manager Configuration]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nix package manager]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[reproducible manner]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[nixOS configuration files]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Home Manager Module Configuration]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nixOS modules]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Home Manager Module Installation]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nixOS package manager]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[reproducibility]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[features/ai.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[# =============================================================================]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Feature: AI tools (opcional)]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Objetivo:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Evitar builds lentos por padrão (ex.: Codex), mantendo ativação simples.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- Tudo opt-in via `kryonix.features.ai.*`.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[=============================================================================]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[{]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[config,]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[lib,]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[inputs,]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pkgs,]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[...}]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[in]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[cfg = config.kryonix.features.ai;]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[}]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[options.kryonix.features.ai = {]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[codex = {]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[enable = lib.mkEnableOption "OpenAI Codex CLI (via flake input inputs.codex)";]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[};]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[config = lib.mkMerge []]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[(lib.mkIf cfg.codex.enable {]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[environment.systemPackages = []]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[inputs.codex.packages.${pkgs.system}.default]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[];]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[})]]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[wlogout]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[swaynotificationcenter]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[swaybg]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[mkIf]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[stdenv.isDarwin]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[programs.obs-studio.enable = true]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Security Policy]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Supported releases]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Latest tagged release]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Current `main` branch]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[gabriel.rag@proton.me]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Security Problem]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Affected file or host]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Steps to reproduce or validate]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Impact assessment if known]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[I will try to acknowledge valid reports within 7 days]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Follow up with status updates when I have a fix or mitigation]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Scope]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Configuration and automation shipped here]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Upstream bugs in Nixpkgs, Home Manager, Hyprland, KDE, or third-party applications]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[They are not fixed on the same timeline]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Release Engineering]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[release note]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[resumo de mudança]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[fechamento operacional]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[resposta final para patch grande]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[escopo da entrega]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hosts/superfícies afetadas]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[validação disponível]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[listar o que realmente mudou]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[separar validação executada de validação pendente]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[separar erro antigo de erro novo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[escrever resumo curto e factual]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[git diff --stat]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[texto curto]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[resultados verificáveis]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[riscos restantes explícitos]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[vender plano como entrega]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[esconder limitação de ambiente ou runtime]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[programs.tmux.enable = false]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Helper functions para o Kryonix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Centraliza lógica compartilhada]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Facilita manutenção]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[outputs.lib no flake]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Nenhum (apenas helpers)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[mkNixosModule]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[mkHomeModule]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Publica scripts versionados do repo em `~/.local/bin`]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[kryonix.profiles.university]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[anki]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[appflowy]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[calibre]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[foliate]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[localsend]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[zotero]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[kdePackages.kalarm]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[kdePackages.merkuro]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[kdePackages.okular]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[delta --color-only --dark --paging=never]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/home-manager/programs/warp-terminal/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[home.activation.warp-terminal-performance-tweaks]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[prefs_file]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[prefs.AgentModeCodebaseContextAutoIndexing]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[IsSettingsSyncEnabled]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[xdg.configHome]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[user_preferences.json]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[tmp]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[mv]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[GOPATH]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[GOBIN]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[programs.go.env]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[$HOME/go/bin]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Flake]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Host]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ragosCompat]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[kryonix-cli]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[programs.kryonix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[ragos-cli.nix]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[kryonix-cli.nix]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[programs.kryonix.package]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[/home/rocha/ragos-nixos]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[/home/rocha/ragos-nixos#inspiron]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[/home/rocha/ragos-nixos#rocha@inspiron]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[journalctl -b -p err]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[journalctl --user -b | rg -i "hyprland|uwsm|lightdm|dms|portal"]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[docs/TEST_GUIDE_WAYLAND_SESSION.md]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[docs/INDEX_DOCUMENTATION.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[docs/legacy/greetd/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[/legacy/greetd/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hosts/inspiron-nina/hardware-configuration.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[modulesPath]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[/etc/nixos/configuration.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[boot.kernelModules]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[boot.extraModulePackages]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[/dev/disk/by-uuid/59f49b66-566d-411a-87c7-6ee4a1c121d5]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[ext4]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[/dev/disk/by-uuid/5F3A-1916]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Obsidian e Memória Local]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[app desktop]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Obsidian Headless]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Headless Sync]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Vault Local]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Plugins]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[UI]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[URI para escolher vault]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[rag-obsidian]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[remoto oficial do vault]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[/dev/disk/by-uuid/33BA-62B9]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[kvm-amd]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[hardware.cpu.amd.updateMicro]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[modules/home-manager/misc/gtk/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[colorScheme]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[theme]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[name]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[iconTheme]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[cursorTheme]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[size]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[font]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[gtk3]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[bookmarks]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[file://${config.home.homeDirectory}/Documents]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[file://${config.home.homeDirectory}/Downloads]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[file://${config.home.homeDirectory}/Pictures]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Host: iso (Live CD / instalador automatizado)]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Gerar uma ISO bootável que facilite a instalação dos hosts deste flake.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[A ISO traz um script `kryonix-install` que particiona (Disko) e roda `nixos-install`.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[{ inputs, hostname, lib, pkgs, modulesPath, ... }:]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[imports = [ (modulesPath + "/installer/cd-dvd/installation-cd-minimal.nix") ../../modules/nixos/installer ];]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[cargo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[rustup]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/nixos/common/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[rustc]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/home-manager/programs/rust/]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[rustup default stable]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[cargo --version]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[rustc --version]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[PATH]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[rustup wrappers]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[cargo/ rustc dependencies]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[ADR-0002-caelestia-launch-via-desktop-entry.md]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[DECISIONS/ADR-0002-caelestia-launch-via-desktop-entry.md]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Apps Gráficas do Launcher via Desktop Entry Resolvido]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Aceita em 2026-04-23.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Decisão]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Motivo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Alternativas rejeitadas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Consequência]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[rustfmt]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[clippy]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[rust-analyzer]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ZRAM]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[zramSwap]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[swapon]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Main repository]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Knowledge vault]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[PT-BR]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[English]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Daily Flow]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Primary operational CLI]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[--update]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[diff]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[fmt]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Quick Start]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[git clone]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[nix flake show --all-systems]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nix flake check --keep-going]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[kryonix switch]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Operational Safety]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[glacier host]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[hosts/glacier/disks.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[current hardware]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Módulo: hosts/common (agregador de composição NixOS)]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Ponto único de importação para tudo que é compartilhado entre hosts NixOS.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Reduz duplicação de imports entre hosts.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Facilita troubleshooting porque a arquitetura fica previsível por camadas.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Encadeia opções, módulos de base/sistema, features e profiles.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Expõe a seleção de desktop via `kryonix.desktop.environment`.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[modules/nixos/programs/kryonix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[modules/nixos/theming]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[modules/nixos/services]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Nix Host Implementation]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[hosts/ directory]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[profiles/ directory]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[features/ directory]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/ directory]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[objetivo funcional]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[restrições operacionais]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[path:$PWD]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[nix flake show]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nix build]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[path:$PWD#nixosConfigurations.<host>.config.system.build.toplevel]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[path:$PWD#homeConfigurations."<user>@<host>".activationPackage]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nixosConfigurations.<host>.config.system.build.toplevel]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[homeConfigurations."<user>@<host>".activationPackage]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Obsidian Memory]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Documentar e operar a camada de memória local do usuário sem confundir app desktop, CLI e Headless Sync.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[notas locais]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[operação de vault]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[integração entre repositório e conhecimento externo do usuário]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[documentação de fluxo para agentes]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[vault alvo ou ausência de confirmação]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[superfície desejada: desktop, CLI ou headless]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[objetivo operacional]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[confirmar qual superfície está em jogo]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[não assumir vault ou path sem evidência]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[usar referências oficiais do Obsidian para CLI/URI/Headless]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[separar conhecimento do usuário do conteúdo do repositório]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[registrar runbook curto se o fluxo for recorrente]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[obsidian://choose-vault]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[obsidian read path="<arquivo>"]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[ob sync-status --path <vault>]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[distinção clara entre desktop, CLI e headless]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[nenhum path inventado]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[fluxo reproduzível documentado]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[tratar vault pessoal como se fosse arquivo do repo]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[afirmar suporte headless sem instalação correspondente]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[rag (via AI Maintainer)]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Auto-import de features baseado em opções]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Centraliza gerenciamento de features]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Features são opt-in via opções]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Cada feature é auto-contida]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Fácil adicionar novas features]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Features definem suas próprias opções (kryonix.features.*)]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Este manager importa automaticamente quando enable = true]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Hosts apenas habilitam: kryonix.features.gaming.enable = true]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Runbook: Launcher Caelestia]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[launcher-diagnosis.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[kryonix-launch]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[rag-launch-desktop-entry]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Apps.qml]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[/home/rocha/src/caelestia-shell desktop modules]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[systemctl --user status caelestia --no-pager]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[~/.local/share ~/.nix-profile/share /run/current-system/sw/share]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[find]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[-type f | rg '<app>\\.desktop$']]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[uwsm app -- <id>]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[uwsm app -- <id>.desktop]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[/caminho/real/<id>.desktop]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[pgrep -af '<app>']]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[systemctl --user list-units 'app-*<app>*' --all --no-pager]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[hyprctl clients -j | jq]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[INDEX_DOCUMENTATION.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[QUICK_START.md]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[legacy/greetd/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[legacy/hyprland/hyprland.conf]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[nix flake check --no-build]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nix eval --json .#nixosConfigurations.inspiron.config.services.xserver.displayManager.lightdm.enable]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nix eval --json .#nixosConfigurations.inspiron.config.services.displayManager.defaultSession]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[rg -n "greetd|tuigreet" modules hosts desktop lib -g '*.nix']]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[server]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[displayManager]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[lightdm]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[eval]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[.#nixosConfigurations.inspiron.config.services.displayManager.defaultSession]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[rg]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[-n]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[greetd|tuigreet]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[*.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Obsidian Brain]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Kryonix Project]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Project Context]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Project Index]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Risk Areas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[AID Usage Policy]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[PowerShell Script]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Obsidian Help Command]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Vault Index.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[MOCs]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Project Notes]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Playbooks]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Vault Access Request.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Vault Update Proposal.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Secrets, Tokens, Private Keys, Sensitive Logs, Raw Dumps]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Vault Note Consulted or Updated]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[VAULT_ACCESS_REQUEST.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Caelestia Launcher]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[UWSM Desktop ID]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Incidente - 2026-04-23 - Launcher Caelestia abrindo apps de forma incorreta]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Sintoma]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[uwsm app -- org.kde.dolphin]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Command not found: "org.kde.dolphin"]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Dolphin corretamente e criou unit app-Hyprland-org.kde.dolphin-...scope]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Command not found: "com.gexperts.Tilix"]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Código upstream do launcher usa entry.id para apps gráficas no helper rag-launch-desktop-entry]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Causa raiz]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Correção]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Pendências separadas]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Hyprland Performance]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Shell Lento]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Animações Excessivas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Custo Alto de Blur/Transparência]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Dúvida Entre Bug de Launcher e Custo Visual do Rice]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Host Afetado]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Superfícies Lentas: Launch, Redraw, Input, Blur, Wallpapers]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Separar Lentidão de Launch da Lentidão Visual]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Revisar desktop/hyprland/hyprland.conf e home/**/caelestia-shell.nix]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Confirmar se o shell depende de helper errado ou de efeito gráfico caro]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Reduzir custo no menor ponto possível]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Validar no host afetado]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Hyprctl Monitors]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Hyprctl Clients -j | jq]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Systemctl --user status caelestia --no-pager]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Journalctl --user -u caelestia --since '10 minutes ago' --no-pager]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Nix Build 'path:$PWD#nixosConfigurations.<host>.config.system.build.toplevel']]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Causa de Custo Identificada]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Mudança Reversível]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Validação Real no Host Alvo ou Build do Host Afetado]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[templates/prompt-template.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[templates/skill-template.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[templates/checklist-template.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[context/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[prompts/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[skills/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[templates/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[1. context/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[2. prompts/ ou skills/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[3. templates/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[prompts/ ou skills/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[# Índice da Camada de IA]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [context/README.md](context/README.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [context/CURRENT_STATE.md](context/CURRENT_STATE.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [context/OPERATING_MODEL.md](context/OPERATING_MODEL.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [context/HOSTS.md](context/HOSTS.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [prompts/README.md](prompts/README.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [prompts/copilot-core.md](prompts/copilot-core.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [prompts/copilot-ragos-cli.md](prompts/copilot-ragos-cli.md)]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[- [prompts/codex-deep-refactor.md](prompts/codex-deep-refactor.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [prompts/codex-glacier.md](prompts/codex-glacier.md)]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[- [skills/README.md](skills/README.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [skills/ragos-cli/SKILL.md](skills/ragos-cli/SKILL.md)]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[- [skills/operations/SKILL.md](skills/operations/SKILL.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [skills/hosts/SKILL.md](skills/hosts/SKILL.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [skills/virtualization/SKILL.md](skills/virtualization/SKILL.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [skills/branding/SKILL.md](skills/branding/SKILL.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [skills/docs/SKILL.md](skills/docs/SKILL.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [templates/prompt-template.md](templates/prompt-template.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [templates/skill-template.md](templates/skill-template.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- [templates/checklist-template.md](templates/checklist-template.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[DESIGN_PREFERENCES.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[RAGOS/RAGOS]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[wofi]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[NVIDIA/Wayland]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[AI Skill]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[docs/AI_SKILL.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Quando usar]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Objetivos]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Método]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Diagnóstico]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Execução]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Focos técnicos]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Entregáveis úteis]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ram]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Mangohud]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[xdg.configFile.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[force=true]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[text='']]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[legacy_layout=0]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[horizontal]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[fps]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[frametime]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[frame_timing=1]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/home-manager/programs/obsidian/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[kryonixObsidian]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pkgs.obsidian]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ragObsidianCompat]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[xdk.desktopEntries.obsidian]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[NIXOS_OZONE_WL]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[ELECTRON_OZONE_PLATFORM_HINT]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[&2]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[exec kryonix-obsidian "$@"]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[xdk.desktopEntries.obsidian.name]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[xdk.desktopEntries.obsidian.genericName]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[xdk.desktopEntries.obsidian.comment]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[xdk.desktopEntries.obsidian.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Wayland/NVIDIA]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[kryonix.features.virtualization]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[kryonix.features.development]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[kryonix.profiles.desktop.enable]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[kryonix.profiles.desktop.gaming.enable]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[qtCtAppearanceConfig]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/home-manager/misc/qt/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[gtk]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[iconThemeName]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[bartEnabled]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[kvantumThemeName]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[generators.toINI]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[qtstyleplugin-kvantum]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pkgs.qt6Packages.qtstyleplugin-kvantum]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[qt5ct]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pkgs.qt6Packages.qt6ct]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[qt]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[platformTheme.name]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[style.name]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[target]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/home-manager/programs/zen-browser/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[- Módulo Home Manager que define o Zen Browser como navegador padrão (XDG MIME/protocol handlers).]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Centraliza o default browser do usuário de forma declarativa.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Mantém consistência entre hosts sem precisar configurar via GUI.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- Define `xdg.mimeApps.defaultApplications` para tipos/protocolos web.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- O app em si é instalado via Flatpak (veja `services/flatpak`).]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Riscos:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Se o Flatpak/app id mudar, os handlers deixam de apontar para o navegador correto.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[prompts/ directory]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Camada de IA do RagOS]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Estrutura]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Como o Copilot deve usar]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Uso incremental e local]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ler [INDEX.md](INDEX.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ler o contexto mínimo em `context/`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[abrir apenas o prompt e a skill relevantes para a tarefa]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[propor mudanças pequenas, verificáveis e alinhadas ao estado atual]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Copilot deve evitar]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[inventar arquitetura paralela]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[reabrir decisões já descritas em `context/`]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[espalhar regras operacionais em comentários soltos pelo repo]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Como o Codex deve usar depois]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Uso mais profundo e orientado a execução]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[começar por [INDEX.md](INDEX.md)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[tratar `context/` como base canônica curta]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[undocked]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/home-manager/services/kanshi/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[casa]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[em ~/.local/share/wallpapers]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[galeria (galeria).]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[.config/wallpaper.png]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[lib.listToAttrs]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[map]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[builtins.baseNameOf p]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[config.wallpapers]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[wallpapers/${builtins.baseNameOf p}]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[value.source]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[config.wallpaper]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Define um wallpaper padrão e uma lista (galeria) de wallpapers do usuário.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Padroniza wallpaper entre ambientes (KDE/Hyprland) de forma declarativa.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- Expõe `options.wallpaper` e `options.wallpapers`.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Publica o wallpaper padrão em `~/.config/wallpaper.png`.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Publica a galeria em `~/.local/share/wallpapers/*`.]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[- `wallpapers` com nomes (basename) repetidos vão colidir no destino.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[bind explícito]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[runtime bug]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[app crítico]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[erro antigo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[erro novo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[cache]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[app2unit]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[find ~/.local/share ~/.nix-profile/share /run/current-system/sw/share -type f | rg '<app>\\.desktop$']]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[rg -n "kryonix-launch|rag-launch-desktop-entry|Apps.qml|uwsm app --" /home/rocha/src/caelestia-shell desktop modules]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[critérios de saída]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pbcopy]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[tree]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[less]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Linux/Wayland]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[modules/home-manager/programs/fzf/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[# Autor: rag]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[# O que é:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Módulo Home Manager para habilitar e configurar o `fzf`.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[# Por quê:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Padroniza a UX (preview, bindings e layout) entre máquinas.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- Integra ações comuns: abrir seleção no Neovim e copiar para clipboard.]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[# Como:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Ajusta `defaultCommand` e `defaultOptions`.]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[- Usa `pbcopy` no macOS e `wl-copy` no Linux/Wayland.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[# Riscos:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- `wl-copy` exige um ambiente Wayland com `wl-clipboard` disponível.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- O preview usa `bat/tree/less`; se não estiverem presentes, pode degradar a experiência.]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[--marker='✓']]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[CODE_TASTE.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[CODE_TASTE]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Preferencias gerais]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Menor mudanca correta.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Codigo explicito, revisavel e orientado a rollback.]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Comentarios curtos quando explicam motivo, risco ou decisao operacional.]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Evitar abstracoes novas sem reduzir complexidade real.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Preservar padroes locais antes de importar estilo externo.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Hosts escolhem opcoes e papeis; modulos implementam comportamento.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Prefira `lib.mkIf`, `lib.optionals`, `lib.mkDefault` e assertions claras.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Use `mkForce` apenas quando houver conflito real e motivo documentado.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Mantenha hardware, boot, GPU, rede e discos isolados por host.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Nao misture secrets com Nix store.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Evite alterar `flake.lock` junto com mudanca funcional nao relacionada.]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Overlays devem ter motivo, risco e criterio de remocao quando forem workaround.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Shell/CLI]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Scripts operacionais devem usar `set -euo pipefail`.]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Mensagens de erro devem orientar o operador.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Dry-run e verbose sao desejaveis em comandos arriscados.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Nao parseie saida fragil quando houver comando estruturado ou caminho estavel.]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[Comandos destrutivos exigem opt-in humano explicito.]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Documentacao]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Documentacao canonica deve ser curta e apontar para fontes reais.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Docs Historicas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Tabelas/Listas de Validacao]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Registre Riscos e Rollback em Mudancas Operacionais]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Qualidade]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Validar no menor nivel util antes de checks caros]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Adicionar teste/check quando tocar contrato publico]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Se nao puder validar, registrar exatamente o motivo]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Evitar PRs que misturam rename, refactor, formatacao e mudanca funcional]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[MikroTik]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[UDP 5678]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[UDP 40000-50000]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[winbox]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[skills/release-engineering/SKILL.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[CURRENT_STATE.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ARCHITECTURE.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Contexto do Kryonix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[LANG: markdown]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[# Contexto do Kryonix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Este diretório é a porta de entrada curta para agentes.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Use leitura progressiva, não varredura cega.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[## Ordem recomendada]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[1. `AGENTS.md`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[2. `context/INDEX.md`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[3. skill relevante em `skills/**`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[4. código real]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[5. web oficial apenas quando necessário]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[## Leitura mínima por tipo de tarefa]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[### Launcher / Caelestia / Hyprland]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- `context/CURRENT_STATE.md`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- `context/ARCHITECTURE.md`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- `context/RUNBOOKS/launcher-diagnosis.md`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- `context/DECISIONS/ADR-0002-caelestia-launch-via-desktop-entry.md`]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- `skills/launcher-diagnosis/SKILL.md`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[### Host / Nix / implementação]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[- `context/HOSTS/<host>.md`]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- `context/RUNBOOKS/nix-host-validation.md`]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[- `skills/nix-host-implementation/SKILL.md`]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[k9s]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/home-manager/programs/k9s/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[- Módulo Home Manager para habilitar e configurar o `k9s`.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Define UI enxuta e atalhos (hotkeys) para recursos comuns do Kubernetes.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- Por quê:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Padroniza atalhos e reduz ruído visual.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Acelera navegação diária (pods/deployments/nodes/services/ingress).]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[- Como:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Ajusta `programs.k9s.settings.k9s.ui`.]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[- Declara `hotKeys` com comandos correspondentes.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[- Atalhos podem conflitar com teclas do terminal/WM.]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[- Comandos podem variar por versão/config do k9s.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[{ ... }:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[programs.k9s =]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[settings.k9s =]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ui =]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[headless = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[logoless = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hotKeys =]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[shift-1 =]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[shortCut = "Shift-1";]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[description = "Show pods";]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[modules/nixos/audio/default.nix]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[shells Wayland do projeto]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Corrige consistência de volume/dispositivos e perfis BT em todos os hosts.]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Mantém ferramentas práticas para seleção e debug de áudio.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[services.pulseaudio.enable = false;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[security.rtkit.enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[services.pipewire = { ... }:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[audio.enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pulse.enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[alsa.enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[alsa.support32Bit = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[jack.enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[wireplumber.enable = true;]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[extraConfig = { ... }:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pipewire."92-low-latency" = { context.properties = { default.clock.rate = 48000; default.clock.quantum = 128; default.clock.min-quantum = 64; default.clock.max-quantum = 2048; }; }:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pipewire."95-audio-quality" = { context.properties = { default.clock.allowed-rates = [ 44100 48000 96000 ]; resample.quality = 10; }; }:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pipewire-pulse."95-pulse-headroom" = { stream.properties = { pulse.min.quantum = 64; } }:]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[48000]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[96000]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[128]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[95-pulse-headroom]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[playerctl]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[bluez-tools]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[wireplumber]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-dumpxml]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-destroy]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-undefine]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-define]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-autostart]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-start]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-ragthink.xml]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[diffutils]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-ragthink]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[libvirtd.service]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[multi-user.target]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-info]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[net-dump]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[nix eval --json .#nixosConfigurations.inspiron.config.programs.hyprland.withUWSM]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[/run/current-system/sw/share/wayland-sessions/]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[$XDG_SESSION_TYPE]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[$XDG_CURRENT_DESKTOP]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[ps -ef | rg "Hyprland|start-hyprland|uwsm"]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[systemctl --user list-units --]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[uwsm.desktop]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[XDG_SESSION_TYPE=wayland]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[sessão ativa com compositor Hyprland via UWSM]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[systemctl --user list-units --type=service --state=running]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[rg "dms|swaync|cliphist|albert|waybar|wofi"]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[systemctl --user list-units --type=service --state=running | rg "dms"]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[swaync|cliphist|albert|waybar|wofi ausentes]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[nix shell nixpkgs#mesa-demos -c glxinfo | rg "OpenGL renderer"]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Inspiron: renderer Intel/Mesa]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Glacier: renderer NVIDIA]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[journalctl --user -b | rg -i "lightdm|hyprland|uwsm|portal|dms|powerprofiles|upower"]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[systemd-analyze --user blame]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[docs/QUICK_START.md]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[pkgs.neovim-unwrapped]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Node/Python/Ruby]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[withRuby]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[lua-language-server]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[markdownlint-cli]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[nixd]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[nixfmt]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[bash-language-server]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[prettier]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[pyright]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ruff]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[shellcheck]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[shfmt]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[stylua]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[terraform-ls]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[tflint]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[tree-sitter]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[vscode-langservers-extracted]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[yaml-language-server]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Makefile Guide]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Markdown Language]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Makefile]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Repository]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Public and Secure Targets]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Destructive and Specific Targets]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Help Target]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Flake Show Target]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Flake Check Target]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Flake Update Target]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Nixos Rebuild Target]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Home Manager Switch Target]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Home Manager News Target]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Nix Garbage Collection Target]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[HOSTNAME Variable]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[USERNAME Variable]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[FLAKE Variable]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[HOME_TARGET Variable]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Dangerous Help Target]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Format Full Target]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Format System Target]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Install System Target]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[ALLOW_DANGEROUS Variable]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Machine-Specific Targets]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[Disk or Partition Deletion]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Revising Layout Before Use]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Apps Gráficas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Uwsm App]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Gtk-launch]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Exec=]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Apps de Terminal]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[App2unit]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Skills/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[.github/*]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[/usr/bin/env bash]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[FILE: modules/nixos/installer/tui-lib.sh]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[-i]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[400]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[fit-to-screen]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[notification-grouping]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[notification-window-width]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[notification-icon-size]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hide-brave-settings]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[desktop-entry]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[use-regex]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[id-matcher]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[text-matcher]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[scripts]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[dispatch-focuswindow]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[class]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[SWAYNC_DESKTOP_ENTRY]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[gpg]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[gpg-agent]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[preferences]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hardening]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[SSH]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[interoperability]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[chaves antigas]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[gnome3]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ambientes]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[riscos]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[preferências mais estritas]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[pinentry escolhido (gnome3)]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[combinar com todos os ambientes; ajuste se necessário.]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[SHA512]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[AES256]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[utf-8]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[false]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[0xlong]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[show-uid-validity]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[pinentry-gnome3]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[86400]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Obsidian CLI Safe Commands]]
+Cluster sugerido: **CLI**
+- [[rag]] (Hub sugerido)
+- [[/srv/ragenterprise]] (Hub sugerido)
+- [[RagOS VE]] (Hub sugerido)
+
+### [[kryonix-vault]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[Home Manager por usuario/host]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[modules/home-manager/]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[Hyprland/ system/user]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[Caelestia/DMS e arquivos de rice]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[assets e arquivos estaticos usados pelo sistema]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[documentacao humana e historica]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[contexto curto para LLMs]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[memoria operacional curta e rastreavel]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[procedimentos reutilizaveis para agentes]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[ai/ material anterior/experimental; nao e a entrada principal atual]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[.git/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[node_modules/]]
+Cluster sugerido: **NixOS**
+- [[NixOS]] (Hub sugerido)
+- [[nix]] (Hub sugerido)
+- [[Kryonix]] (Hub sugerido)
+
+### [[dist/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[build/]]
+Cluster sugerido: **Desktop**
+- [[Hyprland]] (Hub sugerido)
+- [[caelestia]] (Hub sugerido)
+- [[desktop/manager.nix]] (Hub sugerido)
+
+### [[target/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[result/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[.direnv/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[vendor/]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[caches em geral]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[.github]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[.vscode]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[SECURITY.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hosts/AGENTS.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hosts/common/AGENTS.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hosts/glacier/AGENTS.md]]
+Cluster sugerido: **Infra**
+- [[glacier]] (Hub sugerido)
+- [[Inspecionar DMS e Ajustar Paths]] (Hub sugerido)
+- [[libvirt]] (Hub sugerido)
+
+### [[hosts/inspiron/AGENTS.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+
+### [[hosts/inspiron-nina/AGENTS.md]]
+Cluster sugerido: **Kryonix**
+- [[Home Manager]] (Hub sugerido)
+- [[inspiron]] (Hub sugerido)
+- [[greetd]] (Hub sugerido)
+

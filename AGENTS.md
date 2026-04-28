@@ -1,3 +1,17 @@
+---
+title: "AGENTS"
+type: resource
+status: stable
+area: ia
+project: global
+tags:
+  - type/resource
+  - status/stable
+  - area/ia
+  - ai/agents
+created: 2026-04-26
+updated: 2026-04-26
+---
 # AGENTS.md
 
 ## Objective

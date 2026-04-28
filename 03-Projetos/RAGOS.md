@@ -1,3 +1,16 @@
+---
+title: "RAGOS"
+type: project
+status: active
+area: null
+project: ragos
+tags:
+  - type/project
+  - status/active
+  - project/ragos
+created: 2026-04-26
+updated: 2026-04-26
+---
 # RAGOS
 
 ## Repositório

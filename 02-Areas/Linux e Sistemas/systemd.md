@@ -1,3 +1,17 @@
+---
+title: "systemd"
+type: area
+status: active
+area: linux
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/linux
+  - linux/debug
+created: 2026-04-26
+updated: 2026-04-26
+---
 # systemd
 
 ## Objetivo

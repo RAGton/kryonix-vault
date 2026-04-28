@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "9154bd95b3339fdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc64cbf0b7eab236",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de4a3bee4390195f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8ebf40c219d2f3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a5b983683745445",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1094510c927b46ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "39cda3a859eda03d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#status/active",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "2bfb4b3803f2719d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ce6f34b68120c61b",
+    "type": "split",
+    "children": [
+      {
+        "id": "40290e7cc27ca85d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a12fb019caf8b4f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IMPLEMENTAR_EM_OUTROS_PROJETOS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para IMPLEMENTAR_EM_OUTROS_PROJETOS"
+            }
+          },
+          {
+            "id": "faed08dbb9d1cf7e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "IMPLEMENTAR_EM_OUTROS_PROJETOS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para IMPLEMENTAR_EM_OUTROS_PROJETOS"
+            }
+          },
+          {
+            "id": "3a9b4b57699809f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4409fc41f04afa85",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "a110491afcef11e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IMPLEMENTAR_EM_OUTROS_PROJETOS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de IMPLEMENTAR_EM_OUTROS_PROJETOS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "de4a3bee4390195f",
+  "lastOpenFiles": [
+    "11-LightRAG/obsidian-export/entities/editor-configs.md",
+    "11-LightRAG/obsidian-export/entities/edition.md",
+    "11-LightRAG/obsidian-export/entities/ed8796.md",
+    "11-LightRAG/obsidian-export/entities/echo-vscode-insiders-refresh-no-foi-possvel-resolver-a-url-da-build-2.md",
+    "11-LightRAG/obsidian-export/entities/dev-disk-by-id-ata-st1000dm003-1er162_s4y12q7z.md",
+    "11-LightRAG/obsidian-export/entities/dev-directory.md",
+    "11-LightRAG/obsidian-export/entities/desktopnix-file.md",
+    "11-LightRAG/obsidian-export/entities/desktopmodules.md",
+    "11-LightRAG/obsidian-export/entities/desktopmodules-kde-kde-systemnix-hyprland-hyprland-systemnix.md",
+    "11-LightRAG/obsidian-export/entities/desktophyprlandsystemnix.md",
+    "11-LightRAG/obsidian-export/entities/criteria-edp-1-status-enable-position-00-scale-10.md",
+    "11-LightRAG/obsidian-export/entities/criar-user-config.md",
+    "11-LightRAG/obsidian-export/entities/criar-profiles-composveis-desktop-laptop-vm.md",
+    "11-LightRAG/obsidian-export/entities/criar-novo-host-esqueleto.md",
+    "11-LightRAG/obsidian-export/entities/criar-lib-optionsnix-definir-opes-rag.md",
+    "11-LightRAG/obsidian-export/entities/criar-lib-defaultnix-helpers.md",
+    "11-LightRAG/obsidian-export/entities/criar-issues-pequenas-e-checklist-de-validacao.md",
+    "11-LightRAG/obsidian-export/entities/criar-features-modulares-ativadas-por-opes-eliminando-imports-manuais-e-centralizando-configuraes-comuns.md",
+    "11-LightRAG/obsidian-export/entities/criar-desktop-managernix.md",
+    "11-LightRAG/obsidian-export/entities/created-lib-managernix-with-manager-configuration.md",
+    "11-LightRAG/obsidian-export/entities/created-lib-featuresnix-with-features-configuration.md",
+    "11-LightRAG/obsidian-export/entities/created-lib-desktopnix-with-desktop-manager-configuration.md",
+    "11-LightRAG/obsidian-export/entities/created-lib-defaultnix-with-helper-functions.md",
+    "11-LightRAG/obsidian-export/entities/cpu_temp.md",
+    "11-LightRAG/obsidian-export/entities/cpu_stats.md",
+    "11-LightRAG/obsidian-export/entities/cpu_energy_perf_policy_on_bat.md",
+    "11-LightRAG/graph-export/Entidades",
+    "entities",
+    "11-LightRAG/rag_storage/graph_chunk_entity_relation.bak-20260428-002254.graphml",
+    "11-LightRAG/rag_storage/graph_chunk_entity_relation.tmp.graphml",
+    "11-LightRAG/rag_storage/graph_chunk_entity_relation.failed-20260428-002254.graphml",
+    "11-LightRAG/rag_storage/graph_chunk_entity_relation.bak-20260428-002047.graphml",
+    "11-LightRAG/rag_storage/graph_chunk_entity_relation.failed-20260428-002046.graphml",
+    "11-LightRAG/rag_storage/graph_chunk_entity_relation.bak-20260428-002001.graphml",
+    "11-LightRAG/rag_storage/graph_chunk_entity_relation.failed-20260428-002000.graphml",
+    "11-LightRAG/rag_storage/graph_chunk_entity_relation.bak-20260428-001742.graphml"
+  ]
+}

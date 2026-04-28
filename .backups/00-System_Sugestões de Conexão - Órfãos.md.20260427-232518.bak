@@ -1,0 +1,1002 @@
+# Sugestões de Conexão - Órfãos
+
+### [[modules/nixos/branding/ragos/default.nix]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[toml]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[ai/templates/skill-template.md]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[markdown]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[checklist-template.md]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[confirmar escopo real da tarefa]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[confirmar arquivos e área afetados]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[validar risco antes de editar]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[executar verificação mínima após a mudança]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[registrar qualquer limitação ou ponto pendente]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[README (EN) - redirect]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[redirect]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[main project README]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[repository root]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[English: [../README-en.md](../README-en.md)]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[PT-BR: [../README.md](../README.md)]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Documentation hub]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Docs index: [INDEX.md](INDEX.md)]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[./hyprland/system.nix]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[hardware.graphics]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[enable32Bit]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[lib.mkDefault true]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Estilo de Docs]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[hosts reais]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[prometer comportamento que o código ainda não entrega]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[marcar contexto histórico fora das docs canônicas]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[host]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[papel]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[fluxo de adoção de host já instalado]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[cuidados]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[não misturar operação de host existente com fluxo de ISO]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[validar o output ISO sem assumir que isso autoriza formatação de máquina já em uso]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[context/HOSTS/iso.md]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[---]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[# Output `iso`]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[- papel: artefato de instalação/provisionamento]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[- não é fluxo de adoção de host já instalado]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[## Cuidados]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[- não misturar operação de host existente com fluxo de ISO]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[- validar o output ISO sem assumir que isso autoriza formatação de máquina já em uso]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[identificação do sistema]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[manter linguagem visual consistente]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[não espalhar versões concorrentes do branding]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[registrar ativos canônicos antes de produzir variações]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[ai/templates/prompt-template.md]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Tarefa]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[host alvo]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[área do repo]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[restrições]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[preservar arquitetura atual]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[fazer mudança incremental]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[validar sem abrir escopo paralelo]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[diff curto]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[validação objetiva]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[resumo final curto]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[ai/context/README.md]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Contexto]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Princípios]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[pouco texto]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[foco no estado atual]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[sem duplicar documentação histórica]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[sem virar auditoria longa]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Leitura mínima recomendada]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[[CURRENT_STATE.md](CURRENT_STATE.md)]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[[OPERATING_MODEL.md](OPERATING_MODEL.md)]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[[HOSTS.md](HOSTS.md)]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[tarefas incrementais]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[rodadas mais profundas]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[3.4% Decline]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[Docs]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[docs curtas]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[técnicas e diretas]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[atualizar a fonte canônica mais próxima da prática real]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[evitar duplicar a mesma regra em muitos arquivos]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[se o código mudou, revisar a doc mínima correspondente]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[se a prática não mudou, não reescrever docs por estilo apenas]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[ragos doctor --host glacier --verbose]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[ragos generations]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[ragos snapshot]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[ragos rollback]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[ai/skills]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Skills]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[domínio]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[checklist correspondente]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[exemplos só como guia de padrão, não como licença para abrir escopo]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[cada skill desta pasta delimita responsabilidade, regra operacional e estilo de mudança para um domínio específico.]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[Uso recomendado:]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[abrir a skill do domínio]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[seguir o checklist correspondente]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[usar exemplos só como guia de padrão, não como licença para abrir escopo]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[As skills aqui não substituem o código nem os docs gerais. Elas reduzem ambiguidade na hora de trabalhar.]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[ragos test]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[ragos switch]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[repetir o comando base sem a mudança suspeita quando possível]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[comparar a saída atual com o comportamento que já falhava antes]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[corrigir primeiro a regressão introduzida nesta rodada]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[qemu:///system]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[CHECKLIST.md]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[confirmar host alvo e origem da flake]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[revisar se a mudança pede `test`, `boot` ou `switch`]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[rodar validação mínima antes da aplicação]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[registrar qual erro já existia antes da mudança]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[tratar erro novo como regressão até prova em contrário]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[em falha de aplicação, preservar contexto para rollback]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[não misturar correção funcional com limpeza ampla de docs ou arquitetura]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[Virtualization]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[libvirt/KVM]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[storage operacional]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[imagens, templates e backups]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[hardware base do host e storage operacional do hypervisor]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[stacks sem necessidade]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[segurança operacional]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[clareza do layout]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[mudanças reversíveis]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[editar e validar mudanças incrementais]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[preparar diffs antes de aplicar no host principal]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[sustentar o fluxo diário de manutenção do projeto]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[operação]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[docs canônicos]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[experimentação local antes de mexer no `glacier`]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[manter o foco em CLI, operação e docs canônicos]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[não inferir que regras do notebook valem automaticamente para todos os hosts]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[desktop/hyprland/shell-backend.nix]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[nullOr]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[enum]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[# Flags do VSCode (Electron) para Wayland]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[Mantemos somente opções amplamente suportadas para evitar warnings no startup.]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Se algum Electron antigo ignorar uma flag, ela é simplesmente descartada.]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[# Preferir hint ao invés de forçar `--ozone-platform=wayland` (reduz warnings e funciona em X11/Wayland).]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[--ozone-platform-hint=auto]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[# Wayland window decorations (quando suportado pelo Electron/Chromium na build do nixpkgs).]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[--enable-features=UseOzonePlatform,WaylandWindowDecorations]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[fluxos operacionais já descritos]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[Hosts]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[nix build 'path:$PWD#nixosConfigurations.glacier.config.system.build.toplevel']]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[nix build 'path:$PWD#homeConfigurations."rocha@glacier".activationPackage']]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[RAGOS CLI]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[confirmar se a tarefa pertence mesmo à CLI `ragos`]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[validar host detectado e `--host` explícito quando necessário]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[validar resolução de flake antes de executar ação principal]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[manter mensagens de erro curtas, diretas e úteis]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[não quebrar `doctor` ao adicionar novos subcomandos]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[diferenciar inspeção, snapshot, gerações e rollback]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[evitar comportamento destrutivo sem confirmação clara de intenção]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[manter compatibilidade com desenvolvimento local e `/etc/ragos`]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[base (compat layer para common)]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[imports = [ ../common ];]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[defaults globais]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[baseline estável (firmware + trim)]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[laptop/desktop]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[services.fstrim.enable = lib.mkDefault true;]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[hardware.enableRedistributableFirmware = true;]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[format-*]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[rollback viável]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[nix-host-validation.md]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[Runbook: Validação Nix por Host]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[Regra]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Sequência mínima]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[Honestidade operacional]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[home-workstation.nix]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[programs.home-manager.enable = true;]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[programs.jupyter.enable = true;]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[kryonix.vscode.enable = true;]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[home.stateVersion = "26.05";]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[xdg.configFile."gtk-3.0/settings.ini".force = true;]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[xdg.configFile."gtk-4.0/settings.ini".force = true;]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[VAULT_UPDATE_PROPOSAL.md]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Obsidian vault]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Pending approval]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Note | Action | Reason | Risk]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Proposed content]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Why this belongs in the brain]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[What should not be stored]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[no secrets]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[no raw logs]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[no private client data]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[no raw PDF/HTML dump]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[no unverified external code as truth]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Related project files]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Related vault notes]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Validation]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[User approval]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[docs/TRAE_MANUAL_INSTALL.md]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[# Instalação manual do Trae no host]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[O Trae ficou fora da instalação declarativa porque este repositório não valida hoje um pacote Nix canônico e estável para ele.]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[Fluxo sugerido]]
+- [[Hyprland]]
+- [[caelestia]]
+- [[desktop/manager.nix]]
+
+### [[1. Baixe o `.deb` ou `.rpm` oficial do Trae.]]
+- [[glacier]]
+- [[Inspecionar DMS e Ajustar Paths]]
+- [[libvirt]]
+
+### [[2. Instale o app no host.]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[3. Garanta que o binário esteja em um destes caminhos:]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[- `trae` no `PATH`]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[- `~/.local/bin/trae`]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[- `/opt/trae/trae`]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[4. Abra pelo wrapper:]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[```bash]]
+- [[rag]]
+- [[/srv/ragenterprise]]
+- [[RagOS VE]]
+
+### [[Instalação manual do Trae no host]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[ADR-0001]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[Operations]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[input.nix]]
+- [[NixOS]]
+- [[nix]]
+- [[Kryonix]]
+
+### [[BR-ABNT2]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+
+### [[sessionVariables]]
+- [[Home Manager]]
+- [[inspiron]]
+- [[greetd]]
+

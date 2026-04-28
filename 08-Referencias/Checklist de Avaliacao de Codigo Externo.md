@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Checklist de Avaliação de Código Externo
 
 Use antes de transformar qualquer código de fórum, blog, GitHub, tutorial ou IA em referência do Kryonix Vault.
@@ -103,4 +104,37 @@ REJEITADO
 ## Adaptações necessárias
 
 ## Testes exigidos
-```
+
+title: "Checklist de Avaliacao de Codigo Externo"
+type: checklist
+status: stable
+area: null
+project: null
+tags:
+  - type/checklist
+  - status/stable
+  - source/internal
+created: 2026-04-26
+updated: 2026-04-26
+source: internal
+confidence: medium
+reviewed: false
+---
+# Checklist de Avaliacao de Codigo Externo
+
+## Objetivo
+
+Registrar e amadurecer este t?pico sem quebrar os links existentes do vault.
+
+## Uso pr?tico
+
+Use esta nota como ponto de entrada curto at? existir conte?do t?cnico mais completo.
+
+## Links relacionados
+
+- [[08-Referencias/Fontes Oficiais]]
+
+## Pr?ximos passos
+
+- Completar conte?do quando houver necessidade pr?tica.
+>>>>>>> e573a6e (Update Kryonix vault for Brain LightRAG release)

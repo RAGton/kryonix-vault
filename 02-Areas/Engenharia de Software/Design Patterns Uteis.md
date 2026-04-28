@@ -1,3 +1,16 @@
+---
+title: "Design Patterns Uteis"
+type: area
+status: active
+area: engenharia
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/engenharia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Design Patterns Uteis
 
 ## Objetivo

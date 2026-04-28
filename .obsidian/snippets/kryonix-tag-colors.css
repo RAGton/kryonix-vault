@@ -1,0 +1,73 @@
+/* Kryonix Vault: category colors for Obsidian tags. */
+
+.tag[href^="#type/"] {
+  --tag-color: #475569;
+  --tag-background: rgba(100, 116, 139, 0.16);
+  --tag-border-color: rgba(100, 116, 139, 0.35);
+}
+
+.tag[href^="#status/"] {
+  --tag-color: #15803d;
+  --tag-background: rgba(34, 197, 94, 0.14);
+  --tag-border-color: rgba(34, 197, 94, 0.35);
+}
+
+.tag[href^="#area/"] {
+  --tag-color: #0369a1;
+  --tag-background: rgba(14, 165, 233, 0.14);
+  --tag-border-color: rgba(14, 165, 233, 0.35);
+}
+
+.tag[href^="#project/"] {
+  --tag-color: #b45309;
+  --tag-background: rgba(245, 158, 11, 0.16);
+  --tag-border-color: rgba(245, 158, 11, 0.4);
+}
+
+.tag[href^="#ai/"] {
+  --tag-color: #7e22ce;
+  --tag-background: rgba(168, 85, 247, 0.14);
+  --tag-border-color: rgba(168, 85, 247, 0.35);
+}
+
+.tag[href^="#eng/"] {
+  --tag-color: #0f766e;
+  --tag-background: rgba(20, 184, 166, 0.14);
+  --tag-border-color: rgba(20, 184, 166, 0.35);
+}
+
+.tag[href^="#backend/"] {
+  --tag-color: #1d4ed8;
+  --tag-background: rgba(59, 130, 246, 0.14);
+  --tag-border-color: rgba(59, 130, 246, 0.35);
+}
+
+.tag[href^="#frontend/"] {
+  --tag-color: #be123c;
+  --tag-background: rgba(244, 63, 94, 0.14);
+  --tag-border-color: rgba(244, 63, 94, 0.35);
+}
+
+.tag[href^="#linux/"] {
+  --tag-color: #4338ca;
+  --tag-background: rgba(99, 102, 241, 0.14);
+  --tag-border-color: rgba(99, 102, 241, 0.35);
+}
+
+.tag[href^="#infra/"] {
+  --tag-color: #c2410c;
+  --tag-background: rgba(249, 115, 22, 0.14);
+  --tag-border-color: rgba(249, 115, 22, 0.35);
+}
+
+.tag[href^="#nixos/"] {
+  --tag-color: #0e7490;
+  --tag-background: rgba(6, 182, 212, 0.14);
+  --tag-border-color: rgba(6, 182, 212, 0.35);
+}
+
+.tag[href^="#source/"] {
+  --tag-color: #6d28d9;
+  --tag-background: rgba(139, 92, 246, 0.12);
+  --tag-border-color: rgba(139, 92, 246, 0.32);
+}

@@ -1,3 +1,16 @@
+---
+title: "Mapa - Produto e SaaS"
+type: moc
+status: active
+area: produto
+project: global
+tags:
+  - type/moc
+  - status/active
+  - area/produto
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Mapa - Produto e SaaS
 
 ## Objetivo

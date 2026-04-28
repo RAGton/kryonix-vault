@@ -1,3 +1,17 @@
+---
+title: "Auditoria de Secrets"
+type: skill
+status: active
+area: ia
+project: global
+tags:
+  - type/skill
+  - status/active
+  - ai/skills
+  - area/ia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Auditoria de Secrets
 
 ## Objetivo

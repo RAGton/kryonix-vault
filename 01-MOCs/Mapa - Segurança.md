@@ -1,3 +1,15 @@
+---
+title: "Mapa - Segurança"
+type: moc
+status: active
+area: null
+project: global
+tags:
+  - type/moc
+  - status/active
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Mapa - Segurança
 
 ## Objetivo

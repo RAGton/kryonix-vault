@@ -1,3 +1,17 @@
+---
+title: "VAULT_INDEX"
+type: index
+status: active
+area: ia
+project: global
+tags:
+  - type/index
+  - status/active
+  - area/ia
+  - ai/context
+created: 2026-04-26
+updated: 2026-04-26
+---
 # VAULT_INDEX
 
 > Home do cérebro de IA. Comece por aqui.
@@ -7,9 +21,11 @@
 - [[01-MOCs/Mapa - Cerebro Supremo de IA]]
 - [[PROMPT_MASTER]]
 - [[AGENTS]]
+- [[MANUAL_ATIVAR_SEGUNDO_CEREBRO_IA]]
 - [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
 - [[07-Prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
 - [[07-Prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
+- [[07-Prompts/PROMPT_ORGANIZAR_TAGS_OBSIDIAN]]
 
 ## Projetos principais
 
@@ -40,6 +56,7 @@
 - [[02-Areas/IA e Agentes/Prioridade de Contexto por Projeto]]
 - [[06-Playbooks/Como Fazer Outra IA Consumir Este Vault]]
 - [[06-Playbooks/Rotina de Treinamento do Cerebro Obsidian]]
+- [[06-Playbooks/Organizar Tags e Frontmatter do Vault]]
 
 ## Infra, Linux e NixOS
 

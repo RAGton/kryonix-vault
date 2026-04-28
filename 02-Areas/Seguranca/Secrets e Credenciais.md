@@ -1,3 +1,17 @@
+---
+title: "Secrets e Credenciais"
+type: area
+status: active
+area: seguranca
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/seguranca
+  - eng/security
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Secrets e Credenciais
 
 ## Objetivo

@@ -1,3 +1,17 @@
+---
+title: "PROMPT - IA consumir Obsidian Vault"
+type: prompt
+status: active
+area: ia
+project: global
+tags:
+  - type/prompt
+  - status/active
+  - ai/prompts
+  - area/ia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # PROMPT - IA consumir Obsidian Vault
 
 Use este prompt quando quiser que uma IA trate este vault como **fonte prioritária de consulta**.

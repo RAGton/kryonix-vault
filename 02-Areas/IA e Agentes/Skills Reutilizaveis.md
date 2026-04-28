@@ -1,3 +1,17 @@
+---
+title: "Skills Reutilizaveis"
+type: area
+status: active
+area: ia
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/ia
+  - ai/agents
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Skills Reutilizaveis
 
 ## Objetivo

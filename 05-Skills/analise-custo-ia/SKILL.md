@@ -1,3 +1,17 @@
+---
+title: "Análise de Custo de IA"
+type: skill
+status: active
+area: ia
+project: global
+tags:
+  - type/skill
+  - status/active
+  - ai/skills
+  - area/ia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Análise de Custo de IA
 
 ## Objetivo

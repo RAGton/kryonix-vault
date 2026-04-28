@@ -1,3 +1,15 @@
+---
+title: "Template - Issue Codex"
+type: template
+status: stable
+area: null
+project: null
+tags:
+  - type/template
+  - status/stable
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Template - Issue Codex
 
 ```md

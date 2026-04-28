@@ -1,3 +1,17 @@
+---
+title: "PROMPT_MASTER"
+type: prompt
+status: active
+area: ia
+project: global
+tags:
+  - type/prompt
+  - status/active
+  - area/ia
+  - ai/prompts
+created: 2026-04-26
+updated: 2026-04-26
+---
 # PROMPT_MASTER
 
 ## Identidade operacional

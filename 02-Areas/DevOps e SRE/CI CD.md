@@ -1,3 +1,17 @@
+---
+title: "CI CD"
+type: area
+status: active
+area: devops
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/devops
+  - eng/ci-cd
+created: 2026-04-26
+updated: 2026-04-26
+---
 # CI CD
 
 ## Objetivo

@@ -1,3 +1,15 @@
+---
+title: "Inbox"
+type: note
+status: inbox
+area: null
+project: null
+tags:
+  - status/inbox
+  - type/note
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Inbox
 
 Capture rápida. Depois processe para uma área, projeto, prompt, Skill, playbook ou referência.

@@ -1,3 +1,15 @@
+---
+title: "Template - Nota Tecnica"
+type: template
+status: stable
+area: null
+project: null
+tags:
+  - type/template
+  - status/stable
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Template - Nota Tecnica
 
 ```md

@@ -1,3 +1,16 @@
+---
+title: "Mapa - Cerebro Supremo de IA"
+type: moc
+status: active
+area: ia
+project: global
+tags:
+  - type/moc
+  - status/active
+  - area/ia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Mapa - Cerebro Supremo de IA
 
 > Função: transformar este Obsidian Vault em fonte prioritária para IA, engenharia de software, infraestrutura, produto, estudos e projetos pessoais.

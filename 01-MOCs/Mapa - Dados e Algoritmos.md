@@ -1,3 +1,16 @@
+---
+title: "Mapa - Dados e Algoritmos"
+type: moc
+status: active
+area: dados
+project: global
+tags:
+  - type/moc
+  - status/active
+  - area/dados
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Mapa - Dados e Algoritmos
 
 ## Objetivo

@@ -1,3 +1,16 @@
+---
+title: "Mapa - DevOps e SRE"
+type: moc
+status: active
+area: devops
+project: global
+tags:
+  - type/moc
+  - status/active
+  - area/devops
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Mapa - DevOps e SRE
 
 ## Objetivo

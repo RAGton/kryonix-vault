@@ -1,3 +1,17 @@
+---
+title: "IMPLEMENTAR EM OUTROS PROJETOS"
+type: playbook
+status: active
+area: ia
+project: global
+tags:
+  - type/playbook
+  - status/active
+  - area/ia
+  - ai/agents
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Implementar o Kryonix Vault em qualquer projeto
 
 Este guia mostra como usar este vault como **cérebro de IA reutilizável** para qualquer projeto: backend, frontend, NixOS, Proxmox, automação, SaaS, scripts, infraestrutura ou estudos.

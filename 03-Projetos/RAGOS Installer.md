@@ -1,3 +1,16 @@
+---
+title: "RAGOS Installer"
+type: project
+status: active
+area: null
+project: ragos-installer
+tags:
+  - type/project
+  - status/active
+  - project/ragos-installer
+created: 2026-04-26
+updated: 2026-04-26
+---
 # RAGOS Installer
 
 ## Repositório

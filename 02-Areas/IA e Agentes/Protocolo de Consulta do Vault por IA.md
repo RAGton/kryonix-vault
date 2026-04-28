@@ -1,3 +1,17 @@
+---
+title: "Protocolo de Consulta do Vault por IA"
+type: area
+status: active
+area: ia
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/ia
+  - ai/agents
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Protocolo de Consulta do Vault por IA
 
 ## Objetivo

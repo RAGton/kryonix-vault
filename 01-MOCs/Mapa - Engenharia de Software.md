@@ -1,3 +1,16 @@
+---
+title: "Mapa - Engenharia de Software"
+type: moc
+status: active
+area: engenharia
+project: global
+tags:
+  - type/moc
+  - status/active
+  - area/engenharia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Mapa - Engenharia de Software
 
 ## Objetivo

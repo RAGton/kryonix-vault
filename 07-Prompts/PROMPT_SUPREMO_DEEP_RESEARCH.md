@@ -1,3 +1,17 @@
+---
+title: "PROMPT SUPREMO - Deep Research para Kryonix Vault"
+type: prompt
+status: active
+area: ia
+project: global
+tags:
+  - type/prompt
+  - status/active
+  - ai/prompts
+  - area/ia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # PROMPT SUPREMO - Deep Research para Kryonix Vault
 
 Use este prompt para pesquisas técnicas profundas que alimentam o vault.

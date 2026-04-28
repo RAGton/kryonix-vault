@@ -1,3 +1,17 @@
+---
+title: "Prompt - Pesquisa Tecnica Profunda"
+type: prompt
+status: active
+area: ia
+project: global
+tags:
+  - type/prompt
+  - status/active
+  - ai/prompts
+  - area/ia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Prompt - Pesquisa Tecnica Profunda
 
 ```txt

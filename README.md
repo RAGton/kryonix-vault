@@ -1,3 +1,16 @@
+---
+title: "README"
+type: index
+status: active
+area: ia
+project: global
+tags:
+  - type/index
+  - status/active
+  - area/ia
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Kryonix Vault
 
 Vault Obsidian para funcionar como **cérebro operacional de IA, engenharia e produto**.
@@ -20,6 +33,7 @@ Criar uma base única, versionada e pesquisável para:
 Abra primeiro:
 
 - [[VAULT_INDEX]]
+- [[MANUAL_ATIVAR_SEGUNDO_CEREBRO_IA]]
 - [[01-MOCs/Mapa - Cerebro Supremo de IA]]
 - [[PROMPT_MASTER]]
 - [[AGENTS]]

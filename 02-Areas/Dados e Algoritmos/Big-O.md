@@ -1,3 +1,16 @@
+---
+title: "Big-O"
+type: area
+status: active
+area: dados
+project: global
+tags:
+  - type/area
+  - status/active
+  - area/dados
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Big-O
 
 ## Objetivo

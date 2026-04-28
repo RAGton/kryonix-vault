@@ -1,3 +1,15 @@
+---
+title: "Revisao Semanal"
+type: log
+status: active
+area: null
+project: global
+tags:
+  - type/log
+  - status/active
+created: 2026-04-26
+updated: 2026-04-26
+---
 # Revisao Semanal
 
 ## Semana
