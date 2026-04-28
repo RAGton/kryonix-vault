@@ -11,8 +11,8 @@ O pipeline utiliza uma arquitetura de **Grounding Semântico com Expansão de Gr
 2. **Semantic Expansion**: Sonda o banco de entidades para adicionar termos técnicos relacionados à consulta original.
 3. **Graph Retrieval (Multi-hop)**: Recupera entidades iniciais e expande a busca em até 2 níveis de conexão no grafo (hops), capturando dependências e arquiteturas relacionadas.
 4. **Manual Grounding**: Mapeia as entidades e relações encontradas para seus respectivos "chunks" de texto originais no sistema de arquivos.
-5. **Semantic Ranking**: Usa similaridade de cosseno (embeddings) para ordenar os chunks recuperados, priorizando os que têm maior relevância direta com a pergunta.
-6. **LLM Synthesis**: O modelo (ex: Qwen2.5-Coder) gera a resposta final usando apenas o contexto rankeado e o grafo recuperado.
+5. **Semantic Ranking**: Implementado via `numpy` (similaridade de cosseno), ordena os chunks recuperados por score de relevância vetorial. Chunks do Vault têm peso equalizado com chunks do repositório.
+6. **LLM Synthesis**: O modelo local (Qwen2.5-Coder) gera a resposta final usando o contexto rankeado. O sistema força o uso do contexto via `ANSWER_SYSTEM_PROMPT` para minimizar alucinações.
 
 ## Uso prático
 O pipeline é acessado via CLI `rag` ou via MCP (Model Context Protocol) no Obsidian.

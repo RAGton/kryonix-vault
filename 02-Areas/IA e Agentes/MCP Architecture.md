@@ -8,8 +8,8 @@ A arquitetura baseia-se em um modelo **Cliente-Servidor**.
 
 ### Componentes no Kryonix:
 1. **MCP Server**: Implementado em `kryonix_brain_lightrag.server`. Ele expõe ferramentas (`tools`) e recursos (`resources`).
-2. **Transporte**: Usa STDIO (entrada/saída padrão) para comunicação entre o host (Obsidian) e o servidor Python.
-3. **Tools (Ferramentas)**: Funções Python que o LLM pode invocar (ex: `query_brain`, `index_file`, `vault_search`).
+2. **Transporte**: Usa STDIO (entrada/saída padrão) para comunicação entre o host (Obsidian/Cursor) e o servidor Python. A comunicação segue o padrão JSON-RPC 2.0.
+3. **Tools (Ferramentas)**: Funções Python que o LLM pode invocar (ex: `query_brain`, `get_stats`). O servidor usa o SDK do MCP para Python (`mcp`).
 
 ### Fluxo de Comunicação:
 - O Usuário pergunta no Obsidian.
