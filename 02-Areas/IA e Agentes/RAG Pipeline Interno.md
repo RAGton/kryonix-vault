@@ -15,11 +15,12 @@ O pipeline utiliza uma arquitetura de **Grounding Semântico com Expansão de Gr
 6. **LLM Synthesis**: O modelo local (Qwen2.5-Coder) gera a resposta final usando o contexto rankeado. O sistema força o uso do contexto via `ANSWER_SYSTEM_PROMPT` para minimizar alucinações.
 
 ## Uso prático
-O pipeline é acessado via CLI `rag` ou via MCP (Model Context Protocol) no Obsidian.
+O pipeline é acessado via CLI `kryonix brain` ou via MCP (Model Context Protocol) no Obsidian.
 
 ### Comandos de Diagnóstico:
-- `.\rag.bat diagnostics`: Mostra a saúde do grounding e estatísticas de cobertura.
-- `.\rag.bat search "termo" --verbose`: Exibe scores de ranking e as entidades expandidas.
+- `kryonix brain health`: Mostra a saúde do grounding e estatísticas de cobertura.
+- `kryonix brain search "termo"`: Exibe resultados de busca semântica.
+- `kryonix brain doctor --local`: Checagem detalhada de permissões/serviços local.
 
 ## Exemplos
 ### Fluxo de Recuperação para "Hyprland Config"
@@ -30,16 +31,16 @@ O pipeline é acessado via CLI `rag` ou via MCP (Model Context Protocol) no Obsi
 5. **Resultado**: O usuário recebe a instrução específica dos módulos NixOS do repositório.
 
 ## Problemas comuns
-- **Semantic Loss**: O grafo tem nós mas não tem relações, resultando em respostas rasas. Resolvido com `rag graph heal`.
-- **Inconsistência de VDB**: Os vetores não batem com o conteúdo do grafo. Corrigido com `rag repair-vdb`.
+- **Semantic Loss**: O grafo tem nós mas não tem relações, resultando em respostas rasas. Resolvido com `kryonix graph heal`.
+- **Inconsistência de VDB**: Os vetores não batem com o conteúdo do grafo. Corrigido com `kryonix graph repair`.
 - **Alucinação por Falta de Contexto**: O pipeline aborta se o grounding resultar em 0 chunks para proteger a precisão.
 
 ## Boas práticas
-- Mantenha o grafo "saudável" rodando indexações incrementais.
-- Use `rag top` para verificar quais entidades são os "hubs" centrais do seu conhecimento.
+- Mantenha o grafo "saudável" rodando indexações incrementais via `kryonix vault index`.
+- Use `kryonix graph top --limit 10` para verificar quais entidades são os "hubs" centrais do seu conhecimento.
 - Documente novos serviços de forma técnica no Vault para facilitar a extração de relações densas.
 
 ## Links
 - [[01-MOCs/Mapa - IA e Agentes]]
 - [[02-Areas/IA e Agentes/Graph + Vector Hybrid Search]]
-- [[packages/kryonix-brain-lightrag/kryonix_brain_lightrag/rag.py]]
+- [rag.py](file:///etc/kryonix/packages/kryonix-brain-lightrag/kryonix_brain_lightrag/rag.py)

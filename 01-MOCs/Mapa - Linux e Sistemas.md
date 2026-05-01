@@ -6,6 +6,7 @@ Fundamentos de sistemas operacionais aplicados a troubleshooting, serviços, inf
 
 ## Notas principais
 
+- [[01-Canonical/Troubleshooting|Troubleshooting Canônico]]
 - [[02-Areas/Linux e Sistemas/Processos e Memoria]]
 - [[02-Areas/Linux e Sistemas/Filesystem e Permissoes]]
 - [[02-Areas/Linux e Sistemas/Rede no Linux]]

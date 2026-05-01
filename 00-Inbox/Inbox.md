@@ -14,5 +14,5 @@ Capture rápida. Depois processe para uma área, projeto, prompt, Skill, playboo
 
 ## Links
 
-- [[VAULT_INDEX]]
+- [[README]]
 - [[09-Logs/Revisao Semanal]]

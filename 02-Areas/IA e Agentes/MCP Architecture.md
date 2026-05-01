@@ -50,7 +50,7 @@ O servidor MCP é configurado no arquivo `.mcp.json` na raiz do repositório.
 - **Ambiente Virtual**: Falha ao encontrar dependências se o `uv` não estiver no PATH ou o projeto não estiver sincronizado.
 
 ## Boas práticas
-- Sempre valide o registro com `.\rag.bat mcp-check`.
+- Sempre valide o registro com `kryonix mcp check`.
 - Mantenha o servidor leve; processamento pesado deve ser assíncrono ou delegado para a CLI.
 - Use descrições claras nas ferramentas MCP, pois o LLM as usa para decidir qual ferramenta chamar.
 

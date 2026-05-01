@@ -14,9 +14,9 @@ Tema da pesquisa:
 Contexto:
 Este vault é usado como cérebro técnico para projetos pessoais e profissionais:
 
-- Ragos VE: Proxmox, PXE/iPXE, NFS, Linux, NixOS, homelab, storage e automação.
+- Kryonix VE: Proxmox, PXE/iPXE, NFS, Linux, NixOS, homelab, storage e automação.
 - Kryonix: SaaS, backend/API, produto vendável, frontend moderno, sistemas web e automação.
-- Ragos Think: IA, agentes, prompts, Skills, RAG local, Obsidian e produtividade técnica.
+- Kryonix Think: IA, agentes, prompts, Skills, RAG local, Obsidian e produtividade técnica.
 
 Requisitos:
 

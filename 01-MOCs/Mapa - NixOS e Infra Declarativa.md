@@ -6,6 +6,9 @@ Organizar padrões de NixOS, flakes, módulos, devShells, secrets, hosts e deplo
 
 ## Notas principais
 
+- [[01-Canonical/Architecture|Arquitetura Canônica]]
+- [[01-Canonical/Operations|Operações Canônicas]]
+- [[01-Canonical/Testing|Testes e Validação]]
 - [[02-Areas/NixOS/Nix Language]]
 - [[02-Areas/NixOS/Flakes]]
 - [[02-Areas/NixOS/Modulos NixOS]]

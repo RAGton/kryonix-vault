@@ -18,4 +18,4 @@ Limitar risco operacional ao usar agentes.
 ## Links
 
 - [[01-MOCs/Mapa - IA e Agentes]]
-- [[AGENTS]]
+- [[01-Canonical/Agents|AGENTS.md]]

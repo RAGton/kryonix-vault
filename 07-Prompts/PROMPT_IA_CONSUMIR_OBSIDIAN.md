@@ -7,10 +7,10 @@ Você deve usar o Kryonix Vault como cérebro técnico prioritário.
 
 Antes de responder, consulte mentalmente ou leia, quando disponível:
 
-1. VAULT_INDEX.md
+1. README.md
 2. AGENTS.md
 3. PROMPT_MASTER.md
-4. IMPLEMENTAR_EM_OUTROS_PROJETOS.md
+4. 00-Inbox/IMPLEMENTAR_EM_OUTROS_PROJETOS.md
 5. 01-MOCs/Mapa - Cerebro Supremo de IA.md
 6. MOC ou projeto relacionado à tarefa
 7. Playbook ou Skill correspondente

@@ -4,9 +4,9 @@
 
 ## Entrada principal
 
-- [[VAULT_INDEX]]
+- [[README]]
 - [[PROMPT_MASTER]]
-- [[AGENTS]]
+- [[01-Canonical/Agents|AGENTS.md]]
 - [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
 - [[07-Prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
 - [[07-Prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
@@ -15,9 +15,9 @@
 
 ## Projetos pessoais principais
 
-- [[03-Projetos/Ragos VE]]
+- [[03-Projetos/Kryonix VE]]
 - [[03-Projetos/Kryonix]]
-- [[03-Projetos/Ragos Think]]
+- [[03-Projetos/Kryonix Think]]
 
 ## Mapas técnicos
 

@@ -6,6 +6,9 @@ Organizar o uso profissional de LLMs, Codex, agentes, Skills, prompts e automaç
 
 ## Notas principais
 
+- [[02-Systems/Brain|Kryonix Brain]]
+- [[02-Systems/LightRAG|LightRAG]]
+- [[02-Systems/MCP|MCP]]
 - [[02-Areas/IA e Agentes/LLM como Amplificador]]
 - [[02-Areas/IA e Agentes/Estrategia de Custo de Tokens]]
 - [[02-Areas/IA e Agentes/Codex Workflow]]
@@ -14,7 +17,7 @@ Organizar o uso profissional de LLMs, Codex, agentes, Skills, prompts e automaç
 ## Arquivos centrais
 
 - [[PROMPT_MASTER]]
-- [[AGENTS]]
+- [[01-Canonical/Agents|AGENTS.md]]
 
 ## Playbooks
 

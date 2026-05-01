@@ -18,8 +18,8 @@ Se houver conflito, priorize a fonte mais específica e verificável.
 
 ## Arquivos obrigatórios para leitura inicial
 
-- [[VAULT_INDEX]]
-- [[AGENTS]]
+- [[README]]
+- [[01-Canonical/Agents|AGENTS.md]]
 - [[PROMPT_MASTER]]
 - [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
 - [[01-MOCs/Mapa - Cerebro Supremo de IA]]

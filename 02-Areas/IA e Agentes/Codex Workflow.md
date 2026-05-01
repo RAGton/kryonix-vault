@@ -19,4 +19,4 @@ Padronizar tarefas para Codex/LLMs com segurança e previsibilidade.
 
 - [[06-Playbooks/Playbook - Criar Issue para Codex]]
 - [[07-Prompts/Prompt - Issue para Codex]]
-- [[AGENTS]]
+- [[01-Canonical/Agents|AGENTS.md]]
