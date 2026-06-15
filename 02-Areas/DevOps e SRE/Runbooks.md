@@ -16,4 +16,4 @@ Procedimentos operacionais claros para incidente e manutenção.
 
 ## Links
 
-- [[06-Playbooks/Playbook - Debug de Producao]]
+- [[03-Resources/playbooks/Playbook - Debug de Producao]]

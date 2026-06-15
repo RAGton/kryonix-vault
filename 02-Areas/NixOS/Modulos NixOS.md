@@ -78,5 +78,5 @@ No Kryonix, os módulos são usados para abstrair complexidade e garantir padron
 - Prefira `lib.mkDefault` para valores que os usuários podem querer mudar.
 
 ## Links
-- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]
+- [[10-MOCs/Mapa - NixOS e Infra Declarativa]]
 - [NixOS Modules Manual](https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules)

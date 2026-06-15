@@ -16,4 +16,4 @@ Investigar problemas sem destruir evidências.
 
 ## Links
 
-- [[06-Playbooks/Playbook - Debug de Producao]]
+- [[03-Resources/playbooks/Playbook - Debug de Producao]]

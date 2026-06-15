@@ -17,4 +17,4 @@ Importa muito em:
 
 ## Links
 
-- [[01-MOCs/Mapa - Dados e Algoritmos]]
+- [[10-MOCs/Mapa - Dados e Algoritmos]]

@@ -18,4 +18,4 @@ Pensar custo operacional antes de vender.
 
 ## Links
 
-- [[05-Skills/analise-custo-ia/SKILL]]
+- [[03-Resources/skills/analise-custo-ia/SKILL]]

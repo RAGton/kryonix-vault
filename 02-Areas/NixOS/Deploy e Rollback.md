@@ -15,4 +15,4 @@ Deploy reversível e auditável.
 
 ## Links
 
-- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]
+- [[10-MOCs/Mapa - NixOS e Infra Declarativa]]

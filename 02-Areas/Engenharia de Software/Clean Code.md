@@ -20,5 +20,5 @@ Você consegue explicar o código, testar comportamento e alterar uma regra sem 
 
 ## Links
 
-- [[01-MOCs/Mapa - Engenharia de Software]]
-- [[05-Skills/revisao-clean-code/SKILL]]
+- [[10-MOCs/Mapa - Engenharia de Software]]
+- [[03-Resources/skills/revisao-clean-code/SKILL]]

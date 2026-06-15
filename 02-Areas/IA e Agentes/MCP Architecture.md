@@ -55,6 +55,6 @@ O servidor MCP é configurado no arquivo `.mcp.json` na raiz do repositório.
 - Use descrições claras nas ferramentas MCP, pois o LLM as usa para decidir qual ferramenta chamar.
 
 ## Links
-- [[01-MOCs/Mapa - IA e Agentes]]
+- [[10-MOCs/Mapa - IA e Agentes]]
 - [[02-Areas/IA e Agentes/RAG Pipeline Interno]]
 - [Official MCP Documentation](https://modelcontextprotocol.io)

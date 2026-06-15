@@ -32,5 +32,5 @@ A IA pode sugerir. O humano decide, valida e assume responsabilidade.
 
 ## Links
 
-- [[01-MOCs/Mapa - IA e Agentes]]
+- [[10-MOCs/Mapa - IA e Agentes]]
 - [[02-Areas/IA e Agentes/Estrategia de Custo de Tokens]]

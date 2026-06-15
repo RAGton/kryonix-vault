@@ -27,4 +27,4 @@ ulimit -a
 
 ## Links
 
-- [[01-MOCs/Mapa - Linux e Sistemas]]
+- [[10-MOCs/Mapa - Linux e Sistemas]]

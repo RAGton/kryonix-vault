@@ -10,5 +10,5 @@ Não usar camadas por estética. Use camadas quando elas protegem regras de neg�
 
 ## Links
 
-- [[01-MOCs/Mapa - Engenharia de Software]]
-- [[07-Prompts/Prompt - Arquitetura de Sistema]]
+- [[10-MOCs/Mapa - Engenharia de Software]]
+- [[03-Resources/prompts/Prompt - Arquitetura de Sistema]]

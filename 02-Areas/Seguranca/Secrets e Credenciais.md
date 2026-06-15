@@ -15,4 +15,4 @@ Evitar vazamento e uso inseguro de credenciais.
 
 ## Links
 
-- [[06-Playbooks/Playbook - Auditoria de Secrets]]
+- [[03-Resources/playbooks/Playbook - Auditoria de Secrets]]

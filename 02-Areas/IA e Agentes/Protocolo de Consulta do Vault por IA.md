@@ -19,10 +19,10 @@ Se houver conflito, priorize a fonte mais específica e verificável.
 ## Arquivos obrigatórios para leitura inicial
 
 - [[README]]
-- [[01-Canonical/Agents|AGENTS.md]]
+- [[02-Areas/Kryonix/canonical/Agents|AGENTS.md]]
 - [[PROMPT_MASTER]]
 - [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
-- [[01-MOCs/Mapa - Cerebro Supremo de IA]]
+- [[10-MOCs/Mapa - Cerebro Supremo de IA]]
 
 ## Fluxo obrigatório
 
@@ -39,11 +39,11 @@ Se houver conflito, priorize a fonte mais específica e verificável.
 
 | Domínio | Entrada |
 |---|---|
-| Backend/API | [[07-Prompts/PROMPT_AGENT_BACKEND_API]] |
-| Frontend moderno | [[07-Prompts/PROMPT_AGENT_SITE_MODERNO]] |
-| Linux/NixOS/Proxmox | [[07-Prompts/PROMPT_AGENT_INFRA_LINUX]] |
-| Pesquisa profunda | [[07-Prompts/PROMPT_SUPREMO_DEEP_RESEARCH]] |
-| IA consumindo Obsidian | [[07-Prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] |
+| Backend/API | [[03-Resources/prompts/PROMPT_AGENT_BACKEND_API]] |
+| Frontend moderno | [[03-Resources/prompts/PROMPT_AGENT_SITE_MODERNO]] |
+| Linux/NixOS/Proxmox | [[03-Resources/prompts/PROMPT_AGENT_INFRA_LINUX]] |
+| Pesquisa profunda | [[03-Resources/prompts/PROMPT_SUPREMO_DEEP_RESEARCH]] |
+| IA consumindo Obsidian | [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] |
 
 ## Regras de segurança
 

@@ -16,4 +16,4 @@ Entender o sistema em produção por logs, métricas e traces.
 
 ## Links
 
-- [[06-Playbooks/Playbook - Analise de Logs]]
+- [[03-Resources/playbooks/Playbook - Analise de Logs]]

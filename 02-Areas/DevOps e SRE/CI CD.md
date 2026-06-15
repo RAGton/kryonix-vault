@@ -16,4 +16,4 @@ Automatizar validação sem esconder risco.
 
 ## Links
 
-- [[05-Skills/revisao-ci-cd/SKILL]]
+- [[03-Resources/skills/revisao-ci-cd/SKILL]]

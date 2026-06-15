@@ -18,4 +18,4 @@ API que pode ser usada por clientes reais sem depender do desenvolvedor ao lado.
 
 ## Links
 
-- [[06-Playbooks/Playbook - Criar Backend API Vendavel]]
+- [[03-Resources/playbooks/Playbook - Criar Backend API Vendavel]]

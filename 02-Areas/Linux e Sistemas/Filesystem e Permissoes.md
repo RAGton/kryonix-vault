@@ -16,4 +16,4 @@ Dominar permissões e layout de arquivos no Linux.
 
 ## Links
 
-- [[01-MOCs/Mapa - Linux e Sistemas]]
+- [[10-MOCs/Mapa - Linux e Sistemas]]

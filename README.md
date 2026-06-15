@@ -1,37 +1,64 @@
+---
+title: Kryonix Vault
+type: readme
+status: active
+tags: [vault, readme]
+created: 2026-06-14
+updated: 2026-06-14
+---
+
 # Kryonix Vault
 
-Este é o cérebro técnico e base de conhecimento (RAG) do projeto Kryonix.
+Cérebro técnico e base de conhecimento (RAG) do ecossistema **Kryonix**.
+Estrutura PARA (Projects · Areas · Resources · Archive) com extensões MOCs e
+Logs.
 
-## Fonte Canônica
-- [[01-Canonical/Architecture|Arquitetura]]
-- [[01-Canonical/Usage|Uso da CLI]]
-- [[01-Canonical/Operations|Operações]]
-- [[01-Canonical/Testing|Testes e Validação]]
-- [[01-Canonical/Security|Segurança]]
-- [[01-Canonical/Roadmap|Roadmap]]
-- [[01-Canonical/Troubleshooting|Troubleshooting]]
+## Entrada
 
-## Sistemas
-- [[02-Systems/Inspiron|Host: Inspiron]]
-- [[02-Systems/Glacier|Host: Glacier]]
-- [[02-Systems/Ollama|Ollama]]
-- [[02-Systems/LightRAG|LightRAG]]
-- [[02-Systems/MCP|MCP]]
-- [[02-Systems/Vault|Vault (Obsidian)]]
+Sempre comece por [[VAULT_INDEX]]. Para agentes IA, leia também [[AGENTS]] e
+[[PROMPT_MASTER]] antes de operar.
 
-## Runbooks
-- [[03-Runbooks/Doctor Full|Doctor Full]] (A ser derivado de `kryonix doctor full`)
-- [[03-Runbooks/Docs Audit|Docs Audit]] (A ser derivado de `scripts/doc-audit.sh`)
+## Layout
 
-## Evidências
-- [[05-Evidence/README|Evidências]]
+```
+00-Inbox/        captura rápida, temporário
+01-Projects/     trabalho ativo com prazo
+02-Areas/        conhecimento de longo prazo
+  └── Kryonix/   docs canônicas + hosts/sistemas
+03-Resources/    reutilizáveis
+  ├── templates/   YAML + XML Claude + TOON
+  ├── skills/      Skills de agentes
+  ├── playbooks/   procedimentos operacionais
+  │   └── runbooks/  procedimentos atrelados a comandos
+  ├── prompts/     prompts reutilizáveis
+  └── references/  curadoria externa
+04-Archive/      inativo / legacy
+10-MOCs/         mapas de navegação
+99-Logs/         revisões, decisões, evidências
+  └── evidence/    artefatos de validação
+```
 
----
-> [!IMPORTANT]
-> A documentação em `docs/` na raiz do repositório é a **Fonte de Verdade**. Em caso de divergência, as notas neste vault devem ser atualizadas para refletir o estado canônico.
+Razão de `10-` e `99-`: separar MOCs e Logs do bloco PARA principal sem
+quebrar a ordem alfabética de pastas.
+
+## Convenções
+
+- **Templates**: [[03-Resources/templates/README]] — YAML frontmatter + XML
+  Claude + TOON em listas grandes.
+- **Wikilinks**: caminho completo a partir da raiz, ex.
+  `[[03-Resources/skills/revisao-pr/SKILL]]`.
+- **Nomes**: kebab-case para arquivos novos; arquivos legados em Capitalizado
+  com espaços são tolerados.
+
+## Validação
+
+```bash
+just check-links          # roda scripts/check_obsidian_links.py
+just list                 # lista todos os .md
+```
 
 ## Licença
 
-Este vault técnico é parte integrante do ecossistema Kryonix e é distribuído como **Source Available / Proprietário — Todos os Direitos Reservados**.
-
-O conteúdo está disponível para leitura e estudo, mas **não** é permitido copiar, redistribuir ou criar produtos comerciais baseados nestas notas sem autorização explícita por escrito de Gabriel Aguiar Rocha.
+Source Available / Proprietário — Todos os Direitos Reservados.
+Leitura e estudo permitidos; redistribuição comercial requer autorização
+escrita de Gabriel Aguiar Rocha.

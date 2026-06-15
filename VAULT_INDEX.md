@@ -1,84 +1,120 @@
+---
+title: VAULT_INDEX — Cérebro Kryonix
+type: moc
+status: active
+tags: [moc, home, indice]
+created: 2026-06-14
+updated: 2026-06-14
+---
+
 # VAULT_INDEX
 
-> Home do cérebro de IA. Comece por aqui.
+> Home do cérebro técnico. **Comece por aqui** sempre que abrir o vault ou
+> quando um agente IA precisar se orientar.
 
-## Entrada suprema
+<context>
+  Vault Obsidian organizado em estrutura PARA:
+  00-Inbox → captura
+  01-Projects → trabalho ativo com prazo
+  02-Areas → conhecimento de longo prazo
+  03-Resources → templates, skills, playbooks, prompts, references
+  04-Archive → tudo inativo
+  10-MOCs → mapas de navegação
+  99-Logs → diário, revisões, evidências
+</context>
 
-- [[01-MOCs/Mapa - Cerebro Supremo de IA]]
-- [[PROMPT_MASTER]]
-- [[AGENTS]]
-- [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
-- [[07-Prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
-- [[07-Prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
+## 1. Entrada para agentes IA
 
-## Projetos principais
+Leia nessa ordem antes de operar o vault:
 
-- [[03-Projetos/Ragos VE]]
-- [[03-Projetos/RAGOS]]
-- [[03-Projetos/RAGOS Installer]]
-- [[03-Projetos/Kryonix]]
-- [[03-Projetos/Ragos Think]]
+1. [[AGENTS]] — contrato curto + regras invioláveis
+2. [[PROMPT_MASTER]] — identidade operacional padrão
+3. [[10-MOCs/Mapa - Cerebro Supremo de IA]] — visão de topo
+4. [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] — protocolo de consulta
+5. [[03-Resources/templates/README|Convenções de templates]] — YAML/XML/TOON
 
-## Mapas principais
+## 2. Projetos ativos
 
-- [[01-MOCs/Mapa - Engenharia de Software]]
-- [[01-MOCs/Mapa - IA e Agentes]]
-- [[01-MOCs/Mapa - Backend e APIs]]
-- [[01-MOCs/Mapa - Linux e Sistemas]]
-- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]
-- [[01-MOCs/Mapa - Segurança]]
-- [[01-MOCs/Mapa - DevOps e SRE]]
-- [[01-MOCs/Mapa - Dados e Algoritmos]]
-- [[01-MOCs/Mapa - Produto e SaaS]]
-- [[01-MOCs/Mapa - Frontend Moderno]]
-- [[01-MOCs/Mapa - Proxmox PXE NFS Homelab]]
-- [[01-MOCs/Mapa - Debug Testes e Qualidade]]
+- [[01-Projects/Kryonix System]] — meta-distro NixOS (motor)
+- [[01-Projects/Kryonix Installer]] — instalador headless
+- [[01-Projects/Kryonix VE]] — PXE/Proxmox
+- [[01-Projects/RAGOS]] — sistema de retrieval
+- [[01-Projects/RAGOS Installer]]
+- [[01-Projects/Ragos VE]]
 
-## IA e agentes
+## 3. Áreas de conhecimento (PARA)
 
-- [[02-Areas/IA e Agentes/Protocolo de Consulta do Vault por IA]]
-- [[02-Areas/IA e Agentes/Prioridade de Contexto por Projeto]]
-- [[06-Playbooks/Como Fazer Outra IA Consumir Este Vault]]
-- [[06-Playbooks/Rotina de Treinamento do Cerebro Obsidian]]
+- [[02-Areas/Kryonix/canonical/Architecture|Kryonix · Architecture]]
+- [[02-Areas/Kryonix/canonical/Usage|Kryonix · CLI Usage]]
+- [[02-Areas/Kryonix/canonical/Operations|Kryonix · Operations]]
+- [[02-Areas/Kryonix/canonical/Security|Kryonix · Security]]
+- [[02-Areas/Kryonix/canonical/Testing|Kryonix · Testing]]
+- [[02-Areas/Kryonix/canonical/Troubleshooting|Kryonix · Troubleshooting]]
+- [[02-Areas/Kryonix/canonical/Roadmap|Kryonix · Roadmap]]
+- [[02-Areas/Kryonix/systems/Inspiron|Host: Inspiron]]
+- [[02-Areas/Kryonix/systems/Glacier|Host: Glacier]]
+- [[02-Areas/Kryonix/systems/Brain|Kryonix Brain]]
+- [[02-Areas/Kryonix/systems/Ollama|Ollama]]
+- [[02-Areas/Kryonix/systems/LightRAG|LightRAG]]
+- [[02-Areas/Kryonix/systems/MCP|MCP]]
+- [[02-Areas/Kryonix/systems/Vault|Vault]]
 
-## Infra, Linux e NixOS
+## 4. Mapas (MOCs)
 
-- [[02-Areas/NixOS e Infra Declarativa/NixOS Flakes - Guia Supremo]]
-- [[02-Areas/Linux e Sistemas/Proxmox PXE NFS - Homelab Infra]]
-- [[02-Areas/Linux e Sistemas/Linux Hardening e Debug]]
-- [[07-Prompts/PROMPT_AGENT_INFRA_LINUX]]
+```toon
+mocs[10]{slug,titulo,foco}:
+backend,Mapa - Backend e APIs,APIs vendáveis
+dados,Mapa - Dados e Algoritmos,DS&A aplicado
+devops,Mapa - DevOps e SRE,confiabilidade
+eng,Mapa - Engenharia de Software,fundamentos
+ia,Mapa - IA e Agentes,LLMs aplicados
+linux,Mapa - Linux e Sistemas,SO
+nixos,Mapa - NixOS e Infra Declarativa,reprodutibilidade
+produto,Mapa - Produto e SaaS,monetização
+seg,Mapa - Segurança,defensiva
+cerebro,Mapa - Cerebro Supremo de IA,navegação geral
+```
 
-## Backend, produto e frontend
+Lista expandida em `10-MOCs/`.
 
-- [[07-Prompts/PROMPT_AGENT_BACKEND_API]]
-- [[07-Prompts/PROMPT_AGENT_SITE_MODERNO]]
-- [[02-Areas/Frontend Moderno/HTML CSS React - Sites Modernos]]
-- [[02-Areas/Frontend Moderno/Frontend Moderno - Checklist de Qualidade]]
-- [[02-Areas/Engenharia de Software/Padroes de Codigo Vendavel]]
+## 5. Resources
 
-## Curadoria de conhecimento
+- **Templates**: [[03-Resources/templates/README|convenções]] + 9 templates kebab-case
+- **Skills**: 20 Skills agrupadas em `03-Resources/skills/`
+- **Playbooks**: procedimentos em `03-Resources/playbooks/` (+ `runbooks/`)
+- **Prompts**: prompts reutilizáveis em `03-Resources/prompts/`
+- **References**: curadoria em `03-Resources/references/`
 
-- [[08-Referencias/Politica de Curadoria de Fontes e Codigo]]
-- [[08-Referencias/Radar de Documentacao Engenharia]]
-- [[08-Referencias/Checklist de Avaliacao de Codigo Externo]]
+## 6. Prompts-âncora
 
-## Captura rápida
+- [[03-Resources/prompts/PROMPT_AGENT_BACKEND_API]]
+- [[03-Resources/prompts/PROMPT_AGENT_INFRA_LINUX]]
+- [[03-Resources/prompts/PROMPT_AGENT_SITE_MODERNO]]
+- [[03-Resources/prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
+- [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
 
-- [[00-Inbox/Inbox]]
+## 7. Curadoria e qualidade
 
-## Rotina
+- [[03-Resources/references/Politica de Curadoria de Fontes e Codigo]]
+- [[03-Resources/references/Radar de Documentacao Engenharia]]
+- [[03-Resources/references/Checklist de Avaliacao de Codigo Externo]]
+- [[03-Resources/references/Fontes Oficiais]]
 
-- [[09-Logs/Revisao Semanal]]
-- [[09-Logs/Decisoes Recentes]]
-- [[09-Logs/Backlog de Estudos]]
+## 8. Rotina
+
+- [[00-Inbox/Inbox]] — captura rápida
+- [[99-Logs/Revisao Semanal]]
+- [[99-Logs/Decisoes Recentes]]
+- [[99-Logs/Backlog de Estudos]]
+- [[99-Logs/evidence/README|Evidências]]
 
 ## Regra de ouro
 
-Se uma informação será reutilizada mais de duas vezes, transforme em:
+> Se uma informação será reutilizada **mais de duas vezes**, transforme em:
+> nota técnica, prompt reutilizável, Skill, checklist, playbook ou ADR.
 
-- nota curta;
-- prompt reutilizável;
-- Skill;
-- checklist;
-- playbook;
-- ADR.
+<constraints>
+  - Nunca dois números de pasta iguais — colisão = bug.
+  - Nunca duplicar templates — só atualizar.
+  - Sempre seguir as convenções em [[03-Resources/templates/README]].
+</constraints>

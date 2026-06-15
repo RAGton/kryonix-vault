@@ -17,5 +17,5 @@ Limitar risco operacional ao usar agentes.
 
 ## Links
 
-- [[01-MOCs/Mapa - IA e Agentes]]
-- [[01-Canonical/Agents|AGENTS.md]]
+- [[10-MOCs/Mapa - IA e Agentes]]
+- [[02-Areas/Kryonix/canonical/Agents|AGENTS.md]]

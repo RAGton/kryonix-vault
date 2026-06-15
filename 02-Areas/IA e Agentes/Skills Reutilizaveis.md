@@ -14,10 +14,10 @@ Transformar workflows repetidos em instruções reutilizáveis para reduzir prom
 
 ## Exemplos
 
-- [[05-Skills/arquitetura-backend/SKILL]]
-- [[05-Skills/revisao-seguranca-api/SKILL]]
-- [[05-Skills/hardening-nixos/SKILL]]
+- [[03-Resources/skills/arquitetura-backend/SKILL]]
+- [[03-Resources/skills/revisao-seguranca-api/SKILL]]
+- [[03-Resources/skills/hardening-nixos/SKILL]]
 
 ## Links
 
-- [[01-MOCs/Mapa - IA e Agentes]]
+- [[10-MOCs/Mapa - IA e Agentes]]

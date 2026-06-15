@@ -19,5 +19,5 @@ Separar identidade de permissão.
 
 ## Links
 
-- [[01-MOCs/Mapa - Segurança]]
-- [[05-Skills/revisao-seguranca-api/SKILL]]
+- [[10-MOCs/Mapa - Segurança]]
+- [[03-Resources/skills/revisao-seguranca-api/SKILL]]

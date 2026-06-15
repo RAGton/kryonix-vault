@@ -24,5 +24,5 @@ systemctl restart nome.service
 
 ## Links
 
-- [[01-MOCs/Mapa - Linux e Sistemas]]
+- [[10-MOCs/Mapa - Linux e Sistemas]]
 - [[02-Areas/NixOS/Deploy e Rollback]]
