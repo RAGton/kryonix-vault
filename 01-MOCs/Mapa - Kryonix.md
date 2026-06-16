@@ -24,7 +24,7 @@ systems,          Servicos e infraestruturas declaradas (Brain, MCP, Vault, etc)
 architecture,     Decisoes de arquitetura (DEV-PROD flow, Security, NixOS Flakes), 02-Areas/Kryonix/architecture/MOC - Architecture
 operations,       Comandos, runbooks, validacao, safe git workflow,               02-Areas/Kryonix/operations/MOC - Operations
 ai-brain,         Cérebro IA: Hermes, Aura, MCP, Neo4j, RAG, Ollama,              02-Areas/Kryonix/ai-brain/MOC - AI Brain
-installer,        Installer do ecossistema (Backend Routes, Network, UI, Flake v2), 02-Areas/Kryonix/installer/MOC - Installer
+installer,        Installer do ecossistema (Backend Routes, Network, UI, Flake v2, Requisitos Técnicos), 02-Areas/Kryonix/installer/MOC - Installer
 hosts,            Hosts fisicos do homelab (Glacier, Inspiron, ISO),               02-Areas/Kryonix/hosts/MOC - Hosts
 branding,         Identidade KryonixOS (Boot, Terminal, Identity),                 02-Areas/Kryonix/branding/MOC - Branding
 kryonix-meta,     Meta-documentos (ACTIVE_WORK, DECISIONS, CURRENT_STATE, ROADMAP), 02-Areas/Kryonix/kryonix-meta/MOC - Kryonix

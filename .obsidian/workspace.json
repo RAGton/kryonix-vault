@@ -195,8 +195,12 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "14951ba501a2a40c",
+  "active": "5c1a509eaab82b63",
   "lastOpenFiles": [
+    "02-Areas/Kryonix/hosts/Kryonix Host Inventory.md",
+    "02-Areas/Kryonix/canonical/Kryonix Entity Schema.md",
+    "02-Areas/Kryonix/architecture/Kryonix Architecture - Overview.md",
+    "02-Areas/Kryonix/installer/Kryonix Installer - Requisitos Técnicos.md",
     "01-MOCs/Mapa - IA como Interlocutor Analitico.md",
     "04-Recursos/prompts/PROMPT_AGENT_KRYONIX_VAULT.md",
     "PROMPT_MASTER.md",
@@ -228,10 +232,6 @@
     "04-Archive/_lixo_inbox_2026-06-15/01-Canonical/Security.md",
     "04-Archive/_lixo_inbox_2026-06-15/01-Canonical/Roadmap.md",
     "04-Archive/_lixo_inbox_2026-06-15/01-Canonical/Operations.md",
-    "04-Archive/_lixo_inbox_2026-06-15/01-Canonical/Main.md",
-    "04-Archive/_lixo_inbox_2026-06-15/01-Canonical/Install.md",
-    "04-Archive/_lixo_inbox_2026-06-15/01-Canonical/Architecture.md",
-    "04-Archive/_lixo_inbox_2026-06-15/01-Canonical/Agents.md",
-    "04-Archive/_lixo_inbox_2026-06-15/01-MOCs/Mapa - Segurança.md"
+    "04-Archive/_lixo_inbox_2026-06-15/01-Canonical/Main.md"
   ]
 }

@@ -21,6 +21,7 @@ links:
 - [[Target Flake v2]]
 - [[Network Flow]]
 - [[Testing]]
+- [[Kryonix Installer - Requisitos Técnicos]] — requisitos funcionais e técnicos do instalador
 
 ## Externalização em curso (2026-06-15)
 
