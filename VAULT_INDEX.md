@@ -95,10 +95,10 @@ Lista expandida em `10-MOCs/`.
 
 ## 7. Curadoria e qualidade
 
-- [[04-Recursos/references/Politica de Curadoria de Fontes e Codigo]]
-- [[04-Recursos/references/Radar de Documentacao Engenharia]]
-- [[04-Recursos/references/Checklist de Avaliacao de Codigo Externo]]
-- [[04-Recursos/references/Fontes Oficiais]]
+- [[08-Referencias/Politica de Curadoria de Fontes e Codigo]]
+- [[08-Referencias/Radar de Documentacao Engenharia]]
+- [[08-Referencias/Checklist de Avaliacao de Codigo Externo]]
+- [[08-Referencias/Fontes Oficiais]]
 
 ## 8. Rotina
 

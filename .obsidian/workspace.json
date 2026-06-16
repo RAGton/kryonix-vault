@@ -11,10 +11,10 @@
             "id": "fbc161fcd529b9ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -176,8 +176,11 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "5c1a509eaab82b63",
+  "active": "fbc161fcd529b9ca",
   "lastOpenFiles": [
+    "03-Resources/playbooks/Playbook - Criar Projeto Novo.md",
+    "sedFQF0pq",
+    "sed1A6z16",
     "01-MOCs/Mapa - Proxmox PXE NFS Homelab.md",
     "01-MOCs/Mapa - Frontend Moderno.md",
     "01-MOCs/Mapa - Debug Testes e Qualidade.md",
@@ -207,12 +210,9 @@
     "04-Recursos/skills/analise-banco-dados/SKILL.md",
     "04-Recursos/playbooks/runbooks/Doctor Full.md",
     "04-Recursos/playbooks/runbooks/Docs Audit.md",
-    "04-Recursos/templates/template-skill.md",
     "04-Recursos/skills/revisao-seguranca-api",
     "04-Recursos/skills/revisao-pr",
     "04-Recursos/skills/revisao-clean-code",
-    "04-Recursos/skills/revisao-ci-cd",
-    "04-Recursos/skills/refatoracao-segura",
-    "04-Recursos/skills/planejamento-mvp"
+    "04-Recursos/skills/revisao-ci-cd"
   ]
 }
