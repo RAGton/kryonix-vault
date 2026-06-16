@@ -1,8 +1,8 @@
 ---
 title: Kryonix Architecture - Overview
-type: documentation
-status: stub
-tags: [kryonix, architecture, overview]
+type: architecture
+status: in-progress
+tags: [kryonix, architecture, system-design, mTLS, decoupling]
 project: kryonix
 created: 2026-06-15
 updated: 2026-06-15
@@ -10,43 +10,74 @@ updated: 2026-06-15
 
 # Kryonix Architecture - Overview
 
-## Objetivo
-
-Visão geral da arquitetura do ecossistema Kryonix: motor, site, installer, IA brain, hosts, branding e operações.
+<role>
+Atuando como Arquiteto Sênior para definir a topologia e os fluxos de integração entre os 10 subsistemas do ecossistema Kryonix.
+</role>
 
 ## Resumo
+Esta nota descreve a arquitetura distribuída do Kryonix, focando em como os subsistemas interagem utilizando o `[[02-Areas/Kryonix/canonical/Kryonix Entity Schema]]` como contrato de verdade.
 
-Stub criado durante a criação de `Kryonix Installer - Requisitos Técnicos` (jun/2026). O conteúdo real deve consolidar as decisões arquiteturais do ecossistema.
+## Conexões Estratégicas
+- **Hub Central:** [[01-MOCs/Mapa - Kryonix]]
+- **Contrato de Dados:** [[02-Areas/Kryonix/canonical/Kryonix Entity Schema]]
+- **Implementação Físicas:** [[02-Areas/Kryonix/hosts/Kryonix Host Inventory]]
 
-## Quando usar
+---
 
-- Ao iniciar uma nova sessão de trabalho na arquitetura do Kryonix.
-- Ao onboarding de novo engenheiro no projeto.
-- Ao auditar decisões arquiteturais existentes.
+<facts>
+- A comunicação entre o `ai-brain` e os `hosts` é baseada em Pull-model via mTLS.
+- O estado desejado (Desired State) é definido de forma declarativa via NixOS Flakes.
+- O `canonical-schema` é a única fonte de verdade para serialização de eventos.
+</facts>
 
-## Procedimento / Conteúdo
+## Ciclo de Vida da Operação (TOON)
 
-- (vazio) — preencher com visão geral dos 10 subsistemas e suas interações.
+```toon
+fase,               descrição,                                  subsistema_líder
+provisionamento,    boot via PXE/ISO e escrita via disko,      installer
+identidade,         geração de chaves e registro no brain,     hosts / ai-brain
+configuração,       aplicação de nix-flakes e systemd units,   systems / canonical
+observabilidade,    coleta de métricas e logs via vetores,     operations
+evolução,           atualização de firmware e software,        ai-brain / systems
+```
 
-## Checklist
+## Topologia de Integração
 
-- [ ] Mapear os 10 subsistemas e suas interações.
-- [ ] Documentar contratos entre subsistemas.
-- [ ] Listar ADRs (Architecture Decision Records) existentes.
-- [ ] Conectar com [[02-Areas/Kryonix/installer/MOC - Installer]].
+A arquitetura é dividida em três camadas principais:
 
-## Riscos
+1. **Camada de Orquestração (Control Plane):**
+   - **ai-brain:** Coordena decisões e gerencia o repositório de estados.
+   - **kryonix-meta:** Contém as políticas globais e o Roadmap.
 
-Nota stub: não deve ser usada como fonte de verdade até ser preenchida.
+2. **Camada de Serviço (Data Plane):**
+   - **systems / architecture:** Define os templates de serviço e o hardening.
+   - **canonical:** Garante a validade das mensagens trafegadas.
 
-## Links relacionados
+3. **Camada de Execução (Edge/Node):**
+   - **hosts / installer:** Onde o hardware encontra o código.
+   - **branding:** Define a interface de interação humana (CLI/Web).
 
-- [[01-MOCs/Mapa - Kryonix]]
-- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]
-- [[02-Areas/Kryonix/architecture/DEV PROD Flow]]
-- [[02-Areas/Kryonix/architecture/NixOS Flakes]]
-- [[02-Areas/Kryonix/installer/MOC - Installer]]
+<best_practices>
+- **Stateless by Design:** Nodes de borda não devem armazenar estado crítico local sem replicação.
+- **Fail-Fast Registration:** Se um host não valida contra o `Entity Schema`, ele deve ser isolado imediatamente.
+- **Audit-Log Everywhere:** Toda mudança de estado iniciada pelo `ai-brain` deve gerar uma `Issue` (Entity: Issue).
+</best_practices>
+
+<opinion>
+Devemos evitar o uso de SSH direto para orquestração. O modelo "Agent-based Pull" (onde o host consulta o Brain) é mais resiliente a falhas de rede e facilita o gerenciamento de frotas atrás de NAT/Firewalls complexos.
+</opinion>
+
+<risks>
+- **Single Point of Failure:** O `ai-brain` precisa de alta disponibilidade geográfica para não paralisar o provisionamento.
+- **Drift de Esquema:** Mudanças no `canonical` sem retrocompatibilidade podem "brickar" instâncias antigas do `installer`.
+</risks>
+
+---
+
+## Procedimento de Validação
+- [ ] Executar teste de integração: Criar uma entidade `Host` fake e verificar se o `ai-brain` a processa corretamente.
+- [ ] Validar fluxo de `Command`: Enviar um comando via schema e verificar se o `systems` o interpreta.
 
 ## Próxima ação
-
-Preencher com visão geral consolidada da arquitetura.
+- [ ] Detalhar o fluxo de mTLS no subsistema `operations`.
+- [ ] Vincular diagramas Mermaid para cada fase do ciclo de vida.
