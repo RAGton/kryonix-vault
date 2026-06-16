@@ -90,7 +90,7 @@ backlog[6]{id,titulo,prio,status,owner}:
 
 ## Decisões
 
-- [[../../03-Resources/templates/template-adr|ADR-001 — ...]]
+- [[../../04-Recursos/templates/template-adr|ADR-001 — ...]]
 - ...
 
 ## Links relacionados

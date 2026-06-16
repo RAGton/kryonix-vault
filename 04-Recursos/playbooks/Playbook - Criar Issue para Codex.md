@@ -21,5 +21,5 @@ Uma issue deve gerar um PR pequeno.
 
 ## Links
 
-- [[03-Resources/templates/template-issue-codex]]
-- [[03-Resources/prompts/Prompt - Issue para Codex]]
+- [[04-Recursos/templates/template-issue-codex]]
+- [[04-Recursos/prompts/Prompt - Issue para Codex]]

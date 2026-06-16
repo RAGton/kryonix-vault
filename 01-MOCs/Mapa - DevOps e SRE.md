@@ -13,5 +13,5 @@ Operação profissional: CI/CD, logs, métricas, traces, deploy, rollback, incid
 
 ## Playbooks
 
-- [[03-Resources/playbooks/Playbook - Debug de Producao]]
-- [[03-Resources/playbooks/Playbook - Analise de Logs]]
+- [[04-Recursos/playbooks/Playbook - Debug de Producao]]
+- [[04-Recursos/playbooks/Playbook - Analise de Logs]]

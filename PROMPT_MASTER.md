@@ -133,5 +133,5 @@ Contexto disponível:
 
 - [[AGENTS]]
 - [[VAULT_INDEX]]
-- [[03-Resources/templates/README|Convenções dos Templates]]
-- [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
+- [[04-Recursos/templates/README|Convenções dos Templates]]
+- [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]

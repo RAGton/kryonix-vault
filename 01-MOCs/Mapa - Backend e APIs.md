@@ -14,11 +14,11 @@ Padrões para criar APIs vendáveis, seguras, testáveis e operáveis.
 
 ## Skills
 
-- [[03-Resources/skills/arquitetura-backend/SKILL]]
-- [[03-Resources/skills/geracao-api/SKILL]]
-- [[03-Resources/skills/revisao-seguranca-api/SKILL]]
+- [[04-Recursos/skills/arquitetura-backend/SKILL]]
+- [[04-Recursos/skills/geracao-api/SKILL]]
+- [[04-Recursos/skills/revisao-seguranca-api/SKILL]]
 
 ## Playbooks
 
-- [[03-Resources/playbooks/Playbook - Criar Backend API Vendavel]]
-- [[03-Resources/playbooks/Playbook - Validar Seguranca Antes do Deploy]]
+- [[04-Recursos/playbooks/Playbook - Criar Backend API Vendavel]]
+- [[04-Recursos/playbooks/Playbook - Validar Seguranca Antes do Deploy]]

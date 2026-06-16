@@ -15,5 +15,5 @@ Melhorar design preservando comportamento.
 
 ## Links
 
-- [[03-Resources/playbooks/Playbook - Refatorar Sem Quebrar]]
-- [[03-Resources/skills/refatoracao-segura/SKILL]]
+- [[04-Recursos/playbooks/Playbook - Refatorar Sem Quebrar]]
+- [[04-Recursos/skills/refatoracao-segura/SKILL]]

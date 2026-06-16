@@ -4,7 +4,7 @@
 
 Lista curada de fontes para alimentar o Kryonix Vault sem copiar código ruim.
 
-Use junto com [[03-Resources/references/Politica de Curadoria de Fontes e Codigo]].
+Use junto com [[04-Recursos/references/Politica de Curadoria de Fontes e Codigo]].
 
 ## NixOS / Nix / Flakes
 

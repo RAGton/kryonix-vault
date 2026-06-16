@@ -21,11 +21,11 @@ Organizar o uso profissional de LLMs, Codex, agentes, Skills, prompts e automaç
 
 ## Playbooks
 
-- [[03-Resources/playbooks/Playbook - Configurar Repo para Codex]]
-- [[03-Resources/playbooks/Playbook - Criar Issue para Codex]]
-- [[03-Resources/playbooks/Playbook - Reduzir Custo de IA]]
+- [[04-Recursos/playbooks/Playbook - Configurar Repo para Codex]]
+- [[04-Recursos/playbooks/Playbook - Criar Issue para Codex]]
+- [[04-Recursos/playbooks/Playbook - Reduzir Custo de IA]]
 
 ## Prompts
 
-- [[03-Resources/prompts/Prompt - Issue para Codex]]
-- [[03-Resources/prompts/Prompt - Auditoria de Custo de IA]]
+- [[04-Recursos/prompts/Prompt - Issue para Codex]]
+- [[04-Recursos/prompts/Prompt - Auditoria de Custo de IA]]

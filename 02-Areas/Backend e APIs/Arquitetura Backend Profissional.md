@@ -21,4 +21,4 @@ Criar backend seguro, testável, observável e vendável.
 ## Links
 
 - [[01-MOCs/Mapa - Backend e APIs]]
-- [[03-Resources/skills/arquitetura-backend/SKILL]]
+- [[04-Recursos/skills/arquitetura-backend/SKILL]]

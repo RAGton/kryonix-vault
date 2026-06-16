@@ -26,5 +26,5 @@ Reduzir custo com LLM mantendo qualidade.
 ## Links
 
 - [[PROMPT_MASTER]]
-- [[03-Resources/skills/analise-custo-ia/SKILL]]
-- [[03-Resources/playbooks/Playbook - Reduzir Custo de IA]]
+- [[04-Recursos/skills/analise-custo-ia/SKILL]]
+- [[04-Recursos/playbooks/Playbook - Reduzir Custo de IA]]

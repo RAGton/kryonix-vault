@@ -39,11 +39,11 @@ Se houver conflito, priorize a fonte mais específica e verificável.
 
 | Domínio | Entrada |
 |---|---|
-| Backend/API | [[03-Resources/prompts/PROMPT_AGENT_BACKEND_API]] |
-| Frontend moderno | [[03-Resources/prompts/PROMPT_AGENT_SITE_MODERNO]] |
-| Linux/NixOS/Proxmox | [[03-Resources/prompts/PROMPT_AGENT_INFRA_LINUX]] |
-| Pesquisa profunda | [[03-Resources/prompts/PROMPT_SUPREMO_DEEP_RESEARCH]] |
-| IA consumindo Obsidian | [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] |
+| Backend/API | [[04-Recursos/prompts/PROMPT_AGENT_BACKEND_API]] |
+| Frontend moderno | [[04-Recursos/prompts/PROMPT_AGENT_SITE_MODERNO]] |
+| Linux/NixOS/Proxmox | [[04-Recursos/prompts/PROMPT_AGENT_INFRA_LINUX]] |
+| Pesquisa profunda | [[04-Recursos/prompts/PROMPT_SUPREMO_DEEP_RESEARCH]] |
+| IA consumindo Obsidian | [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] |
 
 ## Regras de segurança
 

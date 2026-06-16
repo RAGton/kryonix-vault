@@ -17,4 +17,4 @@ Reduzir superfície de ataque de serviços.
 
 ## Links
 
-- [[03-Resources/skills/hardening-nixos/SKILL]]
+- [[04-Recursos/skills/hardening-nixos/SKILL]]

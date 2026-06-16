@@ -14,17 +14,17 @@ Centralizar princípios, práticas e padrões para criar software real, vendáve
 
 ## Playbooks relacionados
 
-- [[03-Resources/playbooks/Playbook - Revisar Codigo Gerado por IA]]
-- [[03-Resources/playbooks/Playbook - Refatorar Sem Quebrar]]
-- [[03-Resources/playbooks/Playbook - Criar Projeto Novo]]
+- [[04-Recursos/playbooks/Playbook - Revisar Codigo Gerado por IA]]
+- [[04-Recursos/playbooks/Playbook - Refatorar Sem Quebrar]]
+- [[04-Recursos/playbooks/Playbook - Criar Projeto Novo]]
 
 ## Prompts relacionados
 
-- [[03-Resources/prompts/Prompt - Arquitetura de Sistema]]
-- [[03-Resources/prompts/Prompt - Revisao de Codigo]]
+- [[04-Recursos/prompts/Prompt - Arquitetura de Sistema]]
+- [[04-Recursos/prompts/Prompt - Revisao de Codigo]]
 
 ## Skills relacionadas
 
-- [[03-Resources/skills/revisao-clean-code/SKILL]]
-- [[03-Resources/skills/refatoracao-segura/SKILL]]
-- [[03-Resources/skills/revisao-pr/SKILL]]
+- [[04-Recursos/skills/revisao-clean-code/SKILL]]
+- [[04-Recursos/skills/refatoracao-segura/SKILL]]
+- [[04-Recursos/skills/revisao-pr/SKILL]]

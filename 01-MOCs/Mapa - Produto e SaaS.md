@@ -12,9 +12,9 @@ Transformar competência técnica em produtos reais, vendáveis e mantidos em pr
 
 ## Playbooks
 
-- [[03-Resources/playbooks/Playbook - Transformar Ideia em MVP]]
-- [[03-Resources/playbooks/Playbook - Criar Backend API Vendavel]]
+- [[04-Recursos/playbooks/Playbook - Transformar Ideia em MVP]]
+- [[04-Recursos/playbooks/Playbook - Criar Backend API Vendavel]]
 
 ## Skills
 
-- [[03-Resources/skills/planejamento-mvp/SKILL]]
+- [[04-Recursos/skills/planejamento-mvp/SKILL]]

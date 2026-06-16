@@ -22,4 +22,4 @@ Criar API pronta para uso real.
 ## Links
 
 - [[02-Areas/Backend e APIs/API Vendavel]]
-- [[03-Resources/skills/arquitetura-backend/SKILL]]
+- [[04-Recursos/skills/arquitetura-backend/SKILL]]

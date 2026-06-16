@@ -23,4 +23,4 @@ Formato Markdown pronto para GitHub Issue.
 
 ## Links
 
-- [[03-Resources/playbooks/Playbook - Criar Issue para Codex]]
+- [[04-Recursos/playbooks/Playbook - Criar Issue para Codex]]

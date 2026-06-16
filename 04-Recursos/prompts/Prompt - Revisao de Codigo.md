@@ -26,4 +26,4 @@ Diff/contexto:
 
 ## Links
 
-- [[03-Resources/playbooks/Playbook - Revisar Codigo Gerado por IA]]
+- [[04-Recursos/playbooks/Playbook - Revisar Codigo Gerado por IA]]

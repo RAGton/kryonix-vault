@@ -8,5 +8,5 @@ Registro curto de decisões técnicas antes de virar ADR.
 
 ## Links
 
-- [[03-Resources/templates/template-adr]]
+- [[04-Recursos/templates/template-adr]]
 - [[01-MOCs/Mapa - Engenharia de Software]]

@@ -9,8 +9,8 @@ Capture rápida. Depois processe para uma área, projeto, prompt, Skill, playboo
 ## A processar
 
 - [ ] Transformar ideias úteis em notas conectadas
-- [ ] Mover tarefas de projeto para [[03-Resources/templates/template-projeto]]
-- [ ] Criar prompts reutilizáveis em [[03-Resources/prompts/Prompt - Pesquisa Tecnica Profunda]]
+- [ ] Mover tarefas de projeto para [[04-Recursos/templates/template-projeto]]
+- [ ] Criar prompts reutilizáveis em [[04-Recursos/prompts/Prompt - Pesquisa Tecnica Profunda]]
 
 ## Links
 

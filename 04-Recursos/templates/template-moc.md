@@ -32,16 +32,16 @@ Uma frase explicando o escopo desta área no vault.
 
 ## Skills relacionadas
 
-- [[../../03-Resources/skills/<skill-1>/SKILL]]
-- [[../../03-Resources/skills/<skill-2>/SKILL]]
+- [[../../04-Recursos/skills/<skill-1>/SKILL]]
+- [[../../04-Recursos/skills/<skill-2>/SKILL]]
 
 ## Playbooks
 
-- [[../../03-Resources/playbooks/Playbook - <nome>]]
+- [[../../04-Recursos/playbooks/Playbook - <nome>]]
 
 ## Prompts
 
-- [[../../03-Resources/prompts/<Prompt - nome>]]
+- [[../../04-Recursos/prompts/<Prompt - nome>]]
 
 ## Caminho de estudo
 

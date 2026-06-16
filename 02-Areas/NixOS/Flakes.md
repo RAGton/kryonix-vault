@@ -19,5 +19,5 @@ Padronizar entradas, saídas e ambientes reproduzíveis.
 
 ## Links
 
-- [[03-Resources/prompts/Prompt - Criacao de Flake]]
-- [[03-Resources/skills/revisao-nixos-flake/SKILL]]
+- [[04-Recursos/prompts/Prompt - Criacao de Flake]]
+- [[04-Recursos/skills/revisao-nixos-flake/SKILL]]

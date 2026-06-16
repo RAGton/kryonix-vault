@@ -13,10 +13,10 @@ Base para segurança prática em APIs, Linux, DevOps, secrets, CI/CD e agentes d
 
 ## Playbooks
 
-- [[03-Resources/playbooks/Playbook - Validar Seguranca Antes do Deploy]]
-- [[03-Resources/playbooks/Playbook - Auditoria de Secrets]]
+- [[04-Recursos/playbooks/Playbook - Validar Seguranca Antes do Deploy]]
+- [[04-Recursos/playbooks/Playbook - Auditoria de Secrets]]
 
 ## Skills
 
-- [[03-Resources/skills/auditoria-secrets/SKILL]]
-- [[03-Resources/skills/revisao-seguranca-api/SKILL]]
+- [[04-Recursos/skills/auditoria-secrets/SKILL]]
+- [[04-Recursos/skills/revisao-seguranca-api/SKILL]]

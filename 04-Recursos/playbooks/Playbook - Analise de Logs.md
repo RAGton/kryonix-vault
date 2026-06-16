@@ -16,4 +16,4 @@ Transformar logs em hipótese verificável.
 ## Links
 
 - [[02-Areas/DevOps e SRE/Observabilidade]]
-- [[03-Resources/skills/analise-logs/SKILL]]
+- [[04-Recursos/skills/analise-logs/SKILL]]

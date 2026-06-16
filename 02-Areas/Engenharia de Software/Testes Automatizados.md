@@ -14,5 +14,5 @@ Criar confiança para mudar código.
 
 ## Links
 
-- [[03-Resources/skills/geracao-testes/SKILL]]
+- [[04-Recursos/skills/geracao-testes/SKILL]]
 - [[01-MOCs/Mapa - Engenharia de Software]]

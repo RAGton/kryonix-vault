@@ -52,5 +52,5 @@ systemd.services.lightrag = {
 
 ## Links
 - [[01-MOCs/Mapa - Segurança]]
-- [[03-Resources/playbooks/Playbook - Auditoria de Secrets]]
+- [[04-Recursos/playbooks/Playbook - Auditoria de Secrets]]
 - [sops-nix Documentation](https://github.com/Mic92/sops-nix)

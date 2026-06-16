@@ -20,4 +20,4 @@ Evitar aceitar código plausível, mas errado.
 ## Links
 
 - [[01-MOCs/Mapa - IA e Agentes]]
-- [[03-Resources/skills/revisao-pr/SKILL]]
+- [[04-Recursos/skills/revisao-pr/SKILL]]

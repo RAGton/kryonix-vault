@@ -48,9 +48,9 @@ Projeto/base de conhecimento para infraestrutura pessoal e profissional com:
 
 ## Playbooks relacionados
 
-- [[03-Resources/playbooks/Debug Scripts e Test Harness]]
-- [[03-Resources/playbooks/Como Fazer Outra IA Consumir Este Vault]]
-- [[03-Resources/prompts/PROMPT_AGENT_INFRA_LINUX]]
+- [[04-Recursos/playbooks/Debug Scripts e Test Harness]]
+- [[04-Recursos/playbooks/Como Fazer Outra IA Consumir Este Vault]]
+- [[04-Recursos/prompts/PROMPT_AGENT_INFRA_LINUX]]
 
 ## Checklist antes de produção
 

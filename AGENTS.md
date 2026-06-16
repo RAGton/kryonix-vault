@@ -65,7 +65,7 @@ Preferred format:
 ```md
 [[VAULT_INDEX]]
 [[01-MOCs/Mapa - Engenharia de Software]]
-[[03-Resources/playbooks/Playbook - Criar Issue para Codex]]
+[[04-Recursos/playbooks/Playbook - Criar Issue para Codex]]
 ```
 
 Rules:
@@ -332,7 +332,7 @@ Do not produce bloated notes that increase token cost.
 When adding factual claims:
 
 - prefer official docs, books or trusted references;
-- include source link in [[03-Resources/references/Fontes Oficiais]] when useful;
+- include source link in [[04-Recursos/references/Fontes Oficiais]] when useful;
 - distinguish fact, good practice, opinion and hypothesis;
 - mark uncertainty explicitly;
 - do not fabricate citations.

@@ -17,5 +17,5 @@ Resolver incidente sem piorar o sistema.
 
 ## Links
 
-- [[03-Resources/prompts/Prompt - Debug de Producao]]
+- [[04-Recursos/prompts/Prompt - Debug de Producao]]
 - [[02-Areas/Linux e Sistemas/Debugging Linux]]

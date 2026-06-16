@@ -30,8 +30,8 @@ Leia nessa ordem antes de operar o vault:
 1. [[AGENTS]] — contrato curto + regras invioláveis
 2. [[PROMPT_MASTER]] — identidade operacional padrão
 3. [[01-MOCs/Mapa - Cerebro Supremo de IA]] — visão de topo
-4. [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] — protocolo de consulta
-5. [[03-Resources/templates/README|Convenções de templates]] — YAML/XML/TOON
+4. [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] — protocolo de consulta
+5. [[04-Recursos/templates/README|Convenções de templates]] — YAML/XML/TOON
 
 ## 2. Projetos ativos
 
@@ -79,7 +79,7 @@ Lista expandida em `10-MOCs/`.
 
 ## 5. Resources
 
-- **Templates**: [[03-Resources/templates/README|convenções]] + 9 templates kebab-case
+- **Templates**: [[04-Recursos/templates/README|convenções]] + 9 templates kebab-case
 - **Skills**: 20 Skills agrupadas em `03-Resources/skills/`
 - **Playbooks**: procedimentos em `03-Resources/playbooks/` (+ `runbooks/`)
 - **Prompts**: prompts reutilizáveis em `03-Resources/prompts/`
@@ -87,18 +87,18 @@ Lista expandida em `10-MOCs/`.
 
 ## 6. Prompts-âncora
 
-- [[03-Resources/prompts/PROMPT_AGENT_BACKEND_API]]
-- [[03-Resources/prompts/PROMPT_AGENT_INFRA_LINUX]]
-- [[03-Resources/prompts/PROMPT_AGENT_SITE_MODERNO]]
-- [[03-Resources/prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
-- [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
+- [[04-Recursos/prompts/PROMPT_AGENT_BACKEND_API]]
+- [[04-Recursos/prompts/PROMPT_AGENT_INFRA_LINUX]]
+- [[04-Recursos/prompts/PROMPT_AGENT_SITE_MODERNO]]
+- [[04-Recursos/prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
+- [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
 
 ## 7. Curadoria e qualidade
 
-- [[03-Resources/references/Politica de Curadoria de Fontes e Codigo]]
-- [[03-Resources/references/Radar de Documentacao Engenharia]]
-- [[03-Resources/references/Checklist de Avaliacao de Codigo Externo]]
-- [[03-Resources/references/Fontes Oficiais]]
+- [[04-Recursos/references/Politica de Curadoria de Fontes e Codigo]]
+- [[04-Recursos/references/Radar de Documentacao Engenharia]]
+- [[04-Recursos/references/Checklist de Avaliacao de Codigo Externo]]
+- [[04-Recursos/references/Fontes Oficiais]]
 
 ## 8. Rotina
 
@@ -116,5 +116,5 @@ Lista expandida em `10-MOCs/`.
 <constraints>
   - Nunca dois números de pasta iguais — colisão = bug.
   - Nunca duplicar templates — só atualizar.
-  - Sempre seguir as convenções em [[03-Resources/templates/README]].
+  - Sempre seguir as convenções em [[04-Recursos/templates/README]].
 </constraints>

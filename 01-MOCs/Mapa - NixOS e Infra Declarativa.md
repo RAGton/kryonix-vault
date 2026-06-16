@@ -18,10 +18,10 @@ Organizar padrões de NixOS, flakes, módulos, devShells, secrets, hosts e deplo
 
 ## Skills
 
-- [[03-Resources/skills/hardening-nixos/SKILL]]
-- [[03-Resources/skills/revisao-nixos-flake/SKILL]]
+- [[04-Recursos/skills/hardening-nixos/SKILL]]
+- [[04-Recursos/skills/revisao-nixos-flake/SKILL]]
 
 ## Prompts
 
-- [[03-Resources/prompts/Prompt - Revisao NixOS]]
-- [[03-Resources/prompts/Prompt - Criacao de Flake]]
+- [[04-Recursos/prompts/Prompt - Revisao NixOS]]
+- [[04-Recursos/prompts/Prompt - Criacao de Flake]]

@@ -18,4 +18,4 @@ Preparar um repo para agentes trabalharem com segurança.
 ## Links
 
 - [[02-Areas/Kryonix/canonical/Agents|AGENTS.md]]
-- [[03-Resources/playbooks/Playbook - Criar Issue para Codex]]
+- [[04-Recursos/playbooks/Playbook - Criar Issue para Codex]]

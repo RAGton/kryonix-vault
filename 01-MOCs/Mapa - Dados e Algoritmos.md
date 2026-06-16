@@ -14,4 +14,4 @@ Entender estruturas de dados e algoritmos aplicados a backend, infraestrutura, p
 
 ## Skills
 
-- [[03-Resources/skills/design-estrutura-dados/SKILL]]
+- [[04-Recursos/skills/design-estrutura-dados/SKILL]]

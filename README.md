@@ -43,10 +43,10 @@ quebrar a ordem alfabética de pastas.
 
 ## Convenções
 
-- **Templates**: [[03-Resources/templates/README]] — YAML frontmatter + XML
+- **Templates**: [[04-Recursos/templates/README]] — YAML frontmatter + XML
   Claude + TOON em listas grandes.
 - **Wikilinks**: caminho completo a partir da raiz, ex.
-  `[[03-Resources/skills/revisao-pr/SKILL]]`.
+  `[[04-Recursos/skills/revisao-pr/SKILL]]`.
 - **Nomes**: kebab-case para arquivos novos; arquivos legados em Capitalizado
   com espaços são tolerados.
 

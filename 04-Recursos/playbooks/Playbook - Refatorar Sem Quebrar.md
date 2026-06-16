@@ -16,4 +16,4 @@ Melhorar design preservando comportamento.
 ## Links
 
 - [[02-Areas/Engenharia de Software/Refatoracao Segura]]
-- [[03-Resources/skills/refatoracao-segura/SKILL]]
+- [[04-Recursos/skills/refatoracao-segura/SKILL]]

@@ -16,4 +16,4 @@ Encontrar e corrigir vazamentos de credenciais.
 ## Links
 
 - [[02-Areas/Seguranca/Secrets e Credenciais]]
-- [[03-Resources/skills/auditoria-secrets/SKILL]]
+- [[04-Recursos/skills/auditoria-secrets/SKILL]]

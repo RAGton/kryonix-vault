@@ -16,4 +16,4 @@ Construir menor produto útil que alguém pagaria ou usaria de verdade.
 
 ## Links
 
-- [[03-Resources/playbooks/Playbook - Transformar Ideia em MVP]]
+- [[04-Recursos/playbooks/Playbook - Transformar Ideia em MVP]]

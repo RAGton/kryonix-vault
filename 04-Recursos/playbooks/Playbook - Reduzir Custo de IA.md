@@ -17,4 +17,4 @@ Diminuir gasto com tokens e chamadas.
 ## Links
 
 - [[02-Areas/IA e Agentes/Estrategia de Custo de Tokens]]
-- [[03-Resources/skills/analise-custo-ia/SKILL]]
+- [[04-Recursos/skills/analise-custo-ia/SKILL]]

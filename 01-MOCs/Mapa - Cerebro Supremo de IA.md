@@ -8,8 +8,8 @@
 - [[PROMPT_MASTER]]
 - [[02-Areas/Kryonix/canonical/Agents|AGENTS.md]]
 - [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
-- [[03-Resources/prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
-- [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
+- [[04-Recursos/prompts/PROMPT_SUPREMO_DEEP_RESEARCH]]
+- [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
 - [[02-Areas/IA e Agentes/Protocolo de Consulta do Vault por IA]]
 - [[02-Areas/IA e Agentes/Prioridade de Contexto por Projeto]]
 
