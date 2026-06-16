@@ -81,20 +81,28 @@ Rules:
 
 ## Folder ownership
 
-Use this structure:
+Use this structure (real filesystem — verified):
 
 ```txt
-00-Inbox/          raw capture, temporary notes
-01-MOCs/           maps of content and navigation hubs
-02-Areas/          long-lived knowledge areas
-03-Projetos/       active and archived project notes
-04-Recursos/       templates, checklists and reusable references
-05-Skills/         reusable AI/Codex skills
-06-Playbooks/      operational procedures
-07-Prompts/        reusable prompts
-08-Referencias/    external references and source summaries
-09-Logs/           reviews, decisions, learning logs
+00-Inbox/                 raw capture, temporary notes
+01-MOCs/                  maps of content and navigation hubs
+02-Areas/                 long-lived knowledge areas
+03-Projetos/              active project notes (with deadline)
+04-Archive/               inactive / legacy
+04-Recursos/              reusable assets
+  ├── templates/            YAML + XML Claude + TOON templates
+  ├── skills/               reusable AI/Codex skills
+  ├── playbooks/            operational procedures
+  │   └── runbooks/           command-bound procedures
+  └── prompts/              reusable prompts
+08-Referencias/           external references and source summaries
+09-Logs/                  reviews, decisions, evidence, session logs
+  ├── sessions/              per-session logs
+  └── evidence/              validation artefacts
 ```
+
+NOTE: 04-Archive and 04-Recursos share the 04- prefix by design; this is intentional.
+Do NOT create 05-Skills/, 06-Playbooks/, or 07-Prompts/ — they do not exist.
 
 Do not put everything in the root.
 
@@ -348,16 +356,18 @@ README.md
 VAULT_INDEX.md
 PROMPT_MASTER.md
 AGENTS.md
+CLAUDE.md
 00-Inbox/Inbox.md
 01-MOCs/*.md
 02-Areas/*/*.md
 03-Projetos/_Template - Projeto.md
-04-Recursos/Templates/*.md
-05-Skills/*/SKILL.md
-06-Playbooks/*.md
-07-Prompts/*.md
+04-Recursos/templates/*.md
+04-Recursos/skills/*/SKILL.md
+04-Recursos/playbooks/*.md
+04-Recursos/prompts/*.md
 08-Referencias/*.md
-09-Logs/*.md
+09-Logs/sessions/.md
+09-Logs/evidence/README.md
 scripts/check_obsidian_links.py
 justfile
 .github/workflows/vault-check.yml

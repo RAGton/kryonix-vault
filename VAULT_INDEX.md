@@ -13,14 +13,15 @@ updated: 2026-06-14
 > quando um agente IA precisar se orientar.
 
 <context>
-  Vault Obsidian organizado em estrutura PARA:
+  Vault Obsidian organizado por área (numeração própria, não é PARA puro):
   00-Inbox → captura
-  01-Projects → trabalho ativo com prazo
+  01-MOCs → mapas de navegação
   02-Areas → conhecimento de longo prazo
-  03-Resources → templates, skills, playbooks, prompts, references
+  03-Projetos → trabalho ativo com prazo
   04-Archive → tudo inativo
-  10-MOCs → mapas de navegação
-  99-Logs → diário, revisões, evidências
+  04-Recursos → templates, skills, playbooks, prompts
+  08-Referencias → curadoria de fontes/código externo
+  09-Logs → diário, revisões, evidências
 </context>
 
 ## 1. Entrada para agentes IA
@@ -75,15 +76,15 @@ seg,Mapa - Segurança,defensiva
 cerebro,Mapa - Cerebro Supremo de IA,navegação geral
 ```
 
-Lista expandida em `10-MOCs/`.
+Lista expandida em `01-MOCs/`.
 
 ## 5. Resources
 
 - **Templates**: [[04-Recursos/templates/README|convenções]] + 9 templates kebab-case
-- **Skills**: 20 Skills agrupadas em `03-Resources/skills/`
-- **Playbooks**: procedimentos em `03-Resources/playbooks/` (+ `runbooks/`)
-- **Prompts**: prompts reutilizáveis em `03-Resources/prompts/`
-- **References**: curadoria em `03-Resources/references/`
+- **Skills**: 20 Skills agrupadas em `04-Recursos/skills/`
+- **Playbooks**: procedimentos em `04-Recursos/playbooks/` (+ `runbooks/`)
+- **Prompts**: prompts reutilizáveis em `04-Recursos/prompts/`
+- **References**: curadoria em `08-Referencias/`
 
 ## 6. Prompts-âncora
 
