@@ -10,10 +10,10 @@ tags:
   - sync
   - prod
 links:
-  - "[[01_Kryonix/MOC - Kryonix]]"
-  - "[[01_Kryonix/CURRENT_STATE]]"
-  - "[[07_Branding/Boot Identity]]"
-  - "[[03_Operations/Safe Git Workflow]]"
+  - "[[02-Areas/Kryonix/kryonix-meta/MOC - Kryonix]]"
+  - "[[02-Areas/Kryonix/kryonix-meta/CURRENT_STATE]]"
+  - "[[02-Areas/Kryonix/branding/Boot Identity]]"
+  - "[[02-Areas/Kryonix/operations/Safe Git Workflow]]"
 ---
 
 # Sessão 2026-06-15 02:50 — sync PROD-MOTOR após boot identity
@@ -66,7 +66,7 @@ de sistema (sem `kryonix switch/boot`, sem `nixos-rebuild`).
 
 ## Decisões novas
 
-Nenhuma decisão nova. Reforça [[01_Kryonix/DECISIONS]] D-001 e D-007.
+Nenhuma decisão nova. Reforça [[02-Areas/Kryonix/kryonix-meta/DECISIONS]] D-001 e D-007.
 
 ## Riscos
 
@@ -98,5 +98,5 @@ Nenhuma decisão nova. Reforça [[01_Kryonix/DECISIONS]] D-001 e D-007.
 3. Iniciar P4 (`branding/plymouth-logo-p4`) com auditoria read-only do
    asset atual (`assets/avatar/ragton.jpeg`).
 
-Ver: [[01_Kryonix/CURRENT_STATE]] · [[01_Kryonix/ACTIVE_WORK]] ·
-[[07_Branding/Boot Identity]]
+Ver: [[02-Areas/Kryonix/kryonix-meta/CURRENT_STATE]] · [[02-Areas/Kryonix/kryonix-meta/ACTIVE_WORK]] ·
+[[02-Areas/Kryonix/branding/Boot Identity]]
