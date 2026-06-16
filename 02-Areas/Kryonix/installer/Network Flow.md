@@ -50,3 +50,8 @@ links:
 ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
   kryonix@<ip> "nmcli -t -f NAME,TYPE,DEVICE,IP4.ADDRESS connection show --active"
 ```
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

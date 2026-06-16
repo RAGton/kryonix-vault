@@ -68,3 +68,8 @@ packages/kryonix-installer/
 - Frontend: 47 testes (node test runner) — após PR #70.
 - clippy `-D warnings` é gate real após PR #78.
 - Target Flake v2 mergeado e validado em PR #70 + commits anteriores.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

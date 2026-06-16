@@ -56,3 +56,8 @@ github:RAGton/kryonix-installer/    ← externo (canônico após PR 2)
 - **PR #1 externo** aberto: bootstrap standalone — ver [[Externalize-Roadmap]].
 
 Tags: #kryonix #installer #moc
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

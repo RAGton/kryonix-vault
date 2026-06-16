@@ -14,5 +14,6 @@ Evitar vazamento e uso inseguro de credenciais.
 - [ ] CI sem exposição de token
 
 ## Links
+- [[01-MOCs/Mapa - Segurança]]
 
 - [[04-Recursos/playbooks/Playbook - Auditoria de Secrets]]

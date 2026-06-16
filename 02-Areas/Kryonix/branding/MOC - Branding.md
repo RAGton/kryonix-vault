@@ -32,3 +32,8 @@ Mapa de identidade KryonixOS por superfície.
 - P4 — Plymouth logo dedicado
 
 Tags: #kryonix #branding
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

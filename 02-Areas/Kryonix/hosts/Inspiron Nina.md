@@ -28,3 +28,8 @@ Host secundário (downstream-only). Vive em `kryonixos` (não no motor).
 Detalhes vivem no repo downstream `RAGton/Kryonixos`.
 
 Ver: [[Hosts]] · [[MOC - Hosts]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

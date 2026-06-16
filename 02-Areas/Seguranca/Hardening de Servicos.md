@@ -16,5 +16,6 @@ Reduzir superfície de ataque de serviços.
 - atualização controlada.
 
 ## Links
+- [[01-MOCs/Mapa - Segurança]]
 
 - [[04-Recursos/skills/hardening-nixos/SKILL]]

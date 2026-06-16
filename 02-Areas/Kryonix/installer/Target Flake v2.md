@@ -64,3 +64,8 @@ P0 do trabalho de junho/2026. Resolvido antes do PR #70 (UI polish).
 
 Ver: `docs/AGENTS_REPORT.md` (commits 6445563e/6d5ffca9) ·
 [[02 PRs Mergeados]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

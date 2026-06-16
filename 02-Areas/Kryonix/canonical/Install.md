@@ -42,3 +42,8 @@ kryonix switch
 
 > [!WARNING]
 > O Kryonix provê sua própria infraestrutura através da CLI e do host definitions. Nunca execute instalações destrutivas com scripts que usam `disko` em hosts instalados, e evite rodar ferramentas de instalação que podem particionar os discos (ex: `hosts/glacier/disks.nix`) num sistema hospedeiro rodando em produção.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

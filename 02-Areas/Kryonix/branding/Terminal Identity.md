@@ -53,3 +53,8 @@ KryonixOS · <hostname>
   Validação real ocorre no downstream `kryonixos rebuild`.
 
 Ver: [[Branding KryonixOS]] · [[KryonixOS Identity]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

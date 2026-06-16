@@ -56,3 +56,8 @@ O MCP fornece interfaces JSON-RPC seguras para LLMs sob demanda.
 kryonix mcp check        # Valida a configuração local do MCP (secrets, syntax)
 kryonix mcp doctor       # Verifica estado dos servidores MCP definidos
 ```
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

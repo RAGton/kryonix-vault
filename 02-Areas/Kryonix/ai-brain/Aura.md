@@ -84,3 +84,8 @@ Próximo passo recomendado:
 5. Não inventar estado. Verificar antes de afirmar "pronto".
 
 Ver: `docs/ai/skills/OBSIDIAN_MEMORY_PROTOCOL.md` (esta sessão)
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

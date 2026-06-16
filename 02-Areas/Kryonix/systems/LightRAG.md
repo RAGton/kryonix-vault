@@ -35,3 +35,8 @@ kryonix graph top --local --limit 10
 kryonix graph heal --local
 kryonix graph repair --local
 ```
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

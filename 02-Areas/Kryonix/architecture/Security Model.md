@@ -54,3 +54,8 @@ Detalhes: `docs/mcp/SECURITY.md` no repo.
 - `Json<T>` desserializa via serde com validação aplicada.
 
 Ver: `docs/SECURITY.md`, [[DECISIONS]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

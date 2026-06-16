@@ -64,3 +64,8 @@ Inclui cargo test no sandbox de build.
 - Testes E2E HTTP em harness (P2 backend).
 - Payload gigante / null bytes / path traversal (sem panic).
 - Smoke-test em VM libvirt — fora de auditoria-Nix, requer infra.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

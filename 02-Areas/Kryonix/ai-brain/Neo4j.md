@@ -44,3 +44,8 @@ kryonix graph repair         # critical, requires sudo
 - Destrutivo bloqueado na raiz.
 
 Ver: [[Security Model]] · [[MCP]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

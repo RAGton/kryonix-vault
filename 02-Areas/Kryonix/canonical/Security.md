@@ -34,3 +34,8 @@ A regra geral do firewall é restringir todas as outras portas de conexões exte
 Não abra issues públicas para problemas de segurança, senhas expostas, credenciais vazadas ou configurações sensíveis. Envie e-mail privadamente para `gabriel.rag@proton.me` incluindo a descrição do problema, arquivo afetado, e avaliação de impacto.
 
 O repositório cobra responsabilidade apenas pelas configurações e infraestrutura provisionada pelo Kryonix; vulnerabilidades upstream no Nixpkgs e serviços terceiros são reportadas às respectivas instâncias oficiais.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

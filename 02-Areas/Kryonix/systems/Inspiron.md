@@ -36,3 +36,8 @@ Ao invés disso, o `inspiron` usa a CLI via rede (LAN / Tailscale).
 > O uso da variável `KRYONIX_BRAIN_API` para acessar a porta `8000` do Glacier está listado no ROADMAP, pois o serviço de API contínuo encontra-se desativado no servidor. O cliente pode atualmente apenas operar comandos locais da CLI.
 
 Este desacoplamento impede que o build e verificação local falhem por questões relacionadas ao servidor. Se a comunicação remota com o `glacier` falha ou está inativa, o cliente alerta com um `WARN`, mas valida o código do sistema localmente sem problemas.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

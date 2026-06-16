@@ -56,3 +56,8 @@ npm run build              # vite build → dist/
 ```
 
 Ver: [[Backend Routes]] · [[Network Flow]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

@@ -46,3 +46,8 @@ OPEN. Documenta workflows quebrados há tempos no `main`.
 - Reproduzido em PRs #71/#72/#78/#80 sem regressão.
 
 Ver: [[CURRENT_STATE]] · [[Validation Matrix]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

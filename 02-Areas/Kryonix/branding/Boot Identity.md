@@ -74,3 +74,8 @@ cat "$TOP/etc/os-release"         # KryonixOS preservado, ID=nixos
 Smoke-test visual real (ISO em VM libvirt) fica como pendência manual.
 
 Ver: [[Branding KryonixOS]] · [[ISO]] · [[ACTIVE_WORK]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

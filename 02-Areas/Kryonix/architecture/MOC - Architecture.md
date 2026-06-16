@@ -48,3 +48,8 @@ Detalhe em `docs/ARCHITECTURE.md` no repo.
 ## Tags principais
 
 #kryonix #architecture #nixos #flake
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

@@ -40,3 +40,8 @@ kryonix graph {status, stats, query, repair}
 Detalhes: `docs/CLI.md`, `docs/USAGE.md`.
 
 Tags: #kryonix #brain #ai
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

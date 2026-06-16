@@ -66,3 +66,8 @@ ISO **nunca** vai para o Git normal — só como asset de Release.
 - Plymouth logo (P4) — substituir avatar pessoal.
 
 Ver: [[Boot Identity]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

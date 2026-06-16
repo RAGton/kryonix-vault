@@ -67,3 +67,8 @@ source; ISO e CLI seguem funcionando com binário via overlay.
 - Aura agent migration (resumo do Hermes purge em [[Hermes]])
 
 Ver: [[CURRENT_STATE]] · [[ACTIVE_WORK]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

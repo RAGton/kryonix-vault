@@ -61,3 +61,8 @@ ls -ld /etc/kryonix
 mount | grep kryonix
 ```
 Não desabilite o sandbox cegamente.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

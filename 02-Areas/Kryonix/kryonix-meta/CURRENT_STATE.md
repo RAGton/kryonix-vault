@@ -116,3 +116,8 @@ durante dev**.
   quando sessão do agente terminar.
 
 Ver: [[ACTIVE_WORK]] · [[02 PRs Mergeados]] em `03-Projetos/Kryonix-Aura-2026-06/`
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

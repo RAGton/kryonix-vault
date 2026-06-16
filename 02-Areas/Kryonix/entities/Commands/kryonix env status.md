@@ -45,3 +45,8 @@ Kryonix env status
 ## Origem
 
 PR #62 (`ops: define git dev-prod workflow`).
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

@@ -25,3 +25,8 @@ Você está trabalhando no repositório **Kryonix**, uma plataforma NixOS declar
 
 ---
 Consulte o arquivo [[../../AGENTS.md|AGENTS.md]] na raiz para o conteúdo completo e atualizado.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

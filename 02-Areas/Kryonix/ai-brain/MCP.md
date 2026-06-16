@@ -47,3 +47,8 @@ codex mcp list           # cliente Codex
 - Nunca tokens em `.mcp.json` versionado.
 
 Detalhes: `docs/mcp/SECURITY.md` no repo. Ver [[Security Model]].
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

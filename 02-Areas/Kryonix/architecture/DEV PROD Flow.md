@@ -55,3 +55,8 @@ Ver [[Safe Git Workflow]] ou [[02-Areas/Kryonix/kryonix-meta/CURRENT_STATE]].
   `docs/operations/GIT_DEV_PROD_WORKFLOW.md`.
 
 Tags: #kryonix #dev-prod #governança
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

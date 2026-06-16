@@ -36,3 +36,8 @@ Termos e siglas usadas no projeto.
 | **Vault** | `/home/rocha/Documents/Obsidian Vault` — cérebro de memória do projeto. |
 
 Ver: [[MOC - Kryonix]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

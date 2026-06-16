@@ -215,3 +215,8 @@ kryonix iso
 
 RISCOS:
 - Inclusão indevida de secrets (chaves ssh, senhas do host master) dentro da ISO gerada.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

@@ -34,3 +34,8 @@ Ao interagir com o Brain, a ordem de prioridade de fontes é:
 3. Diretório `docs/agents/`
 4. O Obsidian Vault acessado de modo restrito via CLI
 5. A documentação oficial do produto upstream (NixOS, Hyprland, etc)
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

@@ -46,3 +46,8 @@ Kora (assistente de voz) em parte da estratégia "Aura agent migration".
 inteligente migra para o motor `kryonix-brain-lightrag` direto.
 
 Tags: #kryonix #retired
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

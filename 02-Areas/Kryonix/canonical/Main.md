@@ -31,3 +31,8 @@ O projeto **Kryonix** é uma plataforma NixOS declarativa para workstation, gami
 
 ---
 Para mais detalhes sobre o RAG e Brain, veja [[02-Areas/Kryonix/systems/Vault]].
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

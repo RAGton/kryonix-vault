@@ -56,3 +56,8 @@ Env runtime opt-outs:
 - Assets visuais ficam em `assets/` no repo.
 
 Ver: [[KryonixOS Identity]] · [[Terminal Identity]] · [[Boot Identity]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

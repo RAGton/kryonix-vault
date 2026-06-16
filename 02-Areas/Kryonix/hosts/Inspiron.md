@@ -56,3 +56,8 @@ nix build .#nixosConfigurations.inspiron.config.system.build.toplevel \
   (PR #80).
 
 Ver: [[Glacier]] · [[Hosts]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

@@ -40,3 +40,8 @@ Os comandos abaixo são necessários para validar se sua integração foi feita 
 kryonix mcp check        # Analisa o config atrás de secrets expostos
 kryonix mcp doctor       # Confirma vitalidade dos servers
 ```
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

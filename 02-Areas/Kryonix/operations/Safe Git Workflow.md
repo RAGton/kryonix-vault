@@ -79,3 +79,8 @@ kryonix diff
 commits pequenos). Política em [[DECISIONS]] D-008.
 
 Ver: [[Commands]] · [[Runbooks]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

@@ -58,3 +58,8 @@ Compilação pesada (Rust/CUDA/PyTorch) acontece aqui ou vem do Cachix
 - Optimizer Rust (`kryonix-optimizer`)
 
 Ver: [[Inspiron]] · [[MCP]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

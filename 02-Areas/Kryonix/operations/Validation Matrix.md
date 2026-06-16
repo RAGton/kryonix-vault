@@ -42,3 +42,8 @@ Workflows verdes: Python Audit (Brain), Shell & Documentation.
 
 [[DECISIONS]] D-009: aceitável **se** validações locais passam e diff
 não toca os arquivos do workflow afetado.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

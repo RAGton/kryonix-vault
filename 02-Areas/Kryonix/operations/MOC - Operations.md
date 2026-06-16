@@ -25,3 +25,8 @@ links:
 - `docs/ai/skills/OBSIDIAN_MEMORY_PROTOCOL.md` ← novo
 
 Tags: #kryonix #operations #moc
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

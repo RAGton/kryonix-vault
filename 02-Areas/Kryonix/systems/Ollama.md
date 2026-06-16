@@ -25,3 +25,8 @@ O Ollama é o motor de inferência local utilizado pelo Kryonix para rodar LLMs 
 
 ## Integração
 O Ollama serve como o backend para o **Kryonix Brain** e o **LightRAG**. A CLI `kryonix brain` interage com o Ollama para realizar buscas semânticas e responder perguntas.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

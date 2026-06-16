@@ -80,3 +80,8 @@ rmdir .claude/worktrees 2>/dev/null || true
 ```
 
 Ver: [[Validation Matrix]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

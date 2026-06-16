@@ -98,3 +98,8 @@ fonte oficial de memória operacional dos agentes. Protocolo em
 [[Aura]] e em `docs/ai/skills/OBSIDIAN_MEMORY_PROTOCOL.md`.
 
 Tags: #kryonix #decision
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

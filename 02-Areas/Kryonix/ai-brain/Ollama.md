@@ -40,3 +40,8 @@ kryonix ollama run               # chat interativo
 - Audit: `kryonix brain vram-audit`.
 
 Ver: [[Glacier]] · [[RAG CAG GraphRAG]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

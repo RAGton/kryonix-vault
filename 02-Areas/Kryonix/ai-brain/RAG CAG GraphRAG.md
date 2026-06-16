@@ -40,3 +40,8 @@ Três modos de retrieval usados pelo Kryonix Brain.
 3. **Fallback** — sem grounding técnico.
 
 Tags: #kryonix #brain #rag #graphrag
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

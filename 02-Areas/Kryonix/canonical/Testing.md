@@ -100,3 +100,8 @@ STATUS: PASS
 ```
 
 Evidências longas devem ser colocadas em `docs/evidence/`.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

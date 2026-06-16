@@ -66,3 +66,8 @@ Inspiron (Cliente Leve/Workstation)
 
 > [!NOTE]
 > O cliente não processa os LLMs pesados. Outros serviços como Brain API e LightRAG remoto estão em fase de implementação e documentados no ROADMAP. Apenas conexões validadas (como o daemon nativo do Ollama) são consideradas como prontas em nível arquitetural de runtime isolado.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

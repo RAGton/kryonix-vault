@@ -53,3 +53,8 @@ test "$(pwd -P)" = "/home/rocha/kryonix/kryonix" || exit 1
 - `nh os switch ...` direto — pula hooks Kryonix.
 
 Detalhes: `docs/CLI.md`, `docs/USAGE.md`.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

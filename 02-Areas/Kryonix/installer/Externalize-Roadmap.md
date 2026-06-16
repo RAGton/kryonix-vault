@@ -251,3 +251,8 @@ sistema instalado não carrega ferramenta de instalação como source.
 - [[ACTIVE_WORK]] — trabalho em curso
 - [[CURRENT_STATE]] — estado de `main` e PRs
 - [[DEV PROD Flow]] — regra de ouro DEV vs PROD
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

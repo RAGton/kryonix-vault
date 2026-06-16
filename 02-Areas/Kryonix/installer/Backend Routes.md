@@ -72,3 +72,8 @@ links:
 - clippy `-D warnings` é gate desde PR #78.
 
 Ver: [[Target Flake v2]] · [[Testing]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

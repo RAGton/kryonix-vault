@@ -35,3 +35,8 @@ links:
 
 - HEAD: `30d84ad6`
 - Ver [[CURRENT_STATE]].
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

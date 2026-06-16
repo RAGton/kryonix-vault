@@ -28,3 +28,8 @@ O [[02-Areas/Kryonix/systems/Inspiron|Inspiron]] (cliente) realiza requisições
 - [[02-Areas/Kryonix/systems/LightRAG|LightRAG]]
 - [[02-Areas/Kryonix/systems/MCP|MCP]]
 - [[02-Areas/Kryonix/systems/Vault|Vault]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

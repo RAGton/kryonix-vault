@@ -42,3 +42,8 @@ kryonix brain {start, stop, restart, status, health, doctor, stats,
 - `journalctl -u kryonix-brain-api.service -f`
 
 Ver: [[MOC - AI Brain]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

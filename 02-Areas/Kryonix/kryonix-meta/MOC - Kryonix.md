@@ -62,3 +62,8 @@ Funciona como **grafo operacional**: hubs principais ↔ entidades reais.
   [[09-Logs/sessions/2026-06-14/2026-06-14-2110-kryonix-vault-bootstrap]]
 
 Tags principais: #kryonix #moc
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

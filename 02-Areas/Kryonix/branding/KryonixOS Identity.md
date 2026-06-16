@@ -81,3 +81,8 @@ kryonix.branding.motd        # nullOr lines  (PR #80)
 - [[Inspiron]]: defaults.
 
 Ver: [[Terminal Identity]] · [[Boot Identity]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

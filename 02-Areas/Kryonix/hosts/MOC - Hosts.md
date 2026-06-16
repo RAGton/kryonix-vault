@@ -25,3 +25,8 @@ links:
 - `docs/hosts/` (se existir): detalhes específicos.
 
 Tags: #kryonix #hosts #moc
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

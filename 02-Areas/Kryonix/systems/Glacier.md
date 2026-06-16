@@ -53,3 +53,8 @@ Para testar a vitalidade de runtime autônomo no `glacier`, execute:
 kryonix test server
 systemctl status ollama.service --no-pager
 ```
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

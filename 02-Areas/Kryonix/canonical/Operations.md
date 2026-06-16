@@ -44,3 +44,8 @@ O fluxo seguro para testar e aplicar mudanças no Glacier ou Inspiron:
 - `/etc/kryonix` deve ser um checkout Git (preferencialmente branch main) com origem válida.
 - `kryonix git-status` é o preflight obrigatório.
 - Validações profundas remotas dependem que o host `glacier` esteja disponível via LAN/Tailscale.
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

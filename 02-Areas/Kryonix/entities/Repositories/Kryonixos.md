@@ -29,3 +29,8 @@ Nome no GitHub é `Kryonixos` (K maiúsculo). Diretórios locais usam
 - PROD-SITE: `/etc/kryonixos`
 
 Ver: [[Hosts]] · [[DEV PROD Flow]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

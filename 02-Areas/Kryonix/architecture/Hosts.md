@@ -30,3 +30,8 @@ no repo ou no downstream `kryonixos`.
 - `system.stateVersion` por host é **imutável** — não trocar por branding.
 
 Ver: `docs/ARCHITECTURE.md`, [[MOC - Hosts]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

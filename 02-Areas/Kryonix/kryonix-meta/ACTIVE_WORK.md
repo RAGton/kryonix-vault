@@ -56,3 +56,8 @@ Auditoria que motivou: `packages/kryonix-installer/` é copiado para
 - P5 — `kryonix.branding.systemLabel` opt-in para hosts não-ISO.
 
 Ver: [[Externalize-Roadmap]] · [[ROADMAP]] · [[CURRENT_STATE]] · [[Boot Identity]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]

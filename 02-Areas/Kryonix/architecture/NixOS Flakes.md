@@ -42,3 +42,8 @@ nix build .#homeConfigurations."rocha@inspiron".activationPackage --no-link -L
 - PROD: **resultado de pull**, nunca escrita local. Ver [[DEV PROD Flow]].
 
 Ver: `docs/ARCHITECTURE.md`, [[Installer]]
+
+
+## Links relacionados
+
+- [[01-MOCs/Mapa - Kryonix]]
