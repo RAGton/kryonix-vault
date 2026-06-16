@@ -1,0 +1,485 @@
+{
+  "name": "Gemini File Search RAG",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Upload Files to Gemini File Search",
+        "formDescription": "Upload PDF or text files to be indexed in Google Gemini File Search Store",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Upload File",
+              "fieldType": "file",
+              "multipleFiles": false,
+              "acceptFileTypes": ".pdf, .txt",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {
+          "appendAttribution": false,
+          "buttonLabel": "Upload File"
+        }
+      },
+      "id": "c07da626-6129-44c1-af3e-fdbb942f3950",
+      "name": "File Upload Form",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        48,
+        544
+      ],
+      "webhookId": "53507463-04ff-4627-a563-c1fcee98d7cb"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Restructure data and KEEP binary\nreturn items.map(item => {\n  const uploadFile = item.json['Upload File'];\n  \n  // Debug: Log binary field names\n  console.log('Binary fields:', Object.keys(item.binary || {}));\n  console.log('Full binary data:', JSON.stringify(item.binary, null, 2));\n  \n  // Get the first binary field (form uploads typically use the field name)\n  const binaryKeys = Object.keys(item.binary || {});\n  const firstBinaryKey = binaryKeys[0];\n  \n  // Rename binary field to 'data' for the HTTP Request node\n  const binaryData = {};\n  if (firstBinaryKey) {\n    binaryData.data = item.binary[firstBinaryKey];\n    console.log('Renamed binary field from', firstBinaryKey, 'to data');\n  }\n  \n  return {\n    json: {\n      filename: uploadFile.filename,\n      mimetype: uploadFile.mimetype,\n      size: uploadFile.size,\n      submittedAt: item.json.submittedAt,\n      formMode: item.json.formMode,\n      metadataString: JSON.stringify({\n        file: {\n          display_name: uploadFile.filename\n        }\n      })\n    },\n    binary: binaryData  // Binary data with renamed field\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        272,
+        544
+      ],
+      "id": "5651d9ce-5ef5-4a6b-b210-224e3578fe61",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/fileSearchStores",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "key"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "display_name",
+              "value": "n8n_documents_store"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "3a9361c8-4f5d-4b1e-ba30-f25d3394ee4e",
+      "name": "Create File Search Store",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        496,
+        544
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const storeInfo = $input.item.json;\nconst binaryData = $('Code in JavaScript').item.binary;\n\nreturn {\n  json: {\n    ...storeInfo,\n    ...$('Code in JavaScript').item.json\n  },\n  binary: binaryData\n};"
+      },
+      "id": "10596fab-c2a0-4f97-b3d7-b9d27a8b575f",
+      "name": "Combine Store Info with Binary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        544
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://generativelanguage.googleapis.com/upload/v1beta/files",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "key"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "parameterType": "formBinaryData",
+              "name": "file",
+              "inputDataFieldName": "=data"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "8c95dd2c-fd97-4eef-9a47-bbd8f7822f90",
+      "name": "Upload File to Store",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        944,
+        544
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://generativelanguage.googleapis.com/v1beta/{{ $('Create File Search Store').item.json.name }}:importFile",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "key"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"fileName\": \"{{ $json.file.name }}\",\n  \"customMetadata\": [\n    {\n      \"key\": \"upload_date\",\n      \"stringValue\": \"{{ $now.format('yyyy-MM-dd') }}\"\n    },\n    {\n      \"key\": \"source\",\n      \"stringValue\": \"n8n-workflow\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "id": "9781f30c-6633-4241-a9a3-ebc1c14930c0",
+      "name": "Import to Store",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        1168,
+        544
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "key"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"contents\": [\n    {\n      \"parts\": [\n        {\n          \"text\": \"Sobre o que é esse documento? Traga um resumo.\"\n        }\n      ]\n    }\n  ],\n  \"tools\": [\n    {\n      \"fileSearch\": {\n        \"fileSearchStoreNames\": [\"{{ $('Create File Search Store').item.json.name }}\"]\n      }\n    }\n  ]\n}",
+        "options": {}
+      },
+      "id": "973465c6-475c-4856-9af6-3400b2f3f661",
+      "name": "Query File Search",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        1392,
+        544
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        48,
+        112
+      ],
+      "id": "dfd4f725-36b6-42aa-82d3-c14608dd8558",
+      "name": "When chat message received",
+      "webhookId": "2a712572-c2b9-421f-814a-6f7975a57255"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        432,
+        288
+      ],
+      "id": "7d303ed1-d1cc-4b4e-b3bb-af245f3f9a9c",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "rThUvJrEBtE1cfIJ",
+          "name": "HuntersBT"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        576,
+        288
+      ],
+      "id": "817b4cd9-7ed5-43d4-bc5a-171fc68d177d",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "store_name",
+              "name": "store_name",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "api_key",
+              "name": "api_key",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        256,
+        112
+      ],
+      "id": "213d92f2-a0bb-4493-83e7-0592d823ef16",
+      "name": "Set Store Name"
+    },
+    {
+      "parameters": {
+        "toolDescription": "Ative essa tool toda vez que o usuário tiver uma dúvida",
+        "method": "POST",
+        "url": "=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={{ $('Set Store Name').item.json.api_key }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"contents\": [\n    {\n      \"parts\": [\n        {\n          \"text\": \"{{ $('When chat message received').item.json.chatInput }}\"\n        }\n      ]\n    }\n  ],\n  \"tools\": [\n    {\n      \"fileSearch\": {\n        \"fileSearchStoreNames\": [\"{{ $('Set Store Name').item.json.store_name }}\"]\n      }\n    }\n  ]\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.3,
+      "position": [
+        720,
+        288
+      ],
+      "id": "22e11e93-199b-4379-848d-1750389af9bb",
+      "name": "search_documents"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Você é um assistente de busca em documentos. Você tem UMA função: pesquisar documentos e responder perguntas.\n\nCOMPORTAMENTO OBRIGATÓRIO:\n\t•\tQuando o usuário mencionar “documento”, “arquivo”, “conteúdo” ou fizer QUALQUER pergunta → IMEDIATAMENTE chamar a ferramenta search_documents\n\t•\tNÃO peça esclarecimentos\n\t•\tNÃO diga “por favor, forneça sua pergunta”\n\t•\tNÃO espere mais informações\n\t•\tAPENAS PESQUISE\n\nCOMO LIDAR COM PERGUNTAS VAGAS:\n\nUsuário: “O que tem neste documento?”\nVocê: chamar imediatamente search_documents(\"forneça um resumo completo de todo o conteúdo do documento\")\n\nUsuário: “Fale sobre a parceria com a Heygen”\nVocê: chamar imediatamente search_documents(\"quais informações estão disponíveis sobre a parceria com a Heygen?\")\n\nUsuário: “Resuma”\nVocê: chamar imediatamente search_documents(\"resuma todo o conteúdo e os principais tópicos do documento\")\n\nFORMATO DA RESPOSTA após chamar a ferramenta:\n\t1.\tExtrair a resposta de: candidates[0].content.parts[0].text\n\t2.\tSe houver citações em groundingMetadata.groundingChunks, mencioná-las\n\t3.\tDar uma resposta direta e concisa\n\nNUNCA DIGA:\n❌ “Por favor, forneça sua pergunta”\n❌ “Estou pronto para ajudar”\n❌ “Como posso ajudar hoje?”\n❌ “Por favor, especifique”\n\nSEMPRE FAÇA:\n✅ Chame search_documents imediatamente\n✅ Interprete o resultado\n✅ Responda diretamente\n\nSe o usuário disser QUALQUER COISA sobre documentos → CHAME A FERRAMENTA NA HORA. Sem exceções.",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3,
+      "position": [
+        464,
+        112
+      ],
+      "id": "64449412-df97-4d68-bd43-bec67800659c",
+      "name": "Gemini RAG Agent"
+    },
+    {
+      "parameters": {
+        "content": "# Agent + Gemini RAG",
+        "height": 416,
+        "width": 944
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        0,
+        0
+      ],
+      "typeVersion": 1,
+      "id": "5a2365cb-9bcc-4a65-8058-b08585cf4f3b",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "# Upload de Documento no Google File Store\n",
+        "height": 288,
+        "width": 1584,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        0,
+        448
+      ],
+      "typeVersion": 1,
+      "id": "a9a3e442-9682-4dcb-a05e-026e1d24bcf4",
+      "name": "Sticky Note1"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "File Upload Form": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Create File Search Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create File Search Store": {
+      "main": [
+        [
+          {
+            "node": "Combine Store Info with Binary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Combine Store Info with Binary": {
+      "main": [
+        [
+          {
+            "node": "Upload File to Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload File to Store": {
+      "main": [
+        [
+          {
+            "node": "Import to Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Import to Store": {
+      "main": [
+        [
+          {
+            "node": "Query File Search",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Set Store Name",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Gemini RAG Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Gemini RAG Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Store Name": {
+      "main": [
+        [
+          {
+            "node": "Gemini RAG Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "search_documents": {
+      "ai_tool": [
+        [
+          {
+            "node": "Gemini RAG Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a4f4559c-8432-4a81-b3eb-8acc63c195d2",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "7b652ae9c7a8fc485ed454fc3a54c7ad50198f0f06af33fd58f6b0bb066f4177"
+  },
+  "id": "EeogogzGU3bLmiF0",
+  "tags": []
+}
