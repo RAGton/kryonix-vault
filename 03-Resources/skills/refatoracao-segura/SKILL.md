@@ -84,5 +84,5 @@ Aplique menor mudança correta, explicite riscos e não invente fatos.
 
 ## Links relacionados
 
-- [[10-MOCs/Mapa - IA e Agentes]]
+- [[01-MOCs/Mapa - IA e Agentes]]
 - [[PROMPT_MASTER]]

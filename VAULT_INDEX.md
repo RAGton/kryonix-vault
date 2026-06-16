@@ -29,18 +29,18 @@ Leia nessa ordem antes de operar o vault:
 
 1. [[AGENTS]] — contrato curto + regras invioláveis
 2. [[PROMPT_MASTER]] — identidade operacional padrão
-3. [[10-MOCs/Mapa - Cerebro Supremo de IA]] — visão de topo
+3. [[01-MOCs/Mapa - Cerebro Supremo de IA]] — visão de topo
 4. [[03-Resources/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] — protocolo de consulta
 5. [[03-Resources/templates/README|Convenções de templates]] — YAML/XML/TOON
 
 ## 2. Projetos ativos
 
-- [[01-Projects/Kryonix System]] — meta-distro NixOS (motor)
-- [[01-Projects/Kryonix Installer]] — instalador headless
-- [[01-Projects/Kryonix VE]] — PXE/Proxmox
-- [[01-Projects/RAGOS]] — sistema de retrieval
-- [[01-Projects/RAGOS Installer]]
-- [[01-Projects/Ragos VE]]
+- [[03-Projetos/Kryonix System]] — meta-distro NixOS (motor)
+- [[03-Projetos/Kryonix Installer]] — instalador headless
+- [[03-Projetos/Kryonix VE]] — PXE/Proxmox
+- [[03-Projetos/RAGOS]] — sistema de retrieval
+- [[03-Projetos/RAGOS Installer]]
+- [[03-Projetos/Ragos VE]]
 
 ## 3. Áreas de conhecimento (PARA)
 
@@ -103,10 +103,10 @@ Lista expandida em `10-MOCs/`.
 ## 8. Rotina
 
 - [[00-Inbox/Inbox]] — captura rápida
-- [[99-Logs/Revisao Semanal]]
-- [[99-Logs/Decisoes Recentes]]
-- [[99-Logs/Backlog de Estudos]]
-- [[99-Logs/evidence/README|Evidências]]
+- [[09-Logs/Revisao Semanal]]
+- [[09-Logs/Decisoes Recentes]]
+- [[09-Logs/Backlog de Estudos]]
+- [[09-Logs/evidence/README|Evidências]]
 
 ## Regra de ouro
 

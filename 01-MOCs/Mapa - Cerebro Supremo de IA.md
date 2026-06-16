@@ -15,22 +15,22 @@
 
 ## Projetos pessoais principais
 
-- [[01-Projects/Kryonix VE]]
-- [[01-Projects/Kryonix System]]
+- [[03-Projetos/Kryonix VE]]
+- [[03-Projetos/Kryonix System]]
 
 ## Mapas técnicos
 
-- [[10-MOCs/Mapa - Engenharia de Software]]
-- [[10-MOCs/Mapa - IA e Agentes]]
-- [[10-MOCs/Mapa - Backend e APIs]]
-- [[10-MOCs/Mapa - Linux e Sistemas]]
-- [[10-MOCs/Mapa - NixOS e Infra Declarativa]]
-- [[10-MOCs/Mapa - DevOps e SRE]]
-- [[10-MOCs/Mapa - Dados e Algoritmos]]
-- [[10-MOCs/Mapa - Produto e SaaS]]
-- [[10-MOCs/Mapa - Frontend Moderno]]
-- [[10-MOCs/Mapa - Proxmox PXE NFS Homelab]]
-- [[10-MOCs/Mapa - Debug Testes e Qualidade]]
+- [[01-MOCs/Mapa - Engenharia de Software]]
+- [[01-MOCs/Mapa - IA e Agentes]]
+- [[01-MOCs/Mapa - Backend e APIs]]
+- [[01-MOCs/Mapa - Linux e Sistemas]]
+- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]
+- [[01-MOCs/Mapa - DevOps e SRE]]
+- [[01-MOCs/Mapa - Dados e Algoritmos]]
+- [[01-MOCs/Mapa - Produto e SaaS]]
+- [[01-MOCs/Mapa - Frontend Moderno]]
+- [[01-MOCs/Mapa - Proxmox PXE NFS Homelab]]
+- [[01-MOCs/Mapa - Debug Testes e Qualidade]]
 
 ## Regras para IA
 
@@ -63,4 +63,4 @@
 - Converter repetição em Skill
 - Converter processo em playbook
 - Converter decisão em ADR
-- Revisar semanalmente em [[99-Logs/Revisao Semanal]]
+- Revisar semanalmente em [[09-Logs/Revisao Semanal]]

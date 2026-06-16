@@ -110,8 +110,8 @@ Antes de alterar este repo:
 
 ## MOCs relacionados
 
-- [[01-Projects/Kryonix System]]
-- [[10-MOCs/Mapa - NixOS e Infra Declarativa]]
-- [[10-MOCs/Mapa - Linux e Sistemas]]
-- [[10-MOCs/Mapa - Frontend Moderno]]
-- [[10-MOCs/Mapa - Debug Testes e Qualidade]]
+- [[03-Projetos/Kryonix System]]
+- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]
+- [[01-MOCs/Mapa - Linux e Sistemas]]
+- [[01-MOCs/Mapa - Frontend Moderno]]
+- [[01-MOCs/Mapa - Debug Testes e Qualidade]]

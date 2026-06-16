@@ -14,4 +14,4 @@ Ambientes de desenvolvimento reproduzíveis.
 
 ## Links
 
-- [[10-MOCs/Mapa - NixOS e Infra Declarativa]]
+- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]

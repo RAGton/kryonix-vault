@@ -51,6 +51,6 @@ systemd.services.lightrag = {
 - Sempre valide se o segredo não está presente no `nix-store -q --references $(which config)`.
 
 ## Links
-- [[10-MOCs/Mapa - Segurança]]
+- [[01-MOCs/Mapa - Segurança]]
 - [[03-Resources/playbooks/Playbook - Auditoria de Secrets]]
 - [sops-nix Documentation](https://github.com/Mic92/sops-nix)

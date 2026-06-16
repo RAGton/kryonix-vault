@@ -22,7 +22,7 @@ Se houver conflito, priorize a fonte mais específica e verificável.
 - [[02-Areas/Kryonix/canonical/Agents|AGENTS.md]]
 - [[PROMPT_MASTER]]
 - [[IMPLEMENTAR_EM_OUTROS_PROJETOS]]
-- [[10-MOCs/Mapa - Cerebro Supremo de IA]]
+- [[01-MOCs/Mapa - Cerebro Supremo de IA]]
 
 ## Fluxo obrigatório
 

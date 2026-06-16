@@ -14,4 +14,4 @@ Busca média O(1) por chave.
 
 ## Links
 
-- [[10-MOCs/Mapa - Dados e Algoritmos]]
+- [[01-MOCs/Mapa - Dados e Algoritmos]]

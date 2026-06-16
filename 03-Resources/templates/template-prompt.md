@@ -89,4 +89,4 @@ Você é <papel específico> com experiência em <domínio>.
 ## Links relacionados
 
 - [[../templates/template-skill]]
-- [[../../10-MOCs/Mapa - <Área>]]
+- [[../../01-MOCs/Mapa - <Área>]]

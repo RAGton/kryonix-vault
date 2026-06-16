@@ -1,15 +1,15 @@
-# KRYONIX
+# RAGOS
 
 ## Repositório
 
-- GitHub: `RAGEnterprise/kryonix`
+- GitHub: `RAGEnterprise/ragos`
 - Visibilidade: privado
 - Branch padrão: `main`
-- Relação: projeto principal do ecossistema KRYONIX
+- Relação: projeto principal do ecossistema RAGOS
 
 ## Descrição operacional
 
-KRYONIX é uma plataforma on-premises para clientes diskless reais em NixOS, com boot via rede, imagem centralizada e operação orientada a previsibilidade.
+RAGOS é uma plataforma on-premises para clientes diskless reais em NixOS, com boot via rede, imagem centralizada e operação orientada a previsibilidade.
 
 A visão central do projeto é: **o servidor é o centro do sistema, não o endpoint**.
 
@@ -21,7 +21,7 @@ O repositório declara entregar:
 - publicação geracional do cliente por `ragc`;
 - canais oficiais `generic`, `lab` e `rescue`;
 - perfis `desktop-generic`, `desktop-lab`, `rescue-minimal` e `hyperv-debug`;
-- inventário externo em `/etc/kryonix-inventory/clients.nix`;
+- inventário externo em `/etc/ragos-inventory/clients.nix`;
 - servidor NixOS declarativo em `server/`;
 - instalador do host em `installer/`.
 
@@ -51,7 +51,7 @@ SquashFS/netboot continua no roadmap, mas não deve ser tratado como contrato at
 
 | Componente | Papel |
 |---|---|
-| `server/` | composição NixOS do servidor KRYONIX |
+| `server/` | composição NixOS do servidor RAGOS |
 | `client/` | imagem do cliente diskless |
 | `installer/` | instalação do host e bootstrap inicial |
 | `ragc/` | build, publish, rollback e GC da imagem do cliente |
@@ -69,7 +69,7 @@ SquashFS/netboot continua no roadmap, mas não deve ser tratado como contrato at
 
 ## Regras para IA/agente
 
-Antes de alterar KRYONIX:
+Antes de alterar RAGOS:
 
 1. Ler `README.md`, `INSTRUCT.md`, `INSTRUCOES.md`.
 2. Ler documentação do domínio em `docs/`.
@@ -93,8 +93,8 @@ Antes de alterar KRYONIX:
 
 ## MOCs relacionados
 
-- [[10-MOCs/Mapa - Proxmox PXE NFS Homelab]]
-- [[10-MOCs/Mapa - NixOS e Infra Declarativa]]
-- [[10-MOCs/Mapa - Linux e Sistemas]]
-- [[10-MOCs/Mapa - Debug Testes e Qualidade]]
-- [[01-Projects/Kryonix Installer]]
+- [[01-MOCs/Mapa - Proxmox PXE NFS Homelab]]
+- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]
+- [[01-MOCs/Mapa - Linux e Sistemas]]
+- [[01-MOCs/Mapa - Debug Testes e Qualidade]]
+- [[03-Projetos/RAGOS Installer]]

@@ -95,8 +95,8 @@ backlog[6]{id,titulo,prio,status,owner}:
 
 ## Links relacionados
 
-- [[../../10-MOCs/Mapa - Produto e SaaS]]
-- [[../../10-MOCs/Mapa - Engenharia de Software]]
+- [[../../01-MOCs/Mapa - Produto e SaaS]]
+- [[../../01-MOCs/Mapa - Engenharia de Software]]
 
 <acceptance>
   - [ ] MVP rodando em ambiente alvo

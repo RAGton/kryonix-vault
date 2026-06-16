@@ -20,4 +20,4 @@ Entregue achados, riscos e patch mínimo sugerido.
 
 ## Links
 
-- [[10-MOCs/Mapa - NixOS e Infra Declarativa]]
+- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]

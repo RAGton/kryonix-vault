@@ -29,4 +29,4 @@ Iniciar projeto vendável com base técnica limpa.
 ## Links
 
 - [[03-Resources/templates/template-projeto]]
-- [[10-MOCs/Mapa - Produto e SaaS]]
+- [[01-MOCs/Mapa - Produto e SaaS]]

@@ -15,4 +15,4 @@ Capture rápida. Depois processe para uma área, projeto, prompt, Skill, playboo
 ## Links
 
 - [[README]]
-- [[99-Logs/Revisao Semanal]]
+- [[09-Logs/Revisao Semanal]]

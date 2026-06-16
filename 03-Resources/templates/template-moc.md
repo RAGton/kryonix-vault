@@ -27,8 +27,8 @@ Uma frase explicando o escopo desta área no vault.
 
 ## Projetos ativos
 
-- [[../../01-Projects/<projeto-1>]]
-- [[../../01-Projects/<projeto-2>]]
+- [[../../03-Projetos/<projeto-1>]]
+- [[../../03-Projetos/<projeto-2>]]
 
 ## Skills relacionadas
 

@@ -59,7 +59,7 @@ Passos numerados ou explicação técnica. Mantenha factual e revisável.
 
 ## Links relacionados
 
-- [[../../10-MOCs/Mapa - <Área>]]
+- [[../../01-MOCs/Mapa - <Área>]]
 - referência externa: <url>
 
 ## Próxima ação

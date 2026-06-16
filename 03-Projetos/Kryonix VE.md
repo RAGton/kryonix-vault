@@ -17,11 +17,11 @@ Projeto/base de conhecimento para infraestrutura pessoal e profissional com:
 
 ## MOCs relacionados
 
-- [[10-MOCs/Mapa - Proxmox PXE NFS Homelab]]
-- [[10-MOCs/Mapa - Linux e Sistemas]]
-- [[10-MOCs/Mapa - NixOS e Infra Declarativa]]
-- [[10-MOCs/Mapa - DevOps e SRE]]
-- [[10-MOCs/Mapa - Debug Testes e Qualidade]]
+- [[01-MOCs/Mapa - Proxmox PXE NFS Homelab]]
+- [[01-MOCs/Mapa - Linux e Sistemas]]
+- [[01-MOCs/Mapa - NixOS e Infra Declarativa]]
+- [[01-MOCs/Mapa - DevOps e SRE]]
+- [[01-MOCs/Mapa - Debug Testes e Qualidade]]
 
 ## Prioridades técnicas
 

@@ -41,6 +41,6 @@ O pipeline é acessado via CLI `kryonix brain` ou via MCP (Model Context Protoco
 - Documente novos serviços de forma técnica no Vault para facilitar a extração de relações densas.
 
 ## Links
-- [[10-MOCs/Mapa - IA e Agentes]]
+- [[01-MOCs/Mapa - IA e Agentes]]
 - [[02-Areas/IA e Agentes/Graph + Vector Hybrid Search]]
 - [rag.py](file:///etc/kryonix/packages/kryonix-brain-lightrag/kryonix_brain_lightrag/rag.py)

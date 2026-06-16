@@ -22,7 +22,7 @@ Data:
 
 ## Decisões técnicas
 
-- [[99-Logs/Decisoes Recentes]]
+- [[09-Logs/Decisoes Recentes]]
 
 ## Próximas ações
 

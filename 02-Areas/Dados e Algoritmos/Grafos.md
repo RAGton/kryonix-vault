@@ -15,4 +15,4 @@ Modelar relações complexas.
 
 ## Links
 
-- [[10-MOCs/Mapa - Dados e Algoritmos]]
+- [[01-MOCs/Mapa - Dados e Algoritmos]]

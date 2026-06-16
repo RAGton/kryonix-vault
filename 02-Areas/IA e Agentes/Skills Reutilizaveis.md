@@ -20,4 +20,4 @@ Transformar workflows repetidos em instruções reutilizáveis para reduzir prom
 
 ## Links
 
-- [[10-MOCs/Mapa - IA e Agentes]]
+- [[01-MOCs/Mapa - IA e Agentes]]

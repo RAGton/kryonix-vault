@@ -88,5 +88,5 @@ O que medir durante e depois da execução.
 
 ## Links relacionados
 
-- [[../../10-MOCs/Mapa - <Área>]]
+- [[../../01-MOCs/Mapa - <Área>]]
 - [[../skills/<skill-relacionada>/SKILL]]

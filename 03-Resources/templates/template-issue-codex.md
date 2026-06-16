@@ -84,5 +84,5 @@ just check
 
 ## Links relacionados
 
-- [[../../10-MOCs/Mapa - <Área>]]
+- [[../../01-MOCs/Mapa - <Área>]]
 - [[../templates/template-prompt]]

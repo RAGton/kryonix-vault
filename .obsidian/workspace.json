@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4537313de73bd084",
+        "id": "8abe4930b0573cb7",
         "type": "tabs",
         "children": [
           {
-            "id": "9c884cd4ef3abbae",
+            "id": "fbc161fcd529b9ca",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "03-Resources/playbooks/Playbook - Criar Projeto Novo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Playbook - Criar Projeto Novo"
             }
           }
         ]
@@ -176,19 +180,43 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "9c884cd4ef3abbae",
+  "active": "5c1a509eaab82b63",
   "lastOpenFiles": [
-    "04-Recursos/Templates/Template - Issue Codex.md",
-    "02-Areas/IA e Agentes/Graph + Vector Hybrid Search.md",
+    "09-Logs/evidence/README.md",
+    "09-Logs/evidence",
+    "09-Logs/Revisao Semanal.md",
+    "09-Logs/Decisoes Recentes.md",
+    "09-Logs/Backlog de Estudos.md",
+    "09-Logs",
+    "03-Projetos/Ragos VE.md",
+    "03-Projetos/RAGOS.md",
+    "03-Projetos/RAGOS Installer.md",
+    "03-Projetos/Kryonix VE.md",
     "03-Projetos/Kryonix System.md",
     "03-Projetos/Kryonix Installer.md",
-    "03-Projetos/Kryonix VE.md",
-    "03-Runbooks/Docs Audit.md",
-    "03-Runbooks/Doctor Full.md",
-    "04-Recursos/Templates/Template - ADR.md",
-    "01-Canonical/Agents.md",
-    "02-Areas/Backend e APIs/API Vendavel.md",
+    "03-Projetos",
+    "01-MOCs/Mapa - Segurança.md",
+    "01-MOCs/Mapa - Produto e SaaS.md",
+    "01-MOCs/Mapa - Obsidian Skills (kepano).md",
+    "01-MOCs/Mapa - NixOS e Infra Declarativa.md",
+    "01-MOCs/Mapa - Linux e Sistemas.md",
+    "01-MOCs/Mapa - IA e Agentes.md",
+    "01-MOCs/Mapa - Engenharia de Software.md",
+    "01-MOCs/Mapa - DevOps e SRE.md",
+    "01-MOCs/Mapa - Dados e Algoritmos.md",
+    "01-MOCs/Mapa - Cerebro Supremo de IA.md",
     "01-MOCs/Mapa - Backend e APIs.md",
-    "README.md"
+    "01-MOCs",
+    "03-Resources/playbooks/runbooks/Doctor Full.md",
+    "03-Resources/playbooks/runbooks/Docs Audit.md",
+    "00-Inbox/AGENTS.md",
+    "00-Inbox/IMPLEMENTAR_EM_OUTROS_PROJETOS.md",
+    "00-Inbox/justfile",
+    "00-Inbox/MOC - Architecture.md",
+    "00-Inbox/_templates",
+    "00-Inbox/00_Inbox",
+    "00-Inbox/00-Inbox",
+    "00-Inbox/01_Kryonix",
+    "00-Inbox/01-Canonical"
   ]
 }

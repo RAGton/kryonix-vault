@@ -66,8 +66,8 @@ Como reverter sem perda de dados / sem downtime crítico.
 
 ## Links relacionados
 
-- [[../../10-MOCs/Mapa - Engenharia de Software]]
-- [[../../01-Projects/<projeto-afetado>]]
+- [[../../01-MOCs/Mapa - Engenharia de Software]]
+- [[../../03-Projetos/<projeto-afetado>]]
 - referência externa: <link>
 
 <acceptance>

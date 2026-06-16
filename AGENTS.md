@@ -64,7 +64,7 @@ Preferred format:
 
 ```md
 [[VAULT_INDEX]]
-[[10-MOCs/Mapa - Engenharia de Software]]
+[[01-MOCs/Mapa - Engenharia de Software]]
 [[03-Resources/playbooks/Playbook - Criar Issue para Codex]]
 ```
 

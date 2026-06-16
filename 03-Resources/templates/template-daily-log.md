@@ -41,7 +41,7 @@ decisoes[3]{id,contexto,decisao,impacto}:
 ```toon
 backlog[2]{id,titulo,prio,destino}:
 1,Criar skill X,med,[[../skills/...]]
-2,Documentar Y,low,[[../../10-MOCs/...]]
+2,Documentar Y,low,[[../../01-MOCs/...]]
 ```
 
 ## Próxima ação concreta
@@ -50,5 +50,5 @@ backlog[2]{id,titulo,prio,destino}:
 
 ## Links relacionados
 
-- [[../../99-Logs/Decisoes Recentes]]
-- [[../../99-Logs/Revisao Semanal]]
+- [[../../09-Logs/Decisoes Recentes]]
+- [[../../09-Logs/Revisao Semanal]]

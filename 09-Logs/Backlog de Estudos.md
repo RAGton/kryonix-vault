@@ -16,6 +16,6 @@
 
 ## Links
 
-- [[10-MOCs/Mapa - Dados e Algoritmos]]
-- [[10-MOCs/Mapa - Linux e Sistemas]]
-- [[10-MOCs/Mapa - IA e Agentes]]
+- [[01-MOCs/Mapa - Dados e Algoritmos]]
+- [[01-MOCs/Mapa - Linux e Sistemas]]
+- [[01-MOCs/Mapa - IA e Agentes]]
