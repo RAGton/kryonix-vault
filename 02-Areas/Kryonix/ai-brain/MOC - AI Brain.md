@@ -15,12 +15,13 @@ Stack de IA do Kryonix: Ollama + LightRAG + Neo4j + MCP + Brain API.
 
 ## Notas
 
-- [[Aura]] — agente operador (esta sessão)
-- [[Hermes]] — agente legacy (purgado em 2026-06-06)
+- [[Aura]] — agente operador principal atual
+- [[Hermes]] — referência histórica / compatibilidade quando aplicável
 - [[RAG CAG GraphRAG]] — modelos de retrieval
 - [[Neo4j]]
 - [[Ollama]]
 - [[MCP]]
+- [[02-Areas/Kryonix/ai-brain/Plano - Segundo Cerebro IA|Plano — Segundo Cérebro IA]] — modelo operacional multiagente
 
 ## Componentes principais (no repo)
 

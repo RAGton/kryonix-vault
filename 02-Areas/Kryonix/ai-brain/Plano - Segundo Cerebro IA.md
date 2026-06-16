@@ -47,7 +47,8 @@ kryonix-vault/                branch: main
 | Claude Code  | CLI assistant  | `CLAUDE.md`                      |
 | Antigravity  | Orquestrador   | `PROMPT_MASTER.md`, `AGENTS.md`  |
 | Codex        | Executor tasks | `AGENTS.md`, playbooks Codex     |
-| Aura         | Daemon Kryonix | `02-Areas/Kryonix/ai-brain/Aura.md` |
+| Aura         | agente operacional principal atual | `02-Areas/Kryonix/ai-brain/Aura.md` |
+| Hermes       | referência histórica / compatibilidade quando aplicável | `02-Areas/Kryonix/ai-brain/Hermes.md` |
 
 ### Docs-âncora existentes
 

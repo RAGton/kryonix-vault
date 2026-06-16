@@ -72,7 +72,8 @@ Não existem: `05-Skills/`, `06-Playbooks/`, `07-Prompts/`.
 | Claude Code  | edição / revisão / arquitetura | este arquivo                                 |
 | Antigravity  | orquestração / planejamento    | [[PROMPT_MASTER]], [[AGENTS]]               |
 | Codex        | implementação com issues       | [[04-Recursos/playbooks/Playbook - Configurar Repo para Codex]] |
-| Aura         | agente operacional Kryonix     | [[02-Areas/Kryonix/ai-brain/Aura]]          |
+| Aura         | agente operacional principal atual | [[02-Areas/Kryonix/ai-brain/Aura]]      |
+| Hermes       | referência histórica / compatibilidade quando aplicável | [[02-Areas/Kryonix/ai-brain/Hermes]] |
 
 ---
 
