@@ -29,3 +29,14 @@ Organizar o uso profissional de LLMs, Codex, agentes, Skills, prompts e automaç
 
 - [[04-Recursos/prompts/Prompt - Issue para Codex]]
 - [[04-Recursos/prompts/Prompt - Auditoria de Custo de IA]]
+- [[04-Recursos/prompts/PROMPT_AGENT_KRYONIX_VAULT]] (system prompt do agente)
+
+## MOCs conceituais relacionados
+
+- [[01-MOCs/Mapa - IA como Interlocutor Analitico]] — 4 camadas de uso
+  (PKM, Quantified Self, Extended Mind, Longitudinal) e por que vault
+  estruturado + IA e estruturalmente diferente de uso convencional de IA.
+
+## Próxima ação
+
+- [x] Conectar com [[01-MOCs/Mapa - IA como Interlocutor Analitico]] (jun/2026)
