@@ -49,7 +49,7 @@ Matriz desatualizada leva a agente "esquecendo" contexto crítico. Rever a cada 
 
 - [[01-MOCs/Mapa - Cerebro Supremo de IA]]
 - [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
-- [[04-Recursos/prompts/PROMPT_MASTER]] (carregado em [[PROMPT_MASTER]])
+- [[PROMPT_MASTER]] (carregado como prompt-âncora do vault)
 - [[02-Areas/IA e Agentes/Protocolo de Consulta do Vault por IA]]
 - [[02-Areas/IA e Agentes/Skills Reutilizaveis]]
 
