@@ -182,6 +182,7 @@
   },
   "active": "fbc161fcd529b9ca",
   "lastOpenFiles": [
+    "04-Recursos/prompts/PROMPT_AGENT_KRYONIX_VAULT.md",
     "01-MOCs/Mapa - Kryonix.md",
     "04-Archive/_lixo_inbox_2026-06-15/MANIFESTO.md",
     "04-Recursos/templates/_legacy/INDICE.md",
@@ -216,7 +217,6 @@
     "04-Archive/_lixo_inbox_2026-06-15/01-MOCs/Mapa - IA e Agentes.md",
     "04-Archive/_lixo_inbox_2026-06-15/01-MOCs/Mapa - Engenharia de Software.md",
     "04-Archive/_lixo_inbox_2026-06-15/01-MOCs/Mapa - DevOps e SRE.md",
-    "04-Archive/_lixo_inbox_2026-06-15/01-MOCs/Mapa - Dados e Algoritmos.md",
-    "04-Archive/_lixo_inbox_2026-06-15/01-MOCs/Mapa - Cerebro Supremo de IA.md"
+    "04-Archive/_lixo_inbox_2026-06-15/01-MOCs/Mapa - Dados e Algoritmos.md"
   ]
 }

@@ -66,8 +66,13 @@ Sessão Aura 2026-06,        documentada em 03-Projetos/Kryonix-Aura-2026-06
 - [[01-MOCs/Mapa - Backend e APIs]] (Kryonix Brain API)
 - [[01-MOCs/Mapa - Segurança]] (Security Model Kryonix)
 
+## Prompts relacionados
+
+- [[04-Recursos/prompts/PROMPT_AGENT_KRYONIX_VAULT]] (system prompt para IAs que editam o vault)
+- [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] (system prompt para IAs que leem o vault)
+
 ## Próxima ação
 
-- [ ] Adicionar `[[01-MOCs/Mapa - Kryonix]]` em todas as notas de `02-Areas/Kryonix/*/`
+- [x] Adicionar `[[01-MOCs/Mapa - Kryonix]]` em todas as notas de `02-Areas/Kryonix/*/` (feito em jun/2026)
 - [ ] Adicionar seção "Próximos marcos" com base em ROADMAP
 - [ ] Conectar com kryonix-meta/ROADMAP

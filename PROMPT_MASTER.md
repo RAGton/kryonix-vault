@@ -133,5 +133,7 @@ Contexto disponível:
 
 - [[AGENTS]]
 - [[VAULT_INDEX]]
+- [[01-MOCs/Mapa - Kryonix]] (hub de navegação do projeto Kryonix)
 - [[04-Recursos/templates/README|Convenções dos Templates]]
-- [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]]
+- [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] (foco em leitura do vault)
+- [[04-Recursos/prompts/PROMPT_AGENT_KRYONIX_VAULT]] (foco em edição/manutenção do vault)
