@@ -42,6 +42,30 @@ The vault must help a human engineer stay above the AI, not dependent on it.
 
 ---
 
+## Kryonix multi-repository documentation policy
+
+When work touches the Kryonix ecosystem repositories, keep documentation in
+the vault unless the target repository already has an explicit local docs
+surface for that exact kind of file.
+
+Rules:
+
+- Do not create loose Markdown files in the root of `kryonix` or
+  `kryonix-installer`.
+- Store reusable documentation, ADRs, operational logs, runbooks, design notes,
+  prompts and decisions in `kryonix-vault`.
+- Use the real vault layout from this file; do not invent numbered folders.
+- Update the vault only when there is a relevant result, decision, merge,
+  validation outcome or reusable workflow.
+- Project-specific implementation prompts belong in `04-Recursos/prompts/`,
+  `04-Recursos/playbooks/` or the relevant `03-Projetos/` note, not inside
+  this `AGENTS.md`.
+- If a UI or docs change conflicts with the real backend/runtime behavior,
+  documentation and UI copy must reflect the real behavior.
+- Never document `PARTIAL`, `UNKNOWN` or `BROKEN` behavior as complete.
+
+---
+
 ## First steps before editing
 
 Before creating or changing a file:
