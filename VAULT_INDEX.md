@@ -32,7 +32,8 @@ Leia nessa ordem antes de operar o vault:
 2. [[PROMPT_MASTER]] — identidade operacional padrão
 3. [[01-MOCs/Mapa - Cerebro Supremo de IA]] — visão de topo
 4. [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] — protocolo de consulta
-5. [[04-Recursos/templates/README|Convenções de templates]] — YAML/XML/TOON
+5. [[04-Recursos/skills/aura/OBSIDIAN_VAULT_PROTOCOL]] — uso eficiente (Aura)
+6. [[04-Recursos/templates/README|Convenções de templates]] — YAML/XML/TOON
 
 ## 2. Projetos ativos
 

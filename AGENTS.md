@@ -404,8 +404,11 @@ Use clear, minimal initial content and links.
 ## AI agent prompt
 
 System prompt canonico para IAs que operam este vault:
-[[04-Recursos/prompts/PROMPT_AGENT_KRYONIX_VAULT]]. Carrega regras MOC-first,
-TOON, frontmatter, links e tratamento de falsos positivos do
+[[04-Recursos/prompts/PROMPT_AGENT_KRYONIX_VAULT]].
+
+Antes de criar ou atualizar notas no Vault, agentes devem seguir [[04-Recursos/skills/aura/OBSIDIAN_VAULT_PROTOCOL]].
+
+Carrega regras MOC-first, TOON, frontmatter, links e tratamento de falsos positivos do
 `scripts/check_obsidian_links.py`.
 
 ## Completion checklist

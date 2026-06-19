@@ -45,6 +45,7 @@ de falsos positivos do `check_obsidian_links.py`.
 campo,                    valor
 estrutura,                00-09 oficial (AGENTS.md)
 hub_navegacao,            01-MOCs/Mapa - Kryonix.md
+protocolo_escrita,        04-Recursos/skills/aura/OBSIDIAN_VAULT_PROTOCOL.md
 total_notas_ativas,       219 (excluindo 04-Archive e 00-Inbox)
 tamanho_total,            ~334KB de texto puro
 media_bytes_por_nota,     ~1525 bytes (alta densidade)
@@ -78,6 +79,7 @@ regra_conectividade,      toda nota em 02-Areas/ deve apontar para seu MOC
 - [ ] Sem `git add .` no commit
 - [ ] `check_obsidian_links.py` rodado
 - [ ] Mensagem de commit semântica
+- [ ] Seguir o protocolo [[04-Recursos/skills/aura/OBSIDIAN_VAULT_PROTOCOL]]
 
 ## Riscos
 
@@ -116,7 +118,8 @@ Layout: 00-09 AGENTS-compliant
   (Nota: Estrutura real validada em jun/2026)
 
 Documentos-âncora (leia antes de agir):
-  [[AGENTS.md]], [[VAULT_INDEX.md]], [[01-MOCs/Mapa - Kryonix.md]]
+  [[AGENTS.md]], [[VAULT_INDEX.md]], [[01-MOCs/Mapa - Kryonix.md]],
+  [[04-Recursos/skills/aura/OBSIDIAN_VAULT_PROTOCOL]]
 </context>
 
 === Especificações técnicas do vault ===
@@ -167,6 +170,7 @@ hierárquica no Mapa - Kryonix precisa atualização.
 === Seu objetivo ===
 Atuar como copiloto na expansão deste vault. Priorize concisão técnica,
 precisão declarativa e manutenção da estrutura 100% conectada.
+Seguir rigorosamente [[04-Recursos/skills/aura/OBSIDIAN_VAULT_PROTOCOL]].
 ```
 
 ## Links relacionados
@@ -177,6 +181,7 @@ precisão declarativa e manutenção da estrutura 100% conectada.
 - [[01-MOCs/Mapa - Obsidian Skills (kepano)]] (skills oficiais kepano)
 - [[04-Recursos/prompts/PROMPT_IA_CONSUMIR_OBSIDIAN]] (prompt irmão, foco em leitura)
 - [[04-Recursos/templates/template-prompt]] (template pra criar variantes)
+- [[04-Recursos/skills/aura/OBSIDIAN_VAULT_PROTOCOL]] (protocolo de escrita)
 
 ## Próxima ação
 
@@ -184,3 +189,4 @@ precisão declarativa e manutenção da estrutura 100% conectada.
 - [x] MOCs listados na regra #1 com paths corretos (sem "Mapa - Desenvolvimento")
 - [x] Falsos positivos do `check_obsidian_links.py` documentados
 - [x] Documentos-âncora na tag `<context>` linkados
+- [x] Referência ao protocolo de escrita Aura adicionada
