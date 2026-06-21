@@ -1,9 +1,20 @@
 ---
 title: revisao-nixos-flake
 type: skill
-status: stub
-tags: [skill, nixos, flake, revisao]
+status: ativo
 purpose: Revisar mudanças em flakes NixOS antes de aplicar ou mesclar
+validade: precisa_validar
+tipo: skill
+projeto: kryonix
+componente: nixos-flake
+fonte_verdade: vault
+confianca: media
+rag: ativo
+graph: true
+validado_em: 2026-06-19
+last_sync: 2026-06-19
+operation_mode: inspiron-local-hermes-openrouter
+tags: [kryonix, skill, nixos, flakes, revisao, seguranca]
 ---
 
 # revisao-nixos-flake
@@ -14,18 +25,75 @@ Revisar mudanças em `flake.nix`, `flake.lock` e módulos NixOS antes de aplicar
 
 ## Resumo
 
-Stub criado durante a reorganização do vault (Fase 2, 2026-06-15). Conteúdo operacional a ser preenchido.
+Skill revisada em 2026-06-19 para o modo Inspiron + Hermes local + OpenRouter.
+Ainda marcada como `validade: precisa_validar` até ser usada em uma revisão real de flake com resultado validado.
 
 ## Quando usar
 
 - Antes de abrir PR que toque em qualquer arquivo `.nix` ou `flake.lock`.
-- Antes de rodar `nixos-rebuild switch` em ambiente crítico.
+- Para revisão prévia a um `nixos-rebuild switch` em ambiente crítico; a execução é sempre humana, explícita e fora do escopo desta skill.
 - Ao revisar PR de outro engenheiro em projeto NixOS.
 
 ## Quando não usar
 
 - Não usar para revisar código de aplicação (Rust, Python, etc) — para isso existe `revisao-pr`.
 - Não usar para auditoria de segurança ampla — para isso existe `auditoria-secrets` e `revisao-seguranca-api`.
+
+## Modo Operacional Atual
+
+- Runtime ativo: Inspiron
+- Agente principal: Hermes local
+- Provider/modelos externos: OpenRouter
+- Glacier: SKIPPED_BY_OPERATION_MODE
+- DEV core: /home/rocha/kryonix/kryonix
+- DEV-user: /home/rocha/kryonix/kryonixos
+- PROD core: /etc/kryonix
+- PROD-user futuro: /etc/kryonixos
+
+## Política de uso correto desta skill
+
+Esta skill:
+- não executa `nixos-rebuild switch`;
+- não executa `kryonix switch`;
+- não executa `kryonix boot`;
+- não executa `disko`;
+- não executa `mkfs.*`;
+- não executa `rm -rf`;
+- não executa `sudo`;
+- não executa `git add .`;
+- só revisa diffs, patches e PRs antes de merge/deploy;
+- só audita secrets em texto, sem abrir ou expor secrets reais;
+- se Glacier aparecer no contexto, registrar `SKIPPED_BY_OPERATION_MODE`;
+- se houver conflito, obedecer `SOURCE_AUTHORITY.md`;
+- se houver dúvida de RAG/indexação, obedecer `RAG_POLICY_LOCAL.md`.
+
+## Procedimento seguro para paths Kryonix
+
+0. Identificar o flake alvo antes de revisar:
+
+- DEV core:
+  `cd /home/rocha/kryonix/kryonix && git status --short`
+
+- DEV-user:
+  `cd /home/rocha/kryonix/kryonixos && git status --short`
+
+- PROD core:
+  `/etc/kryonix`
+  Somente leitura. Não usar sudo. Se houver permissão negada, registrar limitação.
+
+- PROD-user futuro:
+  `/etc/kryonixos`
+  Somente leitura. Não usar sudo. Se não existir, registrar como futuro/ausente.
+
+1. Ler `flake.nix`, `hosts/**`, `modules/**`, `profiles/**`, `packages/**` e arquivos alterados relevantes.
+2. Validar imports quebrados, opções inexistentes, paths absolutos frágeis e conflitos DEV/PROD.
+3. Separar análise em:
+   - erro bloqueante;
+   - risco;
+   - melhoria;
+   - pendência;
+   - fora de escopo.
+4. Para qualquer ação destrutiva ou de aplicação real, parar e pedir aprovação humana.
 
 ## Input esperado
 
