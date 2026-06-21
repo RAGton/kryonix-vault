@@ -1,0 +1,46 @@
+# =============================================================================
+# Kryonix Vault — gitignore
+# =============================================================================
+
+# Obsidian — configurações de usuário/local
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/styles.css
+
+# Obsidian — tema (plugin da comunidade)
+.obsidian/themes/
+
+# Sistema / editores
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*~
+
+# Secrets — nunca commitar
+*.env
+.env.*
+*.secret
+*.key
+*.pem
+*.token
+sops.yaml
+
+# Artifacts de build
+result
+result-*
+
+# PDFs da biblioteca — não versionar arquivos binários grandes
+04-Recursos/livros/*.pdf
+04-Recursos/livros/**/*.pdf
+
+# Logs temporários
+/tmp/
+*.tmp
+*.log
+
+# Diretórios de material a auditar (ainda não curados)
+04-Recursos/FullStack/
+04-Recursos/Inteligencia-Artificial/
