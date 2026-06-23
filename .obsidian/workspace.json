@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8abe4930b0573cb7",
+        "id": "0b351c6e80505d11",
         "type": "tabs",
         "children": [
           {
-            "id": "fbc161fcd529b9ca",
+            "id": "1e33e330399f2f38",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "pdf",
+              "state": {
+                "file": "04-Recursos/livros/A arte de dar feedback (Um guia acima da média - HBR) - Motive sua equipe. Melhore a comunicação. Estabeleça objetivos claros. - Autor (Harvard Business Review).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "A arte de dar feedback (Um guia acima da média - HBR) - Motive sua equipe. Melhore a comunicação. Estabeleça objetivos claros. - Autor (Harvard Business Review)"
             }
           }
         ]
@@ -49,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#seedling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 237.5124969482422
   },
   "right": {
     "id": "22ce35da82a2158e",
@@ -168,8 +169,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
+      "switcher:Abrir a troca rápida": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
@@ -177,43 +178,53 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "fbc161fcd529b9ca",
+  "active": "1e33e330399f2f38",
   "lastOpenFiles": [
-    "PROMPT_MASTER.md",
-    "09-Logs/evidence/home-organization-report.md",
-    "01-MOCs/Mapa - IA e Agentes.md",
-    "notes/Inspiron.md",
-    "04-Recursos/skills/aura/OBSIDIAN_VAULT_PROTOCOL.md",
-    "04-Recursos/skills/aura",
-    "09-Logs/evidence/Fix - kryonix-installer - network camelCase - 2026-06-18.md",
-    "09-Logs/evidence/Avaliacao - kryonix-installer - 2026-06-18.md",
-    "AGENTS.md",
-    "09-Logs/sessions/2026-06-14/2026-06-14-2110-kryonix-vault-bootstrap.md",
-    "09-Logs/prs/PR-005 - live remote web boot mode.md",
-    "09-Logs/prs/PR-003 - disk visualizer hardening final.md",
-    "09-Logs/prs/PR-003 - disk visualizer rebase after PR-004.md",
-    "09-Logs/prs/PR-004 - preserve install contract fields.md",
-    "09-Logs/prs",
-    "09-Logs/evidence/README.md",
-    "08-Referencias/Radar de Documentacao Engenharia.md",
-    "08-Referencias/Politica de Curadoria de Fontes e Codigo.md",
-    "08-Referencias/Fontes Oficiais.md",
-    "08-Referencias/Checklist de Avaliacao de Codigo Externo.md",
-    "04-Archive/VAULT_INDEX_LEGACY.md",
-    "04-Archive/AGENTS_LEGACY.md",
-    "02-Areas/Kryonix/installer/Externalize-Roadmap.md",
-    "03-Projetos/Kryonix Installer.md",
-    "CLAUDE.md",
     "VAULT_INDEX.md",
-    "README.md",
-    "09-Logs/sessions/2026-06-16/2026-06-16-vault-recovery-segundo-cerebro.md",
-    "09-Logs/sessions/2026-06-16",
-    "README.md.tmp.111831.36be9156e9b9",
-    "VAULT_INDEX.md.tmp.111831.80f58d316616",
-    "VAULT_INDEX.md.tmp.111831.ffd9ccf4a108",
-    "VAULT_INDEX.md.tmp.111831.bc8c9b1a312b",
-    "PROMPT_MASTER.md.tmp.111831.6ff270a4e5a5",
-    "PROMPT_MASTER.md.tmp.111831.8989761c9b3a",
-    "PROMPT_MASTER.md.tmp.111831.837abe14d245"
+    "04-Archive/_vaulthub_import_2026-06-20/T-templates-hub/VAULT_INDEX.md",
+    "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/11-evidence-pack.md",
+    "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/02-package-classification.md",
+    "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/03-hosts-and-downstream-boundaries.md",
+    "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/01-core-inventory.md",
+    "09-Logs/2026-06-22 - Kryonix core boundary audit.md",
+    "01-MOCs/MOC - Kryonix Core Boundaries.md",
+    "02-Areas/Kryonix/canonical/DEVELOPMENT_FLOW.md",
+    "02-Areas/Kryonix/canonical/BOUNDARIES.md",
+    "02-Areas/Kryonix/canonical/PACKAGE_CLASSIFICATION.md",
+    "02-Areas/Kryonix/canonical/CORE_DOWNSTREAM_INSTALLER.md",
+    "09-Logs/evidence/vibe-coding-agent-training-2026-06-21.md",
+    "04-Recursos/templates/vibe-coding/tool-matrix.md",
+    "04-Recursos/templates/vibe-coding/agent-run-report.md",
+    "04-Recursos/templates/vibe-coding/security-gate.md",
+    "04-Recursos/templates/vibe-coding/mvp-validation-report.md",
+    "04-Recursos/templates/vibe-coding/tool-bakeoff-report.md",
+    "04-Recursos/templates/vibe-coding/product-spec.md",
+    "04-Recursos/templates/vibe-coding/briefing.md",
+    "04-Recursos/skills/vibe-coding/vault-memory-after-action/SKILL.md",
+    "04-Recursos/skills/vibe-coding/pr-review-small-commits/SKILL.md",
+    "04-Recursos/skills/vibe-coding/security-before-scale/SKILL.md",
+    "04-Recursos/skills/vibe-coding/mvp-validation-gate/SKILL.md",
+    "04-Recursos/skills/vibe-coding/ui-reference-extraction/SKILL.md",
+    "04-Recursos/skills/vibe-coding/agentic-worktree-loop/SKILL.md",
+    "04-Recursos/templates/vibe-coding",
+    "04-Recursos/skills/vibe-coding/vault-memory-after-action",
+    "04-Recursos/skills/vibe-coding/ui-reference-extraction",
+    "04-Recursos/skills/vibe-coding/tool-bakeoff",
+    "04-Recursos/skills/vibe-coding/security-before-scale",
+    "04-Recursos/skills/vibe-coding/pr-review-small-commits",
+    "04-Recursos/skills/vibe-coding/mvp-validation-gate",
+    "04-Recursos/skills/vibe-coding/briefing-to-spec",
+    "04-Recursos/skills/vibe-coding/agentic-worktree-loop",
+    "04-Recursos/skills/vibe-coding",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Multiple Selection-Multi-Cursor.gif",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Folding and Regions.gif",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Command Palette.gif",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/TTRPG_Campaign_Mgt_-_Where_To_Begin.png",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/TTRPG_Campaign_Mgt_-_FacebookTTRPGUserGroup.png",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/Tooltips-for-Literature-Notes-with-Supercharged-Links.gif",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/theme-submission-propose-changes.png",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/theme-submission-PR-template.png",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/safe-mode-on.png",
+    "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/publish-pfsense-http-fe_2.png"
   ]
 }

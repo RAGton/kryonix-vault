@@ -1,1 +1,6 @@
-{}
+{
+  "promptDelete": true,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "deleteUnlinkedAttachments": "always"
+}
