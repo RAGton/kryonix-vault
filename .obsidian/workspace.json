@@ -11,12 +11,14 @@
             "id": "1e33e330399f2f38",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "04-Recursos/livros/A arte de dar feedback (Um guia acima da média - HBR) - Motive sua equipe. Melhore a comunicação. Estabeleça objetivos claros. - Autor (Harvard Business Review).pdf"
+                "file": "04-Recursos/templates/vibe-coding/agent-run-report.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "A arte de dar feedback (Um guia acima da média - HBR) - Motive sua equipe. Melhore a comunicação. Estabeleça objetivos claros. - Autor (Harvard Business Review)"
+              "icon": "lucide-file",
+              "title": "agent-run-report"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#seedling",
+                "query": "tag:#vibe-coding",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +74,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,6 +183,14 @@
   },
   "active": "1e33e330399f2f38",
   "lastOpenFiles": [
+    "08-Referencias/obsidian/A Brief History and Ethos of the Digital Garden.md",
+    "08-Referencias/obsidian/An Introduction to Dataview Slides.md",
+    "08-Referencias/obsidian/HTML.md",
+    "08-Referencias/obsidian/Linking Your Thinking.md",
+    "08-Referencias/obsidian/Obsidian Sync.md",
+    "08-Referencias/obsidian/LaTeX.md",
+    "08-Referencias/obsidian/Controlling Obsidian via a Third-party App.md",
+    "04-Recursos/livros/A arte de dar feedback (Um guia acima da média - HBR) - Motive sua equipe. Melhore a comunicação. Estabeleça objetivos claros. - Autor (Harvard Business Review).pdf",
     "VAULT_INDEX.md",
     "04-Archive/_vaulthub_import_2026-06-20/T-templates-hub/VAULT_INDEX.md",
     "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/11-evidence-pack.md",
@@ -199,13 +210,6 @@
     "04-Recursos/templates/vibe-coding/mvp-validation-report.md",
     "04-Recursos/templates/vibe-coding/tool-bakeoff-report.md",
     "04-Recursos/templates/vibe-coding/product-spec.md",
-    "04-Recursos/templates/vibe-coding/briefing.md",
-    "04-Recursos/skills/vibe-coding/vault-memory-after-action/SKILL.md",
-    "04-Recursos/skills/vibe-coding/pr-review-small-commits/SKILL.md",
-    "04-Recursos/skills/vibe-coding/security-before-scale/SKILL.md",
-    "04-Recursos/skills/vibe-coding/mvp-validation-gate/SKILL.md",
-    "04-Recursos/skills/vibe-coding/ui-reference-extraction/SKILL.md",
-    "04-Recursos/skills/vibe-coding/agentic-worktree-loop/SKILL.md",
     "04-Recursos/templates/vibe-coding",
     "04-Recursos/skills/vibe-coding/vault-memory-after-action",
     "04-Recursos/skills/vibe-coding/ui-reference-extraction",
@@ -215,7 +219,6 @@
     "04-Recursos/skills/vibe-coding/mvp-validation-gate",
     "04-Recursos/skills/vibe-coding/briefing-to-spec",
     "04-Recursos/skills/vibe-coding/agentic-worktree-loop",
-    "04-Recursos/skills/vibe-coding",
     "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Multiple Selection-Multi-Cursor.gif",
     "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Folding and Regions.gif",
     "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Command Palette.gif",
