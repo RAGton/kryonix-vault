@@ -410,44 +410,21 @@ Namespace:
 kryonix.features.gaming.*
 ```
 
-Arquivo canônico:
+Arquivos:
 
-```txt
-modules/nixos/features/gaming.nix
-```
+- Canônico: `modules/nixos/features/gaming.nix`
+- Wrapper: `features/gaming.nix`
 
-Arquivo legado:
-
-```txt
-features/gaming.nix
-```
-
-Status:
-
-```txt
-canonical + legacy-wrapper + conflict-resolved
-```
+Status: `canonical + legacy-wrapper + conflict-resolved` (gamer descartado)
 
 Serve para:
+- Stack de jogos (Steam, Lutris, GameMode, MangoHud, etc).
 
-* Steam;
-* Lutris;
-* GameMode;
-* MangoHud;
-* Heroic Games Launcher;
-* Wine/proton helpers, se presentes;
-* udev rules para controles.
+Risco: Baixo/médio.
 
-Risco:
+**Observação importante**: O nome canônico é `gaming`. Antigas referências a `gamer` ou `profile-gamer` foram removidas das recomendações ativas.
 
-* baixo/médio;
-* pode afetar pacotes gráficos, 32-bit libs e drivers.
-
-Observação:
-
-* `gamer` foi descartado em favor de `gaming`.
-
-## AI
+## Security & Network (Firewall)
 
 ### `ai`
 
@@ -627,13 +604,22 @@ Risco:
 ### `security.firewall`
 
 Serve para:
+* firewall base (Stealth mode / ping drop).
 
-* firewall base;
-* política de rede.
+Status:
+* implementado, mas candidato a legacy/compat futuro.
 
-Risco:
+Risco: alto em host remoto se modificado sem cuidado.
 
-* alto em host remoto.
+### `network.firewall.strict`
+
+Serve para:
+* direção canônica futura para a política de firewall restritiva (default deny).
+
+Status:
+* stub/direção canônica futura, não implementado como runtime ainda.
+
+Risco: alto, pode causar lockout se SSH/Tailscale não forem permitidos em fallback.
 
 ### `security.fail2ban`
 

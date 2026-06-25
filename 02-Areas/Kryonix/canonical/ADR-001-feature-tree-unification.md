@@ -55,6 +55,14 @@ Implemented in `RAGton/kryonix` main:
 - #105 canonical `gaming`
 - #106 AI namespace alignment
 
+Additional follow-ups completed after the first foundation batch:
+
+- #107 audited and aligned `registry.nix` metadata.
+- #108 replaced active `gamer` / `profile-gamer` documentation with canonical `gaming`.
+- #109 documented the overlap between `security.firewall` and `network.firewall.strict`.
+
+No firewall behavior was changed by #109. Firewall migration remains pending and must be handled with explicit SSH/Tailscale/bridge/libvirt safety checks.
+
 Current canonical tree:
 
 ```txt

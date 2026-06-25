@@ -65,12 +65,18 @@ Mapear catálogos hardcoded:
 2. PR move development — migrated
 3. PR move virtualization — migrated
 4. PR move gaming/gamer — migrated / gamer conflict resolved
-5. PR move AI.
-6. PR move workstation/desktop.
-7. PR compat profiles `glacier-*`.
-8. PR export registry JSON.
-9. PR downstream features.generated/local.
-10. PR installer consumes JSON.
+5. PR move AI — aligned / namespace-only
+6. PR audit registry metadata — completed / merged / validated (#107)
+7. PR gamer docs cleanup — completed / merged / validated (#108)
+8. PR firewall overlap audit — completed / merged / validated (#109)
+   * `security.firewall` vs `network.firewall.strict` migration plan ainda pendente.
+   * `network.firewall.strict` recomendado como direção canônica futura.
+   * `security.firewall` deve virar legacy/compat/deprecated em PR futuro, se aprovado.
+9. PR move workstation/desktop.
+10. PR compat profiles `glacier-*`.
+11. PR export registry JSON.
+12. PR downstream features.generated/local.
+13. PR installer consumes JSON.
 
 ## Critérios antes de tocar no installer
 
