@@ -8,14 +8,14 @@ Mapear a migração de `features/` para `modules/nixos/features/`.
 
 | Legado | Canônico alvo | Namespace atual | Namespace alvo | Conflitos | Risco | Ação |
 |---|---|---|---|---|---|---|
-| `features/development.nix` | `modules/nixos/features/development.nix` | `kryonix.features.development` | `kryonix.features.development` | Nenhum | Baixo | Mover |
-| `features/gaming.nix` | `modules/nixos/features/gaming.nix` | `kryonix.features.gaming` | `kryonix.features.gaming` | `gamer.nix` em modules | Baixo | Renomear/Substituir |
-| `features/workstation.nix` | `modules/nixos/features/workstation.nix` | `kryonix.features.workstation` | `kryonix.features.workstation` | Nenhum | Médio | Mover |
-| `features/virtualization.nix`| `modules/nixos/features/virtualization.nix` | `kryonix.features.virtualization` | `kryonix.features.virtualization` | Nenhum | Baixo | Mover |
-| `features/ai.nix` | `modules/nixos/features/ai.nix` | `kryonix.features.ai.*` | `kryonix.features.ai.*` | Opções diferentes no alvo | Médio | Consolidar |
-| `features/remote-desktop.nix`| `modules/nixos/features/remote.nix` | `kryonix.features.remoteDesktop` | `kryonix.features.remote.desktop` | Namespace | Baixo | Renomear namespace |
-| `features/openrgb.nix` | `modules/nixos/features/hardware/openrgb.nix`| `kryonix.features.openrgb` | `kryonix.features.hardware.openrgb` | Nenhum | Baixo | Mover |
-| `features/f5-tts-server/` | `modules/nixos/features/ai/f5-tts.nix` | `kryonix.features.f5tts` | `kryonix.features.ai.f5tts` | Nenhum | Baixo | Mover |
+| `features/development.nix` | `modules/nixos/features/development.nix` | `kryonix.features.development` | `kryonix.features.development` | Nenhum | Baixo | Migrated / Merged / Validated |
+| `features/gaming.nix` | `modules/nixos/features/gaming.nix` | `kryonix.features.gaming` | `kryonix.features.gaming` | `gamer.nix` em modules | Baixo | Migrated / Merged / Validated (gamer removed) |
+| `features/workstation.nix` | `modules/nixos/features/workstation.nix` | `kryonix.features.workstation` | `kryonix.features.workstation` | Nenhum | Médio | Pending |
+| `features/virtualization.nix`| `modules/nixos/features/virtualization.nix` | `kryonix.features.virtualization` | `kryonix.features.virtualization` | Nenhum | Baixo | Migrated / Merged / Validated |
+| `features/ai.nix` | `modules/nixos/features/ai.nix` | `kryonix.features.ai.*` | `kryonix.features.ai.*` | Opções diferentes no alvo | Médio | Aligned / Namespace-only / No runtime |
+| `features/remote-desktop.nix`| `modules/nixos/features/remote.nix` | `kryonix.features.remoteDesktop` | `kryonix.features.remote.desktop` | Namespace | Baixo | Pending |
+| `features/openrgb.nix` | `modules/nixos/features/hardware/openrgb.nix`| `kryonix.features.openrgb` | `kryonix.features.hardware.openrgb` | Nenhum | Baixo | Pending |
+| `features/f5-tts-server/` | `modules/nixos/features/ai/f5-tts.nix` | `kryonix.features.f5tts` | `kryonix.features.ai.f5tts` | Nenhum | Baixo | Pending |
 
 ## Mapeamento inicial esperado
 

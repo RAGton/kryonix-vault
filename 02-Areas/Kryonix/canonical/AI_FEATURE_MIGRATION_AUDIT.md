@@ -116,19 +116,22 @@ Listar todos os paths encontrados:
 
 A migração cega de `features/ai.nix` que não respeitar os profiles do Glacier pode ativar Ollama ou Neo4j no hardware errado (Inspiron, que é cliente apenas). Além disso, há mistura de definições de portas, secrets (`.env`) e namespaces nas definições atuais do legaddo.
 
-## Estratégia recomendada de migração
+## Resultado do PR #106
 
-Recomendação provável:
+- `brain.client.enable` e `brain.server.enable` agora pertencem somente ao `schema.nix`.
+- `ai.nix` não duplica mais essas opções.
+- `ai.nix` segue compat-only para `ollama`/`openWebui`/`neo4j`/`lightrag`/`kryonixBrain`.
+- Nenhum runtime foi alterado.
 
-1. Não migrar tudo em um PR gigante.
-2. Primeiro alinhar namespaces/schema e estabilizar `kryonix.features.ai.*`.
-3. Migrar Brain client/server como wrapper/compat, garantindo que cliente não inicie o stack local pesado.
-4. Migrar Ollama isolado.
-5. Migrar Neo4j isolado.
-6. Migrar LightRAG isolado.
-7. F5-TTS em PR separado.
-8. Não misturar GPU/CUDA com AI.
-9. Não mexer no downstream ainda.
+## Próximos passos
+
+1. Auditar `features/ai.nix` legado.
+2. Separar Brain client/server runtime em PR próprio.
+3. Separar Ollama/OpenWebUI em PR próprio.
+4. Separar Neo4j/LightRAG em PR próprio.
+5. Não misturar GPU/CUDA.
+6. Não misturar MCP.
+7. Não misturar F5-TTS.
 
 ## Critérios para PR de migração AI
 

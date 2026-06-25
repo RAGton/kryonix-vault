@@ -44,6 +44,39 @@ O Kryonix possui uma dupla personalidade arquitetural onde duas árvores de feat
 9. profiles `glacier-*` serão mantidos temporariamente como compat/deprecated.
 10. Nenhuma nova feature de app/kernel externo deve ser criada até concluir a unificação estrutural.
 
+## Implementation status — 2026-06-25
+
+Implemented in `RAGton/kryonix` main:
+
+- #92 `schema.nix`
+- #93 `registry.nix`
+- #103 canonical `development`
+- #104 canonical `virtualization`
+- #105 canonical `gaming`
+- #106 AI namespace alignment
+
+Current canonical tree:
+
+```txt
+modules/nixos/features/
+├── schema.nix
+├── registry.nix
+├── development.nix
+├── virtualization.nix
+├── gaming.nix
+└── ai.nix
+```
+
+Not implemented yet:
+
+* full AI runtime migration
+* Brain/Ollama/Neo4j/LightRAG service migration
+* F5-TTS migration
+* remote-desktop migration
+* openrgb migration
+* workstation migration
+* installer Feature Registry consumption
+
 A árvore canônica de features do upstream é `modules/nixos/features/`.
 A árvore `features/` é legada e será migrada gradualmente.
 

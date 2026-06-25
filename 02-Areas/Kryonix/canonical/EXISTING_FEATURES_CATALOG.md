@@ -460,16 +460,20 @@ kryonix.features.ai.*
 Status:
 
 ```txt
-legacy-pending + audited
+partial canonical namespace + compat runtime switches
 ```
 
 Serve para:
 
-* Brain client/server;
-* Ollama;
-* LightRAG;
-* Neo4j;
-* serviços e integração local/remota de IA.
+* Brain client/server ownership é schema.nix;
+* Ollama (ainda em compat/satellite options);
+* LightRAG (ainda em compat/satellite options);
+* Neo4j (ainda em compat/satellite options);
+* OpenWebUI (ainda em compat/satellite options);
+* Serviços e integração local/remota de IA.
+
+Observação:
+* AI runtime ainda não está migrado.
 
 Risco:
 
