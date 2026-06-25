@@ -62,9 +62,9 @@ Mapear catálogos hardcoded:
 ## Plano de PRs
 
 1. PR audit-only de migration map.
-2. PR move development.
-3. PR move virtualization.
-4. PR move gaming/gamer.
+2. PR move development — migrated
+3. PR move virtualization — migrated
+4. PR move gaming/gamer — migrated / gamer conflict resolved
 5. PR move AI.
 6. PR move workstation/desktop.
 7. PR compat profiles `glacier-*`.
