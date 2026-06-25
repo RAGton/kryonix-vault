@@ -25,7 +25,7 @@ Mapear a migração de `features/` para `modules/nixos/features/`.
 | `features/gaming.nix` | `modules/nixos/features/gaming.nix` | vence nome `gaming`, evitar `gamer` |
 | `features/workstation.nix` | `modules/nixos/features/workstation.nix` ou split em `desktop.nix`/`development.nix` | remover Hyprland default escondido |
 | `features/virtualization.nix` | `modules/nixos/features/virtualization.nix` | consolidar libvirt/podman/docker |
-| `features/ai.nix` | `modules/nixos/features/ai.nix` | consolidar brain client/server e ollama/neo4j/lightrag |
+| `features/ai.nix` | `modules/nixos/features/ai.nix` | AI migration must be split by subfeature: brain client/server, ollama, neo4j, lightrag. Do not mix GPU/CUDA or F5-TTS in the same PR. |
 | `features/remote-desktop.nix` | `modules/nixos/features/remote.nix` | novo namespace `remote.desktop.*` |
 | `features/openrgb.nix` | `modules/nixos/features/hardware/openrgb.nix` ou `misc/openrgb.nix` | decidir destino |
 | `features/f5-tts-server/` | `modules/nixos/features/ai/f5-tts.nix` | tratar como AI/server |

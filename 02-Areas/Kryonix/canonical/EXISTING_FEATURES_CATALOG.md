@@ -460,7 +460,7 @@ kryonix.features.ai.*
 Status:
 
 ```txt
-legacy-pending ou needs-audit
+legacy-pending + audited
 ```
 
 Serve para:
