@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Recursos/templates/vibe-coding/agent-run-report.md",
+                "file": "04-Recursos/playbooks/Playbook - Configurar Repo para Codex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agent-run-report"
+              "title": "Playbook - Configurar Repo para Codex"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,8 +182,25 @@
   },
   "active": "1e33e330399f2f38",
   "lastOpenFiles": [
-    "08-Referencias/obsidian/A Brief History and Ethos of the Digital Garden.md",
+    "04-Recursos/playbooks/Playbook - Analise de Logs.md",
+    "04-Recursos/livros/contributing.md",
+    "04-Recursos/livros/code_of_conduct.md",
+    "01-MOCs/Mapa - Biblioteca.md",
+    "01-MOCs/Mapa - Kryonix.md",
+    "CLAUDE.md",
+    "PROMPT_MASTER.md",
+    "08-Referencias/Politica de Curadoria de Fontes e Codigo.md",
+    "08-Referencias/obsidian/An Introduction to Dataview.md",
     "08-Referencias/obsidian/An Introduction to Dataview Slides.md",
+    "02-Areas/Kryonix/canonical/Troubleshooting.md",
+    "02-Areas/Kryonix/canonical/Agents.md",
+    "03-Projetos/RAGOS Installer.md",
+    "03-Projetos/Kryonix VE.md",
+    "03-Projetos/Kryonix System.md",
+    "03-Projetos/Kryonix Installer.md",
+    "09-Logs/sessions/2026-06-15/2026-06-15-0250-sync-prod-after-boot-identity.md",
+    "04-Recursos/templates/vibe-coding/agent-run-report.md",
+    "08-Referencias/obsidian/A Brief History and Ethos of the Digital Garden.md",
     "08-Referencias/obsidian/HTML.md",
     "08-Referencias/obsidian/Linking Your Thinking.md",
     "08-Referencias/obsidian/Obsidian Sync.md",
@@ -193,23 +209,6 @@
     "04-Recursos/livros/A arte de dar feedback (Um guia acima da média - HBR) - Motive sua equipe. Melhore a comunicação. Estabeleça objetivos claros. - Autor (Harvard Business Review).pdf",
     "VAULT_INDEX.md",
     "04-Archive/_vaulthub_import_2026-06-20/T-templates-hub/VAULT_INDEX.md",
-    "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/11-evidence-pack.md",
-    "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/02-package-classification.md",
-    "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/03-hosts-and-downstream-boundaries.md",
-    "02-Areas/Kryonix/canonical/audits/2026-06-22-core-boundary-audit/01-core-inventory.md",
-    "09-Logs/2026-06-22 - Kryonix core boundary audit.md",
-    "01-MOCs/MOC - Kryonix Core Boundaries.md",
-    "02-Areas/Kryonix/canonical/DEVELOPMENT_FLOW.md",
-    "02-Areas/Kryonix/canonical/BOUNDARIES.md",
-    "02-Areas/Kryonix/canonical/PACKAGE_CLASSIFICATION.md",
-    "02-Areas/Kryonix/canonical/CORE_DOWNSTREAM_INSTALLER.md",
-    "09-Logs/evidence/vibe-coding-agent-training-2026-06-21.md",
-    "04-Recursos/templates/vibe-coding/tool-matrix.md",
-    "04-Recursos/templates/vibe-coding/agent-run-report.md",
-    "04-Recursos/templates/vibe-coding/security-gate.md",
-    "04-Recursos/templates/vibe-coding/mvp-validation-report.md",
-    "04-Recursos/templates/vibe-coding/tool-bakeoff-report.md",
-    "04-Recursos/templates/vibe-coding/product-spec.md",
     "04-Recursos/templates/vibe-coding",
     "04-Recursos/skills/vibe-coding/vault-memory-after-action",
     "04-Recursos/skills/vibe-coding/ui-reference-extraction",
