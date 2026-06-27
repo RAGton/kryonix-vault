@@ -23,15 +23,18 @@ Realizar o pull do workspace de desenvolvimento no Inspiron, separar erro de Git
 ## Mudancas realizadas
 
 - `repos/kryonix-installer/src/executor/target_tree.rs`: formatacao Rust do bloco `has_openssh_feature`, necessaria para manter `cargo fmt --check` limpo apos o pull do commit `f898571`.
+- `scripts/pull-all.sh`: forca `git pull --ff-only --no-rebase` para impedir que `pull.rebase=true` local transforme o pull fast-forward em tentativa de rebase com arvore suja.
 
 ## Commits e branches
 
 - Branch: `main`.
 - `repos/kryonix-installer`: `05b9f8c style(installer): format target tree generation`.
+- `repos/kryonix-dev`: `4d3ba1b chore(dev): update installer and vault submodule pointers`.
 
 ## Validacoes executadas
 
-- `./scripts/pull-all.sh`: repos sem mudancas remotas; `kryonix-installer` e `kryonix-vault` falharam inicialmente por alteracoes locais nao commitadas.
+- `./scripts/pull-all.sh`: primeira execucao mostrou repos sem mudancas remotas, mas `kryonix-installer` e `kryonix-vault` falharam por `pull.rebase=true` com alteracoes locais.
+- `./scripts/pull-all.sh` apos ajustar `--no-rebase`: PASS, todos os submodules retornaram `Already up to date`.
 - `cd repos/kryonixos && nix flake check --keep-going --impure`: PASS para `inspiron`, `glacier`, `inspiron-nina` e Home Manager.
 - `cd repos/kryonix-installer && cargo fmt --check && cargo clippy -- -D warnings && cargo test`: PASS, 64 testes.
 - `cd repos/kryonix-installer && nix build .#kryonix-installer --no-link -L`: PASS, build release e 64 testes no checkPhase.
@@ -46,7 +49,7 @@ Realizar o pull do workspace de desenvolvimento no Inspiron, separar erro de Git
 ## Pendencias
 
 - O workspace ainda contem arquivos nao rastreados em `repos/kryonix` e estado local do Obsidian em `repos/kryonix-vault`; estes nao foram incluidos no commit por nao fazerem parte da correcao.
-- Pull completo do Vault continuara bloqueado enquanto essas mudancas locais nao forem commitadas, stashadas ou descartadas pelo dono do workspace.
+- Restam arquivos nao rastreados em `repos/kryonix` e estado local do Obsidian em `repos/kryonix-vault`; estes nao bloqueiam mais `scripts/pull-all.sh`, mas continuam aparecendo no status do workspace.
 
 ## Proximo passo recomendado
 
