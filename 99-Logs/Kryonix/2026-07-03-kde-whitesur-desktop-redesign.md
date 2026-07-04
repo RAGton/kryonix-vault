@@ -1,7 +1,7 @@
 # Kryonix Desktop Redesign: WhiteSur-KDE
 
-**Data**: 2026-07-03  
-**Agente**: Antigravity (IA)  
+**Data**: 2026-07-03
+**Agente**: Antigravity (IA)
 **Objetivo**: Implementar o tema global WhiteSur-KDE declarativamente e remover regressões da topologia do Plasma.
 
 ## Auditoria e Diagnóstico
@@ -37,30 +37,31 @@ Ao invés de rodar `fetchFromGitHub` artesanal, optamos pela abordagem segura us
 - **Risco de Cache Sujo**: O Plasma 6 costuma mesclar (merge) arquivos de layout no `~/.config/plasmashellrc`. Ao aplicar a configuração declarativa, a topologia antiga pode causar duplicação visual ou painéis fantasmas no fundo da tela.
 
 ## Como Aplicar e Resetar (User Action Required)
-Execute os comandos abaixo na sequência para evitar problemas visuais pós-deploy:
+Execute os comandos abaixo na sequência para evitar problemas visuais pós-deploy usando um reset seguro da interface:
 
 ```bash
 # 1. Aplica o NixOS/Home Manager
 kryonix switch all
 
-# 2. Mata o Plasma imediatamente após aplicar
-kquitapp6 plasmashell
+# 2. Faz backup preventivo e para o Plasma suavemente via systemctl
+mkdir -p ~/kryonix-kde-backup
+systemctl --user stop plasma-plasmashell.service || qdbus6 org.kde.ksmserver /KSMServer logout 0 0 0
 
-# 3. Limpa o cache de layout antigo
-rm ~/.config/plasmashellrc
+# 3. Move os arquivos para o backup ao invés de removê-los permanentemente
+mv ~/.config/plasmashellrc ~/kryonix-kde-backup/
+mv ~/.config/plasma-org.kde.plasma.desktop-appletsrc ~/kryonix-kde-backup/ 2>/dev/null || true
 
-# 4. Reinicia a interface
-kstart plasmashell
+# 4. Inicia a interface novamente
+systemctl --user start plasma-plasmashell.service || plasmashell --replace &
 ```
 
 ## Rollback
 Caso queira reverter para o tema BonaFides original:
 1. Faça revert do commit no repo `kryonix` (`git revert HEAD`).
 2. Aplique novamente com `kryonix switch all`.
-3. Repita o passo de limpar o `plasmashellrc`.
+3. Repita o passo de reset da interface de forma segura.
 
 ## Adendo: Limpeza de Temas Antigos
-
 Durante a implementação, foi detectado que o Plasma acumulava temas legados conflitantes ("BonaFides", "MacVentura", "Illusion", "kryonix-blue-glass"). A retenção desses pacotes gerava "vibe coding visual" espontâneo no KDE, impossibilitando uma estética WhiteSur coesa. 
 
 ### Ações de Limpeza:
