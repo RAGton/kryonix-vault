@@ -45,7 +45,7 @@ kryonix switch all
 
 # 2. Faz backup preventivo e para o Plasma suavemente via systemctl
 mkdir -p ~/kryonix-kde-backup
-systemctl --user stop plasma-plasmashell.service || qdbus6 org.kde.ksmserver /KSMServer logout 0 0 0
+systemctl --user stop plasma-plasmashell.service || qdbus6 org.kde.plasmashell /MainApplication quit || killall plasmashell
 
 # 3. Move os arquivos para o backup ao invés de removê-los permanentemente
 mv ~/.config/plasmashellrc ~/kryonix-kde-backup/
