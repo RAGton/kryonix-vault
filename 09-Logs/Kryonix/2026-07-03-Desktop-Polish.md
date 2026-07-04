@@ -26,6 +26,8 @@ Realizar o polimento visual definitivo do desktop Kryonix (KDE/SDDM), assegurand
 5. **System Tray & Dock**: `blueman` foi desativado downstream em `glacier/bluetooth.nix` para evitar redundância na bandeja do sistema, deixando o `bluedevil` do próprio KDE cuidar de tudo com maestria. Ícones estáticos cruciais adicionados à dock (Chrome, Edge, Steam, Antigravity).
 6. **Keybinds**: `Meta+L` foi convertido para `Lock Screen` (bloquear), substituindo o comportamento perigoso de `suspend` (agora remapeado para `Meta+Shift+Escape`).
 7. **Antigravity IDE**: Adicionado como um stub via `kryonix.features.development.antigravity` no NixOS, exibindo um `lib.mkWarning` para sinalizar falta de binário/AppImage oficial empacotado. Preparado para a P1.
+8. **KRunner Fix (Adendo)**: O atalho nativo do KRunner colidiu com o KDE 6 e foi silenciosamente suprimido. A solução definitiva foi injetar um **Custom Command Shortcut** via `hotkeys.commands` forçando `Meta+A` a chamar o binário `krunner`.
+9. **Top Bar Fix (Adendo)**: A propriedade `floating = true` gerou efeito pílula. Revertido para `floating = false` garantindo preenchimento de borda a borda (flush/fixa).
 
 ## Commits e branches
 **kryonix:**
@@ -35,6 +37,7 @@ Realizar o polimento visual definitivo do desktop Kryonix (KDE/SDDM), assegurand
 - `fix(kde): normalize tray icons and desktop entries`
 - `feat(kde): refine professional shortcuts`
 - `feat(development): add antigravity ide integration stub`
+- `fix(kde): resolvido conflito krunner, painel fixo e paginador`
 
 **kryonixos:**
 - `fix(bluetooth): remove redundant blueman applet to prevent tray duplicates`
