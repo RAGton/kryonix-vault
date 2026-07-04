@@ -58,3 +58,17 @@ Caso queira reverter para o tema BonaFides original:
 1. Faça revert do commit no repo `kryonix` (`git revert HEAD`).
 2. Aplique novamente com `kryonix switch all`.
 3. Repita o passo de limpar o `plasmashellrc`.
+
+## Adendo: Limpeza de Temas Antigos
+
+Durante a implementação, foi detectado que o Plasma acumulava temas legados conflitantes ("BonaFides", "MacVentura", "Illusion", "kryonix-blue-glass"). A retenção desses pacotes gerava "vibe coding visual" espontâneo no KDE, impossibilitando uma estética WhiteSur coesa. 
+
+### Ações de Limpeza:
+1. **No NixOS (Sistema):** A declaração e empacotamento do `kryonix-plasma-theme` e referências legadas ao `BonaFides` foram erradicadas do `environment.systemPackages` e das flags ativas.
+2. **No Home do Usuário:** Criou-se um script idempotente em `scripts/kde-clean-old-themes.sh` para realizar o backup e remoção de todos os temas manuais que residiam em `~/.local/share/plasma` sem tocar no fallback mínimo obrigatório do KDE (`Breeze`).
+
+### Como rodar a limpeza:
+```bash
+# Execute o script seguro (ele não deleta, apenas faz backup e move)
+./scripts/kde-clean-old-themes.sh
+```
