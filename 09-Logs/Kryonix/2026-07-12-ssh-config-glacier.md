@@ -28,6 +28,7 @@ N/A para repositórios de código. O log foi gerado no Vault.
 ```ssh-config
 Host glacier
     HostName 10.0.0.68
+    Port 2224
     User rocha
     IdentityFile ~/.ssh/id_ed25519_glacier
     IdentitiesOnly yes
