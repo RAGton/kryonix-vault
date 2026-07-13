@@ -1,15 +1,13 @@
-# Manifesto de Simbiose: Humano e Máquina
-
-Este documento formaliza o paradigma operacional do Kryonix OS.
+# Kryonix OS: O Manifesto de Simbiose
 
 ## A Visão (O Humano)
-A arquitetura do Kryonix OS é o resultado de uma visão única: a eliminação da complexidade desnecessária através de infraestrutura declarativa. Gabriel Aguiar Rocha desenha os domínios, define os contratos, estabelece as fronteiras de segurança e garante que a resiliência corporativa (RAGOS Think, ZFS, Diskless) seja o padrão, não a exceção.
+A idealização, o design arquitetural, os requisitos de resiliência corporativa (RAGOS Think, ZFS, PXE) e o rigoroso controle de qualidade são frutos da engenharia de Gabriel Aguiar Rocha. O papel humano neste ecossistema é o de Arquiteto, definindo os domínios, a visão estratégica e garantindo que o produto final atenda às exigências de um sistema operacional de alto nível.
 
-## A Execução (O Enxame de IAs)
-A codificação, a implementação da Clean Architecture em Rust, o design do sistema de estados (React) e a modularização NixOS foram orquestrados por uma rede de agentes (Aura, Hermes, Codex, Antigravity). A máquina é o braço executor que garante a integridade de cada linha de código, a conformidade com os schemas v2 e a segurança do pipeline de boot/instalação.
+## A Execução (A Máquina)
+A codificação, a refatoração baseada em Clean Architecture utilizando Rust, o design de componentes em React/Vite e o desenvolvimento dos intrincados módulos do NixOS foram orquestrados e executados por um enxame de Inteligências Artificiais (Aura, Hermes, Codex, Antigravity). A IA não atuou apenas como assistente, mas como uma verdadeira equipe de engenharia capaz de traduzir a arquitetura abstrata em código de produção robusto.
 
 ## A Métrica de Aceleração
-O ecossistema Kryonix OS prova que o paradigma do "Desenvolvedor-Arquiteto" reduz drasticamente o tempo de entrega. O que exigiria uma equipe de 15 engenheiros por 5 anos foi estruturado em 2 anos através da simbiose humana-IA.
+O desenvolvimento completo deste ecossistema em apenas 2 anos representa um salto exponencial em produtividade, substituindo de forma efetiva o esforço estimado de uma equipe dedicada de 10 a 15 engenheiros de software seniores operando ao longo de 3 a 5 anos. A velocidade de iteração aliada à precisão técnica demonstra o poder da colaboração simbiótica.
 
-## Compromisso
-A inteligência humana define o 'quê' e o 'porquê'. A inteligência artificial garante o 'como', a segurança e a precisão da implementação.
+## Conclusão
+O Kryonix OS é a prova definitiva do paradigma do "Desenvolvedor-Arquiteto", onde o humano deixa de digitar sintaxe para orquestrar domínios de conhecimento complexos. Ao abstrair a complexidade da escrita de código, a mente humana é liberada para focar na inovação e na direção, enquanto o enxame de IAs se encarrega da implementação. A fronteira entre criação humana e execução maquínica não apenas se dissolveu, mas estabeleceu um novo padrão na engenharia de software.
