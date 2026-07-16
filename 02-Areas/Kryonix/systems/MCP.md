@@ -1,47 +1,60 @@
 ---
-source: docs/brain/mcp.md
-status: derived
+source: repos/kryonix/docs/mcp/README.md
+status: partial
 canonical: false
-last_sync: 2026-05-01
+last_sync: 2026-07-15
 ---
 
 # MCP (Model Context Protocol)
 
 > [!IMPORTANT]
-> Esta nota é derivada de `docs/`. Em caso de divergência, `docs/` vence.
+> Esta nota é derivada. O código e `repos/kryonix/docs/mcp/` vencem em caso de
+> divergência.
 
-O Kryonix integra servidores de **Model Context Protocol** para interações locais JSON-RPC isoladas.
+## Estado
 
-## Fonte de Verdade
-- **Status:** **VALIDATED** (Servidores locais operacionais)
-- **Serviço:** N/A (Cada server roda sob demanda invocado pelo agent client)
-- **Porta:** N/A (A comunicação é via standard I/O streams)
-- **Comando:** `kryonix mcp doctor`
-- **Validação:** Todos os servidores configurados no `.mcp.json` retornando check verde.
+MCP local usa JSON-RPC sobre `stdio`. Hermes está aposentado; os wrappers não
+dependem dele e podem ser consumidos por qualquer cliente compatível.
 
-## Servidores MCP Suportados
-A arquitetura de integração inclui:
-1. **mcp-nixos**: Expõe acesso seguro a opções do NixOS e pacotes.
-2. **Filesystem**: Exposição _read-only_ do Vault.
+| Componente | Estado |
+|---|---|
+| Filesystem sandboxado | PARTIAL — implementação e prova local feitas; host não ativado |
+| Git sandboxado | PARTIAL — leitura e bloqueio de staging provados localmente; host não ativado |
+| Sequential Thinking | PARTIAL — handshake local provado; host não ativado |
+| NixOS Docs | PARTIAL — pacote Nix/sandbox implementado; host não ativado |
+| Brain MCP via Glacier | PARTIAL — requer prova runtime remota |
+| GitHub MCP | não habilitado |
 
-> [!WARNING]
-> A inicialização remota do **Brain MCP (`kryonix-brain`)** do `glacier` a partir de hosts clientes está classificada como PARTIAL no ROADMAP e não constitui feature plenamente validada em runtime oficial.
+## Decisão de segurança
 
-## Validação de Segurança e Variáveis 
-A regra principal para o MCP é que **nenhum secret deve ser incluído em arquivos locais do repositório**. 
-- O arquivo `.mcp.json` é ignorado pelo GIT (`.gitignore`).
-- Apenas a cópia `.mcp.example.json` deve ser manipulada ou enviada no versionamento.
-- Caminhos para servidores locais precisam ser sempre absolutos.
+`mcp-server-filesystem` e `mcp-server-git` upstream oferecem ferramentas
+mutantes. Limitar diretórios no config não os torna read-only.
 
-## Testes do MCP
+O contrato Kryonix usa wrappers `kryonix-mcp-*` com `bubblewrap`, ambiente
+limpo, mounts `--ro-bind` e home temporário. A garantia vem do kernel, não de
+prompt, nome ou `readOnlyHint`.
 
-Os comandos abaixo são necessários para validar se sua integração foi feita corretamente, protegendo o vazamento de segredos via `stdout`:
-```sh
-kryonix mcp check        # Analisa o config atrás de secrets expostos
-kryonix mcp doctor       # Confirma vitalidade dos servers
-```
+O wrapper `mcp-nixos` recebe rede, mas nenhum mount do host. Filesystem, Git e
+Sequential Thinking ficam sem rede.
 
+## Pendências
+
+- ativar somente após build do host;
+- validar handshake e provas negativas na geração do Inspiron;
+- implementar limite obrigatório/paginação de output; `rag-slim-wrapper` não
+  existe no código atual;
+- validar Brain remoto no Glacier;
+- manter GitHub/Fetch/Memory fora até contrato explícito de RBAC, custo e
+  persistência.
+
+## Fontes
+
+- [Filesystem MCP Server](https://github.com/modelcontextprotocol/servers/blob/main/src/filesystem/README.md)
+- [Sequential Thinking MCP Server](https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking/README.md)
+- [MCP reference servers](https://github.com/modelcontextprotocol/servers)
 
 ## Links relacionados
 
 - [[01-MOCs/Mapa - Kryonix]]
+- [[02-Areas/Kryonix/systems/Brain]]
+- [[02-Areas/Kryonix/ai-brain/Hermes]]
