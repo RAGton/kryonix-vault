@@ -45,3 +45,8 @@ Continuar o ciclo de desenvolvimento/uso do loop; sempre manter o `/etc/kryonix`
 ### Update (Grub e Splash)
 - **GRUB**: Removido o tema antigo que estava quebrado (`kryonix-grub-theme`) e implementado nativamente o `splashImage` apontando para o background `01.png` oficial tratado.
 - **KDE Splash**: Definido `Engine = "none"` no `ksplashrc` via Home Manager (plasma-manager) para desabilitar a tela de splash imitando o macOS do tema WhiteSur. Isso permite uma transição limpa e perfeita do Plymouth direto para o Desktop sem flashes estranhos.
+
+### Update (Estabilidade Plasma 6 Wayland)
+- **Plasmashell Crash Loop**: Resolvido um problema de instabilidade severa pós-login onde a interface recarregava repetidamente. 
+  - `overrideConfig` do `plasma-manager` foi definido como `false`. Com isso, os arquivos de configuração (como o `appletsrc`) deixam de ser symlinks *read-only* na store do Nix, permitindo que o KDE salve o estado e geometria sem estourar falhas fatais no shell.
+  - `floating` dos painéis principal e inferior foram definidos como `false`. Painéis flutuantes (3-island topology) associados ao motor de blur no KWin Wayland causam um recalculo infinito na textura de blur (`No QSGTexture provided`) ao tocarem as bordas, resultando em crash do KWin. Isso implementou o fallback documentado.
