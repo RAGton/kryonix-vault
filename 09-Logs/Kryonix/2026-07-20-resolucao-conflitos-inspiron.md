@@ -53,3 +53,6 @@ Continuar o ciclo de desenvolvimento/uso do loop; sempre manter o `/etc/kryonix`
 
 ### Update (Visual GRUB)
 - **Sleek GRUB**: A pedido do usuário, o GRUB com imagem de fundo não agradou. Substituímos toda a base do GRUB pelo pacote visual moderno e organizado `sleek-grub-theme`. Como o usuário solicitou uma cor sólida, modificamos dinamicamente os tokens da paleta do Sleek para usar o código `#081018` (Azul escuro oficial Kryonix) em vez de uma imagem de background. Isso traz fontes modernas (`Poppins`), iconografia, barra de progresso organizada e um menu profissional e limpo.
+
+### Update (Ferramentas CLI)
+- **Aura, Kryx e Hermes**: As ferramentas de linha de comando (`aura`, `kryx`, `hermes`) estavam corretamente referenciadas no repositório base/backend, mas os binários não estavam explicitamente exportados para o `PATH` do usuário. Elas foram injetadas no ambiente `environment.systemPackages` do host `inspiron` e agora estarão disponíveis no terminal assim que as modificações forem aplicadas localmente.
