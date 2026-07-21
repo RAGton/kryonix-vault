@@ -50,3 +50,6 @@ Continuar o ciclo de desenvolvimento/uso do loop; sempre manter o `/etc/kryonix`
 - **Plasmashell Crash Loop**: Resolvido um problema de instabilidade severa pós-login onde a interface recarregava repetidamente. 
   - `overrideConfig` do `plasma-manager` foi definido como `false`. Com isso, os arquivos de configuração (como o `appletsrc`) deixam de ser symlinks *read-only* na store do Nix, permitindo que o KDE salve o estado e geometria sem estourar falhas fatais no shell.
   - `floating` dos painéis principal e inferior foram definidos como `false`. Painéis flutuantes (3-island topology) associados ao motor de blur no KWin Wayland causam um recalculo infinito na textura de blur (`No QSGTexture provided`) ao tocarem as bordas, resultando em crash do KWin. Isso implementou o fallback documentado.
+
+### Update (Visual GRUB)
+- **Sleek GRUB**: A pedido do usuário, o GRUB com imagem de fundo não agradou. Substituímos toda a base do GRUB pelo pacote visual moderno e organizado `sleek-grub-theme`. Como o usuário solicitou uma cor sólida, modificamos dinamicamente os tokens da paleta do Sleek para usar o código `#081018` (Azul escuro oficial Kryonix) em vez de uma imagem de background. Isso traz fontes modernas (`Poppins`), iconografia, barra de progresso organizada e um menu profissional e limpo.
