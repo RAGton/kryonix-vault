@@ -31,6 +31,8 @@ Centralizar os ativos visuais ativos na marca oficial Kryonix Águia K com Escud
 - Substituídos logos ativos de boot:
   - `boot/logo.png`
   - `boot/node/logo.png`
+  - `boot/node/background.jpg`
+  - `boot/node/source-background.jpg`
 - Criados novos fundos oficiais:
   - `boot/ipxe-bg.png`
   - `wallpapers/kryonix-dark-4k.png`
