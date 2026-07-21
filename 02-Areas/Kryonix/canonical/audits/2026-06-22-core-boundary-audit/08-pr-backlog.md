@@ -17,7 +17,7 @@
 
 - **`kryonix-hardware-probe`** → fica no core (`CORE_SHARED`)
 - **`.agents/`** → fica no core (`CANONICAL_AGENT_CONTEXT`)
-- **ISO/Installer** → mover para `kryonix-installer` (PR futuro, pós-decadências)
+- **ISO/Installer** → mover para `kryxd` (PR futuro, pós-decadências)
 - **`profiles/glacier-*`** → decisão arquitetural pendente com Gabriel
 
 ## Ordem recomendada

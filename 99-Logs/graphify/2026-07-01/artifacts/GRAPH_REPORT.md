@@ -309,15 +309,15 @@
 
 ## Surprising Connections (you probably didn't know these)
 - `Novo` --cites--> `ChatGPT Image`  [EXTRACTED]
-  kryonix/docs/operations/novo.md → kryonix-installer/ui/imgs/ChatGPT Image 3 de mar. de 2026, 21_34_16.png
+  kryonix/docs/operations/novo.md → kryxd/ui/imgs/ChatGPT Image 3 de mar. de 2026, 21_34_16.png
 - `test_comparative_ask_search_coverage_requires_both_terms()` --calls--> `assess_intent_coverage()`  [INFERRED]
   kryonix-brain-lightrag/tests/test_operational_pr1_contracts.py → kryonix-brain-lightrag/kryonix_brain_lightrag/rag.py
 - `test_doc_id()` --calls--> `doc_id()`  [INFERRED]
   kryonix-brain-lightrag/tests/test_utils.py → kryonix-brain-lightrag/kryonix_brain_lightrag/rag.py
 - `Installer UI Index` --references--> `Calamares Timezones -1.0`  [EXTRACTED]
-  kryonix-installer/ui/index.html → kryonix-installer/ui/imgs/calamares-timezones/timezone_-1.0.png
+  kryxd/ui/index.html → kryxd/ui/imgs/calamares-timezones/timezone_-1.0.png
 - `Installer UI Index` --references--> `Calamares Timezones -10.0`  [EXTRACTED]
-  kryonix-installer/ui/index.html → kryonix-installer/ui/imgs/calamares-timezones/timezone_-10.0.png
+  kryxd/ui/index.html → kryxd/ui/imgs/calamares-timezones/timezone_-10.0.png
 
 ## Import Cycles
 - None detected.

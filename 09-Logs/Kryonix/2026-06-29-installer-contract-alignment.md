@@ -4,7 +4,7 @@ Data: 2026-06-29
 Agente: Antigravity
 Repos afetados:
 
-- repos/kryonix-installer
+- repos/kryxd
 - repos/kryonix-vault
 - / (kryonix-dev)
 
@@ -14,7 +14,7 @@ Garantir que as restrições estritas impostas pelo backend durante o `/dry-run`
 
 ## Contexto consultado
 O backend mapeia "features" (`InstallPlan` JSON) validando a compatibilidade no `src/main.rs`. Descobriu-se que `ai.ollama` e `virtualization.libvirt` exigiam o array `confirmed_features` com a chave do ID caso fossem adicionadas no JSON do installer.
-Consultado os estados do `kryonix-installer` no Workspace local para mapear a comunicação de segurança via Token e as regras de restrição do Glacier (que não deve sofrer interações por via direta no instalador).
+Consultado os estados do `kryxd` no Workspace local para mapear a comunicação de segurança via Token e as regras de restrição do Glacier (que não deve sofrer interações por via direta no instalador).
 
 ## Mudanças realizadas
 1. Criado `docs/FRONTEND_BACKEND_CONTRACT.md` documentando rotas `/dry-run`, `/install`, o esquema do `X-Kryonix-Installer-Token` e o tratamento dos payloads HTTP.
@@ -23,8 +23,8 @@ Consultado os estados do `kryonix-installer` no Workspace local para mapear a co
 4. Atualizado `ui/src/utils/installPlan.js` e `ui/src/utils/installerApi.js` para agregar a chave `confirmed_features` ao envio final do `InstallPlan`, extraindo do catalogo as selections marcadas como `partial`.
 
 ## Commits e branches
-1. `fix(installer): align frontend backend contract` (Em `repos/kryonix-installer`)
-2. `chore(dev): update kryonix-installer submodule pointer` (Em `/home/rocha/kryonix/kryonix-dev`)
+1. `fix(installer): align frontend backend contract` (Em `repos/kryxd`)
+2. `chore(dev): update kryxd submodule pointer` (Em `/home/rocha/kryonix/kryonix-dev`)
 
 ## Validações executadas
 - `cargo test` executado e 64 testes rodaram com status "ok", incluindo as garantias sobre a validação de feature `test_feature_partial_with_confirmation_passes` e logs de erros estritos de fallback.

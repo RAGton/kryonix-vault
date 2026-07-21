@@ -37,7 +37,7 @@ entities,         Entidades externas rastreadas (repos, services, issues, PRs), 
 item,                       estado
 Motor (RAGton/kryonix),     DEV em /home/rocha/kryonix/kryonix, PROD em /etc/kryonix
 Site (RAGton/Kryonixos),    separado, ainda em planejamento de fluxo DEV-PROD
-Installer,                  migrado para RAGton/kryonix-installer (PR #1, jun 2026)
+Installer,                  migrado para RAGton/kryxd (PR #1, jun 2026)
 Brain,                      Aura/Hermes locais + Neo4j + Ollama em Glacier
 Identidade,                 KryonixOS como padrao (PR #71 + PR #80 merged)
 CI,                         debt aberto em issue #79 (workflows quebrados)
@@ -48,7 +48,7 @@ Sessão Aura 2026-06,        documentada em 03-Projetos/Kryonix-Aura-2026-06
 
 - Repo motor: <https://github.com/RAGton/kryonix>
 - Repo site: <https://github.com/RAGton/Kryonixos>
-- Repo installer: <https://github.com/RAGton/kryonix-installer>
+- Repo installer: <https://github.com/RAGton/kryxd>
 - Issue CI: <https://github.com/RAGton/kryonix/issues/79>
 
 ## Projetos relacionados

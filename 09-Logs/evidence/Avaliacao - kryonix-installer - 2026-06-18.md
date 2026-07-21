@@ -1,6 +1,6 @@
-# Avaliação de Qualidade — kryonix-installer
+# Avaliação de Qualidade — kryxd
 
-> **Repositório:** `github:RAGton/kryonix-installer`
+> **Repositório:** `github:RAGton/kryxd`
 > **Data:** 2026-06-18
 > **Avaliador:** Agente AI (Claude Opus 4.6)
 > **Commit HEAD:** `53efed6` (main)
@@ -9,7 +9,7 @@
 
 ## Objetivo
 
-Avaliar sistematicamente a qualidade do repositório `kryonix-installer` em segurança, arquitetura, testes, CI, manutenibilidade, documentação e operacionalidade. Produzir um plano de melhoria priorizado.
+Avaliar sistematicamente a qualidade do repositório `kryxd` em segurança, arquitetura, testes, CI, manutenibilidade, documentação e operacionalidade. Produzir um plano de melhoria priorizado.
 
 ---
 

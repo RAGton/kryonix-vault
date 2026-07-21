@@ -37,7 +37,7 @@ Cronologia dos PRs (mais antigo no fundo, mais recente no topo).
 
 ### Validações
 - `nix flake show`, `nix build .#nixosConfigurations.iso.config.system.build.toplevel`
-- `nix build .#kryonix-installer`
+- `nix build .#kryxd`
 - Verificado `cat $TOP/etc/{motd,issue,os-release}` no toplevel da ISO.
 
 ---

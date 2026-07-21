@@ -33,7 +33,7 @@ O livro cobre 11 capítulos do básico (init, add, commit) ao avançado (rebase,
 
 ## Quando usar
 
-- Ao criar commit no kriptonix / kryonixos / kryonix-installer / kryonix-vault.
+- Ao criar commit no kriptonix / kryonixos / kryxd / kryonix-vault.
 - Ao resolver conflito de merge.
 - Ao criar/revisar PR.
 - Ao precisar desfazer algo no git (revert, reset, checkout).

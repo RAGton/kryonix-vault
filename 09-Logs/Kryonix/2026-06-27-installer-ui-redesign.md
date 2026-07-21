@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- repos/kryonix-installer
+- repos/kryxd
 
 ## Objetivo
 Refatorar a interface do Kryonix Installer para remover a navegação lateral vertical e implementar um design horizontal estilo macOS com suporte avançado a temas (Claro/Escuro), preparando a base para a identidade visual premium do sistema.
@@ -19,7 +19,7 @@ Refatorar a interface do Kryonix Installer para remover a navegação lateral ve
 4. **Contrato de API (`appearance`)**: Atualizamos o schema JSON (`install-plan.schema.json`) e a função `buildInstallPlanPayload` para emitir o objeto `appearance` em vez de depender exclusivamente de feature flags obscuras. O payload agora define claramente `installerTheme` e `desktopThemeMode`. Uma regra de compatibilidade (`features.desktop["appearance.dark-mode"]`) foi mantida temporariamente para não quebrar o backend atual.
 
 ## Commits e branches
-- `main` em `kryonix-installer`: `feat(installer-ui): refactor horizontal layout, add light/dark mode selection, update payload schema for appearance`
+- `main` em `kryxd`: `feat(installer-ui): refactor horizontal layout, add light/dark mode selection, update payload schema for appearance`
 
 ## Validações executadas
 - Vite frontend Build (`npm run build`) via tasks.

@@ -2,7 +2,7 @@
 
 Data: 2026-07-16
 Agente: Hermes
-Repos afetados: kryonix-installer
+Repos afetados: kryxd
 
 ## Objetivo
 
@@ -10,12 +10,12 @@ Implementar (P0) a ponte WebSocket segura entre a API do Incus e o frontend KCP,
 
 ## Contexto consultado
 
-- `repos/kryonix-installer/src/api/virt.rs` - API existente de virtualização
-- `repos/kryonix-installer/src/api/v1/rbac.rs` - Middleware RBAC RequireCoreRole
-- `repos/kryonix-installer/src/api/mod.rs` - Estrutura de rotas v2
-- `repos/kryonix-installer/src/api/install.rs` - Padrão de resposta ErrorResponse
-- `repos/kryonix-installer/ui/src/pages/kcp/Virt.jsx` - Página de instâncias, padrão de botões
-- `repos/kryonix-installer/ui/src/components/VirtWizard.jsx` - Padrão de modal
+- `repos/kryxd/src/api/virt.rs` - API existente de virtualização
+- `repos/kryxd/src/api/v1/rbac.rs` - Middleware RBAC RequireCoreRole
+- `repos/kryxd/src/api/mod.rs` - Estrutura de rotas v2
+- `repos/kryxd/src/api/install.rs` - Padrão de resposta ErrorResponse
+- `repos/kryxd/ui/src/pages/kcp/Virt.jsx` - Página de instâncias, padrão de botões
+- `repos/kryxd/ui/src/components/VirtWizard.jsx` - Padrão de modal
 
 ## Mudanças realizadas - Fase P0 (WebSocket Console)
 

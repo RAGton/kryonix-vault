@@ -51,7 +51,7 @@ surface for that exact kind of file.
 Rules:
 
 - Do not create loose Markdown files in the root of `kryonix` or
-  `kryonix-installer`.
+  `kryxd`.
 - Store reusable documentation, ADRs, operational logs, runbooks, design notes,
   prompts and decisions in `kryonix-vault`.
 - Use the real vault layout from this file; do not invent numbered folders.

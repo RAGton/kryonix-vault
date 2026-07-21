@@ -1,15 +1,15 @@
 # KRYONIX Installer
 
 > **Atualização 2026-06-15**: o installer foi reorganizado em repo próprio
-> (<https://github.com/RAGton/kryonix-installer>), PR #1 aberto e MERGEABLE.
-> Antigo `RAGEnterprise/kryonix-installer` (legado, não usar). Roadmap
+> (<https://github.com/RAGton/kryxd>), PR #1 aberto e MERGEABLE.
+> Antigo `RAGEnterprise/kryxd` (legado, não usar). Roadmap
 > detalhado em [[02-Areas/Kryonix/installer/Externalize-Roadmap]] e entrada
 > principal em [[02-Areas/Kryonix/installer/MOC - Installer]].
 
 ## Repositório
 
-- GitHub: `RAGton/kryonix-installer` (novo, privado, flake input direto do motor Kryonix)
-  - Legado: `RAGEnterprise/kryonix-installer` (não usar)
+- GitHub: `RAGton/kryxd` (novo, privado, flake input direto do motor Kryonix)
+  - Legado: `RAGEnterprise/kryxd` (não usar)
 - Visibilidade: privado (sujeito a mudar quando estabilizar)
 - Branch padrão: `main`
 - Relação: instalador oficial do ecossistema KRYONIX

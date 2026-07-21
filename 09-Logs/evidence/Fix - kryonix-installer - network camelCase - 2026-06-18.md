@@ -1,7 +1,7 @@
 # Fix P0 — `network: missing field server_ip`
 
 > **Data:** 2026-06-18
-> **Repositório:** `github:RAGton/kryonix-installer`
+> **Repositório:** `github:RAGton/kryxd`
 > **Commit fixado em:** `src/main.rs` (não pushed — aguarda revisão)
 > **Bloqueio:** Instalação não iniciava; `/dry-run` e `/install` retornavam 422
 
@@ -152,7 +152,7 @@ git status --short       →  M src/main.rs
 
 ## Links
 
-- [[09-Logs/evidence/Avaliacao - kryonix-installer - 2026-06-18]]
+- [[09-Logs/evidence/Avaliacao - kryxd - 2026-06-18]]
 - [[03-Projetos/KryonixOS Installer]]
 
 #kryonix #installer #bugfix #p0 #serde #camelcase

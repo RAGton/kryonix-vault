@@ -38,7 +38,7 @@ R02, git,        nunca git reset --hard ou git clean -fdx, AGENTS.md, critico
 R03, git,        commits pequenos e escopados, AGENTS.md, alta
 R04, dev-prod,   DEV=/home/rocha/kryonix/kryonix e PROD=/etc/kryonix — fluxo explicito, sessao-aura, alta
 R05, dev-prod,   PROD sincroniza via sudo git pull --ff-only origin main, sessao-aura, alta
-R06, nixos,      nix build .#kryonix-installer --no-link -L --show-trace, sessao-aura, alta
+R06, nixos,      nix build .#kryxd --no-link -L --show-trace, sessao-aura, alta
 R07, nixos,      nunca nixos-rebuild switch sem aprovacao humana, AGENTS.md, critico
 R08, nixos,      nunca --impure ou --accept-flake-config, AGENTS.md, critico
 R09, secrets,    nunca commitar secret, token, chave ou credencial, AGENTS.md, critico

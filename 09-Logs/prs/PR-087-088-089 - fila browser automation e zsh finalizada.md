@@ -49,7 +49,7 @@ Não fazer switch/rebuild ainda. Antes disso, auditar packages/installer para pl
 ## Próximos passos
 
 1. Auditar `packages/` e installer.
-2. Verificar se `kryonix-installer` entra no host `inspiron`.
+2. Verificar se `kryxd` entra no host `inspiron`.
 3. Classificar packages por categoria.
 4. Só depois planejar sync PROD.
 

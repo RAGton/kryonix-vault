@@ -27,8 +27,8 @@ Estado geral: 8 paths auditados, 3 branches contaminadas (corrigidas), 1 worktre
 |---|---|---|---|
 | **motor DEV** (`kryonix`) | `feat/browser-automation` | Suja (remotos NÃO minhas + untracked) | PR #87 limpo; installer sujo da branch anterior |
 | **downstream DEV** (`kryonixos/`) | `main` | Suja (1 arquivo) | `hosts/glacier/live.nix` modificado |
-| **installer DEV** (`kryonix-installer`) | `main` | Muito suja (17+ arquivos, ahead 7) | Background3D, theme, patches |
-| **worktree UI** (`kryonix-installer-ui-refine`) | `ui/refine-legibility` | 1 arquivo modificado | Patch B parcial, Patch C não iniciado |
+| **installer DEV** (`kryxd`) | `main` | Muito suja (17+ arquivos, ahead 7) | Background3D, theme, patches |
+| **worktree UI** (`kryxd-ui-refine`) | `ui/refine-legibility` | 1 arquivo modificado | Patch B parcial, Patch C não iniciado |
 | **worktree clean** (`kryonix-browser-automation-clean`) | `feat/browser-automation-clean` | Limpa | Só existe para validar PR #87 |
 | **Vault** (`kryonix-vault`) | `main` | 1 commit ahead; .obsidian sujo | PR log, skills, livres |
 | **motor PROD** (`/etc/kryonix`) | — | Acesso proibido (root) | Não auditável por rocha |
@@ -41,7 +41,7 @@ Estado geral: 8 paths auditados, 3 branches contaminadas (corrigidas), 1 worktre
 | kryonix | **#87** (browser-automation) | feat/browser-automation | Draft | UNSTABLE | ✅ **LIMPO** — 3 files, 1 commit, sem contaminação |
 | kryonix | **#86** (remote-web-boot) | feat/remote-web-boot-mode | Draft | UNSTABLE | ⚠️ 4 commits, 2 files (iso + installer/web-kiosk) |
 | kryonix | **#69-55** (arquivados) | archive/* | Draft | DIRTY/UNSTABLE | 💤 PRs históricos, sem impacto |
-| kryonix-installer | Nenhum | — | — | — | Nenhum PR aberto |
+| kryxd | Nenhum | — | — | — | Nenhum PR aberto |
 
 ## Branches e contaminações
 
@@ -77,7 +77,7 @@ Não contaminada pela browser-automation.
 
 | Path | Branch | Mudanças |
 |---|---|---|
-| `kryonix-installer-ui-refine` | `ui/refine-legibility` | `ui/src/index.css` (+9/-1) — Patch B parcial |
+| `kryxd-ui-refine` | `ui/refine-legibility` | `ui/src/index.css` (+9/-1) — Patch B parcial |
 | `kryonix/.worktrees/installer-polish-p1` | `installer-polish-p1` | (não auditado em detalhe) |
 | `kryonix-browser-automation-clean` | `feat/browser-automation-clean` | Limpa — removível após merge do PR #87 |
 
@@ -89,8 +89,8 @@ Não contaminada pela browser-automation.
 | kryonix | `.worktrees/` | Worktree residual |
 | kryonix | `test-specialisation.nix` | Teste não comitado |
 | kryonix | `pr-body.md` | PR body temporário |
-| kryonix-installer | `test_hash*` | Artefato de teste |
-| kryonix-installer | `ui/clean_jsx.*`, `*_theme.py` | Scripts auxiliares |
+| kryxd | `test_hash*` | Artefato de teste |
+| kryxd | `ui/clean_jsx.*`, `*_theme.py` | Scripts auxiliares |
 | kryonix-vault | `04-Recursos/livros/` | PDFs (gitignorados?) |
 
 ## Arquivos sensíveis detectados
@@ -130,7 +130,7 @@ Sem contaminação cruzada com PR #87 ✅
 ## Estado da worktree UI installer
 
 ```
-Path: /home/rocha/kryonix/kryonix-installer-ui-refine
+Path: /home/rocha/kryonix/kryxd-ui-refine
 Branch: ui/refine-legibility
 HEAD: 2ec0336 (mesmo do main do installer)
 Mudanças: apenas ui/src/index.css (9 linhas modificadas)

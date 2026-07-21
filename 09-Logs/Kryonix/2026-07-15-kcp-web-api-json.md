@@ -4,7 +4,7 @@ Data: 2026-07-15
 Agente: Antigravity
 Repos afetados:
 - kryonix (engine kryx)
-- kryonix-installer (API v1)
+- kryxd (API v1)
 - kryonix-dev (pointers)
 
 ## Objetivo
@@ -19,14 +19,14 @@ Missão sobre KCP Web UI, definições estruturais do projeto, e arquivos base d
    - `packages/kryx/src/main.rs`: Lógica de inibição de logs decorativos, priorizando exclusivamente o output bruto de `serde_json::to_string` e direcionando os erros para um JSON simples ou texto em `stderr`.
    - `packages/kryx/src/services/feature.rs`: Função `list_features(json: bool)` implementada para exportar o dump completo (tree JSON) se `--json` estiver presente.
 
-2. **API Axum v1 (kryonix-installer)**:
+2. **API Axum v1 (kryxd)**:
    - Adicionada camada de autenticação/RBAC baseada nas próprias permissões do sistema (`kryx::services::identity::check_identity`) via Extractor `RequireCoreRole`.
    - Criado o namespace `/api/v1/` com as rotas `system/identity`, `fleet/status`, `storage/quotas` e `ldap/users`.
    - O CORS no `main.rs` já autorizava os clientes em portas locais (`http://localhost`), atendendo perfeitamente o ambiente Vite.
 
 ## Commits e branches
 - `repos/kryonix`: `feat(cli): add json serialization support to kryx engine`
-- `repos/kryonix-installer`: `feat(api): create v1 endpoints for kcp web ui and rbac`
+- `repos/kryxd`: `feat(api): create v1 endpoints for kcp web ui and rbac`
 - `repos/kryonix-vault`: `docs(vault): log kcp web api and json execution`
 - `kryonix-dev`: `chore(dev): update submodule pointers for kcp api`
 

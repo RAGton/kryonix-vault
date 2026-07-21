@@ -108,5 +108,5 @@ Dependabot reportou 13 vulnerabilidades na default branch (2 high, 6 moderate, 5
 ## Links relacionados
 
 - [[04-Recursos/skills/vibe-coding/briefing-to-spec]]
-- [[03-Projetos/kryonix-installer]] (quando for retomar UI)
+- [[03-Projetos/kryxd]] (quando for retomar UI)
 - [[09-Logs/evidence/vibe-coding-agent-training-2026-06-21]]

@@ -4,7 +4,7 @@ Data: 2026-06-27
 Agente: Antigravity (IA)
 Repos afetados:
 
-- kryonix-installer
+- kryxd
 - kryonix-dev
 
 ## Objetivo
@@ -14,7 +14,7 @@ Tornar a opção "GitHub /etc/kryonixos" na etapa de Source funcional, permitind
 ## Contexto consultado
 
 - O usuário solicitou explicitamente que a funcionalidade saísse do P2 e se tornasse real.
-- O caminho temporário usado para clone foi estabelecido como `/run/kryonix-installer/sources/kryonixos` (no Live ISO) para evitar sujeira em `/etc` antes da instalação real (que usará `/mnt/etc/kryonixos`).
+- O caminho temporário usado para clone foi estabelecido como `/run/kryxd/sources/kryonixos` (no Live ISO) para evitar sujeira em `/etc` antes da instalação real (que usará `/mnt/etc/kryonixos`).
 
 ## Mudanças realizadas
 
@@ -33,7 +33,7 @@ Tornar a opção "GitHub /etc/kryonixos" na etapa de Source funcional, permitind
 
 ## Commits e branches
 
-- Commits diretos na `main` do repositório `kryonix-installer`.
+- Commits diretos na `main` do repositório `kryxd`.
 - Atualização do submodule no `kryonix-dev`.
 
 ## Validações executadas

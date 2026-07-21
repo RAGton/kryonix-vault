@@ -2,7 +2,7 @@
 
 ## Ciclo de desenvolvimento
 
-1. **DEV** → `/home/rocha/kryonix/kryonix` (ou kryonixos, ou kryonix-installer)
+1. **DEV** → `/home/rocha/kryonix/kryonix` (ou kryonixos, ou kryxd)
 2. **Commit** → `git add <arquivos explícitos>` (NUNCA `git add .`)
 3. **PR** → GitHub PR para `main`
 4. **CI** → `nix flake check --keep-going` no PR

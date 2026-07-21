@@ -63,7 +63,7 @@ Itens não mudam neste P3: cores GRUB, hint texto, progress bar.
 
 ```bash
 nix build .#nixosConfigurations.iso.config.system.build.toplevel --no-link -L
-nix build .#kryonix-installer --no-link -L
+nix build .#kryxd --no-link -L
 
 TOP="$(nix build ... --print-out-paths --no-link)"
 cat "$TOP/nixos-version"          # esperado: KryonixOS-Installer

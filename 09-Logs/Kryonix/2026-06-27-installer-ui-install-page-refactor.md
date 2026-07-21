@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- repos/kryonix-installer
+- repos/kryxd
 
 ## Objetivo
 Transformar a última página do Kryonix Installer (`Install.jsx`) em um **dashboard operacional robusto e coerente**. A página anterior apresentava estado misto, layout espremido e componentes genéricos que passavam uma falsa impressão de execução antes do processo sequer ter começado. 
@@ -20,11 +20,11 @@ O usuário forneceu o diagnóstico e wireframe exigindo a arquitetura 35/65, um 
   - **Header Operacional**: A barra de progresso (e variáveis dependentes como ETA e Tempo Decorrido) só são renderizadas na UI caso a instalação passe do estado `idle`, eliminando as falsas leituras de "100%" antecipado.
 
 ## Commits e branches
-- Commit local no `kryonix-installer`: `refactor(installer-ui): stabilize install page states and operational layout`.
+- Commit local no `kryxd`: `refactor(installer-ui): stabilize install page states and operational layout`.
 
 ## Validações executadas
 - Build local do instalador (`npm run build`).
 - Validação visual dos estados renderizados contra a documentação (idle).
 
 ## Próximo passo recomendado
-Atualizar o submodule `kryonix-installer` no workspace do `kryonix-dev` (root) e validar todas as transições de tela no navegador (verificar o stepper completo da Preparação até Instalação).
+Atualizar o submodule `kryxd` no workspace do `kryonix-dev` (root) e validar todas as transições de tela no navegador (verificar o stepper completo da Preparação até Instalação).

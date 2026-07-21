@@ -4,14 +4,14 @@ Data: 2026-06-28
 Agente: Antigravity
 Repos afetados:
 
-- kryonix-installer
+- kryxd
 - kryonix-dev
 
 ## Objetivo
 Impedir que o particionador manual continue a instalação quando o tamanho de um disco é identificado como `0 B` (indicativo de problema no disco ou falha na leitura pelo backend) e impor limites estritos de alocação onde a soma das partições nunca pode exceder o tamanho físico total.
 
 ## Contexto consultado
-- A documentação de regras para agentes requer registros no Vault ao implementar mudanças críticas no repositório `kryonix-installer`.
+- A documentação de regras para agentes requer registros no Vault ao implementar mudanças críticas no repositório `kryxd`.
 - O payload proveniente do backend rust reportava adequadamente o `size_bytes` lido do `lsblk -b`. O erro original derivava da ausência de proteção da interface em casos onde `sizeBytes` fosse zero ou quando a soma das partições alocadas (`allocatedBytes`) ultrapassasse a capacidade física disponível (`freeBytes`).
 
 ## Mudanças realizadas
@@ -24,7 +24,7 @@ Impedir que o particionador manual continue a instalação quando o tamanho de u
 - Criação de suítes de testes dedicadas em `ui/src/tests/layoutAssistant.test.js`.
 
 ## Commits e branches
-- Commit em `kryonix-installer` na `main` (`feat(ui): implement strict physical disk limits for manual partitioning`).
+- Commit em `kryxd` na `main` (`feat(ui): implement strict physical disk limits for manual partitioning`).
 - Atualização do submodule no `kryonix-dev`.
 
 ## Validações executadas
@@ -32,7 +32,7 @@ Impedir que o particionador manual continue a instalação quando o tamanho de u
 - O layout de validação não interfere com os casos existentes de Single Disk/Split Disk, nem quebra a lógica transiente do draft.
 
 ## Evidências
-- Testes confirmados e build limpo no repositório `kryonix-installer`.
+- Testes confirmados e build limpo no repositório `kryxd`.
 
 ## Pendências
 - Nenhuma. O UI agora barra 100% alocações acima do limite ou de discos defeituosos com tamanho aparente de 0 bytes.

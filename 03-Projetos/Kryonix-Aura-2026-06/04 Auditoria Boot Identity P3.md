@@ -127,7 +127,7 @@ nix fmt
 git diff --check
 nix flake show --all-systems
 nix build .#nixosConfigurations.iso.config.system.build.toplevel --no-link -L --show-trace
-nix build .#kryonix-installer --no-link -L --show-trace
+nix build .#kryxd --no-link -L --show-trace
 
 TOP="$(nix build .#nixosConfigurations.iso.config.system.build.toplevel --print-out-paths --no-link)"
 

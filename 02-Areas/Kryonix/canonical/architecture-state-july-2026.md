@@ -4,7 +4,7 @@ Este documento centraliza todas as conquistas, refatorações e adições arquit
 
 ## 1. O Fim do Imperativo: Auditoria e Remoção de Fix-it Scripts
 **Objetivo:** Eliminar "vibe coding" e a dependência de scripts avulsos no backend de instalação.
-- **Ação Executada:** Foram removidos antigos scripts em Python e JS (`apply_semantic_theme.py`, `fix_app.js`, `fix_network_theme.py`, `fix_theme.py`, `fix_ui.js`) dentro do `kryonix-installer`.
+- **Ação Executada:** Foram removidos antigos scripts em Python e JS (`apply_semantic_theme.py`, `fix_app.js`, `fix_network_theme.py`, `fix_theme.py`, `fix_ui.js`) dentro do `kryxd`.
 - **Resultado:** O instalador baseia-se 100% no `InstallPlanV2` em Rust, que gera configurações `.nix` nativas. Todas as decisões de UI, rede e disco fluem de forma puramente declarativa sem mutações posteriores ("gambiarra").
 
 ## 2. Identity Guard (A Bússola do Sistema)

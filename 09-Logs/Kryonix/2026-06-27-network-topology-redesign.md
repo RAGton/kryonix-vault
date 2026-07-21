@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- repos/kryonix-installer
+- repos/kryxd
 
 ## Objetivo
 Refatorar a etapa “Topologia de Rede” (`Network.jsx`) e melhorar a distribuição da UI para uma experiência mais premium, clara, séria e funcional, saindo de um visual de painel de debug improvisado para uma interface de produto madura.
@@ -37,4 +37,4 @@ O usuário forneceu diretrizes claras sobre uma mudança estrutural, exigindo:
 - Nenhuma execução destrutiva ao sistema host (QEMU/Disko intocados).
 
 ## Próximo passo recomendado
-Atualizar o submodule `kryonix-installer` no workspace principal e iniciar o refinamento da página de Particionamento (Disks), se aplicável.
+Atualizar o submodule `kryxd` no workspace principal e iniciar o refinamento da página de Particionamento (Disks), se aplicável.

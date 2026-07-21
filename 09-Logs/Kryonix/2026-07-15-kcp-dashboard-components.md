@@ -3,7 +3,7 @@
 Data: 2026-07-15
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer (UI)
+- kryxd (UI)
 
 ## Objetivo
 Implementar os componentes reais das abas do Kryonix Control Plane (KCP), substituindo os placeholders criados na etapa de refatoração do layout base.

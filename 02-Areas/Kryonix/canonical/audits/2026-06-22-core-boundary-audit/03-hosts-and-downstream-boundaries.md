@@ -7,7 +7,7 @@
 | `inspiron` | ✅ `hosts/inspiron/` (residual) | ✅ `hosts/inspiron/` (ativo) | **DUPLICADO** — remover do core |
 | `glacier` | ❌ Ausente | ✅ `hosts/glacier/` (ativo) | Correto — só no downstream |
 | `inspiron-nina` | ❌ Ausente | ✅ `hosts/inspiron-nina/` (ativo) | Correto — só no downstream |
-| `iso` | ✅ `hosts/iso/` (ativo) | ❌ Ausente | Deve ir para kryonix-installer |
+| `iso` | ✅ `hosts/iso/` (ativo) | ❌ Ausente | Deve ir para kryxd |
 | `common` | ✅ `hosts/common/` (ativo) | ❌ Ausente | Correto — shared module |
 
 ## O que deve ir para kryonixos

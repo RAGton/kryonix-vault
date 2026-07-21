@@ -5,7 +5,7 @@ status: completed
 tags: [kryonix, architecture, features, profiles, audit, plan, vault]
 created: 2026-06-23
 agente: Aura
-repos: [kryonix, kryonixos, kryonix-installer, kryonix-vault]
+repos: [kryonix, kryonixos, kryxd, kryonix-vault]
 ---
 
 # 2026-06-23 — Plano de arquitetura upstream/downstream/features
@@ -34,7 +34,7 @@ Foram auditados:
    - Redundância entre profiles e features
    - Kernel Zen e bridge network importados direto por path
 
-3. **Installer (`repos/kryonix-installer`)**:
+3. **Installer (`repos/kryxd`)**:
    - `featureCatalog.js` com profiles que não correspondem aos do core
    - Já gera `features.generated.nix` na target tree
    - Já tem lógica de escrita de features
@@ -118,7 +118,7 @@ hosts/glacier/rve-compat.nix
 flake.nix
 ```
 
-### Installer (repos/kryonix-installer)
+### Installer (repos/kryxd)
 
 ```
 ui/src/data/featureCatalog.js

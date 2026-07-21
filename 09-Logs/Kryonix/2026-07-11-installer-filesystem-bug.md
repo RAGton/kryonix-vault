@@ -3,7 +3,7 @@
 Data: 2026-07-11
 Agente: Antigravity / Agentic Coding
 Repos afetados:
-- kryonix-installer
+- kryxd
 - kryonix (core)
 
 ## Objetivo

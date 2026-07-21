@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- repos/kryonix-installer
+- repos/kryxd
 - repos/kryonix-vault
 - (workspace pointer)
 

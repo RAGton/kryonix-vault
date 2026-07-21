@@ -49,7 +49,7 @@ links:
 ## Build
 
 ```bash
-cd packages/kryonix-installer/ui
+cd packages/kryxd/ui
 npm install
 npm test
 npm run build              # vite build → dist/

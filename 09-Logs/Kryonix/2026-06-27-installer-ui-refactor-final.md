@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- repos/kryonix-installer
+- repos/kryxd
 
 ## Objetivo
 Finalizar a refatoração completa da UI/UX do Kryonix Installer, trazendo o design system com estética premium (dark mode com glassmorphism, accent colors, sem componentes nativos conflitantes) para as abas restantes, além de implementar barra de progresso híbrida.

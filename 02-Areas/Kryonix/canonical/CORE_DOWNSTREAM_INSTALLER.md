@@ -6,7 +6,7 @@
 |---|---|---|---|
 | **Core/Motor** | `github:RAGton/kryonix` | Módulos NixOS/HM reutilizáveis, lib, overlays, features opt-in, CLI base | Genérico, sem config real de máquina |
 | **Downstream** | `github:RAGton/kryonixos` | Hosts reais (inspiron, glacier, inspiron-nina), usuários, hardware, disko | Config real, segredos, identidade |
-| **Installer** | `github:RAGton/kryonix-installer` | ISO build, TUI, web-kiosk, disk planner, hardware probe, backend/UI React | Fluxo de instalação apenas |
+| **Installer** | `github:RAGton/kryxd` | ISO build, TUI, web-kiosk, disk planner, hardware probe, backend/UI React | Fluxo de instalação apenas |
 | **Brain** | `github:RAGEnterprise/kryonix-brain-lightrag` | LightRAG, FastAPI, CLI `rag`, autopilot, Neo4j integration | IA e conhecimento |
 | **Vault** | `github:RAGton/kryonix-vault` | Notas, MOCs, ADRs, documentação operacional | Memória do projeto |
 

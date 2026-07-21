@@ -36,7 +36,7 @@
 
 ## Depois de mover installer (PR #98)
 
-- [ ] `nix build .#nixosConfigurations.iso.config.system.build.toplevel --no-link -L` no kryonix-installer
+- [ ] `nix build .#nixosConfigurations.iso.config.system.build.toplevel --no-link -L` no kryxd
 - [ ] Outputs do flake do core não expõem mais `nixosConfigurations.iso`
 
 ## Comandos seguros

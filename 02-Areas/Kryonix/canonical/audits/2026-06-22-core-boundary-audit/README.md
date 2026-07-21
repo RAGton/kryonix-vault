@@ -18,7 +18,7 @@ Auditar profundamente o repositório core do Kryonix (`/home/rocha/kryonix/kryon
 |---|---|---|---|
 | **kryonix** (motor) | `/home/rocha/kryonix/kryonix` | `/etc/kryonix` | ✅ Auditado |
 | **kryonixos** (downstream) | `/home/rocha/kryonix/kryonixos` | `/etc/kryonixos` | ✅ Auditado |
-| **kryonix-installer** | `/home/rocha/kryonix/kryonix-installer` | flake input externo | ✅ Confirmado existente |
+| **kryxd** | `/home/rocha/kryonix/kryxd` | flake input externo | ✅ Confirmado existente |
 | **kryonix-vault** | `/home/rocha/kryonix/kryonix-vault` | — | ✅ Vault oficial confirmado |
 
 ## Resumo executivo

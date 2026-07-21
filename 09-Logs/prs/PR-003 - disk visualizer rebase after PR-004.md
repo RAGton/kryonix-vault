@@ -1,7 +1,7 @@
 # Rebase do PR-003 pós PR-004
 
 **Data:** 16 de Junho de 2026
-**Repositório:** `kryonix-installer`
+**Repositório:** `kryxd`
 
 ## Operações Realizadas
 

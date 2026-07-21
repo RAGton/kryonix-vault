@@ -52,7 +52,7 @@ durante dev**.
 
 | Item | Status |
 |------|--------|
-| [RAGton/kryonix-installer#1](https://github.com/RAGton/kryonix-installer/pull/1) `initial-flake-and-ci` | aberto, MERGEABLE — bootstrap repo standalone (subtree split + flake + CI) |
+| [RAGton/kryxd#1](https://github.com/RAGton/kryxd/pull/1) `initial-flake-and-ci` | aberto, MERGEABLE — bootstrap repo standalone (subtree split + flake + CI) |
 | `installer/externalize-input-p1` (Kryonix) | a abrir após merge do #1 |
 | `installer/exclude-installer-from-target-p2` (Kryonix) | planejado |
 | `installer/remove-internal-source-p3` (Kryonix) | planejado |
@@ -61,7 +61,7 @@ durante dev**.
 ## Repos relacionados
 
 - **Motor**: <https://github.com/RAGton/kryonix> (este repo).
-- **Installer (NOVO)**: <https://github.com/RAGton/kryonix-installer>
+- **Installer (NOVO)**: <https://github.com/RAGton/kryxd>
   — privado; bootstrap em PR #1; será consumido como flake input.
 - **kryonix-home**: <https://github.com/RAGton/KRYONIX-HOME> (submodule).
 - **kryonix-brain-lightrag**: <https://github.com/RAGEnterprise/kryonix-brain-lightrag> (submodule).

@@ -18,16 +18,16 @@ links:
 
 ## Sprint atual — Externalização do installer (P0)
 
-1. Mergear [PR #1 RAGton/kryonix-installer](https://github.com/RAGton/kryonix-installer/pull/1)
+1. Mergear [PR #1 RAGton/kryxd](https://github.com/RAGton/kryxd/pull/1)
    (`initial-flake-and-ci`) — ✅ aberto, MERGEABLE, validações verde.
 2. PR no Kryonix: `installer/externalize-input-p1` (consumir installer
    como flake input; manter pacote interno como fallback).
 3. PR no Kryonix: `installer/exclude-installer-from-target-p2`
    (denylist + teste assertando target instalado limpo).
 4. PR no Kryonix: `installer/remove-internal-source-p3`
-   (remover `packages/kryonix-installer/`).
+   (remover `packages/kryxd/`).
 
-Critério: sistema instalado não carrega `packages/kryonix-installer/`
+Critério: sistema instalado não carrega `packages/kryxd/`
 source; ISO e CLI seguem funcionando com binário via overlay.
 
 ## Curto prazo (semanas)

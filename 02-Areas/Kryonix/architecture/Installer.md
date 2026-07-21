@@ -25,7 +25,7 @@ UI (React/Vite)
 ## Estrutura no repo
 
 ```txt
-packages/kryonix-installer/
+packages/kryxd/
 ├── src/                # backend Rust
 │   ├── main.rs         # 27 rotas axum
 │   ├── network.rs      # /network/{status, apply, wifi/*}

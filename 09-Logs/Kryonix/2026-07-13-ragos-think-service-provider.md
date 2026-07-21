@@ -21,7 +21,7 @@ O instalador do RAGOS (legado, em bash) gerava configurações como `wan-pppoe.e
 - `nix flake check --keep-going` rodou com sucesso (`all checks passed!`) no `repos/kryonix`.
 
 ## Pendências
-- O instalador em Rust (`kryonix-installer`) e a interface (React/Vite) precisam ser atualizados futuramente para fornecer um JSON compativel e aplicar o profile que habilita `kryonix.services.ragos-think.enable = true` no target, sem rodar scripts shell para configuração do RAGOS.
+- O instalador em Rust (`kryxd`) e a interface (React/Vite) precisam ser atualizados futuramente para fornecer um JSON compativel e aplicar o profile que habilita `kryonix.services.ragos-think.enable = true` no target, sem rodar scripts shell para configuração do RAGOS.
 
 ## Próximo passo recomendado
-Atualizar o repositório `kryonix-installer` para delegar a responsabilidade de configurações RAGOS ao nix, chamando a interface do novo módulo.
+Atualizar o repositório `kryxd` para delegar a responsabilidade de configurações RAGOS ao nix, chamando a interface do novo módulo.

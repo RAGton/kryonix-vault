@@ -26,25 +26,25 @@ links:
 ## Externalização em curso (2026-06-15)
 
 Mudança estrutural: o installer está sendo movido para repo próprio
-<https://github.com/RAGton/kryonix-installer> e passará a ser consumido
+<https://github.com/RAGton/kryxd> e passará a ser consumido
 pelo motor Kryonix como **flake input direto** (não submodule). Auditoria
 confirmou vazamento de source para `/mnt/etc/kryonixos/engine/` — ver
 [[Externalize-Roadmap]] para o plano dos 4 PRs.
 
-Status: PR #1 (`RAGton/kryonix-installer#1`) aberto e MERGEABLE — bootstrap
-do standalone via `git subtree split --prefix=packages/kryonix-installer`
+Status: PR #1 (`RAGton/kryxd#1`) aberto e MERGEABLE — bootstrap
+do standalone via `git subtree split --prefix=packages/kryxd`
 (50 commits preservados) + flake.nix próprio + CI.
 
 ## Componentes (durante a transição)
 
 ```txt
-packages/kryonix-installer/         ← interno (será removido em PR 3)
+packages/kryxd/         ← interno (será removido em PR 3)
 ├── src/   ← Rust + Axum (backend)
 └── ui/    ← React + Vite (frontend)
 
-github:RAGton/kryonix-installer/    ← externo (canônico após PR 2)
+github:RAGton/kryxd/    ← externo (canônico após PR 2)
 ├── nix/{package,ui}.nix
-└── flake.nix                       ← consumido por inputs.kryonix-installer
+└── flake.nix                       ← consumido por inputs.kryxd
 ```
 
 ## Estado em main

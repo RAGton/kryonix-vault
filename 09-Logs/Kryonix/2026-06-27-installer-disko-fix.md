@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer
+- kryxd
 - kryonix-vault
 
 ## Objetivo
@@ -26,7 +26,7 @@ O usuário forneceu detalhes do erro `mode must be one of "destroy", "format", "
 
 ## Commits e branches
 Os commits foram feitos na branch `main` dos seguintes repos:
-- `repos/kryonix-installer`:
+- `repos/kryxd`:
   - `fix(installer): validate disk mode before disko dry-run`
 - `repos/kryonix-vault`:
   - `docs(installer): add architecture contract roadmap and VM test skill`

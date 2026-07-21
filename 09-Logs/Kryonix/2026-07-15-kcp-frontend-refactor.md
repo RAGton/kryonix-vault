@@ -3,7 +3,7 @@
 Data: 2026-07-15
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer (UI)
+- kryxd (UI)
 
 ## Objetivo
 Evoluir a interface do usuário do instalador original para suportar o novo Dashboard dinâmico (Kryonix Control Plane), implementando roteamento condicional baseado na identidade do host.

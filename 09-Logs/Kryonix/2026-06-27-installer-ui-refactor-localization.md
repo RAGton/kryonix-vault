@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- repos/kryonix-installer
+- repos/kryxd
 
 ## Objetivo
 Refatorar completamente a página de localização e fuso horário para torná-las mais simples, guiadas e de estética premium (layout 70/30). A estrutura anterior estava poluída, redundante e misturava muitas listas abertas permanentemente, prejudicando a UX (semelhante a um painel técnico).

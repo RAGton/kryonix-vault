@@ -13,7 +13,7 @@ links:
 
 # Backend Routes — Installer
 
-`packages/kryonix-installer/src/main.rs:232` define o Router.
+`packages/kryxd/src/main.rs:232` define o Router.
 
 ## Health / version / hardware
 

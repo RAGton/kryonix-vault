@@ -30,14 +30,14 @@ links:
 
 ## Por quê
 
-A auditoria 2026-06-14 confirmou: `packages/kryonix-installer/` é copiado
-para `/mnt/etc/kryonixos/engine/packages/kryonix-installer/` durante o
+A auditoria 2026-06-14 confirmou: `packages/kryxd/` é copiado
+para `/mnt/etc/kryonixos/engine/packages/kryxd/` durante o
 install — a `COPY_DENYLIST` do `target_tree.rs` filtra `target/`,
 `node_modules/`, `dist/`, segredos, mas **não filtra o pacote em si**. O
 CLI no sistema instalado depende apenas do **binário** (não do source).
 Externalizar via flake input limpa o target e mantém a ergonomia atual.
 
-Repo standalone: <https://github.com/RAGton/kryonix-installer>
+Repo standalone: <https://github.com/RAGton/kryxd>
 
 ## P0 — Bloqueadores antes de chamar “pronta”
 
@@ -45,7 +45,7 @@ Repo standalone: <https://github.com/RAGton/kryonix-installer>
 
 | Passo | Estado | Branch / PR |
 |-------|--------|-------------|
-| Bootstrap repo standalone (subtree split + flake + CI) | ✅ ABERTO MERGEABLE | [PR #1 RAGton/kryonix-installer](https://github.com/RAGton/kryonix-installer/pull/1) — branch `initial-flake-and-ci` |
+| Bootstrap repo standalone (subtree split + flake + CI) | ✅ ABERTO MERGEABLE | [PR #1 RAGton/kryxd](https://github.com/RAGton/kryxd/pull/1) — branch `initial-flake-and-ci` |
 | Mergear PR #1 | ⏳ | (humano) |
 | Consumir installer via flake input no motor | ⏳ | `installer/externalize-input-p1` |
 | Impedir source no target instalado | ⏳ | `installer/exclude-installer-from-target-p2` |
@@ -54,8 +54,8 @@ Repo standalone: <https://github.com/RAGton/kryonix-installer>
 Critério de pronto:
 
 - [ ] ISO continua com installer funcionando.
-- [ ] CLI continua encontrando o binário `kryonix-installer`.
-- [ ] Sistema instalado **NÃO** carrega `packages/kryonix-installer/` source.
+- [ ] CLI continua encontrando o binário `kryxd`.
+- [ ] Sistema instalado **NÃO** carrega `packages/kryxd/` source.
 - [ ] Target flake (`/mnt/etc/kryonixos`) segue pure-eval e autocontido.
 
 ### 2. Build ISO completo (não só toplevel)
@@ -98,8 +98,8 @@ Critério:
 Após install em VM:
 
 ```bash
-find /mnt/etc/kryonixos/engine -maxdepth 4 -type d -name "kryonix-installer" -print
-find /mnt/etc/kryonixos/engine -path "*packages/kryonix-installer*" -print
+find /mnt/etc/kryonixos/engine -maxdepth 4 -type d -name "kryxd" -print
+find /mnt/etc/kryonixos/engine -path "*packages/kryxd*" -print
 ```
 
 Esperado: nenhuma ocorrência. Binário pode existir via `/nix/store` — OK.
@@ -130,7 +130,7 @@ Release pública não sai com CI vermelho.
 - logs sem secrets
 - `/install mode=dry-run` provadamente não destrutivo
 
-Critério: `cargo test` + `clippy -D warnings` + `nix build .#kryonix-installer` + testes de payload inválido.
+Critério: `cargo test` + `clippy -D warnings` + `nix build .#kryxd` + testes de payload inválido.
 
 ### 7. UI final do installer
 
@@ -182,7 +182,7 @@ install bare metal, riscos de disco, recuperar logs, reportar bug.
 
 ### Sprint 1 — Externalização e target limpo
 
-1. Merge PR #1 em `RAGton/kryonix-installer`
+1. Merge PR #1 em `RAGton/kryxd`
 2. PR `installer/externalize-input-p1`
 3. PR `installer/exclude-installer-from-target-p2`
 4. Validar target instalado sem source do installer
@@ -233,7 +233,7 @@ install bare metal, riscos de disco, recuperar logs, reportar bug.
 
 ## Próxima direção operacional
 
-1. Mergear PR #1 do repo `kryonix-installer`.
+1. Mergear PR #1 do repo `kryxd`.
 2. Abrir PR 2 no motor: `installer/externalize-input-p1`.
 3. Só depois voltar para Plymouth/logo.
 

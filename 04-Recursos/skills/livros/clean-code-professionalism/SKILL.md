@@ -34,7 +34,7 @@ Skill consolidada a partir de 4 obras canônicas. Não substitui leitura integra
 ## Quando usar
 
 - Antes de abrir PR ou submeter diff para revisão.
-- Durante code review do Kryonix (kryonix, kryonixos, kryonix-installer).
+- Durante code review do Kryonix (kryonix, kryonixos, kryxd).
 - Ao mentorar alguém ou avaliar qualidade de código.
 - Quando detectar "cheiros" de código ruim (variável mal-nomeada, função longa, try/catch gigante).
 - Reflexão pessoal sobre postura profissional.

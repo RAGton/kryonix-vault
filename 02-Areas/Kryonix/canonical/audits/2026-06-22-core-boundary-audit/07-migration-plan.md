@@ -66,7 +66,7 @@
 
 ## Fase 6 — Installer/ISO (separado, dependente de decisões anteriores)
 
-- Mover `hosts/iso/`, `modules/nixos/installer/` para `kryonix-installer`
+- Mover `hosts/iso/`, `modules/nixos/installer/` para `kryxd`
 - **Manter** `packages/kryonix-hardware-probe` no core (CORE_SHARED)
 - **Manter** `packages/kryonix-disk-planner`? Debatível — é exclusivo do installer
 

@@ -13,7 +13,7 @@
 | `inspiron` | `hosts/inspiron/default.nix` | `DOWNSTREAM_ONLY` | ❌ Não | kryonixos |
 | `inspiron` (disks) | `hosts/inspiron/disks.nix` | `DOWNSTREAM_ONLY` | ❌ Não | kryonixos |
 | `inspiron` (hardware) | `hosts/inspiron/hardware-configuration.nix` | `DOWNSTREAM_ONLY` | ❌ Não | kryonixos |
-| `iso` | `hosts/iso/default.nix` | `ISO_ONLY` | ❌ Não | kryonix-installer |
+| `iso` | `hosts/iso/default.nix` | `ISO_ONLY` | ❌ Não | kryxd |
 
 **Obs**: O `inspiron` no core NÃO é usado pelo flake (o `flake/data/hosts.nix` só contém `iso`). Ele existe como resíduo histórico. O verdadeiro `inspiron` vive em `/etc/kryonixos/hosts/inspiron/`.
 

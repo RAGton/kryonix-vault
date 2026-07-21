@@ -3,7 +3,7 @@
 Data: 2026-07-13
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer
+- kryxd
 
 ## Objetivo
 Unificar o instalador do Kryonix com a inteligência do RAGOS, adaptando a UI React (frontend) para construir e enviar o `InstallPlanV2` em três etapas, ao mesmo tempo em que oferece uma interface específica para instalar a máquina como "Kryonix Think Server".
@@ -22,7 +22,7 @@ Unificar o instalador do Kryonix com a inteligência do RAGOS, adaptando a UI Re
    - No `Disks.jsx`, a escolha de layout BTRFS no modo automático foi convertida para renderizar dinamicamente `ZFS` com o badge "Recomendado para Kryonix Think Server", caso a opção seja ativada.
 
 ## Commits e branches
-TBD (mudanças aplicadas no repositório `kryonix-installer` no branch principal, aguardando push após testes).
+TBD (mudanças aplicadas no repositório `kryxd` no branch principal, aguardando push após testes).
 
 ## Validações executadas
 - Compilação do backend Rust (`cargo check && cargo clippy -- -D warnings`) sem avisos/erros novos.

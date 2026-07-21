@@ -28,7 +28,7 @@ downstream:
          das features por host
 
 installer:
-  repo: repos/kryonix-installer
+  repo: repos/kryxd
   papel: coletar escolhas do usuário e escrever arquivos declarativos
          em /etc/kryonixos
 
@@ -628,7 +628,7 @@ Repo: `repos/kryonixos`
 
 ### Fase 7 — Installer
 
-Repo: `repos/kryonix-installer`
+Repo: `repos/kryxd`
 
 - [ ] Ler Feature Registry do core ou manter catálogo espelhado validado
 - [ ] Criar tela de features baseada em categorias

@@ -15,7 +15,7 @@ Após a unificação dos repositórios legados do ecossistema (`ragos` e `ragos-
 Havia a necessidade de manter a lógica de gestão de infraestrutura de **Endpoints (Clientes Diskless)**, mas sem fragmentar a experiência de linha de comando. A operação agora funciona através de um único binário mestre de orquestração unificada (`kryx`), que encapsula o gerenciamento de clientes através de subcomandos lógicos.
 
 ## 1. `kryx` (O Mestre de Orquestração Unificada)
-- **Tecnologia**: Rust (Workspace Unificado com o `kryonix-installer`).
+- **Tecnologia**: Rust (Workspace Unificado com o `kryxd`).
 - **Localização**: `repos/kryonix/packages/kryx/`
 - **Escopo**: É o cérebro que opera e modifica tanto o **servidor host** quanto os **nodos clientes**.
 - **Como funciona**: Absorveu as responsabilidades do antigo `ragos-installer` e das reconstruções do NixOS local (`switch`). Recebe o `InstallPlanV2`, traduz para configurações Nix nativas (através de sua nova `Translator API` em `lib.rs`) e roda os deploys e diagnósticos físicos da máquina hospedeira.

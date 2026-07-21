@@ -4,7 +4,7 @@ Data: 2026-06-26
 Agente: Codex
 Repos afetados:
 
-- repos/kryonix-installer
+- repos/kryxd
 - repos/kryonix-vault
 
 ## Objetivo
@@ -22,11 +22,11 @@ rede, discos, schema, backend ou ISO.
 - `repos/kryonix-vault/03-Projetos/Kryonix Installer.md`
 - `repos/kryonix-vault/04-Recursos/prompts/PROMPT_AGENT_SITE_MODERNO.md`
 - `repos/kryonix-vault/04-Recursos/skills/vibe-coding/ui-reference-extraction/SKILL.md`
-- `repos/kryonix-installer/ui/src/App.jsx`
-- `repos/kryonix-installer/ui/src/components/Layout.jsx`
-- `repos/kryonix-installer/ui/src/components/Background3D.css`
-- `repos/kryonix-installer/ui/src/index.css`
-- `repos/kryonix-installer/ui/src/pages/Welcome.jsx`
+- `repos/kryxd/ui/src/App.jsx`
+- `repos/kryxd/ui/src/components/Layout.jsx`
+- `repos/kryxd/ui/src/components/Background3D.css`
+- `repos/kryxd/ui/src/index.css`
+- `repos/kryxd/ui/src/pages/Welcome.jsx`
 
 ## Mudancas realizadas
 
@@ -46,15 +46,15 @@ rede, discos, schema, backend ou ISO.
 
 ## Commits e branches
 
-- Branch em `repos/kryonix-installer`: `fix/installer-ui-network-ux`
+- Branch em `repos/kryxd`: `fix/installer-ui-network-ux`
 - Commits nao realizados nesta execucao.
 
 ## Validacoes executadas
 
-- `cd repos/kryonix-installer/ui && npm test` — PASS, 65/65 testes.
-- `cd repos/kryonix-installer/ui && npm run build` — PASS.
-- `cd repos/kryonix-installer && git diff --check` — PASS.
-- `cd repos/kryonix-installer/ui && npm run dev -- --host 127.0.0.1 --port 5173` — PASS, Vite subiu.
+- `cd repos/kryxd/ui && npm test` — PASS, 65/65 testes.
+- `cd repos/kryxd/ui && npm run build` — PASS.
+- `cd repos/kryxd && git diff --check` — PASS.
+- `cd repos/kryxd/ui && npm run dev -- --host 127.0.0.1 --port 5173` — PASS, Vite subiu.
 - `curl -sS -I http://127.0.0.1:5173/` — PASS, HTTP 200.
 - `agent-browser ...` — BROKEN no ambiente local: comando nao existe no PATH.
 - Browser local/Playwright — UNKNOWN: `playwright` nao esta instalado e nao foi

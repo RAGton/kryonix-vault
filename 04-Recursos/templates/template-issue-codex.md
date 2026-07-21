@@ -4,7 +4,7 @@ type: issue
 status: open
 tags: [issue, codex]
 agent_target: codex | claude
-repo: <ex: kryonix | kryonix-installer | kryonix-vault>
+repo: <ex: kryonix | kryxd | kryonix-vault>
 estimate: <ex: pequena | media | grande>
 created: 2026-06-14
 updated: 2026-06-14

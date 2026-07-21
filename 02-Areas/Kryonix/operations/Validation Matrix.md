@@ -20,7 +20,7 @@ Matriz de validações por escopo de mudança.
 | Nix (qualquer) | `nix fmt` · `nix flake show --all-systems` · `git diff --check` |
 | Host (`hosts/<h>`) | `+` `nix build .#nixosConfigurations.<h>.config.system.build.toplevel --no-link -L` |
 | ISO | `+` `nix build .#nixosConfigurations.iso.config.system.build.toplevel --no-link -L` |
-| Installer Rust | `cargo fmt --check` · `cargo test --locked` · `cargo clippy --all-targets --all-features -- -D warnings` · `nix build .#kryonix-installer --no-link -L` |
+| Installer Rust | `cargo fmt --check` · `cargo test --locked` · `cargo clippy --all-targets --all-features -- -D warnings` · `nix build .#kryxd --no-link -L` |
 | Installer UI | `npm test` · `npm run build` |
 | Home Manager (upstream) | `nix flake show` · validação real via downstream build |
 | Branding (motd/issue/os-release) | `+` inspecionar `$TOP/etc/{motd,issue,os-release,kryonix-version}` |

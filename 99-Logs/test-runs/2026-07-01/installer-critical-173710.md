@@ -7,7 +7,7 @@
 ## installer node test
 ```txt
 
-> kryonix-installer-ui-web@0.1.0 test
+> kryxd-ui@0.1.0 test
 > node --test "src/tests/**/*.test.js" "src/tests/*.test.js"
 
 TAP version 13
@@ -73,7 +73,7 @@ not ok 10 - i18n Hardcoded Strings Sweep
   ---
   duration_ms: 31.394277
   type: 'test'
-  location: '/home/rocha/kryonix/kryonix-dev/repos/kryonix-installer/ui/src/tests/i18nHardcodedStrings.test.js:46:1'
+  location: '/home/rocha/kryonix/kryonix-dev/repos/kryxd/ui/src/tests/i18nHardcodedStrings.test.js:46:1'
   failureType: 'testCodeFailure'
   error: |-
     Found 2 hardcoded strings. Please translate them using i18next t().
@@ -86,7 +86,7 @@ not ok 10 - i18n Hardcoded Strings Sweep
   actual: 2
   operator: 'strictEqual'
   stack: |-
-    TestContext.<anonymous> (file:///home/rocha/kryonix/kryonix-dev/repos/kryonix-installer/ui/src/tests/i18nHardcodedStrings.test.js:97:10)
+    TestContext.<anonymous> (file:///home/rocha/kryonix/kryonix-dev/repos/kryxd/ui/src/tests/i18nHardcodedStrings.test.js:97:10)
     Test.runInAsyncScope (node:async_hooks:214:14)
     Test.run (node:internal/test_runner/test:1047:25)
     Test.start (node:internal/test_runner/test:944:17)

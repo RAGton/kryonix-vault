@@ -14,7 +14,7 @@
 ## Itens de web-kiosk encontrados
 
 - `modules/nixos/installer/web-kiosk.nix` (138 linhas)
-- Serviço systemd `kryonix-installer-backend`
+- Serviço systemd `kryxd-backend`
 - Usuário `installer` com autologin
 - Cage como kiosk Wayland
 - Chromium em modo kiosk
@@ -26,7 +26,7 @@
 - `packages/kryonix-hardware-probe.nix` — package
 - `packages/kryonix-hardware-probe/` — source Rust
 
-## O que deve ir para kryonix-installer
+## O que deve ir para kryxd
 
 - `hosts/iso/` — ISO build completo
 - `iso.nix` — wrapper ISO
@@ -38,7 +38,7 @@
 ## O que pode permanecer como lib compartilhada
 
 - `lib/options.nix` — opções do installer referenciam `kryonix.installer.*` (manter no core)
-- Referências em `overlays/default.nix` ao `kryonix-installer-tools` overlay (manter)
+- Referências em `overlays/default.nix` ao `kryxd-tools` overlay (manter)
 
 ## Como validar
 

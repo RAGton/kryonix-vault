@@ -40,7 +40,7 @@
 ├─ .kde/, .mozilla/, etc. (não Aparecem na busca, mas existem)
 └─ kryonix/                    #checkout do repositório de infraestrutura
     ├─ kryonix-vault/          # vault principal (Obsidian + notas)
-    └─ kryonix-installer/      # código do instalador
+    └─ kryxd/      # código do instalador
 ```
 
 ---
@@ -86,7 +86,7 @@
 | Arquivo (caminho) | Tipo | Tamanho aproximado (se visível) |
 |-------------------|------|---------------------------------|
 | `/home/rocha/.var/app/app.zen_browser.zen/.zen/rtuwqckm.Default (release)/storage/default/https+++mail.google.com/cache/caches.sqlite` | SQLite cache (Gmail) | > 10 MB (não medido aqui) |
-| `/home/rocha/kryonix/kryonix-installer/target/debug/.fingerprint/kryonix-installer-426b4e1e6a99e2d3/output-test-bin-kryonix-installer` | Binário de teste | ~ 3 MB |
+| `/home/rocha/kryonix/kryxd/target/debug/.fingerprint/kryxd-426b4e1e6a99e2d3/output-test-bin-kryxd` | Binário de teste | ~ 3 MB |
 | `/home/rocha/.hermes/logs/agent.log` | Log de agente Hermes | ~ 2 MB |
 | `/home/rocha/.var/app/app.zen_browser.zen/.zen/rtuwqckm.Default (release)/places.sqlite` | Banco de dados de bookmarks | ~ 5 MB |
 

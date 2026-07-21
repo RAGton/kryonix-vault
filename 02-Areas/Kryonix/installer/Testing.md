@@ -15,7 +15,7 @@ links:
 ## Backend Rust
 
 ```bash
-cd packages/kryonix-installer
+cd packages/kryxd
 cargo fmt --check
 cargo test --locked            # 42/42 após PR #72
 cargo clippy --all-targets --all-features -- -D warnings   # gate desde PR #78
@@ -38,7 +38,7 @@ Testes principais (não exaustivo):
 ## Frontend (Vite + node test)
 
 ```bash
-cd packages/kryonix-installer/ui
+cd packages/kryxd/ui
 npm install
 npm test                       # 47/47 após PR #80
 npm run build                  # 240 modules
@@ -54,7 +54,7 @@ Suites:
 ## Build Nix
 
 ```bash
-nix build .#kryonix-installer --no-link -L --show-trace
+nix build .#kryxd --no-link -L --show-trace
 ```
 
 Inclui cargo test no sandbox de build.

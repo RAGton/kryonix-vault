@@ -3,7 +3,7 @@
 Data: 2026-07-02
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer
+- kryxd
 
 ## Objetivo
 1. Consertar a suíte E2E do instalador (fase 1) que falhava na transição da etapa "Network" para "Host Selection" devido a bugs de sincronização do mock da API.
@@ -33,4 +33,4 @@ Pendente commit nos repositórios pelo usuário (está pronto e em estado limpo 
 - Continuar as próximas fases de E2E (storage-selection, install-execution) usando mocks baseados em Playwright page.route de forma segura.
 
 ## Próximo passo recomendado
-Fazer os commits em `repos/kryonix-installer`, submetê-los upstream e atualizar os submodules em `kryonix-dev`.
+Fazer os commits em `repos/kryxd`, submetê-los upstream e atualizar os submodules em `kryonix-dev`.

@@ -4,7 +4,7 @@ Data: 2026-07-15
 Agente: Antigravity
 Repos afetados:
 - kryonix
-- kryonix-installer
+- kryxd
 - kryonix-dev
 
 ## Objetivo
@@ -21,19 +21,19 @@ AGENTS.md, discussões anteriores sobre "App-as-a-Feature", documentação de ar
    - Criado `virt_engine.rs` no CLI `kryx` com integração direta com `tokio::process::Command` mapeando a CLI do `incus`.
    - Modificado `Cargo.toml` do `kryx` para incluir a crate `tokio`.
 
-2. **Installer (kryonix-installer)**:
+2. **Installer (kryxd)**:
    - Adicionado `src/api/virt.rs` na API Axum contendo as rotas `GET /nodes`, `POST /container` e `POST /vm`.
    - Atualizado `src/api/mod.rs` para anexar as rotas no namespace `/api/virt`.
    - O provisionamento já garante que o container injeta o profile `kryonix-incus-container`.
 
 ## Commits e branches
 - `repos/kryonix`: `feat(security): implement apparmor industrial and virt_engine` (branch fix/installer-iso-e2e)
-- `repos/kryonix-installer`: `feat(api): add virt endpoints for incus container orchestration` (branch refactor/installer-phase1)
-- `kryonix-dev`: `chore(dev): update kryonix and kryonix-installer submodule pointers` (branch main)
+- `repos/kryxd`: `feat(api): add virt endpoints for incus container orchestration` (branch refactor/installer-phase1)
+- `kryonix-dev`: `chore(dev): update kryonix and kryxd submodule pointers` (branch main)
 
 ## Validações executadas
 - `nix fmt` para garantia de estilo.
-- `cargo check --workspace` no `kryonix` e `kryonix-installer`.
+- `cargo check --workspace` no `kryonix` e `kryxd`.
 - `nix flake check --keep-going` finalizado com sucesso no repositório inteiro.
 
 ## Evidências

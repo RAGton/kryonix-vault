@@ -7,7 +7,7 @@
 ## installer node test
 ```txt
 
-> kryonix-installer-ui-web@0.1.0 test
+> kryxd-ui@0.1.0 test
 > node --test "src/tests/**/*.test.js" "src/tests/*.test.js"
 
 TAP version 13

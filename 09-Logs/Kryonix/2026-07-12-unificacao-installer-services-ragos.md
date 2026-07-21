@@ -4,7 +4,7 @@ Data: 2026-07-12
 Agente: Codex
 Repos afetados:
 
-- `kryonix-installer`
+- `kryxd`
 - `ragos-installer` somente leitura
 
 ## Objetivo
@@ -20,8 +20,8 @@ Disko para ZFS e persistência segura de hashes fora do plano e do Git.
 - `ragos-installer/lib/common.sh`
 - `ragos-installer/steps/04-storage.sh`
 - `ragos-installer/steps/07-install.sh`
-- `kryonix-installer/src/disk.rs`
-- `kryonix-installer/src/domain/config.rs`
+- `kryxd/src/disk.rs`
+- `kryxd/src/domain/config.rs`
 - [[03-Projetos/Kryonix Installer]]
 - [[03-Projetos/RAGOS Installer]]
 
@@ -51,7 +51,7 @@ Disko para ZFS e persistência segura de hashes fora do plano e do Git.
 
 - `POST /api/v2/plan` desserializa o contrato estrito, calcula SHA-256 do JSON
   canônico e persiste `plan.json` em
-  `/run/kryonix-installer/secrets/<planDigest>/`.
+  `/run/kryxd/secrets/<planDigest>/`.
 - `PUT /api/v2/secrets` recebe o envelope separado, gera Yescrypt via stdin e
   persiste somente `admin-password.hash`; PPPoE, quando presente, fica em
   arquivo separado. Todos os artefatos usam modo `0600` sob diretórios `0700`.
@@ -75,7 +75,7 @@ novas e conscientes, não uma cópia literal dos scripts aposentados.
 ## Fase 4 — Materialização da árvore Git
 
 - `src/services/target_tree.rs` prepara o staging em
-  `/run/kryonix-installer/target/kryonixos`, sem tocar `/mnt`.
+  `/run/kryxd/target/kryonixos`, sem tocar `/mnt`.
 - O serviço valida URLs HTTPS sem userinfo, query ou fragmento e configura os
   remotes `core`, `upstream` e `downstream`, com push default e tracking no
   `downstream`.

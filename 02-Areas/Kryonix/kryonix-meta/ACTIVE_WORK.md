@@ -21,22 +21,22 @@ links:
 
 **Sprint 1** (ver [[Externalize-Roadmap]]):
 
-1. ⏳ Mergear [PR #1 RAGton/kryonix-installer](https://github.com/RAGton/kryonix-installer/pull/1)
+1. ⏳ Mergear [PR #1 RAGton/kryxd](https://github.com/RAGton/kryxd/pull/1)
    — `initial-flake-and-ci`. MERGEABLE, validações verde
    (fmt + clippy -D + 42 cargo tests + 47 npm tests + nix build + flake check).
 2. ⏳ Abrir PR `installer/externalize-input-p1` no motor após merge do #1.
 3. ⏳ PR `installer/exclude-installer-from-target-p2` (denylist).
 4. ⏳ PR `installer/remove-internal-source-p3` (remoção interna).
 
-Auditoria que motivou: `packages/kryonix-installer/` é copiado para
-`/mnt/etc/kryonixos/engine/packages/kryonix-installer/` durante o install
+Auditoria que motivou: `packages/kryxd/` é copiado para
+`/mnt/etc/kryonixos/engine/packages/kryxd/` durante o install
 (`COPY_DENYLIST` filtra caches, não o pacote em si).
 
 ## Recém concluído
 
 - ✅ **Auditoria externalização installer** (2026-06-14) —
   mapa de acoplamentos, denylist gap, estratégia flake input direto.
-- ✅ **PR #1 standalone** (`RAGton/kryonix-installer#1`) — bootstrap do
+- ✅ **PR #1 standalone** (`RAGton/kryxd#1`) — bootstrap do
   repo standalone via subtree split (50 commits preservados) + flake +
   CI + README. Validações 100% verde local.
 - ✅ **P3** boot identity — PR #82 mergeado em `6f52a084`.

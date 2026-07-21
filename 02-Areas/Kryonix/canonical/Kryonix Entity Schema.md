@@ -290,8 +290,8 @@ Schema único composto por **5 definições** (`$defs`): `Host`, `Service`, `Rep
       "additionalProperties": false,
       "examples": [
         {
-          "identity": { "owner": "RAGton", "name": "kryonix-installer", "visibility": "private" },
-          "source": { "url": "https://github.com/RAGton/kryonix-installer", "default_branch": "main", "clone_url": "git@github.com:RAGton/kryonix-installer.git" },
+          "identity": { "owner": "RAGton", "name": "kryxd", "visibility": "private" },
+          "source": { "url": "https://github.com/RAGton/kryxd", "default_branch": "main", "clone_url": "git@github.com:RAGton/kryxd.git" },
           "access": { "ssh_key_ref": "kryonix-github-deploy", "token_ref": null },
           "metadata": { "description": "Instalador declarativo do ecossistema Kryonix", "topics": ["nixos", "installer", "rust", "react"], "license": "MPL-2.0" }
         }
@@ -544,7 +544,7 @@ pub struct EntityEnvelope {
 
 ## Próximos Passos
 
-- [ ] Integrar validação `jsonschema` no CI do `kryonix-installer` (GitHub Actions).
+- [ ] Integrar validação `jsonschema` no CI do `kryxd` (GitHub Actions).
 - [ ] Gerar Rust structs via `schemars` no crate `kryonix-schema`.
 - [ ] Gerar TypeScript types para UI do Installer.
 - [ ] Adicionar schema de `Secret` (para Age/TPM2 keys) na v1.1.0.

@@ -142,7 +142,7 @@ Consolida 6 obras. DevOps na Prática (CdC) dá a visão geral com exemplos prá
 
 ```txt
 Pipeline alvo para ISO oficial:
-  [checkout kryonix + kryonix-installer]
+  [checkout kryonix + kryxd]
   → [nix flake check]
   → [nix build .#iso]
   → [teste em VM (qemu)] 

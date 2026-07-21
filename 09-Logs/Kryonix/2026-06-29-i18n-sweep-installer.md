@@ -3,7 +3,7 @@
 Data: 2026-06-29
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer
+- kryxd
 
 ## Objetivo
 Blindar o instalador com teste de comportamento real para o particionamento manual e concluir o "Full i18n Sweep" em todas as páginas para remover textos hardcoded e garantir a localização completa em pt-BR, en-US e es-ES.
@@ -19,12 +19,12 @@ Blindar o instalador com teste de comportamento real para o particionamento manu
 - Atualizada a `allowlist` no teste automatizado `i18nHardcodedStrings.test.js` para tolerar siglas técnicas, expressões regulares falsas e marcas registradas sem poluir o resultado dos testes.
 
 ## Commits e branches
-- Repo: `kryonix-installer`
+- Repo: `kryxd`
   - Branch: `main`
   - Commit: `f5d5ee9` (`refactor(i18n): remover textos hardcoded e padronizar traduções`)
 - Repo: `kryonix-dev`
   - Branch: `main`
-  - Commit: `14b8e75` (`chore(dev): update kryonix-installer submodule pointer`)
+  - Commit: `14b8e75` (`chore(dev): update kryxd submodule pointer`)
 
 ## Validações executadas
 - Execução do teste unitário `ui/src/tests/i18nHardcodedStrings.test.js`.

@@ -3,7 +3,7 @@
 Data: 2026-07-15
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer (UI e Backend)
+- kryxd (UI e Backend)
 - kryonix (Kryx Engine)
 
 ## Objetivo

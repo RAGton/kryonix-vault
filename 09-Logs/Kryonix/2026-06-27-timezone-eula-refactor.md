@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer
+- kryxd
 
 ## Objetivo
 Refinar profundamente a UI/UX do installer em preview local seguro e profissionalizar a estética do Live ISO, focando nas páginas de Timezone e EULA.
@@ -19,8 +19,8 @@ O usuário relatou que a tela Timezone (Localização) estava visualmente confus
 5. **Quality of Code**: Todos os avisos e trailing spaces foram resolvidos, permitindo build perfeito (zero erros em vite build).
 
 ## Commits e branches
-- kryonix-installer (main): a891c1f feat(ui): refactor EULA and Timezone layout, add smart framing map zoom
-- kryonix-dev (main): 0ffda7d chore(dev): update kryonix-installer submodule pointer
+- kryxd (main): a891c1f feat(ui): refactor EULA and Timezone layout, add smart framing map zoom
+- kryonix-dev (main): 0ffda7d chore(dev): update kryxd submodule pointer
 
 ## Validações executadas
 - Vite UI build (`npm run build`).

@@ -2,7 +2,7 @@
 
 ## Fato
 Foi implementado um modo de operação remota seguro para o live installer do Kryonix. O modo pode ser acionado via GRUB escolhendo a specialisation `Installer (Remote Web)`.
-Ele abrange configurações nos repositórios `kryonix` (ISO) e `kryonix-installer` (Backend/Frontend).
+Ele abrange configurações nos repositórios `kryonix` (ISO) e `kryxd` (Backend/Frontend).
 
 ## Decisão
 - A detecção é feita em tempo de execução inspecionando `/proc/cmdline` pelo parâmetro `kryonix.installer.mode=remote`.
@@ -25,6 +25,6 @@ Ele abrange configurações nos repositórios `kryonix` (ISO) e `kryonix-install
 
 ## Próximos Passos
 - Fazer Push dos branches.
-- Abrir PR no repositório do installer (`kryonix-installer`).
+- Abrir PR no repositório do installer (`kryxd`).
 - Abrir PR no repositório principal (`kryonix`), mencionando a dependência do anterior.
 - Iniciar testes End-To-End com uma VM real pelo NixOS Rebuild.

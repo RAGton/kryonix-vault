@@ -12,7 +12,7 @@ tags:
 
 # fix(installer): preserve install contract fields
 
-URL: https://github.com/RAGton/kryonix-installer/pull/4
+URL: https://github.com/RAGton/kryxd/pull/4
 
 ## Fato
 - Preserva os campos `features`, `admin.authorizedKeys`, `admin.uid`, e `admin.email` no contrato de instalação.

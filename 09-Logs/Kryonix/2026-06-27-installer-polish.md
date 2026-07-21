@@ -3,7 +3,7 @@
 Data: 2026-06-27
 Agente: Antigravity
 Repos afetados:
-- kryonix-installer
+- kryxd
 
 ## Objetivo
 Finalizar os épicos de UI pendentes do Kryonix Installer: tradução completa (i18n) das telas, refatoração completa do layout de partições (`Disks.jsx`) suportando Automático, Manual, LVM e RAID, bem como o refinamento da aba de Usuários e SSH Keys (`Users.jsx`). Além disso, consolidar as integrações com os schemas atualizados (ex. integração `github-create-from-template`).
@@ -20,7 +20,7 @@ Finalizar os épicos de UI pendentes do Kryonix Installer: tradução completa (
 4. **Users.jsx Refactor**: Inserido o campo "Nome Completo" (`adminFullName`), removida a entrada manual de UID para administradores (forçando fixo `1000` via build de payload), e UI da chave SSH foi refinada para um accordion que oculta o `<textarea>` gigante e expõe a quantidade de chaves, permitindo expansão opcional.
 
 ## Commits e branches
-- `kryonix-installer` (main): `feat(installer): complete i18n, disks rework and ssh polish`
+- `kryxd` (main): `feat(installer): complete i18n, disks rework and ssh polish`
 - `kryonix-dev` (main): submodules atualizados.
 
 ## Validações executadas

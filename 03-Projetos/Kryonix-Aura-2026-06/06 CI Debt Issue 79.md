@@ -23,7 +23,7 @@ em PRs e no `main`. Todos os PRs da sessão Aura 2026-06 (#70, #71, #72,
 Validações locais do escopo de cada PR passaram limpas:
 - `cargo test`
 - `cargo clippy -D warnings` (após PR #78)
-- `nix build .#kryonix-installer`
+- `nix build .#kryxd`
 - `nix build .#nixosConfigurations.iso.config.system.build.toplevel`
 
 ## Tabela atual de workflows
