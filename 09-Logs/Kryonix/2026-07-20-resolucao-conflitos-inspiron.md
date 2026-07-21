@@ -41,3 +41,7 @@ Saída de compilação sem erros: "Done. The new configuration is /nix/store/...
 
 ## Próximo passo recomendado
 Continuar o ciclo de desenvolvimento/uso do loop; sempre manter o `/etc/kryonix` puxado do upstream antes de disparar atualizações do lockfile em máquinas de produção.
+
+### Update (Grub e Splash)
+- **GRUB**: Removido o tema antigo que estava quebrado (`kryonix-grub-theme`) e implementado nativamente o `splashImage` apontando para o background `01.png` oficial tratado.
+- **KDE Splash**: Definido `Engine = "none"` no `ksplashrc` via Home Manager (plasma-manager) para desabilitar a tela de splash imitando o macOS do tema WhiteSur. Isso permite uma transição limpa e perfeita do Plymouth direto para o Desktop sem flashes estranhos.
