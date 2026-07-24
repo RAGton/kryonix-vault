@@ -1,7 +1,8 @@
 # kryx + cli-lockdown: pitfalls & resolutions
 
-> **Status:** Canônico · **Atualizado:** 2026-07-23
+> **Status:** Canônico · **Atualizado:** 2026-07-24
 > **Skill relacionada:** `~/.hermes/skills/devops/kryx-nix-lockdown-pitfalls/SKILL.md`
+> **Sessão adicional:** kryx-cli contracts + README, commits `7bdd5c7`..`9197436` (2026-07-24)
 > **Sessão de origem:** rebuild completo kryx-cli 2026-07-23 (commits `bf4a056`..`0c47578`)
 
 ---
@@ -15,7 +16,7 @@ Sintomas → causa → fix na tabela:
 
 | Sintoma | Causa | Fix |
 |---|---|---|
-| `[Kryonix Guard] O comando 'nix' foi bloqueado` | `Command::new("nix")` resolve pro wrapper | `discover_real_nix()` no Rust (caminho absoluto) |
+| `[Kryonix Guard] O comando 'nix' foi bloqueado` | `Command::new("nix")` resolve pro wrapper | `discover_real_nix_dir()` em `modules.rs` (path absoluto) |
 | `Don't run nh os as root` | nh 4.x recusa euid==0 | `setpriv --reuid=UID --regid=UID --clear-groups` (sem sudo) |
 | `failed to stat /root/.gitconfig (libgit2 error code = 7)` | HOME=/root via sudo + libgit2 fallback paths | inject `GIT_CONFIG_*=/dev/null` no Command::env() + `/home/$user/.gitconfig` |
 | `mismatch in field 'lastModified'` | lock manual sem timestamp correto | `nix flake metadata --json github:.../COMMIT` |
@@ -73,8 +74,21 @@ PATH lookup. O PATH do root tem `~/.nix-profile/bin` antes de
 `/run/current-system/sw/bin` (quando invocado via `kryx doctor`
 interativo). Resolved = wrapper.
 
-**Fix:** `discover_real_nix()` que escaneia `/nix/store`, acha o nix real
-(>1MB, vs ~400 bytes do wrapper) e usa path absoluto.
+**Fix (canônico pós-commit `6fb58a4`):** existe uma única função
+`discover_real_nix_dir()` em `src/services/modules.rs` que escaneia
+`/nix/store`, acha o nix real (>1MB, vs ~400 bytes do wrapper) e
+**retorna o diretório** (`bin/`), que é então **prepended ao `PATH`**
+no subprocesso. Há também uma cópia histórica em
+`src/services/diagnostics.rs::discover_real_nix()` que retorna o
+**binário path completo**; ambas têm `#[inline(never)]` (obrigatório).
+
+**SSOT:** a partir do commit `6fb58a4` (2026-07-24), a função canônica
+é a de `modules.rs` (pub), reaproveitada por `update.rs::run_update` e
+`node.rs::NodeAction::Publish`. Antes desse commit, `update.rs` e
+`node.rs::Publish` ainda usavam `Command::new("nix")` direto e ficavam
+bloqueados pelo Kryonix Guard — reproduzido literalmente na sessão de
+hoje com `sudo kryx update --force-sync` (output exato arquivado em
+`09-Logs/Kryonix/2026-07-24-kryx-update-lockdown-repro.md`).
 
 ```rust
 // src/services/diagnostics.rs
@@ -465,6 +479,9 @@ Se algum comando retornar `[Kryonix Guard] bloqueado`, consulte Bug #1.
 | `569b496` | fix(kryx-doctor): bypass cli-lockdown ao chamar nix eval |
 | `c8b11a9` | feat(kryx-status): expande dashboard com CPU, mem, network, services, security |
 | `0c47578` | feat(kryx-doctor): adiciona 5 areas de check (cpu, memory, disk, services, security) |
+| `7bdd5c7` | chore(kryx-cli): ignore vendor/ build cache |
+| `6fb58a4` | fix(kryx): bypass cli-lockdown in update and node publish |
+| `9197436` | docs(kryx-cli): add initial README grounded in source |
 
 ---
 
@@ -477,5 +494,7 @@ Se algum comando retornar `[Kryonix Guard] bloqueado`, consulte Bug #1.
 - `kryx-cli/src/services/modules.rs` (run_switch — bug #2 e #3)
 - `kryx-cli/src/services/diagnostics.rs` (kryx doctor — bug #1, #3)
 - `kryx-cli/src/services/status.rs` (kryx status — herdou os fixes)
-- `kryx-cli/src/services/update.rs` (kryx update — bug #3)
-- `kryx-cli/src/services/passthrough.rs` (wrappers kryx shell/etc — bug #3)
+- `kryx-cli/src/services/update.rs` (kryx update — bug #3 e, pós-`6fb58a4`, fix Bug #1 aplicado)
+- `kryx-cli/src/services/node.rs` (kryx node publish — pós-`6fb58a4`, fix Bug #1 aplicado)
+- `kryx-cli/src/services/passthrough.rs` (wrappers kryx shell/etc — bug #3; usa path absoluto, sem lockdown-bypass necessário)
+- `kryx-cli/README.md` (commit `9197436` — espelho canônico dos call-sites e tabela READY/WIP)
