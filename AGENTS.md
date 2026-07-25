@@ -426,3 +426,19 @@ Before finishing any change:
 - [ ] claims do not pretend certainty without evidence
 - [ ] Markdown is readable
 - [ ] Obsidian links are valid where practical
+
+## Versionamento e release
+
+Este Vault é a **Single Source of Truth (SSOT)** da diretriz de versionamento do ecossistema Kryonix.
+
+- **SSOT canônico:** [[02-Areas/Kryonix/canonical/release-process]]
+- **Skill procedural:** `~/.hermes/skills/kryonix-versioning.md`
+- **Manifesto deste repo:** (nenhum — versionado apenas pelo SHA do git)
+- **Tag prefix:** (nenhum — documentação)
+
+Notas canônicas relacionadas:
+
+- [[02-Areas/Kryonix/canonical/release-process]] (V22b + V25a)
+- [[02-Areas/Kryonix/canonical/kryx-nix-lockdown-pitfalls]] (SSOT do bypass)
+
+Quando um release é feito em qualquer repo, atualizar a entrada em `09-Logs/Kryonix/<DATE>-release.md` com referência à tag.
