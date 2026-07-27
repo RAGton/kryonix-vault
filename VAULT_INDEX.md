@@ -53,13 +53,28 @@ Leia nessa ordem antes de operar o vault:
 - [[02-Areas/Kryonix/canonical/Testing|Kryonix · Testing]]
 - [[02-Areas/Kryonix/canonical/Troubleshooting|Kryonix · Troubleshooting]]
 - [[02-Areas/Kryonix/canonical/Roadmap|Kryonix · Roadmap]]
-- [[02-Areas/Kryonix/systems/Inspiron|Host: Inspiron]]
-- [[02-Areas/Kryonix/systems/Glacier|Host: Glacier]]
 - [[02-Areas/Kryonix/systems/Brain|Kryonix Brain]]
-- [[02-Areas/Kryonix/systems/Ollama|Ollama]]
 - [[02-Areas/Kryonix/systems/LightRAG|LightRAG]]
+- [[02-Areas/Kryonix/systems/Ollama|Ollama]]
 - [[02-Areas/Kryonix/systems/MCP|MCP]]
 - [[02-Areas/Kryonix/systems/Vault|Vault]]
+- [[02-Areas/Kryonix/ai-brain/Aura|Aura (Agente)]]
+- [[02-Areas/Kryonix/hosts/Inspiron|Host: Inspiron]]
+- [[02-Areas/Kryonix/hosts/Glacier|Host: Glacier]]
+- [[02-Areas/Kryonix/hosts/Inspiron Nina|Host: Inspiron Nina]]
+
+## 3b. Ecossistema de sub-repositórios (links externos)
+
+- `kryonix` (motor) — `github:RAGton/kryonix`
+- `kryxd` (installer + KVE) — `github:RAGton/kryxd`
+- `kryx-cli` (CLI `kryx`) — `github:RAGton/kryx-cli`
+- `kryonixos` (instância) — `github:RAGton/Kryonixos`
+- `kryonix-assets` (marca/boot) — `github:RAGton/kryonix-assets`
+- `kryonix-brain-lightrag` (RAG grafo) — `github:RAGton/kryonix-brain-lightrag`
+- `kryonix-aura` (agente) — `github:RAGton/kryonix-aura`
+- `kryonix-home` (autopilot Home) — `github:RAGton/kryonix-home`
+
+> Wiki GitHub (porta humana): `github:RAGton/kryonix/wiki`
 
 ## 4. Mapas (MOCs)
 

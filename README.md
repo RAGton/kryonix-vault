@@ -18,6 +18,22 @@ Logs.
 Sempre comece por [[VAULT_INDEX]]. Para agentes IA, leia também [[AGENTS]] e
 [[PROMPT_MASTER]] antes de operar.
 
+## Repositórios relacionados (ecossistema Kryonix)
+
+O vault é a fonte canônica de documentação; o código vive em repos separados:
+
+- `kryonix` — motor / engine NixOS (módulos, features, ISO).
+- `kryxd` — installer daemon (Axum + React/Vite) + capability registry + KVE.
+- `kryx-cli` — CLI unificada `kryx` de runtime (switch, update, kcp, kve, think).
+- `kryonixos` — instância downstream (hosts: glacier, inspiron, inspiron-nina).
+- `kryonix-assets` — marca, boot Plymouth, SDDM, wallpapers.
+- `kryonix-brain-lightrag` — pacote Python de RAG via grafo (LightRAG).
+- `kryonix-aura` — agente Aura (launcher/provider hermes).
+- `kryonix-home` — ferramenta Rust de autopilot do Home Manager.
+
+> Wiki GitHub amigável: `github:RAGton/kryonix/wiki` (porta de entrada para
+> humanos; o vault é canônico para agentes).
+
 ## Layout
 
 ```
