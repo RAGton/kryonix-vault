@@ -31,6 +31,12 @@ kryonix-meta,     Meta-documentos (ACTIVE_WORK, DECISIONS, CURRENT_STATE, ROADMA
 entities,         Entidades externas rastreadas (repos, services, issues, PRs),   02-Areas/Kryonix/entities/Repositories/kryonix
 ```
 
+## Documentos canônicos
+
+- [[02-Areas/Kryonix/canonical/Kryonix Capability Registry]] — fonte de verdade, invariantes e política de evolução das capabilities do `kryxd`.
+- [[02-Areas/Kryonix/canonical/Kryonix Entity Schema]] — schema das entidades persistidas do ecossistema.
+- [[02-Areas/Kryonix/canonical/CURRENT_OPERATION_MODE]] — modo operacional e regras atuais do projeto.
+
 ## Estado atual (junho 2026)
 
 ```toon
@@ -74,5 +80,6 @@ Sessão Aura 2026-06,        documentada em 03-Projetos/Kryonix-Aura-2026-06
 ## Próxima ação
 
 - [x] Adicionar `[[01-MOCs/Mapa - Kryonix]]` em todas as notas de `02-Areas/Kryonix/*/` (feito em jun/2026)
+- [x] Conectar o contrato canônico de capabilities do `kryxd`.
 - [ ] Adicionar seção "Próximos marcos" com base em ROADMAP
 - [ ] Conectar com kryonix-meta/ROADMAP
