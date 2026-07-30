@@ -296,19 +296,32 @@ Esse ciclo corresponde ao procedimento canônico `kryonix-versioning` documentad
 
 ### Pendentes para fechar o cartão `t_aa0e609b` (ciclo de versionamento)
 
-- [ ] **Bump `Cargo.toml`** em `repos/kryx-cli`: `version = "0.1.0"` → `"0.2.0"`.
-- [ ] **Criar tag `v0.2.0`** no upstream `RAGton/kryx-cli` apontando pro commit `9284336`:
-  ```bash
-  cd repos/kryx-cli
-  git tag -s v0.2.0 -m "kryx-cli v0.2.0 — add 'check' subcommand (flake validation)" 9284336
-  git push origin v0.2.0
-  ```
+- [x] **Bump `Cargo.toml`** em `repos/kryx-cli`: `version = "0.1.0"` → `"0.2.0"` — feito no commit `01e14a2`.
+- [x] **Criar tag `v0.2.0`** no upstream `RAGton/kryx-cli` apontando pro commit `9284336`:
+  - Tag: `v0.2.0` (objeto `81ff11b4905246f4aaa6a9f6305d7ceda39e467f` → desreferencia pra `9284336`)
+  - Assinatura: ED25519 SHA256 `vVOcbYm8b4fIvXeaZORCFtnJwpaqKt/Zda9VP8w4yQA` (verificada via `git tag -v`)
+  - Push: `* [new tag] v0.2.0 -> v0.2.0` (confirmado em `git ls-remote --tags origin`)
 - [ ] **Atualizar pin** no `flake.nix` do core (`/etc/kryonix`): `kryx-cli/v0.1.0` → `kryx-cli/v0.2.0` (com commit atômico + PR).
 - [ ] **Rodar `sudo nix flake update`** em `/etc/kryonix` (gate humano — está na blacklist) para regenerar o lockfile com o novo rev.
 - [ ] **Rodar `sudo kryx update` + `sudo kryx switch`** em PROD para o binário `kryx` ser efetivamente reconstruído.
 - [ ] **Validação final:** `kryx --version` deve reportar `kryx 0.2.0`; `kryx --help` deve listar `check`; `kryx check .` deve rodar `nix flake check` via bypass do `cliLockdown`.
 - [ ] **Kanban:** `hermes kanban complete t_aa0e609b` com `--result` e `--summary` (somente após validação final em PROD).
 - [ ] **Atualização desta nota** (final): versão final do `kryx`, output do `kryx check`, e remoção do item pendente.
+
+### Histórico de release `kryx-cli v0.2.0`
+
+| Campo | Valor |
+|---|---|
+| Commit do bump | `01e14a2` em `repos/kryx-cli/main` |
+| Commit da feature | `9284336` (ancoragem da tag) |
+| Tag | `v0.2.0` (annotated, signed ED25519) |
+| Tag object | `81ff11b4905246f4aaa6a9f6305d7ceda39e467f` |
+| Versão no `Cargo.toml` | `0.2.0` |
+| Push do commit | `9284336..01e14a2 main -> main` |
+| Push da tag | `* [new tag] v0.2.0 -> v0.2.0` |
+| Motivo do bump | minor semver — feature aditiva (`check` subcommand) |
+| Card | `t_aa0e609b` |
+| Próximo passo | Atualizar pin no `flake.nix` do core (`v0.1.0` → `v0.2.0`) |
 
 ### Pendente não-bloqueante
 
