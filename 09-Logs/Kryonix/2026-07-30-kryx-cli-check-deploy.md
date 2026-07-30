@@ -104,17 +104,32 @@ sudo kryx switch
 
 ## Validações executadas
 
+### DEV (Trilho 1)
+
 - [x] `git status -sb` em `repos/kryx-cli` — limpo, HEAD = origin/main = `9284336`.
 - [x] `git log --oneline -15` em `repos/kryx-cli` — grafo linear, sem merges sujos.
 - [x] `git show --stat 9284336` — diff cirúrgico (3 arquivos, +26/-1, sem novas deps).
 - [x] `git diff --cached repos/kryx-cli` no meta-repo — exatamente 1 linha (pointer `b38f399 → 9284336`).
 - [x] `git push origin main` — `772f720..882258a main -> main` (verificado com `git ls-remote`).
+
+### PROD (Trilho 2)
+
 - [x] `git diff flake.lock` em `/etc/kryonixos` — diff benigno (1 input `kryonix`, sem mudanças colaterais).
 - [x] `sudo -E git commit` em `/etc/kryonixos` — SHA `645fe0a`, assinado SSH.
-- [ ] **`sudo git pull --ff-only`** em `/etc/kryonixos` e `/etc/kryonix` — pendente.
-- [ ] **`sudo kryx update`** — pendente (10-30 min estimado).
-- [ ] **`sudo kryx switch`** — pendente.
-- [ ] **Validação `kryx check` na lista de subcomandos** — pendente.
+- [x] `sudo -E git push origin main` em `/etc/kryonixos` — `3561338..645fe0a main -> main` (verificado).
+- [x] `sudo git pull --ff-only` em `/etc/kryonixos` — `Ya está actualizado`.
+- [x] `sudo git pull --ff-only` em `/etc/kryonix` — `Ya está actualizado`.
+- [x] `sudo kryx update` — `[PASS] Atualização concluída com sucesso!` (real nix path `/nix/store/q816a9ipng9dkdnp1n30pi39ag977zj6-nix-2.35.1/bin` — bypass do `cliLockdown` funcionou).
+- [x] `sudo kryx switch` — geração **62** ativada (`2026-07-30 15:47:11`, current), `system-62-link → /nix/store/k6idjnhsgy6105p0j37k20kaarv2qk0l-nixos-system-inspiron-26.11.20260719.241313f`, `/run/current-system` aponta pra ela, nenhum processo `nh os`/`nix-build` em curso, sistema bootável e operacional.
+- [x] Avaliação da estratégia `overwriteBackup = true` (cartão `t_03e3dfb6`): Home Manager subiu limpo, sem travamento de `mimeapps.list`.
+
+### Validação crítica pós-switch
+
+- [ ] `kryx --version` ainda reporta `kryx 0.1.0` (idêntico ao pré-switch).
+- [ ] `kryx --help` ainda **não** lista o subcomando `check`.
+- [ ] Binário em uso: `/nix/store/cs61z72r0jys90r6xc8kk4kjfa9wbh4n-kryx-0.1.0/bin/kryx` (mesmo path da geração 61 — Nix reusou a closure porque o conteúdo é bit-a-bit idêntico).
+
+**Conclusão:** o switch foi **tecnicamente bem-sucedido** mas **não entregou a feature `kryx check`**. Ver "Descoberta pós-switch" abaixo para a causa raiz.
 
 ## Evidências
 
@@ -156,25 +171,162 @@ diff --git a/flake.lock b/flake.lock
 - Default path: `.` (cwd).
 - Suporte a `--keep-going` (padrão) e `--impure` (padrão Nix flake check).
 
-_(evidências pós-switch a serem adicionadas após execução de 2.4 e 2.5)_
+### Output real do `kryx update` (bypass do `cliLockdown`)
+
+```
+[INFO] Real nix path: /nix/store/q816a9ipng9dkdnp1n30pi39ag977zj6-nix-2.35.1/bin
+warning: $HOME ('/home/rocha') is not owned by you, falling back to the one defined in the 'passwd' file ('/root')
+[PASS] Atualização concluída com sucesso!
+```
+
+### Output real do `kryx switch` (geração 62)
+
+```
+[INFO] Iniciando operação atômica de switch...
+[INFO] Flake target: /etc/kryonixos#inspiron
+[INFO] Real nix path: /nix/store/q816a9ipng9dkdnp1n30pi39ag977zj6-nix-2.35.1/bin
+[INFO] Executando nh os switch...
+> Building NixOS configuration
+evaluation warning: 'system' has been renamed to/replaced by 'stdenv.hostPlatform.system'
+⏱ 47s
+⏱ 1m8s
+```
+
+(Avaliação terminou em ~47s + ativação ~21s. Sem erros fatais; apenas um eval warning benigno do `system` → `stdenv.hostPlatform.system` que é deprecation do nixpkgs upstream.)
+
+### Saída real de `kryx --version` e `kryx --help` pós-switch
+
+```
+$ kryx --version
+kryx 0.1.0
+
+$ kryx --help
+Commands:
+  switch, factory-reset, system, doctor, identity, setup, theme, update, status,
+  shell, search, clean, build, run, develop, repl, fmt, completion, help
+```
+
+**O subcomando `check` não aparece.** O binário em uso é `/nix/store/cs61z72r0jys90r6xc8kk4kjfa9wbh4n-kryx-0.1.0/bin/kryx` — idêntico em hash ao da geração 61. Nix reusou a closure porque o conteúdo é bit-a-bit o mesmo.
+
+## Descoberta pós-switch: encadeamento de submodules no flake core
+
+**Causa raiz:** o ecossistema Kryonix usa um **encadeamento de inputs flake** em dois níveis:
+
+```
+kryonixos (downstream, /etc/kryonixos)
+  └─ input: kryonix = github:RAGton/kryonix/<rev>          ← bumpado pelo nosso 645fe0a
+kryonix   (core, /etc/kryonix)
+  └─ input: kryx-cli = github:RAGton/kryx-cli/v0.1.0        ← travado na tag v0.1.0
+kryx-cli  (CLI, /repos/kryx-cli, em github:RAGton/kryx-cli)
+  └─ commit 9284336 contém o subcomando `check`, MAS sem tag v0.2.0
+```
+
+**Por que o `check` não chegou:**
+
+1. O commit `9284336` em `repos/kryx-cli` adiciona o subcomando, mas **não bumpa a versão** no `Cargo.toml` (permanece `0.1.0`) e **não cria a tag `v0.2.0`** no origin `RAGton/kryx-cli`.
+2. O `flake.nix` do core (`/etc/kryonix`) referencia `kryx-cli` pela **tag semver**, não pelo SHA:
+   ```nix
+   kryx-cli = {
+     url = "github:RAGton/kryx-cli/v0.1.0";
+     inputs.nixpkgs.follows = "nixpkgs";
+   };
+   ```
+3. O comentário no flake documenta o porquê do pin em `v0.1.0` (chicken-and-egg do cli-lockdown wrapper) — é **regra canônica** nunca regredir desse pin.
+4. Como o upstream `RAGton/kryx-cli` não tem tag `v0.2.0`, `nix flake update` no `/etc/kryonix` **corretamente** não puxa o `9284336` — está se protegendo da regressão.
+5. Resultado: `nix build` em `/etc/kryonixos#inspiron` resolve o input `kryx-cli` para `919743689727` (commit `docs(kryx-cli): add initial README grounded in source`, **anterior** ao `check`), e o binário resultante é bit-a-bit idêntico ao da geração 61.
+
+### Evidências do encadeamento
+
+**Lockfile do core (`/etc/kryonix/flake.lock`):**
+```json
+"kryx-cli": {
+  "inputs": { "flake-utils": "flake-utils_2" },
+  "locked": {
+    "owner": "RAGton",
+    "repo": "kryx-cli",
+    "rev": "919743689727dae241dee995d77de0880f19a04e",   ← input antigo, sem `check`
+    "type": "github"
+  },
+  "original": {
+    "ref": "v0.1.0",                                       ← pin na tag semver
+    "repo": "kryx-cli",
+    "type": "github"
+  }
+}
+```
+
+**Lockfile do downstream (`/etc/kryonixos/flake.lock`):** mesmo padrão — `kryx-cli: original=v0.1.0 -> locked rev=919743689727`.
+
+**Flake.nix do core (`/etc/kryonix/flake.nix`):**
+```nix
+# Pinned em `v0.1.0` (tag semver) para garantir que `nix flake update`
+# sempre traga o kryx-cli COM o bypass de lockdown (`discover_real_nix_dir`
+# em `modules.rs`), nunca revertendo para o rev pré-fix `5ab75997`
+# (que tem o problema do chicken-and-egg com o cli-lockdown wrapper).
+# Refs: V22b (semver), V34a (kryx-cli semver stabilization).
+kryx-cli = {
+  url = "github:RAGton/kryx-cli/v0.1.0";
+  inputs.nixpkgs.follows = "nixpkgs";
+};
+```
+
+**Tags atuais no upstream `RAGton/kryx-cli`:** somente `v0.1.0` (confirmável via `git ls-remote --tags https://github.com/RAGton/kryx-cli`). Sem `v0.2.0`, o input pinado em `v0.1.0` é o que vale.
+
+### Lição aprendida
+
+Para fechar o ciclo do `kryx check` em produção, **não basta** promover o commit no meta-repo `kryonix-dev`. É preciso:
+
+1. **Bumpar `Cargo.toml` no `repos/kryx-cli`** de `version = "0.1.0"` para `"0.2.0"`.
+2. **Criar a tag semver** `v0.2.0` no origin `RAGton/kryx-cli` (apontando pro commit `9284336`).
+3. **Atualizar o pin** no `flake.nix` do core (`/etc/kryonix`): `kryx-cli/v0.1.0` → `kryx-cli/v0.2.0`.
+4. **Rodar `nix flake update`** no `/etc/kryonix` para regenerar o lockfile com o novo rev.
+5. **Rodar `sudo kryx update` + `sudo kryx switch`** em PROD para que o binário seja efetivamente reconstruído (Nix só rebuilda se o hash do conteúdo mudar — com tag nova, o hash muda).
+
+Esse ciclo corresponde ao procedimento canônico `kryonix-versioning` documentado em `~/.hermes/skills/kryonix-versioning.md` (referenciado em `repos/kryonix-cli/AGENTS.md`). O cartão `t_aa0e609b` permanece em **READY_FOR_REVIEW** até essa sequência ser concluída e validada.
 
 ## Pendências
 
-- **Push do commit `645fe0a`** em `/etc/kryonixos` para `origin/main` (manual, gate humano).
-- **`sudo git pull --ff-only`** em `/etc/kryonixos` e `/etc/kryonix` (manual, gate humano).
-- **`sudo kryx update`** — rebuild completo (10-30 min, pode falhar se `nixpkgs/nixos-unstable` upstream quebrar).
-- **`sudo kryx switch`** — ativação da nova geração.
-- **Validação final:** `kryx --help` deve listar `check` na seção Commands; `kryx check` deve rodar `nix flake check` via bypass do `cliLockdown`.
-- **Atualização desta nota** com evidências pós-switch: nova versão de `kryx` no Nix store, output de `kryx --version`, output de `kryx check` em flake válido.
-- **Submodule pointer no meta-repo:** após push do vault, criar `chore(dev): update kryonix-vault submodule pointer` em `kryonix-dev`.
-- **Kanban:** `hermes kanban complete t_aa0e609b` com `--result` e `--summary` (somente após validação final do `kryx check` em PROD).
+### Já concluídas neste ciclo
+
+- [x] ~~Push do commit `645fe0a` em `/etc/kryonixos` para `origin/main`~~ — feito (`3561338..645fe0a`).
+- [x] ~~`sudo git pull --ff-only` em `/etc/kryonixos` e `/etc/kryonix`~~ — feito (`Ya está actualizado`).
+- [x] ~~`sudo kryx update`~~ — feito (bypass `cliLockdown` validado).
+- [x] ~~`sudo kryx switch`~~ — feito (geração **62** ativa, sistema estável).
+- [x] ~~Submodule pointer no meta-repo: `kryonix-dev` em `a1f472c`~~ — feito e pushed.
+
+### Pendentes para fechar o cartão `t_aa0e609b` (ciclo de versionamento)
+
+- [ ] **Bump `Cargo.toml`** em `repos/kryx-cli`: `version = "0.1.0"` → `"0.2.0"`.
+- [ ] **Criar tag `v0.2.0`** no upstream `RAGton/kryx-cli` apontando pro commit `9284336`:
+  ```bash
+  cd repos/kryx-cli
+  git tag -s v0.2.0 -m "kryx-cli v0.2.0 — add 'check' subcommand (flake validation)" 9284336
+  git push origin v0.2.0
+  ```
+- [ ] **Atualizar pin** no `flake.nix` do core (`/etc/kryonix`): `kryx-cli/v0.1.0` → `kryx-cli/v0.2.0` (com commit atômico + PR).
+- [ ] **Rodar `sudo nix flake update`** em `/etc/kryonix` (gate humano — está na blacklist) para regenerar o lockfile com o novo rev.
+- [ ] **Rodar `sudo kryx update` + `sudo kryx switch`** em PROD para o binário `kryx` ser efetivamente reconstruído.
+- [ ] **Validação final:** `kryx --version` deve reportar `kryx 0.2.0`; `kryx --help` deve listar `check`; `kryx check .` deve rodar `nix flake check` via bypass do `cliLockdown`.
+- [ ] **Kanban:** `hermes kanban complete t_aa0e609b` com `--result` e `--summary` (somente após validação final em PROD).
+- [ ] **Atualização desta nota** (final): versão final do `kryx`, output do `kryx check`, e remoção do item pendente.
+
+### Pendente não-bloqueante
+
+- [ ] Os 7 commits ahead + arquivos dirty em `repos/kryonix-vault` (do ciclo anterior — anteriores à nota atual). Não afetam o `kryx check`, mas devem ser revisados em sessão separada para não acumular drift.
 
 ## Próximo passo recomendado
 
-1. Gabriel roda os comandos do Trilho 2 (2.2 a 2.5) em ordem.
-2. Após `sudo kryx switch` bem-sucedido, Gabriel confirma pra Aura que `kryx check` aparece na lista de subcomandos.
-3. Aura atualiza esta nota com as evidências pós-switch e roda `hermes kanban complete t_aa0e609b`.
-4. Próximo cartão na fila: `t_49898d6e` ([kryxd][ui] Mover Node Server da tela Welcome para System Features) — aguardando decisão sobre `promote --force` vs. esperar children (já alinhado em sessão anterior).
+Este ciclo DEV→PROD **fechou com sucesso parcial**: o switch rodou e o sistema está estável, mas o `kryx check` não chegou na produção porque o core `kryonix` pinava `kryx-cli` na tag `v0.1.0` e o commit `9284336` ainda não tem tag `v0.2.0`.
+
+### Próxima sessão (gate humano + plano de versionamento)
+
+1. **Criar a tag `v0.2.0`** no `repos/kryx-cli` (a partir de `9284336`) e push pra origin — sequência de comandos já documentada na seção "Pendentes" acima.
+2. **Atualizar o pin no core**: commitar mudança `kryx-cli/v0.1.0` → `kryx-cli/v0.2.0` em `/etc/kryonix` (PR com gate humano; alinhar com a skill `kryonix-versioning`).
+3. **`sudo nix flake update`** em `/etc/kryonix` (autorizado para esta sessão; comando está na blacklist — gate humano explícito).
+4. **`sudo kryx update` + `sudo kryx switch`** — agora o binário `kryx 0.2.0` deve ser reconstruído e o subcomando `check` aparecer.
+5. **Validação final:** `kryx --version` mostra `0.2.0`; `kryx --help` lista `check`; `kryx check .` roda via bypass.
+6. Aura atualiza esta nota com as evidências finais e roda `hermes kanban complete t_aa0e609b`.
+7. Próximo cartão na fila: `t_49898d6e` ([kryxd][ui] Mover Node Server da tela Welcome para System Features) — aguardando decisão sobre `promote --force` vs. esperar children (alinhado em sessão anterior).
 
 ## Links relacionados
 
