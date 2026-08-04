@@ -1,6 +1,7 @@
 ---
 title: Roadmap kryxd-daemon debt
 date: 2026-08-04
+updated: 2026-08-04
 tags: [kryonix, kryxd, roadmap, debt, in-progress]
 status: in-progress
 ssot: Kanban Hermes (este arquivo é espelho)
@@ -10,28 +11,27 @@ ultima_sync: 2026-08-04
 # Roadmap kryxd-daemon debt
 
 > Espelho do Kanban Hermes. SSOT é o Kanban.
-> Última sincronização: 2026-08-04
+> Última sincronização: 2026-08-04 (pós KCR-TESTS-FIX)
 
-## Status após Gate A.1 (baseline 2026-08-04)
+## Status pós KCR-TESTS-FIX (commit 96e6ebb)
 
-Build compila ✅. Test NÃO compila ❌ (4 inicializadores quebrados de `InstallPlanV2`).
+Build compila ✅. Test majoritariamente verde ✅ (165/166 passando). 2 falhas pré-existentes (drift capabilities).
 
-KCRs atualizados:
-
-| KCR | Status | Esforço | Bloqueado por |
-|-----|--------|---------|---------------|
-| **KCR-TESTS-FIX** (NOVO) | ready | ~30min | nada — corrigir 4 inicializadores |
-| KCR-ROUTER-1 | ready | 1-2h | nada (build compila) |
-| KCR-TRANSLATOR-1 | ready | 30-60min | nada (build compila) |
-| KCR-V1-DEPRECATE | ready | 2h | nada (processo puro) |
-| KCR-PARTITIONER-1 | blocked | 2-3h | KCR-TESTS-FIX |
-| KCR-TARGETTREE-1 | blocked | 1 dia | KCR-TESTS-FIX + KCR-PARTITIONER-1 |
-| KCR-REFACTOR-1 | blocked | 2-3 dias | baseline + KCR-TARGETTREE-1 |
+| KCR | Status | Esforço | Bloqueado por | Notas |
+|-----|--------|---------|---------------|-------|
+| **KCR-TESTS-FIX** | ✅ **completed** | 30min (real) | — | commit `96e6ebb`. 4 fixtures atualizados. |
+| **KCR-CAPS-DRIFT** (NOVO) | ready | 30-60min | — | Drift 50 caps (registry) vs 43 caps (JSON). Ver `90-errata.md`. |
+| KCR-ROUTER-1 | ready | 1-2h | — (tests majoritariamente verdes) | Próximo payoff alto. |
+| KCR-TRANSLATOR-1 | ready | 30-60min | — | `translator.rs` morto confirmado por warning de build. |
+| KCR-V1-DEPRECATE | ready | 2h | — (processo puro) | |
+| KCR-PARTITIONER-1 | blocked | 2-3h | KCR-CAPS-DRIFT (para tests 100% verdes) | |
+| KCR-TARGETTREE-1 | blocked | 1 dia | PARTITIONER-1 + CAPS-DRIFT | |
+| KCR-REFACTOR-1 | blocked | 2-3 dias | TARGETTREE-1 + tests 100% | |
 
 ## KCRs prontos pra atacar (em ordem de payoff)
 
-1. **KCR-TESTS-FIX** — desbloquear test suite. Sem isso, todo KCR posterior voa cego.
-2. **KCR-ROUTER-1** — fechar bug latente do router v2 (achado 🔴 do audit).
+1. **KCR-CAPS-DRIFT** — fechar 2 falhas pré-existentes (baselines limpos antes de qualquer refactor).
+2. **KCR-ROUTER-1** — fechar bug latente do router v2 (achado 🔴 do audit, confirmado por warning de build).
 3. **KCR-TRANSLATOR-1** — deletar 455 LoC de dead code confirmado.
 4. **KCR-V1-DEPRECATE** — marcar API v1 como deprecated, evitar mais debt.
 
@@ -39,14 +39,14 @@ KCRs atualizados:
 
 | KCR | Por que bloqueado |
 |---|---|
-| KCR-PARTITIONER-1 | Precisa de `cargo test` verde pra validar que migrar callers não quebra pipeline |
-| KCR-TARGETTREE-1 | Depende de PARTITIONER-1 + tests verdes |
-| KCR-REFACTOR-1 | Depende de TARGETTREE-1 + tests verdes |
+| KCR-PARTITIONER-1 | Precisa de `cargo test` 100% verde pra validar que migração de callers não quebra pipeline |
+| KCR-TARGETTREE-1 | Depende de PARTITIONER-1 + tests 100% |
+| KCR-REFACTOR-1 | Depende de TARGETTREE-1 + tests 100% |
 
-## Mudanças de ambiente necessárias (já aplicadas, registradas em `20-build-baseline.md`)
+## Mudanças de ambiente (commit `1db9077`, registradas em `20-build-baseline.md`)
 
-- `nix/ui.nix`: `npmDepsHash` corrigido (commit `1db9077`)
-- `flake.nix`: adicionado bloco `devShells.default` com llvm/clang (commit `1db9077`)
+- `nix/ui.nix`: `npmDepsHash` corrigido
+- `flake.nix`: adicionado bloco `devShells.default` com llvm/clang + `LIBCLANG_PATH` + `LLVM_CONFIG_PATH`
 
 ## Sincronização com Kanban
 
@@ -54,10 +54,6 @@ Cartões Kanban correspondentes: _a cruzar via `hermes kanban list | grep kryxd`
 
 ## Próximo passo imediato
 
-**Atacar KCR-TESTS-FIX.** Corrigir os 4 inicializadores de `InstallPlanV2` em:
-- `src/api/install.rs:887`
-- `src/services/migration.rs:119`
-- `src/services/target_tree.rs:1058`
-- `src/services/mod.rs:24`
+**Atacar KCR-CAPS-DRIFT.** Investigar se o canônico é o registry (50) ou o JSON (43). Atualizar o lado perdedor. Re-rodar `cargo test --workspace` até 100%.
 
-Adicionar os campos `network` e `node_think` (com defaults razoáveis ou `..Default::default()`). Re-rodar `cargo test --workspace` até passar.
+Não recomendado começar por KCR-ROUTER-1 sem fechar CAPS-DRIFT primeiro — misturar escopos dificulta bisect se algo regressar.
