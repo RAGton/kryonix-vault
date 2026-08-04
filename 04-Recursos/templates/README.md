@@ -102,3 +102,6 @@ A economia de tokens chega a 53% em arrays grandes. Em objetos simples,
 - [[template-moc]] — Map of Content
 - [[template-issue-codex]] — issue pequena para Codex/Claude
 - [[template-daily-log]] — log diário/decisões
+
+
+- [[template-loop]] — Autonomous engineering loop (STATE/EVENTS/EVIDENCE/FINAL_REPORT, L0–L4)

@@ -162,3 +162,17 @@ Toda alteração deve passar por:
 - Integrar esta Skill no workflow padrão da Aura via `AGENTS.md`.
 - Adicionar link para esta nota no `VAULT_INDEX.md`.
 - Converter logs de sessão recentes em notas técnicas seguindo este protocolo.
+
+
+## Autonomous loops (L0–L4)
+
+Loops de engenharia autônoma seguem o template `template-loop` e produzem 4 arquivos em `09-Logs/Kryonix/Loops/<loop-id>/`:
+
+- `STATE.md` — Objective/Metrics/Boundary, autonomy level, current tick
+- `EVENTS.jsonl` — um evento NDJSON por linha (ts/tick/actor/action/outcome/ref/rollback)
+- `EVIDENCE.md` — outputs literais de comandos, sem resumo
+- `FINAL_REPORT.md` — outcome vs objective, métricas, desvios, follow-ups
+
+Regras: L0/L1 livre; **L2 exige human review**; **L3 exige human gate**; **L4 nunca autônomo**. Fechar o loop atual antes de abrir o próximo.
+
+Veja também: a skill Hermes `kryonix-vault-workflow` operacionaliza este protocolo (busca→save contínuo).
