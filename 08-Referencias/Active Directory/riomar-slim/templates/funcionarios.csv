@@ -1,0 +1,7 @@
+﻿FirstName,LastName,SamAccountName,UPN,Title,Password
+# Exemplos - descomente (remova o #) e ajuste para os funcionarios reais do escritorio
+#Joao,Silva,joao.silva,joao.silva@riomar.contabilidade,Contador,
+#Maria,Santos,maria.santos,maria.santos@riomar.contabilidade,Assistente Contabil,
+#Pedro,Oliveira,pedro.oliveira,pedro.oliveira@riomar.contabilidade,Contador Senior,
+#Ana,Costa,ana.costa,ana.costa@riomar.contabilidade,Recepcao,
+#Carlos,Pereira,carlos.pereira,carlos.pereira@riomar.contabilidade,TI,

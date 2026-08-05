@@ -1,4 +1,5 @@
 {
   "cssTheme": "Border",
-  "accentColor": "#0a529e"
+  "accentColor": "#0a529e",
+  "baseFontSizeAction": true
 }

@@ -8,7 +8,7 @@ scope:
   - features
   - installer-future
 ---
-
+s
 # Existing Kryonix Features Catalog
 
 ## Objetivo

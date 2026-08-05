@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"800e4ec192903f00","x":-402,"y":-178,"width":400,"height":400,"type":"file","file":"99-Logs/Kryonix/2026-07-02-E2E-e-Glassmorphism.md"},
+		{"id":"f062b56e55cc3ca5","x":43,"y":-178,"width":400,"height":400,"type":"file","file":"99-Logs/Kryonix/kde-audit/2026-07-03-current-kde-config.md"},
+		{"id":"dc0c4f6c6e10346f","x":488,"y":-178,"width":400,"height":400,"type":"file","file":"99-Logs/Kryonix/2026-07-03-kde-whitesur-desktop-redesign.md"}
+	],
+	"edges":[]
+}

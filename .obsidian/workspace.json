@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b351c6e80505d11",
+        "id": "0755adf25cc5c578",
         "type": "tabs",
         "children": [
           {
-            "id": "1e33e330399f2f38",
+            "id": "9e8ba1637daf209d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -37,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -49,15 +51,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#vibe-coding",
+                "query": "tag:#kryonix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Buscar"
             }
           },
           {
@@ -70,7 +72,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,8 +179,29 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1e33e330399f2f38",
+  "active": "4c772e2fc1abadff",
   "lastOpenFiles": [
+    "09-Logs/sessions/2026-08-04/2026-08-04-vault-workflow-skill-rollout.md",
+    "09-Logs/sessions/2026-08-04",
+    "02-Areas/Kryonix/installer/Nota - kryxd-ui npmDepsHash drift.md",
+    "tmp/prompt-reestruturar-vault.md",
+    "04-Recursos/templates/template-loop.md",
+    "04-Recursos/templates/template-nota-tecnica 1.md",
+    "tmp",
+    "Sin título 1.canvas",
+    "09-Logs/Kryonix/KCR-Network-Features-V2-Frente1-2026-08-01/IMPLEMENTATION.md",
+    "02-Areas/Kryonix/canonical/SystemFeatures-Fluxo-Completo-UI-Backend-NixOS.md",
+    "09-Logs/Kryonix/KCR-Network-Features-V2-Frente1-2026-08-01/KCR.md",
+    "09-Logs/Kryonix/KCR-Network-Features-V2-Frente1-2026-08-01/AUDIT.md",
+    "09-Logs/Kryonix/KCR-Network-Features-V2-Frente1-2026-08-01",
+    "02-Areas/Kryonix/canonical/EXISTING_FEATURES_CATALOG.md",
+    "09-Logs/Kryonix/inspiron-electron-radeonsi-crash-2026-07-21.md",
+    "09-Logs/Kryonix/LOOP_STATE.md",
+    "09-Logs/Kryonix/2026-07-21-sddm-phase2.md",
+    "09-Logs/Kryonix/2026-06-25-feature-foundation-merge-batch.md",
+    "09-Logs/Kryonix/2026-07-31-kryxd-ai-studio-drift-cleanup.md",
+    "02-Areas/DevOps e SRE/CI CD.md",
+    "01-MOCs/Mapa - DevOps e SRE.md",
     "02-Areas/Backend e APIs/Arquitetura Backend Profissional.md",
     "01-MOCs/Mapa - Backend e APIs.md",
     "02-Areas/Kryonix/Engenharia de Software/Projeto de Algoritmos - Resumo.md",
@@ -189,31 +213,11 @@
     "OPERATIONS.md",
     "TESTING.md",
     "99-Logs/graphify/2026-07-01/artifacts/graph.html",
-    "99-Logs/graphify/2026-07-01/artifacts/GRAPH_REPORT.md",
     "99-Logs/graphify/2026-07-01/artifacts/graph.json",
     "99-Logs/graphify/2026-07-01/artifacts",
     "99-Logs/graphify/2026-07-01/cluster-only.log",
-    "04-Recursos/skills/libvirt-ui-runtime-tester/SKILL.md",
-    "09-Logs/Kryonix/2026-06-27-inspiron-dev-pull-installer-validation.md",
-    "09-Logs/Kryonix/2026-06-27-installer-disko-fix.md",
     "04-Recursos/skills/libvirt-ui-runtime-tester",
-    "01-Projects/Kryonix/Installer/UI_UX_REDESIGN.md",
-    "01-Projects/Kryonix/Installer/TEST_PLAN.md",
-    "01-Projects/Kryonix/Installer/ROADMAP.md",
-    "01-Projects/Kryonix/Installer/API_CONTRACT.md",
-    "PROMPT_MASTER.md",
-    "01-Projects/Kryonix/Installer/ARCHITECTURE.md",
     "01-Projects/Kryonix/Installer",
-    "01-Projects/Kryonix",
-    "01-Projects",
-    "04-Recursos/livros/A arte de dar feedback (Um guia acima da média - HBR) - Motive sua equipe. Melhore a comunicação. Estabeleça objetivos claros. - Autor (Harvard Business Review).pdf",
-    "04-Recursos/playbooks/Playbook - Configurar Repo para Codex.md",
-    "04-Recursos/playbooks/Playbook - Analise de Logs.md",
-    "01-MOCs/Mapa - Biblioteca.md",
-    "01-MOCs/Mapa - Kryonix.md",
-    "CLAUDE.md",
-    "08-Referencias/Politica de Curadoria de Fontes e Codigo.md",
-    "08-Referencias/obsidian/An Introduction to Dataview.md",
     "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Multiple Selection-Multi-Cursor.gif",
     "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Folding and Regions.gif",
     "04-Archive/_vaulthub_import_2026-06-20/00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Command Palette.gif",

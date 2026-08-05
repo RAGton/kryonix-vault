@@ -1,0 +1,3 @@
+Enabled,FirstName,LastName,SamAccountName,UserPrincipalName,Title,Department
+false,Joao,Silva,joao.silva,joao.silva@ad.empresa.com.br,Analista,Administrativo
+false,Maria,Santos,maria.santos,maria.santos@ad.empresa.com.br,Coordenadora,Operacoes
