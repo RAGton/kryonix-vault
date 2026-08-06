@@ -1,0 +1,759 @@
+{
+  "generated_at": "2026-08-06T00:06:47.521690+00:00",
+  "total": 93,
+  "by_status": {
+    "running": 1,
+    "triage": 1,
+    "ready": 6,
+    "blocked": 3,
+    "todo": 13,
+    "scheduled": 67,
+    "done": 2
+  },
+  "cards": [
+    {
+      "id": "t_ac17626c",
+      "status": "running",
+      "title": "[URGENCIA MAXIMA][bug][sist] kryx check inexistente + Guard quebra nix flake check em background + UI Kanban dessincronizada",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_03e3dfb6",
+      "status": "triage",
+      "title": "[bug][critico] kryx switch aborta por clobber-protection do home-manager (mimeapps.list)",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_02549f82",
+      "status": "ready",
+      "title": "[kryx-cli] Investigar e corrigir metadata drift do 'kryx --version' (reporta 0.1.0 apesar do binário ter feature v0.2.0)",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_0fa4e069",
+      "status": "ready",
+      "title": "[kryxd][router][critical] KCR-ROUTER-1: corrigir mount v2 + remover duplo nest (PITFALL L18)",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_3b1197fa",
+      "status": "ready",
+      "title": "[kryxd][kryx][dead-code] KCR-TRANSLATOR-1: deletar translator.rs morto (455 LoC + 6 testes órfãos)",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_690ebeeb",
+      "status": "ready",
+      "title": "[KCR] Node Think Backend Unification — Strike 1 (Contrato e Tradutor)",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_8eff9891",
+      "status": "ready",
+      "title": "[kryxd][kryx][test] KCR-DESKTOP-ZFS-TEST: atualizar test pós-KCR-TEST-1 round-trip idempotente",
+      "type": null,
+      "priority": 1,
+      "updated_at": null
+    },
+    {
+      "id": "t_c5d06415",
+      "status": "ready",
+      "title": "[kryxd][test] KCR-CAPS-HARDCODE: derivar contagem de caps em vez de hardcodar 43",
+      "type": null,
+      "priority": 1,
+      "updated_at": null
+    },
+    {
+      "id": "t_86b3b38c",
+      "status": "blocked",
+      "title": "Define kryonix.features.node-server module skeleton",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_ced1ea2f",
+      "status": "blocked",
+      "title": "Analyze node-server flag translation in KCC executor",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_d5fc7e89",
+      "status": "blocked",
+      "title": "Define PXE boot architecture and KCC server configuration",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_15532e6b",
+      "status": "todo",
+      "title": "Implement node-server flag handling in Axum executor",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_16761a64",
+      "status": "todo",
+      "title": "[infra] Validação E2E: Boot PXE físico (cliente diskless)",
+      "type": null,
+      "priority": 1,
+      "updated_at": null
+    },
+    {
+      "id": "t_2b0fe25a",
+      "status": "todo",
+      "title": "Validate node-server flag translation end-to-end",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_311537a1",
+      "status": "todo",
+      "title": "Implement DHCP server configuration (dhcpd/kea)",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_49898d6e",
+      "status": "todo",
+      "title": "[kryxd][ui] Mover Node Server da tela Welcome para System Features",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_707677ca",
+      "status": "todo",
+      "title": "[kryonix][module] Implementar kryonix.features.node-server (PXE)",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_79413498",
+      "status": "todo",
+      "title": "Implement unionfs for writable client overlay",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_7fcccbaf",
+      "status": "todo",
+      "title": "Provision KCC server on physical hardware",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_888671bd",
+      "status": "todo",
+      "title": "Implement NFS/SquashFS root filesystem export",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_b409dfcd",
+      "status": "todo",
+      "title": "[kryxd][backend] Target node-server no InstallPlan executor",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_d554bf0c",
+      "status": "todo",
+      "title": "Implement TFTP server for PXE boot files",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_df11083e",
+      "status": "todo",
+      "title": "Validate clean PXE boot into RAM without local disk",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_e19d900c",
+      "status": "todo",
+      "title": "Connect diskless physical client to network topology",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_01378724",
+      "status": "scheduled",
+      "title": "[kryx-cli] Motor de Identidade: validador de identity.json",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_064d4632",
+      "status": "scheduled",
+      "title": "mover seleção de Node Server da tela Welcome para tela feature",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_06624529",
+      "status": "scheduled",
+      "title": "Configure MCP server exposure for local agents",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_067eaf90",
+      "status": "scheduled",
+      "title": "Analisar trade-offs da migração BTRFS para ZFS no Inspiron",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_06db0bff",
+      "status": "scheduled",
+      "title": "Ajustar isolamento de idioma e papel do host no wizard",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_0784532c",
+      "status": "scheduled",
+      "title": "Verificar carregamento do Gamescope via features.gaming.enable",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_0d5d78db",
+      "status": "scheduled",
+      "title": "[kryonix][kde] Padronização Visual: Ícones, Fontes e Cursores",
+      "type": null,
+      "priority": 1,
+      "updated_at": null
+    },
+    {
+      "id": "t_10f91ba9",
+      "status": "scheduled",
+      "title": "Integrar Node Server como feature no InstallPlanV2",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_14780942",
+      "status": "scheduled",
+      "title": "Document media storage implementation and Incus integration",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_1a9f7c74",
+      "status": "scheduled",
+      "title": "Assegurar udev rules carregadas pelo feature flag gaming",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_246f1e8e",
+      "status": "scheduled",
+      "title": "Define identity.json schema and validation rules",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_28b1cd48",
+      "status": "scheduled",
+      "title": "Analisar cenário de perda de chaves CMOS e Secure Boot",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_2a7319a2",
+      "status": "scheduled",
+      "title": "Garantir montagem de zpool_home/data via configuração Flake",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_2b5a2396",
+      "status": "scheduled",
+      "title": "Implement WebSocket progress reporting to UI",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_2efde2fa",
+      "status": "scheduled",
+      "title": "Analyze ZFS/Btrfs dataset allocation requirements",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_30ec3f62",
+      "status": "scheduled",
+      "title": "Verify hermes user restrictions are enforced",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_34da903f",
+      "status": "scheduled",
+      "title": "Documentar estratégia de fallback para Secure Boot Keys",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_3647abb4",
+      "status": "scheduled",
+      "title": "Consolidate media storage backend for ISO uploads",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_39aadf97",
+      "status": "scheduled",
+      "title": "Analyze Incus storage mapping for ISO image uploads",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_3a080651",
+      "status": "scheduled",
+      "title": "[kryxd] KVE (Debt): Task Engine e WebSocket",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_3b8ed001",
+      "status": "scheduled",
+      "title": "Atualizar disko.nix para configuração declarativa ZFS",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_3ca5f41c",
+      "status": "scheduled",
+      "title": "[kryxd] KVE (Debt): Concluir Media Storage",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_41900c05",
+      "status": "scheduled",
+      "title": "Design async task tracking and WebSocket progress reporting architecture",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_4bc1783e",
+      "status": "scheduled",
+      "title": "Eliminar janelas legadas GTK2/Qt5 com fallback branco",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_69522621",
+      "status": "scheduled",
+      "title": "[agents] Restrição de privilégios do usuário 'hermes'",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_6c0701aa",
+      "status": "scheduled",
+      "title": "Research and select unified icon theme package",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_722f6ce0",
+      "status": "scheduled",
+      "title": "[kryonixos] Fechar escopo do Perfil Gaming no Glacier",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_74780195",
+      "status": "scheduled",
+      "title": "[kryonix] Topologia ZFS declarativa no Inspiron (NVMe 480GB)",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_76df97eb",
+      "status": "scheduled",
+      "title": "Automatizar fallback de Secure Boot via kryonix",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_7c4e7cb8",
+      "status": "scheduled",
+      "title": "Analyze current hermes user permissions and access model",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_7d952cf6",
+      "status": "scheduled",
+      "title": "Implement 'kryx identity' subcommand",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_815fe153",
+      "status": "scheduled",
+      "title": "Configurar GRUB para modo texto limpo",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_85b5741c",
+      "status": "scheduled",
+      "title": "Corrigir artefatos de renderização no tema escuro global",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_8c05393d",
+      "status": "scheduled",
+      "title": "Mapear CLI para consumir API kryxd de forma declarativa",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_8fb4d145",
+      "status": "scheduled",
+      "title": "Remove unsupervised root access for hermes user",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_91ddebbd",
+      "status": "scheduled",
+      "title": "Integrate audit script into 'switch check' subcommand",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_97b982f7",
+      "status": "scheduled",
+      "title": "Create audit verification script for nix and cargo checks",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_99d0d2ff",
+      "status": "scheduled",
+      "title": "Add tests for identity validation",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_9a65f64e",
+      "status": "scheduled",
+      "title": "Validar consistência global do dark theme pós-correção",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_a6973327",
+      "status": "scheduled",
+      "title": "Package mcp-server-file-system in NixOS",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_ad9c33d3",
+      "status": "scheduled",
+      "title": "Research and select unified font packages for terminal and UI",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_ae5ad7fd",
+      "status": "scheduled",
+      "title": "[kryonix] Boot: estratégia de fallback para Secure Boot Keys",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_b06f13e5",
+      "status": "scheduled",
+      "title": "Validate safe read-only Kanban access in Obsidian Vault",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_b1e7d239",
+      "status": "scheduled",
+      "title": "[kryx-cli] Comando de auditoria: 'kryx switch check'",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_b3973cef",
+      "status": "scheduled",
+      "title": "Configurar Plymouth para identidade visual única",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_b4207e35",
+      "status": "scheduled",
+      "title": "Testar migração e boot com pool ZFS no Inspiron",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_bc7e23b5",
+      "status": "scheduled",
+      "title": "[kryonix][kde] Plasma 6: Correção Global Dark Theme (base Kvuntu)",
+      "type": null,
+      "priority": 1,
+      "updated_at": null
+    },
+    {
+      "id": "t_bc88cf2c",
+      "status": "scheduled",
+      "title": "Validate dataset allocation against default pool",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_bf1dcb27",
+      "status": "scheduled",
+      "title": "[agents] LightRAG: limitar resposta a Top-K=3 e 3000 caracteres",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_c15b43ac",
+      "status": "scheduled",
+      "title": "Implementar comando 'kryx virt ls' para listagem de VMs",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_c50cf84e",
+      "status": "scheduled",
+      "title": "Research and select unified cursor theme package",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_c6b835a3",
+      "status": "scheduled",
+      "title": "[kryonix][kde] Boot: Transição limpa GRUB → Plymouth → SDDM",
+      "type": null,
+      "priority": 1,
+      "updated_at": null
+    },
+    {
+      "id": "t_c8715a40",
+      "status": "scheduled",
+      "title": "Validar ambiente FHS do Steam sob features.gaming.enable",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_cceb1a5d",
+      "status": "scheduled",
+      "title": "[kryonix] KVE (Debt): Validação de ZFS/Btrfs",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_ce7567ea",
+      "status": "scheduled",
+      "title": "Restrict hermes user write access to /etc directory",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_dbe189e8",
+      "status": "scheduled",
+      "title": "Implement declarative icon, font, and cursor config in Home Manager",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_dd7972bb",
+      "status": "scheduled",
+      "title": "Implementar comando 'kryx ct shell' para acesso a containers",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_ddf2e17e",
+      "status": "scheduled",
+      "title": "Coordinate KVE resumption with Jenpex completion",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_df8d3861",
+      "status": "scheduled",
+      "title": "[kryx-cli] Submódulos de virtualização (noun-verb)",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_dfeb9a6a",
+      "status": "scheduled",
+      "title": "Validar transição completa GRUB → Plymouth → SDDM",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_eaa5417c",
+      "status": "scheduled",
+      "title": "[agents] Integração MCP (Model Context Protocol) via NixOS",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_ec77f116",
+      "status": "scheduled",
+      "title": "Auditar apps Qt6 e identificar artefatos de dark theme",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_efa27cd0",
+      "status": "scheduled",
+      "title": "Implement async task tracking for Incus instance creation",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_f63be7e2",
+      "status": "scheduled",
+      "title": "Consolidar escopo final do Perfil Gaming no Glacier",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_f6ac831b",
+      "status": "scheduled",
+      "title": "Add 'switch check' subcommand to kryx-cli",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_fe75dae3",
+      "status": "scheduled",
+      "title": "Implementar comando 'kryx vm start' para iniciar VMs",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_ff1f9885",
+      "status": "scheduled",
+      "title": "Configurar SDDM com tema customizado",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_37589718",
+      "status": "done",
+      "title": "Analyze impact of removing Node Server selection from Welcome screen",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_aa0e609b",
+      "status": "done",
+      "title": "[enhancement] kryx check: wrapper de nix flake check para fluxo de agentes",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "audits": {
+    "kanban-drift-2026-08-04": {
+      "title": "Kanban × Vault drift audit",
+      "date": "2026-08-04",
+      "state_file": "09-Logs/Kryonix/Audits/kanban-drift-2026-08-04/STATE.md",
+      "cards": [
+        "t_aa0e609b",
+        "t_37589718",
+        "t_ac17626c",
+        "t_d5fc7e89",
+        "t_86b3b38c",
+        "t_ced1ea2f",
+        "t_03e3dfb6"
+      ],
+      "notes": "7 cards flagged for drift; 1 urgent (clobber-protection), 6 batch-reopen"
+    }
+  }
+}
