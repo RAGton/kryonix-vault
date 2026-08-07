@@ -247,8 +247,8 @@ Kinds válidos: `kcr_started`, `kcr_completed`, `card_closed`, `card_reopened`, 
 - Marcar `t_ad219342` como `done` com `NO_OP` (ouvia tua decisão)
 - Decidir destino de `t_fcd2ec73` (atualizar body + fechar, ou manter pra investigação futura)
 
-**Pausa:** ~13h, retomar 2026-08-08T03:18:15Z. Máquina desligada por Gabriel.
+**Pausa:** até 13:00 BRT (UTC-4) de 2026-08-08 (= 17:00 UTC). Interpretação corrigida: "13h da tarde", não "duração de 13h".
 
 ---
 
-_Versão 0.2 — 2026-08-07. Atualizar a cada KCR concluído. Checkpoint glacier adicionado na pausa de 13h (FASE 2/3 fechadas como no-op com evidência)._
+_Versão 0.3 — 2026-08-07. Checkpoint glacier + interpretação da pausa corrigida de "duração 13h" para "até 13:00 BRT 2026-08-08". FASE 2/3 fechadas como no-op. t_ad219342 → done/NO_OP (commit a04d199)._
