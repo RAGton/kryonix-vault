@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:48:56+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T13:48:22.012858+00:00
+last_sync_at: 2026-08-07T18:38:30.108155+00:00
 last_kanban_state: todo
 result: None
 auto_generated: true
@@ -37,4 +37,4 @@ Install the KCC server on dedicated physical hardware as per the architecture de
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.012862+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T18:38:30.108159+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

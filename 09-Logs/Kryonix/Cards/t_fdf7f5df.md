@@ -6,7 +6,7 @@ priority: 2
 created_at: 2026-08-07T03:37:46+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T13:48:22.010704+00:00
+last_sync_at: 2026-08-07T18:38:30.105899+00:00
 last_kanban_state: ready
 result: None
 auto_generated: true
@@ -28,4 +28,4 @@ Kryonix Guard (shim /etc/profiles/per-user/rocha/bin/nix) bloqueia nix direto em
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.010708+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T18:38:30.105903+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

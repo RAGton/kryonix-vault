@@ -6,7 +6,7 @@ priority: 2
 created_at: 2026-07-30T15:23:17+00:00
 started_at: 
 completed_at: 2026-07-30T21:26:15+00:00
-last_sync_at: 2026-08-07T13:48:22.051692+00:00
+last_sync_at: 2026-08-07T18:38:30.157736+00:00
 last_kanban_state: partial
 result: None
 auto_generated: true
@@ -146,4 +146,4 @@ This card is part of the following audit(s):
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.051696+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T18:38:30.157740+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

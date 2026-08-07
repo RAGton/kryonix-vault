@@ -1,12 +1,12 @@
 ---
-generated_at: 2026-08-07T13:48:22.052292+00:00
-total_cards: 100
+generated_at: 2026-08-07T18:38:30.158499+00:00
+total_cards: 102
 auto_generated: true
 ---
 
 # Kanban Index — kryonix
 
-Total: **100 cards** | Sincronizado em 2026-08-07T13:48:22.052298+00:00
+Total: **102 cards** | Sincronizado em 2026-08-07T18:38:30.158506+00:00
 
 ## Distribuição por status
 
@@ -41,7 +41,7 @@ Total: **100 cards** | Sincronizado em 2026-08-07T13:48:22.052298+00:00
 - [`t_df11083e`](./t_df11083e.md) — Validate clean PXE boot into RAM without local disk
 - [`t_e19d900c`](./t_e19d900c.md) — Connect diskless physical client to network topology
 
-### `scheduled` (71)
+### `scheduled` (72)
 
 - [`t_01378724`](./t_01378724.md) — [kryx-cli] Motor de Identidade: validador de identity.json
 - [`t_064d4632`](./t_064d4632.md) — mover seleção de Node Server da tela Welcome para tela feature
@@ -84,7 +84,7 @@ Total: **100 cards** | Sincronizado em 2026-08-07T13:48:22.052298+00:00
 - [`t_99d0d2ff`](./t_99d0d2ff.md) — Add tests for identity validation
 - [`t_9a65f64e`](./t_9a65f64e.md) — Validar consistência global do dark theme pós-correção
 - [`t_a6973327`](./t_a6973327.md) — Package mcp-server-file-system in NixOS
-- [`t_ad219342`](./t_ad219342.md) — [bug][kryonixos] hosts/glacier/hardware-configuration.nix:92 syntax error em fil
+- [`t_ad3e66fc`](./t_ad3e66fc.md) — [tech-debt][kryonix-assets] nixpkgs should follow motor (kryonix) — currently st
 - [`t_ad9c33d3`](./t_ad9c33d3.md) — Research and select unified font packages for terminal and UI
 - [`t_adbd3ed6`](./t_adbd3ed6.md) — [tech-debt][kanban-sync] smart sync: só atualiza last_sync_at se houve mudança r
 - [`t_ae5ad7fd`](./t_ae5ad7fd.md) — [kryonix] Boot: estratégia de fallback para Secure Boot Keys
@@ -92,6 +92,7 @@ Total: **100 cards** | Sincronizado em 2026-08-07T13:48:22.052298+00:00
 - [`t_b1e7d239`](./t_b1e7d239.md) — [kryx-cli] Comando de auditoria: 'kryx switch check'
 - [`t_b3973cef`](./t_b3973cef.md) — Configurar Plymouth para identidade visual única
 - [`t_b4207e35`](./t_b4207e35.md) — Testar migração e boot com pool ZFS no Inspiron
+- [`t_bb8c7db5`](./t_bb8c7db5.md) — [tech-debt][kryx-cli] nixpkgs should follow motor (kryonix) — currently standalo
 - [`t_bc7e23b5`](./t_bc7e23b5.md) — [kryonix][kde] Plasma 6: Correção Global Dark Theme (base Kvuntu)
 - [`t_bc88cf2c`](./t_bc88cf2c.md) — Validate dataset allocation against default pool
 - [`t_bf1dcb27`](./t_bf1dcb27.md) — [agents] LightRAG: limitar resposta a Top-K=3 e 3000 caracteres
@@ -115,9 +116,10 @@ Total: **100 cards** | Sincronizado em 2026-08-07T13:48:22.052298+00:00
 - [`t_fe75dae3`](./t_fe75dae3.md) — Implementar comando 'kryx vm start' para iniciar VMs
 - [`t_ff1f9885`](./t_ff1f9885.md) — Configurar SDDM com tema customizado
 
-### `done` (1)
+### `done` (2)
 
 - [`t_03e3dfb6`](./t_03e3dfb6.md) — [bug][critico] kryx switch aborta por clobber-protection do home-manager (mimeap
+- [`t_ad219342`](./t_ad219342.md) — [bug][kryonixos] hosts/glacier/hardware-configuration.nix:92 syntax error em fil
 
 ### `partial` (2)
 

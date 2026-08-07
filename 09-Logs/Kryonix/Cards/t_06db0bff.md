@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:40:21+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T13:48:22.015747+00:00
+last_sync_at: 2026-08-07T18:38:30.111351+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -39,4 +39,4 @@ Reorganize o wizard de instalação para que a seleção de idioma fique isolada
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.015752+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T18:38:30.111354+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

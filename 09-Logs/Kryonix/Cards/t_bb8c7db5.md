@@ -6,7 +6,7 @@ priority: 3
 created_at: 2026-08-07T15:15:39+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T15:15:54.404127+00:00
+last_sync_at: 2026-08-07T18:38:30.131071+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -46,4 +46,4 @@ Also: github:NixOS -> github:nixos (lowercase) for naming consistency.
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T15:15:54.404133+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T18:38:30.131077+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

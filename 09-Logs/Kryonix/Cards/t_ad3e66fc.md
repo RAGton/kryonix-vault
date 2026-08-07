@@ -6,7 +6,7 @@ priority: 3
 created_at: 2026-08-07T15:15:40+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T15:15:54.490374+00:00
+last_sync_at: 2026-08-07T18:38:30.127513+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -44,4 +44,4 @@ To fix:
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T15:15:54.490379+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T18:38:30.127516+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
