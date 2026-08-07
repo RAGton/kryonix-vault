@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:41:51+00:00
 started_at: 2026-07-30T12:41:51+00:00
 completed_at: 
-last_sync_at: 2026-08-06T00:06:47.477734+00:00
+last_sync_at: 2026-08-07T03:41:11.585569+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -74,4 +74,4 @@ worker exited cleanly (rc=0) without calling kanban_complete or kanban_block —
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-06T00:06:47.477738+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.585590+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

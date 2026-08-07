@@ -1,14 +1,14 @@
 ---
 card_id: t_aa0e609b
-status: done
+status: partial
 type: 
 priority: 2
 created_at: 2026-07-30T15:23:17+00:00
 started_at: 
 completed_at: 2026-07-30T21:26:15+00:00
-last_sync_at: 2026-08-06T00:06:47.521165+00:00
-last_kanban_state: done
-result: FEATURE_DELIVERED
+last_sync_at: 2026-08-07T03:41:11.688682+00:00
+last_kanban_state: partial
+result: None
 auto_generated: true
 audits:
   - kanban-drift-2026-08-04
@@ -16,7 +16,12 @@ audits:
 
 # [enhancement] kryx check: wrapper de nix flake check para fluxo de agentes
 
-**Card:** `t_aa0e609b` | **Status:** `done`
+**Card:** `t_aa0e609b` | **Status:** `partial`
+
+> [!warning] **DRIFT DETECTADO**
+> Última sincronização: `2026-08-06T00:06:47.521165+00:00`
+> Estado anterior: `done`
+> Estado atual: `partial`
 
 ## Descrição
 
@@ -120,10 +125,6 @@ esac
 - ~/Proyectos/kryonix-dev/repos/kryonixos/AGENTS.md (Valid vs Build)
 - Card t_03e3dfb6 (bug kryx switch, mesma raiz)
 
-## Result
-
-`FEATURE_DELIVERED`
-
 ## Execução timestamps
 
 - **Concluído:** `2026-07-30T21:26:15+00:00`
@@ -138,6 +139,7 @@ This card is part of the following audit(s):
 
 | Timestamp | Tipo | Payload |
 |-----------|------|---------|
+| `2026-08-07T03:36:50+00:00` | `reopened` | {"from": "done", "to": "partial", "notes": "Reaberto: wrapper existe no source (kryx-cli/src/cli/check.rs), kryx 0.1.0 responde a kryx check --help, mas implementa\u00e7\u00e3o \u00e9 stub (wrapper va... |
 | `2026-07-30T21:26:15+00:00` | `completed` | {"result_len": 17, "summary": "kryx check subcommand operational in PROD (validated via 'all checks passed!' on /home/rocha/Proyectos/kryonix-dev/repos/kryonixos flake, exit 0). Metadata version drift... |
 | `2026-07-30T15:23:17+00:00` | `created` | {"assignee": "default", "status": "ready", "parents": [], "tenant": "kryonix", "workspace_kind": "scratch", "workspace_path": null, "branch_name": null, "project_id": null, "skills": null, "goal_mode"... |
 
@@ -149,4 +151,4 @@ This card is part of the following audit(s):
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-06T00:06:47.521169+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.688685+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

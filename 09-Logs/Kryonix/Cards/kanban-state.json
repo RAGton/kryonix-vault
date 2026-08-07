@@ -1,32 +1,15 @@
 {
-  "generated_at": "2026-08-06T00:06:47.521690+00:00",
-  "total": 93,
+  "generated_at": "2026-08-07T03:41:11.690079+00:00",
+  "total": 98,
   "by_status": {
-    "running": 1,
-    "triage": 1,
-    "ready": 6,
-    "blocked": 3,
+    "ready": 12,
     "todo": 13,
-    "scheduled": 67,
-    "done": 2
+    "scheduled": 69,
+    "done": 1,
+    "partial": 2,
+    "superseded": 1
   },
   "cards": [
-    {
-      "id": "t_ac17626c",
-      "status": "running",
-      "title": "[URGENCIA MAXIMA][bug][sist] kryx check inexistente + Guard quebra nix flake check em background + UI Kanban dessincronizada",
-      "type": null,
-      "priority": 0,
-      "updated_at": null
-    },
-    {
-      "id": "t_03e3dfb6",
-      "status": "triage",
-      "title": "[bug][critico] kryx switch aborta por clobber-protection do home-manager (mimeapps.list)",
-      "type": null,
-      "priority": 0,
-      "updated_at": null
-    },
     {
       "id": "t_02549f82",
       "status": "ready",
@@ -60,6 +43,22 @@
       "updated_at": null
     },
     {
+      "id": "t_6e19cd19",
+      "status": "ready",
+      "title": "[bug] kryx check: stub/incomplete wrapper",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_86b3b38c",
+      "status": "ready",
+      "title": "Define kryonix.features.node-server module skeleton",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
       "id": "t_8eff9891",
       "status": "ready",
       "title": "[kryxd][kryx][test] KCR-DESKTOP-ZFS-TEST: atualizar test pós-KCR-TEST-1 round-trip idempotente",
@@ -76,16 +75,8 @@
       "updated_at": null
     },
     {
-      "id": "t_86b3b38c",
-      "status": "blocked",
-      "title": "Define kryonix.features.node-server module skeleton",
-      "type": null,
-      "priority": 0,
-      "updated_at": null
-    },
-    {
       "id": "t_ced1ea2f",
-      "status": "blocked",
+      "status": "ready",
       "title": "Analyze node-server flag translation in KCC executor",
       "type": null,
       "priority": 0,
@@ -93,10 +84,26 @@
     },
     {
       "id": "t_d5fc7e89",
-      "status": "blocked",
+      "status": "ready",
       "title": "Define PXE boot architecture and KCC server configuration",
       "type": null,
       "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_fcd2ec73",
+      "status": "ready",
+      "title": "[bug][kanban-ui] UI Kanban dessincronizada (estado vs display)",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_fdf7f5df",
+      "status": "ready",
+      "title": "[bug][kryonix-guard] nix flake check quebrado em background",
+      "type": null,
+      "priority": 2,
       "updated_at": null
     },
     {
@@ -524,6 +531,14 @@
       "updated_at": null
     },
     {
+      "id": "t_ad219342",
+      "status": "scheduled",
+      "title": "[bug][kryonixos] hosts/glacier/hardware-configuration.nix:92 syntax error em fileSystems.\"/srv/games\"",
+      "type": null,
+      "priority": 2,
+      "updated_at": null
+    },
+    {
       "id": "t_ad9c33d3",
       "status": "scheduled",
       "title": "Research and select unified font packages for terminal and UI",
@@ -692,6 +707,14 @@
       "updated_at": null
     },
     {
+      "id": "t_eb10dca9",
+      "status": "scheduled",
+      "title": "[tech-debt][kryonix] xdg.mimeApps motor vs user config (80+ vs 5 associacoes)",
+      "type": null,
+      "priority": 3,
+      "updated_at": null
+    },
+    {
       "id": "t_ec77f116",
       "status": "scheduled",
       "title": "Auditar apps Qt6 e identificar artefatos de dark theme",
@@ -740,8 +763,16 @@
       "updated_at": null
     },
     {
-      "id": "t_37589718",
+      "id": "t_03e3dfb6",
       "status": "done",
+      "title": "[bug][critico] kryx switch aborta por clobber-protection do home-manager (mimeapps.list)",
+      "type": null,
+      "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_37589718",
+      "status": "partial",
       "title": "Analyze impact of removing Node Server selection from Welcome screen",
       "type": null,
       "priority": 0,
@@ -749,10 +780,18 @@
     },
     {
       "id": "t_aa0e609b",
-      "status": "done",
+      "status": "partial",
       "title": "[enhancement] kryx check: wrapper de nix flake check para fluxo de agentes",
       "type": null,
       "priority": 2,
+      "updated_at": null
+    },
+    {
+      "id": "t_ac17626c",
+      "status": "superseded",
+      "title": "[URGENCIA MAXIMA][bug][sist] kryx check inexistente + Guard quebra nix flake check em background + UI Kanban dessincronizada",
+      "type": null,
+      "priority": 0,
       "updated_at": null
     }
   ]

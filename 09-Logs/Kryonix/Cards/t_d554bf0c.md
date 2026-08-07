@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:50:48+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-06T00:06:47.469009+00:00
+last_sync_at: 2026-08-07T03:41:11.566315+00:00
 last_kanban_state: todo
 result: None
 auto_generated: true
@@ -37,4 +37,4 @@ Set up a TFTP server to serve PXE boot loaders and configuration files. Integrat
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-06T00:06:47.469012+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.566320+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

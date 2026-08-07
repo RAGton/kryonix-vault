@@ -1,13 +1,13 @@
 ---
 card_id: t_d5fc7e89
-status: blocked
+status: ready
 type: 
 priority: 0
 created_at: 2026-07-30T12:48:56+00:00
 started_at: 2026-07-30T12:49:29+00:00
 completed_at: 
-last_sync_at: 2026-08-06T00:06:47.463769+00:00
-last_kanban_state: blocked
+last_sync_at: 2026-08-07T03:41:11.554642+00:00
+last_kanban_state: ready
 result: None
 auto_generated: true
 audits:
@@ -16,7 +16,12 @@ audits:
 
 # Define PXE boot architecture and KCC server configuration
 
-**Card:** `t_d5fc7e89` | **Status:** `blocked`
+**Card:** `t_d5fc7e89` | **Status:** `ready`
+
+> [!warning] **DRIFT DETECTADO**
+> Última sincronização: `2026-08-06T00:06:47.463769+00:00`
+> Estado anterior: `blocked`
+> Estado atual: `ready`
 
 ## Descrição
 
@@ -51,6 +56,7 @@ This card is part of the following audit(s):
 
 | Timestamp | Tipo | Payload |
 |-----------|------|---------|
+| `2026-08-07T03:38:04+00:00` | `reopened` | {"from": "blocked", "to": "ready", "notes": "Reaberto de blocked: 3 protocol_violation (worker exit_code=0 sem chamar kanban_complete). Workspace tinha s\u00f3 3 .hermes-tmp vazios, sem artefatos \u00... |
 | `2026-07-30T13:58:41+00:00` | `gave_up` | {"failures": 3, "effective_limit": 1, "limit_source": "dispatcher", "error": "worker exited cleanly (rc=0) without calling kanban_complete or kanban_block — protocol violation", "trigger_outcome": "cr... |
 | `2026-07-30T13:58:41+00:00` | `protocol_violation` | {"pid": 984547, "claimer": "inspiron:926619", "exit_code": 0} |
 | `2026-07-30T13:57:16+00:00` | `heartbeat` | None |
@@ -60,7 +66,6 @@ This card is part of the following audit(s):
 | `2026-07-30T13:56:12+00:00` | `status` | {"status": "todo"} |
 | `2026-07-30T13:56:06+00:00` | `status` | {"status": "ready"} |
 | `2026-07-30T13:56:05+00:00` | `promoted` | None |
-| `2026-07-30T13:55:46+00:00` | `status` | {"status": "todo"} |
 
 ## Execuções recentes
 
@@ -80,4 +85,4 @@ This card is part of the following audit(s):
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-06T00:06:47.463774+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.554646+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

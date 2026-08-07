@@ -1,14 +1,14 @@
 ---
 card_id: t_03e3dfb6
-status: triage
+status: done
 type: 
 priority: 0
 created_at: 2026-07-30T14:21:40+00:00
 started_at: 2026-07-30T14:22:31+00:00
-completed_at: 
-last_sync_at: 2026-08-06T00:06:47.459414+00:00
-last_kanban_state: triage
-result: None
+completed_at: 2026-08-07T03:19:08+00:00
+last_sync_at: 2026-08-07T03:41:11.686849+00:00
+last_kanban_state: done
+result: FEATURE_DELIVERED
 auto_generated: true
 audits:
   - kanban-drift-2026-08-04
@@ -16,7 +16,7 @@ audits:
 
 # [bug][critico] kryx switch aborta por clobber-protection do home-manager (mimeapps.list)
 
-**Card:** `t_03e3dfb6` | **Status:** `triage`
+**Card:** `t_03e3dfb6` | **Status:** `done`
 
 ## Descrição
 
@@ -161,9 +161,14 @@ Acumulo de lixo (~10 arquivos `.hm-bak*`) revertendo o `force = true` abriu cami
 - `/etc/kryonixos` esta em PROD. Nunca editar direto; fluxo e DEV -> commit -> PR -> `kryx switch` (este que esta quebrado).
 - Lockdown: **sem** `git reset --hard`, `nix-collect-garbage -d`, `nixos-rebuild switch`, system restart sem Gate L3.
 
+## Result
+
+`FEATURE_DELIVERED`
+
 ## Execução timestamps
 
 - **Iniciado:** `2026-07-30T14:22:31+00:00`
+- **Concluído:** `2026-08-07T03:19:08+00:00`
 
 ## Assignment
 
@@ -184,6 +189,7 @@ This card is part of the following audit(s):
 
 | Timestamp | Tipo | Payload |
 |-----------|------|---------|
+| `2026-08-07T03:19:08+00:00` | `completed` | {"result": "FEATURE_DELIVERED", "notes": "Fix validado em produ\u00e7\u00e3o. PR #15 mergeado (commit 05c7e81). nh home switch exit 0, 1320 paths rebuilt, sem .hm-bak-* criado. 1 linha de patch em kry... |
 | `2026-08-02T12:51:00+00:00` | `commented` | {"author": "orchestrator", "len": 633} |
 | `2026-08-02T12:50:59+00:00` | `assigned` | {"assignee": "aura-decision"} |
 | `2026-08-02T12:46:47+00:00` | `commented` | {"author": "default", "len": 764} |
@@ -193,7 +199,6 @@ This card is part of the following audit(s):
 | `2026-07-30T14:32:41+00:00` | `block_loop_detected` | {"reason": "Gate humano: bug diagnosticado. Estrategia (A) escolhida: reaplicar c7c741d + cleanup controlado do .hm-bak-kryonix. Aguardando intervencao manual do Arquiteto.", "kind": null, "recurrence... |
 | `2026-07-30T14:32:41+00:00` | `commented` | {"author": "default", "len": 169} |
 | `2026-07-30T14:32:40+00:00` | `unblocked` | None |
-| `2026-07-30T14:32:31+00:00` | `commented` | {"author": "default", "len": 169} |
 
 ## Execuções recentes
 
@@ -206,4 +211,4 @@ This card is part of the following audit(s):
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-06T00:06:47.459419+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.686852+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

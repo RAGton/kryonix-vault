@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:53:24+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-06T00:06:47.498746+00:00
+last_sync_at: 2026-08-07T03:41:11.633054+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -40,4 +40,4 @@ Reiniciar a máquina e observar o fluxo completo de boot. Verificar que: (1) GRU
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-06T00:06:47.498752+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.633059+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

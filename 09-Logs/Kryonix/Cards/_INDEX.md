@@ -1,37 +1,29 @@
 ---
-generated_at: 2026-08-06T00:06:47.521431+00:00
-total_cards: 93
+generated_at: 2026-08-07T03:41:11.689904+00:00
+total_cards: 98
 auto_generated: true
 ---
 
 # Kanban Index — kryonix
 
-Total: **93 cards** | Sincronizado em 2026-08-06T00:06:47.521442+00:00
+Total: **98 cards** | Sincronizado em 2026-08-07T03:41:11.689911+00:00
 
 ## Distribuição por status
 
-### `running` (1)
-
-- [`t_ac17626c`](./t_ac17626c.md) — [URGENCIA MAXIMA][bug][sist] kryx check inexistente + Guard quebra nix flake che
-
-### `triage` (1)
-
-- [`t_03e3dfb6`](./t_03e3dfb6.md) — [bug][critico] kryx switch aborta por clobber-protection do home-manager (mimeap
-
-### `ready` (6)
+### `ready` (12)
 
 - [`t_02549f82`](./t_02549f82.md) — [kryx-cli] Investigar e corrigir metadata drift do 'kryx --version' (reporta 0.1
 - [`t_0fa4e069`](./t_0fa4e069.md) — [kryxd][router][critical] KCR-ROUTER-1: corrigir mount v2 + remover duplo nest (
 - [`t_3b1197fa`](./t_3b1197fa.md) — [kryxd][kryx][dead-code] KCR-TRANSLATOR-1: deletar translator.rs morto (455 LoC 
 - [`t_690ebeeb`](./t_690ebeeb.md) — [KCR] Node Think Backend Unification — Strike 1 (Contrato e Tradutor)
+- [`t_6e19cd19`](./t_6e19cd19.md) — [bug] kryx check: stub/incomplete wrapper
+- [`t_86b3b38c`](./t_86b3b38c.md) — Define kryonix.features.node-server module skeleton
 - [`t_8eff9891`](./t_8eff9891.md) — [kryxd][kryx][test] KCR-DESKTOP-ZFS-TEST: atualizar test pós-KCR-TEST-1 round-tr
 - [`t_c5d06415`](./t_c5d06415.md) — [kryxd][test] KCR-CAPS-HARDCODE: derivar contagem de caps em vez de hardcodar 43
-
-### `blocked` (3)
-
-- [`t_86b3b38c`](./t_86b3b38c.md) — Define kryonix.features.node-server module skeleton
 - [`t_ced1ea2f`](./t_ced1ea2f.md) — Analyze node-server flag translation in KCC executor
 - [`t_d5fc7e89`](./t_d5fc7e89.md) — Define PXE boot architecture and KCC server configuration
+- [`t_fcd2ec73`](./t_fcd2ec73.md) — [bug][kanban-ui] UI Kanban dessincronizada (estado vs display)
+- [`t_fdf7f5df`](./t_fdf7f5df.md) — [bug][kryonix-guard] nix flake check quebrado em background
 
 ### `todo` (13)
 
@@ -49,7 +41,7 @@ Total: **93 cards** | Sincronizado em 2026-08-06T00:06:47.521442+00:00
 - [`t_df11083e`](./t_df11083e.md) — Validate clean PXE boot into RAM without local disk
 - [`t_e19d900c`](./t_e19d900c.md) — Connect diskless physical client to network topology
 
-### `scheduled` (67)
+### `scheduled` (69)
 
 - [`t_01378724`](./t_01378724.md) — [kryx-cli] Motor de Identidade: validador de identity.json
 - [`t_064d4632`](./t_064d4632.md) — mover seleção de Node Server da tela Welcome para tela feature
@@ -91,6 +83,7 @@ Total: **93 cards** | Sincronizado em 2026-08-06T00:06:47.521442+00:00
 - [`t_99d0d2ff`](./t_99d0d2ff.md) — Add tests for identity validation
 - [`t_9a65f64e`](./t_9a65f64e.md) — Validar consistência global do dark theme pós-correção
 - [`t_a6973327`](./t_a6973327.md) — Package mcp-server-file-system in NixOS
+- [`t_ad219342`](./t_ad219342.md) — [bug][kryonixos] hosts/glacier/hardware-configuration.nix:92 syntax error em fil
 - [`t_ad9c33d3`](./t_ad9c33d3.md) — Research and select unified font packages for terminal and UI
 - [`t_ae5ad7fd`](./t_ae5ad7fd.md) — [kryonix] Boot: estratégia de fallback para Secure Boot Keys
 - [`t_b06f13e5`](./t_b06f13e5.md) — Validate safe read-only Kanban access in Obsidian Vault
@@ -112,6 +105,7 @@ Total: **93 cards** | Sincronizado em 2026-08-06T00:06:47.521442+00:00
 - [`t_df8d3861`](./t_df8d3861.md) — [kryx-cli] Submódulos de virtualização (noun-verb)
 - [`t_dfeb9a6a`](./t_dfeb9a6a.md) — Validar transição completa GRUB → Plymouth → SDDM
 - [`t_eaa5417c`](./t_eaa5417c.md) — [agents] Integração MCP (Model Context Protocol) via NixOS
+- [`t_eb10dca9`](./t_eb10dca9.md) — [tech-debt][kryonix] xdg.mimeApps motor vs user config (80+ vs 5 associacoes)
 - [`t_ec77f116`](./t_ec77f116.md) — Auditar apps Qt6 e identificar artefatos de dark theme
 - [`t_efa27cd0`](./t_efa27cd0.md) — Implement async task tracking for Incus instance creation
 - [`t_f63be7e2`](./t_f63be7e2.md) — Consolidar escopo final do Perfil Gaming no Glacier
@@ -119,10 +113,18 @@ Total: **93 cards** | Sincronizado em 2026-08-06T00:06:47.521442+00:00
 - [`t_fe75dae3`](./t_fe75dae3.md) — Implementar comando 'kryx vm start' para iniciar VMs
 - [`t_ff1f9885`](./t_ff1f9885.md) — Configurar SDDM com tema customizado
 
-### `done` (2)
+### `done` (1)
+
+- [`t_03e3dfb6`](./t_03e3dfb6.md) — [bug][critico] kryx switch aborta por clobber-protection do home-manager (mimeap
+
+### `partial` (2)
 
 - [`t_37589718`](./t_37589718.md) — Analyze impact of removing Node Server selection from Welcome screen
 - [`t_aa0e609b`](./t_aa0e609b.md) — [enhancement] kryx check: wrapper de nix flake check para fluxo de agentes
+
+### `superseded` (1)
+
+- [`t_ac17626c`](./t_ac17626c.md) — [URGENCIA MAXIMA][bug][sist] kryx check inexistente + Guard quebra nix flake che
 
 ---
 _Auto-gerado por `kanban-sync.py`._

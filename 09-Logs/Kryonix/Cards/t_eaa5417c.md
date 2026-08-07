@@ -6,7 +6,7 @@ priority: 2
 created_at: 2026-07-30T12:40:18+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-06T00:06:47.499262+00:00
+last_sync_at: 2026-08-07T03:41:11.633845+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -42,4 +42,4 @@ Empacotar mcp-server-file-system no NixOS e expor para os agentes locais, permit
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-06T00:06:47.499268+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.633850+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
