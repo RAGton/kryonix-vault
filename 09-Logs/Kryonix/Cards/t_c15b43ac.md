@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:44:16+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T03:41:11.623265+00:00
+last_sync_at: 2026-08-07T13:48:22.031509+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -38,4 +38,4 @@ Implementar o comando 'kryx virt ls' que lista todas as máquinas virtuais dispo
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.623269+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.031513+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

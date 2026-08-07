@@ -6,7 +6,7 @@ priority: 2
 created_at: 2026-07-30T15:23:17+00:00
 started_at: 
 completed_at: 2026-07-30T21:26:15+00:00
-last_sync_at: 2026-08-07T03:41:11.688682+00:00
+last_sync_at: 2026-08-07T13:48:22.051692+00:00
 last_kanban_state: partial
 result: None
 auto_generated: true
@@ -17,11 +17,6 @@ audits:
 # [enhancement] kryx check: wrapper de nix flake check para fluxo de agentes
 
 **Card:** `t_aa0e609b` | **Status:** `partial`
-
-> [!warning] **DRIFT DETECTADO**
-> Última sincronização: `2026-08-06T00:06:47.521165+00:00`
-> Estado anterior: `done`
-> Estado atual: `partial`
 
 ## Descrição
 
@@ -151,4 +146,4 @@ This card is part of the following audit(s):
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.688685+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.051696+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

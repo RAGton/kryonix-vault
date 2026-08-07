@@ -6,7 +6,7 @@ priority: 2
 created_at: 2026-08-07T03:37:46+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T03:41:11.555076+00:00
+last_sync_at: 2026-08-07T13:48:22.010456+00:00
 last_kanban_state: ready
 result: None
 auto_generated: true
@@ -28,4 +28,4 @@ UI do Kanban mostra estado que não corresponde ao SQLite. Exemplos vistos: t_aa
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.555080+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.010460+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

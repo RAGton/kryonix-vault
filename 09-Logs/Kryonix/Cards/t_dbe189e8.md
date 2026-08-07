@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:49:29+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T03:41:11.628688+00:00
+last_sync_at: 2026-08-07T13:48:22.033404+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -40,4 +40,4 @@ Using the research from the previous tasks, create a declarative Home Manager mo
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.628693+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.033408+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

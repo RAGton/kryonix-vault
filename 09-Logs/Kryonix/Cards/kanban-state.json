@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-07T03:41:11.690079+00:00",
-  "total": 98,
+  "generated_at": "2026-08-07T13:48:22.052444+00:00",
+  "total": 100,
   "by_status": {
     "ready": 12,
     "todo": 13,
-    "scheduled": 69,
+    "scheduled": 71,
     "done": 1,
     "partial": 2,
     "superseded": 1
@@ -355,6 +355,14 @@
       "updated_at": null
     },
     {
+      "id": "t_379c129c",
+      "status": "scheduled",
+      "title": "[tech-debt][home] kscreenlockerrc: LockGrace=10 default via Home Manager",
+      "type": null,
+      "priority": 3,
+      "updated_at": null
+    },
+    {
       "id": "t_39aadf97",
       "status": "scheduled",
       "title": "Analyze Incus storage mapping for ISO image uploads",
@@ -544,6 +552,14 @@
       "title": "Research and select unified font packages for terminal and UI",
       "type": null,
       "priority": 0,
+      "updated_at": null
+    },
+    {
+      "id": "t_adbd3ed6",
+      "status": "scheduled",
+      "title": "[tech-debt][kanban-sync] smart sync: só atualiza last_sync_at se houve mudança real",
+      "type": null,
+      "priority": 3,
       "updated_at": null
     },
     {

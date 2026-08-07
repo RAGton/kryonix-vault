@@ -1,12 +1,12 @@
 ---
-generated_at: 2026-08-07T03:41:11.689904+00:00
-total_cards: 98
+generated_at: 2026-08-07T13:48:22.052292+00:00
+total_cards: 100
 auto_generated: true
 ---
 
 # Kanban Index — kryonix
 
-Total: **98 cards** | Sincronizado em 2026-08-07T03:41:11.689911+00:00
+Total: **100 cards** | Sincronizado em 2026-08-07T13:48:22.052298+00:00
 
 ## Distribuição por status
 
@@ -41,7 +41,7 @@ Total: **98 cards** | Sincronizado em 2026-08-07T03:41:11.689911+00:00
 - [`t_df11083e`](./t_df11083e.md) — Validate clean PXE boot into RAM without local disk
 - [`t_e19d900c`](./t_e19d900c.md) — Connect diskless physical client to network topology
 
-### `scheduled` (69)
+### `scheduled` (71)
 
 - [`t_01378724`](./t_01378724.md) — [kryx-cli] Motor de Identidade: validador de identity.json
 - [`t_064d4632`](./t_064d4632.md) — mover seleção de Node Server da tela Welcome para tela feature
@@ -61,6 +61,7 @@ Total: **98 cards** | Sincronizado em 2026-08-07T03:41:11.689911+00:00
 - [`t_30ec3f62`](./t_30ec3f62.md) — Verify hermes user restrictions are enforced
 - [`t_34da903f`](./t_34da903f.md) — Documentar estratégia de fallback para Secure Boot Keys
 - [`t_3647abb4`](./t_3647abb4.md) — Consolidate media storage backend for ISO uploads
+- [`t_379c129c`](./t_379c129c.md) — [tech-debt][home] kscreenlockerrc: LockGrace=10 default via Home Manager
 - [`t_39aadf97`](./t_39aadf97.md) — Analyze Incus storage mapping for ISO image uploads
 - [`t_3a080651`](./t_3a080651.md) — [kryxd] KVE (Debt): Task Engine e WebSocket
 - [`t_3b8ed001`](./t_3b8ed001.md) — Atualizar disko.nix para configuração declarativa ZFS
@@ -85,6 +86,7 @@ Total: **98 cards** | Sincronizado em 2026-08-07T03:41:11.689911+00:00
 - [`t_a6973327`](./t_a6973327.md) — Package mcp-server-file-system in NixOS
 - [`t_ad219342`](./t_ad219342.md) — [bug][kryonixos] hosts/glacier/hardware-configuration.nix:92 syntax error em fil
 - [`t_ad9c33d3`](./t_ad9c33d3.md) — Research and select unified font packages for terminal and UI
+- [`t_adbd3ed6`](./t_adbd3ed6.md) — [tech-debt][kanban-sync] smart sync: só atualiza last_sync_at se houve mudança r
 - [`t_ae5ad7fd`](./t_ae5ad7fd.md) — [kryonix] Boot: estratégia de fallback para Secure Boot Keys
 - [`t_b06f13e5`](./t_b06f13e5.md) — Validate safe read-only Kanban access in Obsidian Vault
 - [`t_b1e7d239`](./t_b1e7d239.md) — [kryx-cli] Comando de auditoria: 'kryx switch check'

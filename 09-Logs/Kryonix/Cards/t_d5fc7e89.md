@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:48:56+00:00
 started_at: 2026-07-30T12:49:29+00:00
 completed_at: 
-last_sync_at: 2026-08-07T03:41:11.554642+00:00
+last_sync_at: 2026-08-07T13:48:22.010162+00:00
 last_kanban_state: ready
 result: None
 auto_generated: true
@@ -17,11 +17,6 @@ audits:
 # Define PXE boot architecture and KCC server configuration
 
 **Card:** `t_d5fc7e89` | **Status:** `ready`
-
-> [!warning] **DRIFT DETECTADO**
-> Última sincronização: `2026-08-06T00:06:47.463769+00:00`
-> Estado anterior: `blocked`
-> Estado atual: `ready`
 
 ## Descrição
 
@@ -85,4 +80,4 @@ This card is part of the following audit(s):
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.554646+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.010165+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

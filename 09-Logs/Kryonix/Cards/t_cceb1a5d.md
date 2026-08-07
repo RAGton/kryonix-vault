@@ -6,7 +6,7 @@ priority: 2
 created_at: 2026-07-30T12:40:16+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T03:41:11.627064+00:00
+last_sync_at: 2026-08-07T13:48:22.032891+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -42,4 +42,4 @@ Garantir que o motor de virtualização aloque datasets corretamente conforme po
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.627069+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.032895+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

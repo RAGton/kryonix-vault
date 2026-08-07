@@ -6,7 +6,7 @@ priority: 3
 created_at: 2026-08-06T00:33:08+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T03:41:11.635376+00:00
+last_sync_at: 2026-08-07T13:48:22.035146+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -56,4 +56,4 @@ Nenhum sistema. E tech debt latente.
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.635381+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.035150+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

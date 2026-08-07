@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:45:44+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T03:41:11.627911+00:00
+last_sync_at: 2026-08-07T13:48:22.033147+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -38,4 +38,4 @@ Modify modules/features/agents.nix to ensure the 'hermes' user cannot write to /
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.627916+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.033151+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:51:00+00:00
 started_at: 2026-07-30T12:51:00+00:00
 completed_at: 
-last_sync_at: 2026-08-07T03:41:11.553065+00:00
+last_sync_at: 2026-08-07T13:48:22.009523+00:00
 last_kanban_state: ready
 result: None
 auto_generated: true
@@ -17,11 +17,6 @@ audits:
 # Analyze node-server flag translation in KCC executor
 
 **Card:** `t_ced1ea2f` | **Status:** `ready`
-
-> [!warning] **DRIFT DETECTADO**
-> Última sincronização: `2026-08-06T00:06:47.462930+00:00`
-> Estado anterior: `blocked`
-> Estado atual: `ready`
 
 ## Descrição
 
@@ -79,4 +74,4 @@ This card is part of the following audit(s):
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T03:41:11.553070+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T13:48:22.009526+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
