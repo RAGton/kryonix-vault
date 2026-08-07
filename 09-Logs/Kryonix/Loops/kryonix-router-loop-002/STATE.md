@@ -226,4 +226,29 @@ Kinds válidos: `kcr_started`, `kcr_completed`, `card_closed`, `card_reopened`, 
 
 ---
 
-_Versão 0.1 — 2026-08-07. Atualizar a cada KCR concluído._
+## Checkpoint 2026-08-07 — Glacier emergency mode (investigação em pausa)
+
+**Status atual:** Máquina operacional, mas boot cai em emergency mode.
+
+**Sintoma:** `Ctrl+D` (systemctl default) desbloqueia e abre SDDM normalmente. Boot não está quebrado, mas um unit não-crítico falha e desce pro emergency.target.
+
+**Suspeitos prioritários:**
+1. `services.hermes-agent` com podman backend (problema de sudo NOPASSWD ou imagem `ubuntu:24.04` indisponível)
+2. `NetworkManager-wait-online` conflito (`rve-compat.nix` força NM off, mas kryonix profile pode estar puxando NM-wait por cima)
+
+**Diagnóstico pendente:** rodar 5 comandos no console do glacier (playbook em `evidence/glacier-emergency-investigation.md`).
+
+**Cards afetados:**
+- `t_ad219342` (no-op confirmado, FASE 2 fechada, aguarda gate para marcar `done` com `result=NO_OP`)
+- `t_fcd2ec73` (body stale, FASE 3 fechada — UI ↔ SQLite alinhados, aguarda re-especificação se virar card real)
+- Glacier emergency mode → re-triar quando diagnóstico rodar
+
+**Gate humano pendente:**
+- Marcar `t_ad219342` como `done` com `NO_OP` (ouvia tua decisão)
+- Decidir destino de `t_fcd2ec73` (atualizar body + fechar, ou manter pra investigação futura)
+
+**Pausa:** ~13h, retomar 2026-08-08T03:18:15Z. Máquina desligada por Gabriel.
+
+---
+
+_Versão 0.2 — 2026-08-07. Atualizar a cada KCR concluído. Checkpoint glacier adicionado na pausa de 13h (FASE 2/3 fechadas como no-op com evidência)._
