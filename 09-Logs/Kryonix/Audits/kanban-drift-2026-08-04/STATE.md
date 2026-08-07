@@ -47,3 +47,10 @@ xdg.configFile."mimeapps.list".force = true;
 - Reabrir 6 cards problemáticos (kryx check wrapper, Node Server removal, etc)
 - Investigar bug latente do motor xdg.mimeApps (80+ vs 5 associações) — t_eb10dca9
 - Investigar syntax error em glacier hardware-configuration.nix:92 — t_ad219342
+## Integração com kryonix-router-loop-002
+
+Este audit alimenta o loop-002 nas seguintes fases:
+- KCR-A: cards reabertos viram ready pra priorização
+- KCR-D: cards do split (t_6e19cd19, t_fdf7f5df, t_fcd2ec73) viram escopo direto
+
+Ver [[09-Logs/Kryonix/Loops/kryonix-router-loop-002/STATE.md]]
