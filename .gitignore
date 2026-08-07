@@ -44,3 +44,6 @@ result-*
 # Diretórios de material a auditar (ainda não curados)
 04-Recursos/FullStack/
 04-Recursos/Inteligencia-Artificial/
+
+# Obsidian local state (regenerates automatically, not shared)
+.obsidian/graph.json
