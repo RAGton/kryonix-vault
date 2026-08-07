@@ -78,3 +78,10 @@ author: aura (sessão KCR-A audit)
 ## Histórico
 
 - **2026-08-07** — doc criada (aura, sessão KCR-A audit). Estado espelhado do `kryonix/flake.nix` real.
+
+
+## Tentativa de validação (2026-08-07, FASE 2 inconclusiva)
+
+Tentamos `nix flake update --override-input nixpkgs github:nixos/nixpkgs/nixos-26.05` + `nix flake check` em branch isolada. Resultado: override não persistiu (`nix flake check` reescreve o lock seguindo `.follows`). Check passou em 51s, mas **testou o nixpkgs trunk que já estava lá** — não é evidência de bump seguro.
+
+Lição: pra validar bump de channel, precisa modificar `flake.nix` direto, não só override. Fica como trabalho futuro se virar prioridade.
