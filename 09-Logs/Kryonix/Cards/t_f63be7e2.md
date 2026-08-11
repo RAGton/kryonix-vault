@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:47:41+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T18:38:30.154995+00:00
+last_sync_at: 2026-08-07T19:38:07.069152+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -40,4 +40,4 @@ Com base nas validações anteriores, fechar o escopo do Perfil Gaming garantind
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T18:38:30.154998+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T19:38:07.069156+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._

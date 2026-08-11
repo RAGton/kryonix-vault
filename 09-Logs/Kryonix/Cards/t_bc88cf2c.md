@@ -6,7 +6,7 @@ priority: 0
 created_at: 2026-07-30T12:41:51+00:00
 started_at: 
 completed_at: 
-last_sync_at: 2026-08-07T18:38:30.131819+00:00
+last_sync_at: 2026-08-07T19:38:07.021906+00:00
 last_kanban_state: scheduled
 result: None
 auto_generated: true
@@ -39,4 +39,4 @@ After KVE is resumed post-Jenpex, implement and validate that the virtualization
 
 ---
 
-_Auto-gerado por `kanban-sync.py` em 2026-08-07T18:38:30.131844+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
+_Auto-gerado por `kanban-sync.py` em 2026-08-07T19:38:07.021910+00:00. Para parar de sobrescrever, adicione `<!-- manual-override -->` no topo. Para editar metadados, edite o card no Kanban (este arquivo é derivado)._
