@@ -14,10 +14,10 @@ Resolver a solicitação de autenticação via senha (dialog PolicyKit "Normativ
 - Screenshot do usuário indicando a ação Polkit `org.libvirt.unix.manage`.
 
 ## Mudanças Realizadas
-- Adicionada regra explicita em `security.polkit.extraRules` no módulo `repos/kryonix/modules/nixos/features/virtualization.nix` liberando ações `org.libvirt.unix.*` sem requisição de senha (`polkit.Result.YES`) para usuários pertencentes ao grupo `libvirtd`.
+- Adicionada regra explicita em `security.polkit.extraConfig` no módulo `repos/kryonix/modules/nixos/features/virtualization.nix` liberando ações `org.libvirt.unix.*` sem requisição de senha (`polkit.Result.YES`) para usuários pertencentes ao grupo `libvirtd`.
 
 ## Commits e Branches
-- `repos/kryonix`: `fix(virtualization): allow libvirt management via polkit without password prompt` (`9fb6b28f`)
+- `repos/kryonix`: `fix(virtualization): fix polkit option name from extraRules to extraConfig` (`79f96446`)
 
 ## Validações Executadas
 - `PATH="/run/current-system/sw/bin:/run/wrappers/bin:/usr/bin:/usr/local/bin" /run/current-system/sw/bin/nix --extra-experimental-features 'nix-command flakes' flake check --keep-going --impure` (Passou sem erros)
