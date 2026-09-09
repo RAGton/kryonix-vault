@@ -59,6 +59,7 @@ Leia nessa ordem antes de operar o vault:
 - [[02-Areas/Kryonix/systems/MCP|MCP]]
 - [[02-Areas/Kryonix/systems/Vault|Vault]]
 - [[02-Areas/Kryonix/ai-brain/Aura|Aura (Agente)]]
+- [[02-Areas/Perfil Operacional Gabriel|Perfil Operacional Gabriel]] — quem é Gabriel, princípios técnicos, stack, projetos, guardrails de autonomia, visão Aura/JARVIS
 - [[02-Areas/Kryonix/hosts/Inspiron|Host: Inspiron]]
 - [[02-Areas/Kryonix/hosts/Glacier|Host: Glacier]]
 - [[02-Areas/Kryonix/hosts/Inspiron Nina|Host: Inspiron Nina]]
