@@ -39,6 +39,7 @@ Refatorar a infraestrutura do host `glacier` no ecossistema Kryonix, migrando a 
      - Atualizado `environmentFiles = [ config.sops.secrets."hermes-env".path ]`.
      - Configurado `settings.memory.provider = "byterover"` com salvamento em Markdown local (`/var/lib/kryonix/hermes/memory`).
      - Apontada conexão LLM para o endpoint OpenAI-compatible do Ollama local (`http://127.0.0.1:11434/v1`).
+     
    - Atualizado `users/garton/glacier/default.nix`:
      - Importado `inputs.hermes-agent.homeManagerModules.default`.
      - Adicionado `byterover` (`brv`) e `sops` em `home.packages`.
