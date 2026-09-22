@@ -12,6 +12,7 @@ Resolver a instabilidade sistêmica do KDE Plasma e a quebra de programas (inclu
 - **Edna Theme (`modules/home-manager/features/edna-theme.nix`)**:
   - Removido o script de ativação `home.activation.removeMutableKdeState` que fazia mv indiscriminado de `kdeglobals`, `plasmarc` e `Trolltech.conf` durante o switch.
   - Removido o script de ativação `home.activation.clearKdeCache` que executava `rm -rf ~/.cache/plasma*` e deletava os caches de shaders da NVIDIA. Essas operações agressivas estavam corrompendo a sessão ativa do Wayland/KDE. O Plasma e o plasma-manager nativo agora gerenciam o state.
+  - **Correção do "Frankenstein" de Temas:** Adicionados overrides via `lib.mkForce` explícitos para o `iconTheme` (Papirus-Dark), `cursorTheme` (Bibata) e para zerar a `AccentColor` (removendo o Azul Kryonix intrusivo). Antes, o Edna estava vazando características visuais do `desktop/kde/theme.nix` por conta de merges imperfeitos de escopo global do motor.
 - **Flatpak / AnyDesk (`modules/home-manager/services/flatpak/default.nix`)**:
   - Injetado `overrides` para `com.anydesk.Anydesk` forçando o socket para `x11` / `fallback-x11` e as variáveis de ambiente `GDK_BACKEND=x11` e `QT_QPA_PLATFORM=xcb`. O AnyDesk nativamente tem problemas com o Wayland no Plasma 6, e rodar via XWayland estabiliza a ferramenta.
 
@@ -20,7 +21,9 @@ Resolver a instabilidade sistêmica do KDE Plasma e a quebra de programas (inclu
 
 ## Commits e branches
 - `kryonix/main`: `fix(theme,anydesk): remove cache wipe and add x11 override`
-- `kryonix-dev/main`: `chore(dev): update kryonix submodule for theme and anydesk fixes`
+- `kryonix/main`: `fix(theme): isolate edna theme and prevent base theme collision`
+- `kryonixos/main`: `chore: bump kryonix to pull theme collision fixes`
+- `kryonix-dev/main`: Submodules sync.
 
 ## Próximo passo recomendado
-- Rodar `sudo kryx switch` no ambiente de desenvolvimento local (ou empurrar para o GitHub e dar update em `/etc`).
+- Rodar `sudo kryx update` e depois `sudo kryx switch` no terminal para absorver a correção da quebra dupla de temas.
