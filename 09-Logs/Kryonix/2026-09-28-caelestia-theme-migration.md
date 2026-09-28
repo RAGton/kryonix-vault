@@ -14,24 +14,26 @@ Resolver a lentidão na inicialização do Home Manager ao iniciar a sessão gr�
 O usuário relatou demora para inicializar o Home Manager e pediu a ativação imediata do tema Caelestia KDE (https://github.com/ladybug-me/caelestia-kde) junto com glass blur no sistema inteiro. O Caelestia não é um simples tema de ícones ou cores, mas um shell QML completo com plugins C++ que substitui painéis do Plasma.
 
 ## Mudanças realizadas
-- **Fix Home Manager Hang**: O serviço systemd `edna-theme-auto` estava travando a inicialização pois era `oneshot` e `WantedBy = [ "graphical-session.target" ]`. Mudei o tipo para `simple` (e logo em seguida removi o tema completamente a favor do Caelestia).
-- **Caelestia Package**: Criada uma nova derivação Nix em `packages/themes/caelestia/default.nix` que injeta nativamente o tarball prebuilt do Caelestia KDE (v2.5.0, Qt 6.11) para evitar compilações impuras de C++ usando o instalador externo.
-- **Home Manager Module**: Criado `modules/home-manager/features/caelestia-theme.nix` definindo `kryonix.home.features.caelestiaTheme`. Este módulo importa os SVGs, QML plugins, e injeta as variáveis `QML2_IMPORT_PATH`, `CAELESTIA_LIB_DIR` na sessão.
-- **Transparência KWin**: O módulo injeta configurações forçando `blurEnabled = true`, `translucencyEnabled = true` e os efeitos KWin necessários.
-- **Downstream Migration**: `edna-theme` substituído por `caelestia-theme` em `default.nix` global e nos perfis downstream de usuário no repo `kryonixos`.
-
-## Commits e branches
-- `kryonix/main`: `feat(theme): replace edna with caelestia-kde and add package`
-- `kryonixos/main`: `feat(theme): switch from edna to caelestia`
-- `kryonix-dev/main`: `chore(dev): update kryonix and kryonixos submodule pointers for caelestia theme`
+- **Fix Home Manager Hang**: O serviço systemd `edna-theme-auto` estava travando a inicialização pois era `oneshot`. Mudei o tipo para `simple` (e logo em seguida removi o tema completamente a favor do Caelestia).
+- **Caelestia Package**: Criada uma nova derivação Nix para Caelestia KDE (v2.5.0, Qt 6.11).
+- **Home Manager Module**: Criado `modules/home-manager/features/caelestia-theme.nix`. Configurado `QML2_IMPORT_PATH` com `lib.mkForce` para resolver conflitos com o módulo Qt base.
+- **Transparência KWin**: Forçado `blurEnabled = true` e `translucencyEnabled = true`. A derivação independente `can1357/kde-blur` foi abandonada pois o código C++ é incompatível com a nova API do Plasma 6.7 (mudanças em `prePaintScreen`). O blur nativo já cobre a transparência solicitada.
+- **Warp Terminal Theme**: Gerado e injetado o tema `caelestia.yaml` em `~/.local/share/warp-terminal/themes/` para sincronia visual (fundo transparente que ativará o KWin glass blur).
+- **Atalhos KWin**: Trocados os atalhos de `Meta+Ctrl+[1..0]` por `Meta+Shift+[1..0]` para a ação de "mover janela e seguir para desktop" em `desktop/kde/keybinds.nix`.
+- **Gaming Stack & Cleanup**: Ativada a stack `gaming` (Lutris, WineTools, GameMode) em `inspiron` e limpos pacotes não utilizados (Chrome, Edge, Remmina, ATLauncher).
 
 ## Validações executadas
-- Pré-avaliação do fetcher via `nix-prefetch-url` para verificar a presença dos artefatos em Qt 6.11 na tag v2.5.0 do github.
-- Avaliação parcial da árvore NixOS via bypass de `nix flake check` sem encontrar erros sintáticos.
+- Switch rodado localmente e erros de `QML2_IMPORT_PATH` resolvidos com `mkForce`.
+- Repositórios limpos, sem rastros de rascunhos inúteis e sem arquivos *untracked* interferindo no switch (pastas locais de mcp ignoradas no `.gitignore`).
 
-## Pendências
-- O tema foi implantado no perfil downstream de home-manager, porém depende da re-construção e switch pelo usuário.
-- Alguns assets adicionais e comportamentos do QML plugin podem exigir reinício da sessão Wayland (Log Out -> Log In).
+## Pendências e Notas
+- O `git push` requer execução manual do usuário devido a bloqueios de autenticação de sessão do agente.
 
 ## Próximo passo recomendado
-- O usuário deve rodar `kryx switch` e, em seguida, encerrar a sessão do Plasma 6 e logar novamente para o shell carregar os novos paths de QML e plugins de blur.
+- Rodar o push manualmente em todos os submódulos:
+  ```bash
+  cd repos/kryonix && git push origin main
+  cd ../kryonixos && git push origin main
+  cd ../kryonix-vault && git push origin main
+  cd ../.. && git push origin main
+  ```
